@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section*.5}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{section.1}{M\351todo MSPD}{}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Factores a considerar en la extracci\363n MSPD}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.2}{Extracci\363n en fase s\363lida}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.3}{Prototipo a escala}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{CFD}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{An\341lisis unidimensional estacionario - 1D}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Solvers}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.3}{Metodolog\355as de verificaci\363n y validaci\363n}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.4}{An\341lisis bidimensional estacionario - 2D}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{DEM}{}% 11
+\BOOKMARK [2][-]{subsection.3.1}{Detecci\363n de una colici\363n}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{CFD-DEM}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Fase del solvente}{section.4}% 14
