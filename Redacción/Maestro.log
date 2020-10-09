@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.14)  13 AUG 2020 09:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.14)  9 OCT 2020 09:29
 entering extended mode
 **./Maestro.tex
 (Maestro.tex
@@ -1104,8 +1104,7 @@ s
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  (Resumen.aux) (Abstract.aux) (Intro.aux)
-(Extraction/MSPD.aux) (CFD.aux) (DEM.aux) (CFDDEM.aux) (Arte.aux)
-(HPreguntas.aux) (Objetivos.aux) (Resultados.aux) (Proyecto.aux))
+(Extraction/MSPD.aux) (CFD.aux) (DEM.aux) (CFDDEM.aux))
 \openout1 = `Maestro.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -1279,26 +1278,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
-
-
-Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
-Make it at least 15.95134pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.36 ...nstructivos (PC)}{31}{subsubsection.9.1.6}
-                                                  % [1
-
-])
+))
 \tf@toc=\write7
 \openout7 = `Maestro.toc'.
 
@@ -1313,12 +1293,21 @@ LaTeX Info: Redefining \. on input line 76.
 LaTeX Info: Redefining \% on input line 76.
 LaTeX Info: Redefining \. on input line 76.
 LaTeX Info: Redefining \% on input line 76.
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+
+
+Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
+Make it at least 15.95134pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.76 \include{Resumen}
-                       [2]
+                       [1
+
+]
 \openout2 = `Resumen.aux'.
 
  (Resumen.tex
@@ -1333,7 +1322,12 @@ LaTeX Info: Redefining \. on input line 76.
 LaTeX Info: Redefining \% on input line 76.
 LaTeX Info: Redefining \. on input line 76.
 LaTeX Info: Redefining \% on input line 76.
- [3
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.76 \include{Resumen}
+                       [2
 
 ]
 \openout2 = `Abstract.aux'.
@@ -1343,7 +1337,7 @@ LaTeX Info: Redefining \. on input line 77.
 LaTeX Info: Redefining \% on input line 77.
 LaTeX Info: Redefining \. on input line 77.
 LaTeX Info: Redefining \% on input line 77.
- [4
+ [3
 
 
 ]
@@ -1352,22 +1346,22 @@ LaTeX Info: Redefining \% on input line 77.
  (Intro.tex)
 LaTeX Info: Redefining \. on input line 79.
 LaTeX Info: Redefining \% on input line 79.
-
-[5
+ [4
 
 
 ]
 \openout2 = `Extraction/MSPD.aux'.
 
- (Extraction/MSPD.tex
-<Images/mspd.PNG, id=294, 383.93437pt x 371.88937pt>
+
+(Extraction/MSPD.tex
+<Images/mspd.PNG, id=167, 383.93437pt x 371.88937pt>
 File: Images/mspd.PNG Graphic file (type png)
 <use Images/mspd.PNG>
 Package pdftex.def Info: Images/mspd.PNG  used on input line 23.
 (pdftex.def)             Requested size: 332.10184pt x 321.70258pt.
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
- [6
+ [5
 
 
  <./Images/mspd.PNG>] (Extraction/patente.tex
@@ -1375,9 +1369,8 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-
-[7]
-<Images/planta.PNG, id=324, 463.7325pt x 297.36093pt>
+ [6]
+<Images/planta.PNG, id=198, 463.7325pt x 297.36093pt>
 File: Images/planta.PNG Graphic file (type png)
 <use Images/planta.PNG>
 Package pdftex.def Info: Images/planta.PNG  used on input line 12.
@@ -1392,36 +1385,36 @@ LaTeX Info: Redefining \. on input line 81.
 LaTeX Info: Redefining \% on input line 81.
 LaTeX Info: Redefining \. on input line 81.
 LaTeX Info: Redefining \% on input line 81.
- [8 <./Images/planta.PNG>]
+ [7 <./Images/planta.PNG>]
 \openout2 = `CFD.aux'.
 
  (CFD.tex
 LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
- [9
+ [8
 
 
 ]
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
- [10]
+ [9]
 PGFPlots: reading {malla.txt}
 LaTeX Info: Redefining \. on input line 155.
 LaTeX Info: Redefining \% on input line 155.
 LaTeX Info: Redefining \. on input line 155.
 LaTeX Info: Redefining \% on input line 155.
+ [10]
+LaTeX Info: Redefining \. on input line 244.
+LaTeX Info: Redefining \% on input line 244.
+LaTeX Info: Redefining \. on input line 244.
+LaTeX Info: Redefining \% on input line 244.
  [11]
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
- [12]
 Missing character: There is no ; in font nullfont!
 LaTeX Info: Redefining \. on input line 307.
 LaTeX Info: Redefining \% on input line 307.
 LaTeX Info: Redefining \. on input line 307.
 LaTeX Info: Redefining \% on input line 307.
- [13]
+ [12]
 \c@contx=\count353
 \c@conty=\count354
 )
@@ -1429,11 +1422,11 @@ LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
- [14]
+ [13]
 \openout2 = `DEM.aux'.
 
  (DEM.tex
-<Images/DEM.PNG, id=380, 356.33125pt x 130.4875pt>
+<Images/DEM.PNG, id=254, 356.33125pt x 130.4875pt>
 File: Images/DEM.PNG Graphic file (type png)
 <use Images/DEM.PNG>
 Package pdftex.def Info: Images/DEM.PNG  used on input line 12.
@@ -1441,7 +1434,7 @@ Package pdftex.def Info: Images/DEM.PNG  used on input line 12.
 LaTeX Info: Redefining \. on input line 46.
 LaTeX Info: Redefining \% on input line 46.
 
-[15
+[14
 
 
  <./Images/DEM.PNG>]
@@ -1457,7 +1450,7 @@ LaTeX Warning: Command \O invalid in math mode on input line 63.
 
 LaTeX Warning: Command \O invalid in math mode on input line 63.
 
-<Images/Colision.PNG, id=394, 458.21187pt x 269.50688pt>
+<Images/Colision.PNG, id=268, 458.21187pt x 269.50688pt>
 File: Images/Colision.PNG Graphic file (type png)
 <use Images/Colision.PNG>
 Package pdftex.def Info: Images/Colision.PNG  used on input line 69.
@@ -1467,7 +1460,7 @@ LaTeX Info: Redefining \. on input line 83.
 LaTeX Info: Redefining \% on input line 83.
 LaTeX Info: Redefining \. on input line 83.
 LaTeX Info: Redefining \% on input line 83.
- [16 <./Images/Colision.PNG>]
+ [15 <./Images/Colision.PNG>]
 \openout2 = `CFDDEM.aux'.
 
  (CFDDEM.tex (malla.tex
@@ -1477,7 +1470,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 )
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
- [17
+ [16
 
 
 ])
@@ -1485,7 +1478,7 @@ LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
 LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
- [18] (Maestro.bbl
+ [17] (Maestro.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 60--67
 \OT1/lmr/m/n/12 inventor = juan + david + arg\OMS/lmsy/m/n/12 fn\OT1/lmr/m/n/12
  unhbox \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 voidb @ x \OMS/lmsy/m/n/12 n \OT1/lm
@@ -1556,14 +1549,14 @@ LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
-[19
+[18
 
 ])
 LaTeX Info: Redefining \. on input line 86.
 LaTeX Info: Redefining \% on input line 86.
 LaTeX Info: Redefining \. on input line 86.
 LaTeX Info: Redefining \% on input line 86.
- [20]
+ [19]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (Maestro.aux (Portada.aux)
@@ -1573,25 +1566,22 @@ LaTeX Info: Redefining \% on input line 27.
 (Extraction/MSPD.aux) (CFD.aux) (DEM.aux) (CFDDEM.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
+Package rerunfilecheck Info: File `Maestro.out' has not changed.
+(rerunfilecheck)             Checksum: 0F1D1FA46FECDA9F671642C1AD49C036;951.
 
-
-Package rerunfilecheck Warning: File `Maestro.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Maestro.out':
-(rerunfilecheck)             Before: C948B78CF7382F5E2A8CAB634B035015;2721
-(rerunfilecheck)             After:  0F1D1FA46FECDA9F671642C1AD49C036;951.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 37316 strings out of 480799
- 877018 string characters out of 2905528
- 1497800 words of memory out of 3000000
- 52407 multiletter control sequences out of 15000+200000
+ 37238 strings out of 480799
+ 874896 string characters out of 2905528
+ 1495053 words of memory out of 3000000
+ 52370 multiletter control sequences out of 15000+200000
  591936 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,20n,107p,1434b,3097s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1607,81 +1597,6 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.17} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.9.1.7} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.9.1.6} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.9.1.5} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.9.1.4} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.9.1.3} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.9.1.2} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.9.1.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.9} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.8} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5} has been referenced but does not exist, 
-replaced by a fixed one
-
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiK
 TeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
 /dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
@@ -1696,9 +1611,9 @@ mr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Maestro.pdf (22 pages, 627159 bytes).
+Output written on Maestro.pdf (21 pages, 611642 bytes).
 PDF statistics:
- 522 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
- 341 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 390 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
