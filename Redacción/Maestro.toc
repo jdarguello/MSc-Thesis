@@ -1,15 +1,29 @@
 \babel@toc {spanish}{}
-\contentsline {section}{Introducci\'on}{4}{section*.5}%
-\contentsline {section}{\numberline {1}M\'etodo MSPD}{5}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Factores a considerar en la extracci\'on MSPD}{6}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Extracci\'on en fase s\'olida}{6}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Prototipo a escala}{7}{subsection.1.3}%
-\contentsline {section}{\numberline {2}CFD}{8}{section.2}%
-\contentsline {subsection}{\numberline {2.1}An\'alisis unidimensional estacionario - 1D}{10}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}\textit {Solvers}}{12}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Metodolog\'ias de verificaci\'on y validaci\'on}{12}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}An\'alisis bidimensional estacionario - 2D}{13}{subsection.2.4}%
-\contentsline {section}{\numberline {3}DEM}{14}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Detecci\'on de una colici\'on}{15}{subsection.3.1}%
-\contentsline {section}{\numberline {4}CFD-DEM}{16}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Fase del solvente}{16}{subsection.4.1}%
+\contentsline {section}{Introducci\'on}{5}{section*.5}%
+\contentsline {section}{\numberline {1}M\'etodo MSPD}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Factores a considerar en la extracci\'on MSPD}{7}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Extracci\'on en fase s\'olida}{7}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Prototipo a escala}{8}{subsection.1.3}%
+\contentsline {section}{\numberline {2}CFD}{9}{section.2}%
+\contentsline {subsection}{\numberline {2.1}An\'alisis unidimensional estacionario - 1D}{11}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}\textit {Solvers}}{13}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Metodolog\'ias de verificaci\'on y validaci\'on}{13}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}An\'alisis bidimensional estacionario - 2D}{14}{subsection.2.4}%
+\contentsline {section}{\numberline {3}DEM}{15}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Detecci\'on de una colici\'on}{16}{subsection.3.1}%
+\contentsline {section}{\numberline {4}CFD-DEM}{17}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fase del solvente}{17}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Sedimentaci\'on}{19}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Sedimentaci\'on con coagulantes}{19}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Sedimentadores de \textit {placas paralelas}}{19}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Turbiedad}{20}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Etapa de eluci\'on y filtrado}{22}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Naturaleza del flujo}{22}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Par\'ametros operacionales}{23}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Dimensionamiento}{24}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Panel de lamelas}{25}{subsubsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.4}M\'etodo de Hazen $\rightarrow $ tiempo de sedimentaci\'on}{26}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Tama\~no de part\'icula m\'inima}{26}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Resultados}{27}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Modelo CFD-DEM}{28}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Selecci\'on de par\'ametros}{28}{subsection.7.1}%

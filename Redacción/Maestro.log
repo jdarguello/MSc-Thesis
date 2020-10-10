@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.14)  9 OCT 2020 09:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.14)  9 OCT 2020 17:18
 entering extended mode
 **./Maestro.tex
 (Maestro.tex
@@ -150,6 +150,14 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen145
 \Gin@req@width=\dimen146
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\bm.sty"
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/frontendlayer\tikz.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.sty"
@@ -543,7 +551,14 @@ File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfnodepartsixbox=\box77
 \pgfnodepartfivebox=\box78
 )))
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgfplots\pgfplots.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryarrows.meta.c
+ode.tex"
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen261
+\pgfarrowlength=\dimen262
+\pgfarrowwidth=\dimen263
+\pgfarrowlinewidth=\dimen264
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/pgfplots\pgfplots.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.revision.tex")
 Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
 
@@ -552,7 +567,7 @@ Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
 \t@pgfplots@toka=\toks36
 \t@pgfplots@tokb=\toks37
 \t@pgfplots@tokc=\toks38
-\pgfplots@tmpa=\dimen261
+\pgfplots@tmpa=\dimen265
 \c@pgfplots@coordindex=\count278
 \c@pgfplots@scanlineindex=\count279
 
@@ -618,12 +633,12 @@ librarydecorations.pathmorphing.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/decorations\pgflibraryd
 ecorations.pathmorphing.code.tex"))
 \pgfplots@numplots=\count283
-\pgfplots@xmin@reg=\dimen262
-\pgfplots@xmax@reg=\dimen263
-\pgfplots@ymin@reg=\dimen264
-\pgfplots@ymax@reg=\dimen265
-\pgfplots@zmin@reg=\dimen266
-\pgfplots@zmax@reg=\dimen267
+\pgfplots@xmin@reg=\dimen266
+\pgfplots@xmax@reg=\dimen267
+\pgfplots@ymin@reg=\dimen268
+\pgfplots@ymax@reg=\dimen269
+\pgfplots@zmin@reg=\dimen270
+\pgfplots@zmax@reg=\dimen271
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 libraryplotmarks.code.tex"
@@ -640,7 +655,7 @@ Package: asymptote 2020/01/12 v1.35 Asymptote style file for LaTeX
 
 (Maestro.pre)
 \ASYbox=\box79
-\ASYdimen=\dimen268
+\ASYdimen=\dimen272
 \c@asy=\count284
 \AsyStream=\write4
 \AsyPreStream=\write5
@@ -710,14 +725,14 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count285
 \Gm@cntv=\count286
 \c@Gm@tempcnt=\count287
-\Gm@bindingoffset=\dimen269
-\Gm@wd@mp=\dimen270
-\Gm@odd@mp=\dimen271
-\Gm@even@mp=\dimen272
-\Gm@layoutwidth=\dimen273
-\Gm@layoutheight=\dimen274
-\Gm@layouthoffset=\dimen275
-\Gm@layoutvoffset=\dimen276
+\Gm@bindingoffset=\dimen273
+\Gm@wd@mp=\dimen274
+\Gm@odd@mp=\dimen275
+\Gm@even@mp=\dimen276
+\Gm@layoutwidth=\dimen277
+\Gm@layoutheight=\dimen278
+\Gm@layouthoffset=\dimen279
+\Gm@layoutvoffset=\dimen280
 \Gm@dimlist=\toks40
 
 (C:\Users\juand\AppData\Roaming\MiKTeX\2.9\tex/latex/geometry\geometry.cfg))
@@ -745,9 +760,9 @@ File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen277
+\col@sep=\dimen281
 \ar@mcellbox=\box81
-\extrarowheight=\dimen278
+\extrarowheight=\dimen282
 \NC@list=\toks41
 \extratabsurround=\skip52
 \backup@length=\skip53
@@ -779,7 +794,7 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip68
 \multirow@cntb=\count293
 \multirow@dima=\skip69
-\bigstrutjot=\dimen279
+\bigstrutjot=\dimen283
 )
 (C:\Users\juand\AppData\Roaming\MiKTeX\2.9\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
@@ -806,22 +821,22 @@ Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box83
 )
-\tc@llx=\dimen280
-\tc@lly=\dimen281
-\tc@urx=\dimen282
-\tc@ury=\dimen283
+\tc@llx=\dimen284
+\tc@lly=\dimen285
+\tc@urx=\dimen286
+\tc@ury=\dimen287
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 (C:\Users\juand\AppData\Roaming\MiKTeX\2.9\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen284
-\adjbox@Height=\dimen285
-\adjbox@Depth=\dimen286
-\adjbox@Totalheight=\dimen287
-\adjbox@pwidth=\dimen288
-\adjbox@pheight=\dimen289
-\adjbox@pdepth=\dimen290
-\adjbox@ptotalheight=\dimen291
+\adjbox@Width=\dimen288
+\adjbox@Height=\dimen289
+\adjbox@Depth=\dimen290
+\adjbox@Totalheight=\dimen291
+\adjbox@pwidth=\dimen292
+\adjbox@pheight=\dimen293
+\adjbox@pdepth=\dimen294
+\adjbox@ptotalheight=\dimen295
 
 (C:\Users\juand\AppData\Roaming\MiKTeX\2.9\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
@@ -831,14 +846,9 @@ Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box84
 \sift@deathcycles=\count296
-\@vwid@loff=\dimen292
-\@vwid@roff=\dimen293
+\@vwid@loff=\dimen296
+\@vwid@roff=\dimen297
 ))
-(C:\Users\juand\AppData\Roaming\MiKTeX\2.9\tex/latex/mdwtools\footnote.sty
-Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box85
-\fn@width=\dimen294
-)
 (C:\Users\juand\AppData\Roaming\MiKTeX\2.9\tex/latex/was\gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
@@ -848,8 +858,8 @@ Package: pgfgantt 2018/01/10 v5.0 Draw Gantt diagrams with TikZ
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 librarybackgrounds.code.tex"
 File: tikzlibrarybackgrounds.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@layerbox@background=\box86
-\pgf@layerboxsaved@background=\box87
+\pgf@layerbox@background=\box85
+\pgf@layerboxsaved@background=\box86
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 librarypatterns.code.tex"
@@ -897,7 +907,7 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \c@r@tfl@t=\count324
 \rotFPtop=\skip70
 \rotFPbot=\skip71
-\rot@float@box=\box88
+\rot@float@box=\box87
 \rot@mess@toks=\toks44
 )
 (C:\Users\juand\AppData\Roaming\MiKTeX\2.9\tex/latex/pdflscape\pdflscape.sty
@@ -914,27 +924,27 @@ Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 (C:\Users\juand\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
 Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen295
-\captionmargin@=\dimen296
-\captionwidth=\dimen297
-\caption@tempdima=\dimen298
-\caption@indent=\dimen299
-\caption@parindent=\dimen300
-\caption@hangindent=\dimen301
+\captionmargin=\dimen298
+\captionmargin@=\dimen299
+\captionwidth=\dimen300
+\caption@tempdima=\dimen301
+\caption@indent=\dimen302
+\caption@parindent=\dimen303
+\caption@hangindent=\dimen304
 Package caption Info: Standard document class detected.
 )
 \c@float@type=\count325
 \float@exts=\toks45
-\float@box=\box89
-\@floatcapt=\box90
+\float@box=\box88
+\@floatcapt=\box89
 Package floatrow Info: Modified float package code loaded on input line 455.
 Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 
 \FR@everyfloat=\toks46
 \flrow@foot=\insert252
-\FB@wd=\dimen302
-\FBo@wd=\dimen303
-\FBc@wd=\dimen304
+\FB@wd=\dimen305
+\FBo@wd=\dimen306
+\FBc@wd=\dimen307
 \FBo@ht=\skip72
 \FBc@ht=\skip73
 \FBf@ht=\skip74
@@ -949,8 +959,8 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \sXhsize=\skip79
 \Zhsize=\skip80
 \sZhsize=\skip81
-\flrow@rowbox=\box91
-\FR@Zunitlength=\dimen305
+\flrow@rowbox=\box90
+\FR@Zunitlength=\dimen308
 \c@FBcnt=\count330
 \FPOScnt=\count331
 \LTleft=\skip82
@@ -1003,7 +1013,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (C:\Users\juand\AppData\Roaming\MiKTeX\2.9\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen306
+\@linkdim=\dimen309
 \Hy@linkcounter=\count336
 \Hy@pagecounter=\count337
 
@@ -1030,7 +1040,7 @@ Package hyperref Info: Bookmarks ON on input line 4717.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen307
+\XeTeXLinkMargin=\dimen310
 
 (C:\Users\juand\AppData\Roaming\MiKTeX\2.9\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1041,8 +1051,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count340
-\Field@Width=\dimen308
-\Fld@charsize=\dimen309
+\Field@Width=\dimen311
+\Fld@charsize=\dimen312
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -1085,7 +1095,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip86
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 55.
+Package hyperref Info: Option `colorlinks' set `false' on input line 57.
 
 (C:\Users\juand\AppData\Roaming\MiKTeX\2.9\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
@@ -1104,44 +1114,45 @@ s
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  (Resumen.aux) (Abstract.aux) (Intro.aux)
-(Extraction/MSPD.aux) (CFD.aux) (DEM.aux) (CFDDEM.aux))
+(Extraction/MSPD.aux) (CFD.aux) (DEM.aux) (CFDDEM.aux) (Sedimentacion.aux)
+(Filtrado.aux) (Modelo.aux))
 \openout1 = `Maestro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
-2.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
+6.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \. on input line 72.
-LaTeX Info: Redefining \% on input line 72.
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count346
-\scratchdimen=\dimen310
-\scratchbox=\box92
+\scratchdimen=\dimen313
+\scratchbox=\box91
 \nofMPsegments=\count347
 \nofMParguments=\count348
 \everyMPshowfont=\toks48
 \MPscratchCnt=\count349
-\MPscratchDim=\dimen311
+\MPscratchDim=\dimen314
 \MPnumerator=\count350
 \makeMPintoPDFobject=\count351
 \everyMPtoPDFconversion=\toks49
@@ -1189,24 +1200,24 @@ enefit from \pgfplotsset{compat=1.17} (current compat level: 1.8).
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 72.
-LaTeX Info: Redefining \celsius on input line 72.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 72.
+LaTeX Info: Redefining \selectfont on input line 86.
+LaTeX Info: Redefining \celsius on input line 86.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 86.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 72.
-Package gensymb Info: Using \Omega for \ohm on input line 72.
+LaTeX Info: Redefining \ohm on input line 86.
+Package gensymb Info: Using \Omega for \ohm on input line 86.
 
 Package gensymb Warning: Not defining \micro.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box93
-Package hyperref Info: Link coloring OFF on input line 72.
+\AtBeginShipoutBox=\box92
+Package hyperref Info: Link coloring OFF on input line 86.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1219,9 +1230,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count352
 )
-LaTeX Info: Redefining \ref on input line 72.
-LaTeX Info: Redefining \pageref on input line 72.
-LaTeX Info: Redefining \nameref on input line 72.
+LaTeX Info: Redefining \ref on input line 86.
+LaTeX Info: Redefining \pageref on input line 86.
+LaTeX Info: Redefining \nameref on input line 86.
  (Maestro.out) (Maestro.out)
 \@outlinefile=\write6
 \openout6 = `Maestro.out'.
@@ -1285,14 +1296,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  (Maestro.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-)
-\tf@lof=\write8
-\openout8 = `Maestro.lof'.
-
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
 
 
 Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
@@ -1304,10 +1311,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 \include{Resumen}
-                       [1
+l.6 ...imensional.\relax }}{12}{figure.caption.10}
+                                                  % [1
 
 ]
+Overfull \hbox (4.14793pt too wide) in paragraph at lines 13--13
+ [][] [][]\OT1/lmr/m/n/12 Velocidad de asen-ta-mien-to de partcu-las dis-cre-
+tas en un flui-do estati- 
+ []
+
+)
+\tf@lof=\write8
+\openout8 = `Maestro.lof'.
+
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.90 \include{Resumen}
+                       [2]
 \openout2 = `Resumen.aux'.
 
  (Resumen.tex
@@ -1318,50 +1344,45 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 35.
 )
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.76 \include{Resumen}
-                       [2
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
+ [3
 
 ]
 \openout2 = `Abstract.aux'.
 
  (Abstract.tex)
-LaTeX Info: Redefining \. on input line 77.
-LaTeX Info: Redefining \% on input line 77.
-LaTeX Info: Redefining \. on input line 77.
-LaTeX Info: Redefining \% on input line 77.
- [3
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
+ [4
 
 
 ]
 \openout2 = `Intro.aux'.
 
  (Intro.tex)
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
- [4
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
+
+[5
 
 
 ]
 \openout2 = `Extraction/MSPD.aux'.
 
-
-(Extraction/MSPD.tex
-<Images/mspd.PNG, id=167, 383.93437pt x 371.88937pt>
+ (Extraction/MSPD.tex
+<Images/mspd.PNG, id=250, 383.93437pt x 371.88937pt>
 File: Images/mspd.PNG Graphic file (type png)
 <use Images/mspd.PNG>
 Package pdftex.def Info: Images/mspd.PNG  used on input line 23.
 (pdftex.def)             Requested size: 332.10184pt x 321.70258pt.
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
- [5
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+ [6
 
 
  <./Images/mspd.PNG>] (Extraction/patente.tex
@@ -1369,8 +1390,9 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [6]
-<Images/planta.PNG, id=198, 463.7325pt x 297.36093pt>
+
+[7]
+<Images/planta.PNG, id=280, 463.7325pt x 297.36093pt>
 File: Images/planta.PNG Graphic file (type png)
 <use Images/planta.PNG>
 Package pdftex.def Info: Images/planta.PNG  used on input line 12.
@@ -1381,52 +1403,52 @@ Overfull \hbox (41.51509pt too wide) in paragraph at lines 12--13
  []
 
 ))
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
- [7 <./Images/planta.PNG>]
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
+ [8 <./Images/planta.PNG>]
 \openout2 = `CFD.aux'.
 
  (CFD.tex
 LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
- [8
+ [9
 
 
 ]
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
- [9]
+ [10]
 PGFPlots: reading {malla.txt}
 LaTeX Info: Redefining \. on input line 155.
 LaTeX Info: Redefining \% on input line 155.
 LaTeX Info: Redefining \. on input line 155.
 LaTeX Info: Redefining \% on input line 155.
- [10]
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
  [11]
+LaTeX Info: Redefining \. on input line 244.
+LaTeX Info: Redefining \% on input line 244.
+LaTeX Info: Redefining \. on input line 244.
+LaTeX Info: Redefining \% on input line 244.
+ [12]
 Missing character: There is no ; in font nullfont!
 LaTeX Info: Redefining \. on input line 307.
 LaTeX Info: Redefining \% on input line 307.
 LaTeX Info: Redefining \. on input line 307.
 LaTeX Info: Redefining \% on input line 307.
- [12]
+ [13]
 \c@contx=\count353
 \c@conty=\count354
 )
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
- [13]
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+ [14]
 \openout2 = `DEM.aux'.
 
  (DEM.tex
-<Images/DEM.PNG, id=254, 356.33125pt x 130.4875pt>
+<Images/DEM.PNG, id=335, 356.33125pt x 130.4875pt>
 File: Images/DEM.PNG Graphic file (type png)
 <use Images/DEM.PNG>
 Package pdftex.def Info: Images/DEM.PNG  used on input line 12.
@@ -1434,7 +1456,7 @@ Package pdftex.def Info: Images/DEM.PNG  used on input line 12.
 LaTeX Info: Redefining \. on input line 46.
 LaTeX Info: Redefining \% on input line 46.
 
-[14
+[15
 
 
  <./Images/DEM.PNG>]
@@ -1450,17 +1472,17 @@ LaTeX Warning: Command \O invalid in math mode on input line 63.
 
 LaTeX Warning: Command \O invalid in math mode on input line 63.
 
-<Images/Colision.PNG, id=268, 458.21187pt x 269.50688pt>
+<Images/Colision.PNG, id=349, 458.21187pt x 269.50688pt>
 File: Images/Colision.PNG Graphic file (type png)
 <use Images/Colision.PNG>
 Package pdftex.def Info: Images/Colision.PNG  used on input line 69.
 (pdftex.def)             Requested size: 373.61061pt x 219.75513pt.
 )
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
- [15 <./Images/Colision.PNG>]
+LaTeX Info: Redefining \. on input line 97.
+LaTeX Info: Redefining \% on input line 97.
+LaTeX Info: Redefining \. on input line 97.
+LaTeX Info: Redefining \% on input line 97.
+ [16 <./Images/Colision.PNG>]
 \openout2 = `CFDDEM.aux'.
 
  (CFDDEM.tex (malla.tex
@@ -1470,15 +1492,127 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 )
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
- [16
+ [17
 
 
 ])
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
- [17] (Maestro.bbl
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
+ [18]
+\openout2 = `Sedimentacion.aux'.
+
+ (Sedimentacion.tex
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+ [19
+
+
+]
+<Images/Sedimentacion/placas.jpg, id=379, 271.0125pt x 187.70125pt>
+File: Images/Sedimentacion/placas.jpg Graphic file (type jpg)
+<use Images/Sedimentacion/placas.jpg>
+Package pdftex.def Info: Images/Sedimentacion/placas.jpg  used on input line 55
+.
+(pdftex.def)             Requested size: 290.58673pt x 201.26509pt.
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
+ [20 <./Images/Sedimentacion/placas.jpg>])
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
+
+[21]
+\openout2 = `Filtrado.aux'.
+
+ (Filtrado.tex
+Overfull \hbox (41.34192pt too wide) in paragraph at lines 17--29
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+[22
+
+
+]
+<Images/Sedimentacion/G1.PNG, id=402, 456.20438pt x 322.70563pt>
+File: Images/Sedimentacion/G1.PNG Graphic file (type png)
+<use Images/Sedimentacion/G1.PNG>
+Package pdftex.def Info: Images/Sedimentacion/G1.PNG  used on input line 118.
+(pdftex.def)             Requested size: 332.10184pt x 234.92316pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \. on input line 147.
+LaTeX Info: Redefining \% on input line 147.
+LaTeX Info: Redefining \. on input line 147.
+LaTeX Info: Redefining \% on input line 147.
+[23]
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
+ [24 <./Images/Sedimentacion/G1.PNG>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 234.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 234.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 234.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 234.
+
+LaTeX Info: Redefining \. on input line 244.
+LaTeX Info: Redefining \% on input line 244.
+LaTeX Info: Redefining \. on input line 244.
+LaTeX Info: Redefining \% on input line 244.
+[25]
+LaTeX Info: Redefining \. on input line 287.
+LaTeX Info: Redefining \% on input line 287.
+LaTeX Info: Redefining \. on input line 287.
+LaTeX Info: Redefining \% on input line 287.
+ [26])
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+ [27]
+\openout2 = `Modelo.aux'.
+
+ (Modelo.tex (GeneracionP.tex
+Overfull \hbox (15.75809pt too wide) in paragraph at lines 7--7
+[][][]$[]$[]  
+ []
+
+
+Overfull \hbox (16.36127pt too wide) in paragraph at lines 11--11
+[][][]$[] \OT1/lmr/m/n/12 + 
+ []
+
+
+Overfull \hbox (12.48624pt too wide) in paragraph at lines 11--11
+[]$[]  
+ []
+
+))
+LaTeX Info: Redefining \. on input line 101.
+LaTeX Info: Redefining \% on input line 101.
+ [28
+
+
+] (Maestro.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 60--67
 \OT1/lmr/m/n/12 inventor = juan + david + arg\OMS/lmsy/m/n/12 fn\OT1/lmr/m/n/12
  unhbox \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 voidb @ x \OMS/lmsy/m/n/12 n \OT1/lm
@@ -1549,40 +1683,38 @@ LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
-[18
+[29
 
 ])
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
- [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
+LaTeX Info: Redefining \. on input line 103.
+LaTeX Info: Redefining \% on input line 103.
+LaTeX Info: Redefining \. on input line 103.
+LaTeX Info: Redefining \% on input line 103.
+ [30]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (Maestro.aux (Portada.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  (Resumen.aux) (Abstract.aux) (Intro.aux)
-(Extraction/MSPD.aux) (CFD.aux) (DEM.aux) (CFDDEM.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
+(Extraction/MSPD.aux) (CFD.aux) (DEM.aux) (CFDDEM.aux) (Sedimentacion.aux)
+(Filtrado.aux) (Modelo.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `Maestro.out' has not changed.
-(rerunfilecheck)             Checksum: 0F1D1FA46FECDA9F671642C1AD49C036;951.
+(rerunfilecheck)             Checksum: 130D9F04613D3F0B8C24B6C4EF27C7CA;1956.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 37238 strings out of 480799
- 874896 string characters out of 2905528
- 1495053 words of memory out of 3000000
- 52370 multiletter control sequences out of 15000+200000
- 591936 words of font info for 67 fonts, out of 3000000 for 9000
+ 37779 strings out of 480799
+ 886951 string characters out of 2905528
+ 1509077 words of memory out of 3000000
+ 52818 multiletter control sequences out of 15000+200000
+ 599451 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,20n,107p,1434b,3097s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
@@ -1597,23 +1729,25 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiK
-TeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
-it.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Progra
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files
+/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
+/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
+sy.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmbxi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-mr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Maestro.pdf (21 pages, 611642 bytes).
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
+mr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on Maestro.pdf (32 pages, 745291 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 568 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

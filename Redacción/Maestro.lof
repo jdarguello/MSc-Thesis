@@ -1,11 +1,14 @@
 \babel@toc {spanish}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces M\'etodo MSPD$^{\cite {Capriotti2015}}$.\relax }}{5}{figure.caption.6}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Prototipo desarrollado$^{\cite {Proyecto, Patente2018}}$.\relax }}{7}{figure.caption.7}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Discretizaci\'on del dominio (malla cartesiana).\relax }}{9}{figure.caption.8}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Tipos de mallas.\relax }}{10}{figure.caption.9}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Problema unidimensional.\relax }}{11}{figure.caption.10}%
-\contentsline {figure}{\numberline {6}{\ignorespaces M\'etodo de validaci\'on simple.\relax }}{12}{figure.caption.12}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Discretizaci\'on dominio bidimensional.\relax }}{13}{figure.caption.13}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Comparaci\'on entre metodolog\'ias de an\'alisis de part\'iculas para una esfera suave deformada en un plano: situaci\'on f\'isica real (izquierda), modelo analizado con el m\'etodo de elementos finitos (centro) y modelo con el m\'etodo de elementos discretos (derecha)\relax }}{14}{figure.caption.14}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Detecci\'on de colisi\'on entre part\'iculas.\relax }}{15}{figure.caption.15}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Esquema de la aproximaci\'on por malla dual para la b\'usqueda de part\'iculas vecinas en un fluido.\relax }}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {1}{\ignorespaces M\'etodo MSPD$^{\cite {Capriotti2015}}$.\relax }}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Prototipo desarrollado$^{\cite {Proyecto, Patente2018}}$.\relax }}{8}{figure.caption.7}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Discretizaci\'on del dominio (malla cartesiana).\relax }}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Tipos de mallas.\relax }}{11}{figure.caption.9}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Problema unidimensional.\relax }}{12}{figure.caption.10}%
+\contentsline {figure}{\numberline {6}{\ignorespaces M\'etodo de validaci\'on simple.\relax }}{13}{figure.caption.12}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Discretizaci\'on dominio bidimensional.\relax }}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Comparaci\'on entre metodolog\'ias de an\'alisis de part\'iculas para una esfera suave deformada en un plano: situaci\'on f\'isica real (izquierda), modelo analizado con el m\'etodo de elementos finitos (centro) y modelo con el m\'etodo de elementos discretos (derecha)\relax }}{15}{figure.caption.14}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Detecci\'on de colisi\'on entre part\'iculas.\relax }}{16}{figure.caption.15}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Esquema de la aproximaci\'on por malla dual para la b\'usqueda de part\'iculas vecinas en un fluido.\relax }}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Sedimentador de placas paralelas.\relax }}{20}{figure.caption.17}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Velocidad de asentamiento de part\'iculas discretas en un fluido est\'atico.\relax }}{24}{figure.caption.19}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Zona de generaci\'on de part\'iculas.\relax }}{28}{figure.caption.21}%

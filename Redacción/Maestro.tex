@@ -5,14 +5,19 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage[pdftex]{graphicx}
+\usepackage{bm}
+
 
 \usepackage{tikz}
-\usetikzlibrary{calc, arrows, positioning,decorations.pathreplacing,shapes}
+\usetikzlibrary{calc, arrows, positioning,decorations.pathreplacing,shapes, arrows.meta}
 \usepackage{pgfplots}
+\pgfplotsset{compat=1.5.1}
 \pgfplotsset{width=7cm,compat=1.8}
 \usepackage{xcolor}
+\usetikzlibrary{shapes}
 \usepackage{ifthen}
 \newcommand*{\val}{100}
+
 
 \usepackage[inline]{asymptote}
 
@@ -33,16 +38,13 @@
 \usepackage{multirow}
 \usepackage{adjustbox}
 \bibliographystyle{IEEEtran}
-\usepackage{footnote}
-\makesavenoteenv{tabular}
-\makesavenoteenv{table}
 %\usepackage[backend=biber]{biblatex}
 %\usepackage{adjustbox}
 \usepackage{gensymb}
 \usepackage{pgfgantt}
 \usepackage{rotating}
 \usepackage{pdflscape}
-\usepackage{tikz}
+%\usepackage{tikz-3dplot}
 \usepackage{pgfplots}
 \usepackage{floatrow}
 %\usepackage[firstpage]{draftwatermark}
@@ -62,6 +64,18 @@
             {-2.5ex\@plus -1ex \@minus -.25ex}%
             {1.25ex \@plus .25ex}%
             {\normalfont\normalsize\bfseries}}
+            
+\newcommand*\curveplus{%
+  \mathbin{\rotatebox[origin=c]{90}{$\m@th\curvearrowleft$}+}}
+
+\newcommand*\rightplus{%
+  \mathpalette\@rightplus\relax}
+\newcommand*\@rightplus[1]{%
+  \mathbin{\vcenter{\hbox{$\m@th\overset{#1+}{\to}$}}}}
+
+\newcommand*\upplus{%
+  \mathbin{+\mathord\uparrow}}
+
 \makeatother
 \setcounter{secnumdepth}{4} % how many sectioning levels to assign numbers to
 \setcounter{tocdepth}{4}    % how many sectioning levels to show in ToC
@@ -82,5 +96,8 @@
 \include{CFD}
 \include{DEM}
 \include{CFDDEM}
+\include{Sedimentacion}
+\include{Filtrado}
+\include{Modelo}
 \bibliography{library}
 \end{document}
