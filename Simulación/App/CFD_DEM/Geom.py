@@ -66,25 +66,9 @@ class Geometry():
             
             mesh = geom.generate_mesh()
             
-            #mesh.write( os.getcwd() + "/" + name)
-            format = "vtk"
-            nombre = name.replace(".vtk", "")
-            mesh.write(os.getcwd() + "/" + nombre + '.' + format, file_format=format)
-            
-            """
-            for cell in mesh.cells:
-                if cell.type == "triangle":
-                    triangle_cells = cell.data
-                elif  cell.type == "tetra":
-                    tetra_cells = cell.data
-            print(mesh.cell_data_dict)
-            triangle_mesh =meshio.Mesh(points=mesh.points,vt
-                           cells=[("triangle", triangle_cells)],
-                           cell_data={"name_to_read":[triangle_data]})
-
-            meshio.write("mf.xdmf", triangle_mesh)
-            #meshio.write(name, meshio.Mesh(points=mesh.points, cells={"triangle": mesh.cells["triangle"]}, cell_data={"triangle": {"name_to_read": mesh.cell_data["triangle"]["gmsh:physical"]}}))
-            """
+            mesh.write( os.getcwd() + "/" + name)
+            nombre = name.replace(".vtk", ".msh")
+            mesh.write(os.getcwd() + "/" + nombre, file_format="gmsh22")
     
     def guardar(self, file="out.msh"):
         saved_file = os.getcwd() + '/' + file
