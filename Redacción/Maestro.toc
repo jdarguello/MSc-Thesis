@@ -26,4 +26,8 @@
 \contentsline {subsection}{\numberline {6.5}Tama\~no de part\'icula m\'inima}{26}{subsection.6.5}%
 \contentsline {subsection}{\numberline {6.6}Resultados}{27}{subsection.6.6}%
 \contentsline {section}{\numberline {7}Modelo CFD-DEM}{28}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Selecci\'on de par\'ametros}{28}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.1}Geometr\'ia}{28}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Mallado}{29}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Condiciones de frontera}{30}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Desarrollo de la simulaci\'on}{32}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}CFD}{32}{subsubsection.7.4.1}%

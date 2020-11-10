@@ -1,0 +1,37 @@
+\subsection{Condiciones de frontera}
+
+\noindent
+\justify
+
+La mezcla s\'olido-l\'iquida en la entrada presenta un caudal de $0.3 \left[m^3 /h \right]$. Los muros se consideran como superficies no deslizantes para la fase l\'iquida. La temperatura es constante durante todo el proceso e igual a $27 [\degree C]$. En el tiempo $t=0$, las part\'iculas s\'olidas esf\'ericas se generan en una regi\'on lineal, como se aprecia en la Figura \ref{generation}.
+
+\input{GeneracionP}
+
+\noindent
+\justify
+
+De la Figura \ref{generation}: $\dot{m} _{sol}$ se refiere al flujo m\'asico de solvente, $\dot{m} _{part}$ es el flujo m\'asico de part\'iculas generadas y las l\'ineas punteadas representan la zona de generaci\'on.
+
+\noindent
+\justify
+
+Las condiciones de frontera se resumen en la Figura \ref{ConFron}.
+
+\input{ConFron}
+
+\noindent
+\justify
+
+La clasificaci\'on de las condiciones de frontera se puede apreciar en el Cuadro \ref{CFT}.
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		\textbf{Zona} & \textbf{Propiedad} & \textbf{Valor} & \textbf{Tipo} \\ \hline
+		\textit{Entrada} & Velocidad $[cm/min]$ & $4.44$ & Neumann \\ \hline
+		\textit{Salida} & Presi\'on $[KPa]$ & $101.325$ & Dirichlet \\ \hline
+	\end{tabular}
+	\caption{Clasificaci\'on de las condiciones de frontera.}
+	\label{CFT}
+\end{table}

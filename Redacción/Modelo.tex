@@ -2,11 +2,33 @@
 	\section{Modelo CFD-DEM}
 \end{center}
 
-\subsection{Selecci\'on de par\'ametros}
+\noindent
+\justify
+
+El modelo CFD-DEM consiste de una metodolog\'ia de c\'alculo, a trav\'es de los m\'etodos num\'ericos de vol\'umenes finitos (FVM) y elementos discretos (DEM), que busca predecir el comportamiento din\'amico de las part\'iculas en un medio fluido.
 
 \noindent
 \justify
 
-En las simulaciones CFD-DEM, se inicia definiendo las condiciones de frontera: la mezcla s\'olido-l\'iquida en la entrada presenta un caudal de $0.3 \left[m^3 /h \right]$. Los muros se consideran como superficies no deslizantes para la fase l\'iquida. La temperatura es constante durante todo el proceso e igual a $27 [\degree C]$. Se trata de una simulaci\'on 2D en donde se emplea una malla CFD tetrah\'edrica de X nodos y X elementos. En el tiempo $t=0$, las part\'iculas s\'olidas esf\'ericas se generan en una regi\'on lineal de base $0.01 [m]$ de longitud, como se aprecia en la Figura \ref{generation}.
+La metodolog\'ia se resume en lo siguiente:
 
-\input{GeneracionP}
+\begin{enumerate}
+	\item Definici\'on de la geometr\'ia del problema.
+	\item Mallado de la geometr\'ia para el an\'alisis fluidodin\'amico mediante CFD.
+	\item Definici\'on de las condiciones de frontera.
+	\item Desarrollo de la simulaci\'on CFD - DEM.
+	\item Postprocesamiento y presentaci\'on de resultados.
+\end{enumerate}
+
+\noindent
+\justify
+
+Se desarroll\'o un algoritmo a trav\'es de herramientas de \textit{c\'odigo abierto}: Python como lenguaje base; Jupyter como entorno de desarrollo; OpenFOAM y Yade para el desarrollo las simulaciones num\'ericas; y ParaView como entorno de presentaci\'on de resultados de post-procesamiento.
+
+\input{geom}
+
+\input{Mallado}
+
+\input{CF}
+
+\input{Simu}

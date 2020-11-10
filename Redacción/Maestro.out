@@ -25,4 +25,8 @@
 \BOOKMARK [2][-]{subsection.6.5}{Tama\361o de part\355cula m\355nima}{section.6}% 25
 \BOOKMARK [2][-]{subsection.6.6}{Resultados}{section.6}% 26
 \BOOKMARK [1][-]{section.7}{Modelo CFD-DEM}{}% 27
-\BOOKMARK [2][-]{subsection.7.1}{Selecci\363n de par\341metros}{section.7}% 28
+\BOOKMARK [2][-]{subsection.7.1}{Geometr\355a}{section.7}% 28
+\BOOKMARK [2][-]{subsection.7.2}{Mallado}{section.7}% 29
+\BOOKMARK [2][-]{subsection.7.3}{Condiciones de frontera}{section.7}% 30
+\BOOKMARK [2][-]{subsection.7.4}{Desarrollo de la simulaci\363n}{section.7}% 31
+\BOOKMARK [3][-]{subsubsection.7.4.1}{CFD}{subsection.7.4}% 32

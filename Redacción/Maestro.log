@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.14)  9 OCT 2020 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.14)  10 NOV 2020 11:24
 entering extended mode
 **./Maestro.tex
 (Maestro.tex
@@ -1296,10 +1296,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  (Maestro.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
 
 
 Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
@@ -1311,7 +1311,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.6 ...imensional.\relax }}{12}{figure.caption.10}
+l.3 ...tente2018}}$.\relax }}{8}{figure.caption.7}
                                                   % [1
 
 ]
@@ -1375,7 +1375,7 @@ LaTeX Info: Redefining \% on input line 93.
 \openout2 = `Extraction/MSPD.aux'.
 
  (Extraction/MSPD.tex
-<Images/mspd.PNG, id=250, 383.93437pt x 371.88937pt>
+<Images/mspd.PNG, id=278, 383.93437pt x 371.88937pt>
 File: Images/mspd.PNG Graphic file (type png)
 <use Images/mspd.PNG>
 Package pdftex.def Info: Images/mspd.PNG  used on input line 23.
@@ -1392,7 +1392,7 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 [7]
-<Images/planta.PNG, id=280, 463.7325pt x 297.36093pt>
+<Images/planta.PNG, id=308, 463.7325pt x 297.36093pt>
 File: Images/planta.PNG Graphic file (type png)
 <use Images/planta.PNG>
 Package pdftex.def Info: Images/planta.PNG  used on input line 12.
@@ -1448,7 +1448,7 @@ LaTeX Info: Redefining \% on input line 96.
 \openout2 = `DEM.aux'.
 
  (DEM.tex
-<Images/DEM.PNG, id=335, 356.33125pt x 130.4875pt>
+<Images/DEM.PNG, id=363, 356.33125pt x 130.4875pt>
 File: Images/DEM.PNG Graphic file (type png)
 <use Images/DEM.PNG>
 Package pdftex.def Info: Images/DEM.PNG  used on input line 12.
@@ -1472,7 +1472,7 @@ LaTeX Warning: Command \O invalid in math mode on input line 63.
 
 LaTeX Warning: Command \O invalid in math mode on input line 63.
 
-<Images/Colision.PNG, id=349, 458.21187pt x 269.50688pt>
+<Images/Colision.PNG, id=377, 458.21187pt x 269.50688pt>
 File: Images/Colision.PNG Graphic file (type png)
 <use Images/Colision.PNG>
 Package pdftex.def Info: Images/Colision.PNG  used on input line 69.
@@ -1510,7 +1510,7 @@ LaTeX Info: Redefining \% on input line 49.
 
 
 ]
-<Images/Sedimentacion/placas.jpg, id=379, 271.0125pt x 187.70125pt>
+<Images/Sedimentacion/placas.jpg, id=407, 271.0125pt x 187.70125pt>
 File: Images/Sedimentacion/placas.jpg Graphic file (type jpg)
 <use Images/Sedimentacion/placas.jpg>
 Package pdftex.def Info: Images/Sedimentacion/placas.jpg  used on input line 55
@@ -1534,13 +1534,13 @@ Overfull \hbox (41.34192pt too wide) in paragraph at lines 17--29
  [][] 
  []
 
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
+LaTeX Info: Redefining \. on input line 64.
+LaTeX Info: Redefining \% on input line 64.
 [22
 
 
 ]
-<Images/Sedimentacion/G1.PNG, id=402, 456.20438pt x 322.70563pt>
+<Images/Sedimentacion/G1.PNG, id=430, 456.20438pt x 322.70563pt>
 File: Images/Sedimentacion/G1.PNG Graphic file (type png)
 <use Images/Sedimentacion/G1.PNG>
 Package pdftex.def Info: Images/Sedimentacion/G1.PNG  used on input line 118.
@@ -1549,15 +1549,15 @@ Package pdftex.def Info: Images/Sedimentacion/G1.PNG  used on input line 118.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \. on input line 147.
-LaTeX Info: Redefining \% on input line 147.
-LaTeX Info: Redefining \. on input line 147.
-LaTeX Info: Redefining \% on input line 147.
+LaTeX Info: Redefining \. on input line 141.
+LaTeX Info: Redefining \% on input line 141.
+LaTeX Info: Redefining \. on input line 141.
+LaTeX Info: Redefining \% on input line 141.
 [23]
-LaTeX Info: Redefining \. on input line 171.
-LaTeX Info: Redefining \% on input line 171.
-LaTeX Info: Redefining \. on input line 171.
-LaTeX Info: Redefining \% on input line 171.
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
  [24 <./Images/Sedimentacion/G1.PNG>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 234.
@@ -1574,10 +1574,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 234.
 
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
+LaTeX Info: Redefining \. on input line 240.
+LaTeX Info: Redefining \% on input line 240.
+LaTeX Info: Redefining \. on input line 240.
+LaTeX Info: Redefining \% on input line 240.
 [25]
 LaTeX Info: Redefining \. on input line 287.
 LaTeX Info: Redefining \% on input line 287.
@@ -1591,7 +1591,33 @@ LaTeX Info: Redefining \% on input line 100.
  [27]
 \openout2 = `Modelo.aux'.
 
- (Modelo.tex (GeneracionP.tex
+ (Modelo.tex (geom.tex (geometry.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+ [28
+
+
+]) (Mallado.tex
+<Images/CFDEM/size.PNG, id=496, 172.645pt x 52.69687pt>
+File: Images/CFDEM/size.PNG Graphic file (type png)
+<use Images/CFDEM/size.PNG>
+Package pdftex.def Info: Images/CFDEM/size.PNG  used on input line 10.
+(pdftex.def)             Requested size: 207.56285pt x 63.35571pt.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+ [29 <./Images/CFDEM/size.PNG>]
+<Images/CFDEM/malla.PNG, id=504, 392.96812pt x 268.00125pt>
+File: Images/CFDEM/malla.PNG Graphic file (type png)
+<use Images/CFDEM/malla.PNG>
+Package pdftex.def Info: Images/CFDEM/malla.PNG  used on input line 22.
+(pdftex.def)             Requested size: 415.12572pt x 283.13123pt.
+) (CF.tex (GeneracionP.tex
 Overfull \hbox (15.75809pt too wide) in paragraph at lines 7--7
 [][][]$[]$[]  
  []
@@ -1606,13 +1632,26 @@ Overfull \hbox (12.48624pt too wide) in paragraph at lines 11--11
 []$[]  
  []
 
-))
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+ [30 <./Images/CFDEM/malla.PNG>] (ConFron.tex)) (Simu.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [31]))
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
- [28
-
-
-] (Maestro.bbl
+LaTeX Info: Redefining \. on input line 101.
+LaTeX Info: Redefining \% on input line 101.
+ [32]
+(Maestro.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 60--67
 \OT1/lmr/m/n/12 inventor = juan + david + arg\OMS/lmsy/m/n/12 fn\OT1/lmr/m/n/12
  unhbox \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 voidb @ x \OMS/lmsy/m/n/12 n \OT1/lm
@@ -1683,14 +1722,14 @@ LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
-[29
+[33
 
 ])
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [30]
+ [34]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (Maestro.aux (Portada.aux)
@@ -1702,18 +1741,21 @@ LaTeX Info: Redefining \% on input line 27.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `Maestro.out' has not changed.
-(rerunfilecheck)             Checksum: 130D9F04613D3F0B8C24B6C4EF27C7CA;1956.
+(rerunfilecheck)             Checksum: 9BED51788EFF8EF443BF2E5770C66B4F;2212.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 37779 strings out of 480799
- 886951 string characters out of 2905528
- 1509077 words of memory out of 3000000
- 52818 multiletter control sequences out of 15000+200000
+ 37954 strings out of 480799
+ 890256 string characters out of 2905528
+ 1509665 words of memory out of 3000000
+ 52958 multiletter control sequences out of 15000+200000
  599451 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,20n,107p,1434b,3097s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1745,9 +1787,9 @@ fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Maestro.pdf (32 pages, 745291 bytes).
+Output written on Maestro.pdf (36 pages, 943250 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
- 141 named destinations out of 1000 (max. 500000)
- 271 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 642 PDF objects out of 1000 (max. 8388607)
+ 163 named destinations out of 1000 (max. 500000)
+ 313 words of extra memory for PDF output out of 10000 (max. 10000000)
 

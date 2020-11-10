@@ -61,7 +61,7 @@ class Geometry():
 
             flat = geom.boolean_union([entrada, lodos])
 
-            top, volume, lat = geom.extrude(flat, [0, 0, e])
+            top, volume, lat = geom.extrude(flat, [0, 0, e], recombine=True)
             
             #Nombres de las Fronteras
             geom.add_physical(flat, label="bottom") 
@@ -69,17 +69,26 @@ class Geometry():
             #geom.add_physical(volume, label="volume") 
             geom.add_physical(lat[0], label="lat")
             
-            mesh = geom.generate_mesh()
+            #geom.add_raw_code('Mesh.RecombinationAlgorithm=2;\n')
+            
+            mesh = geom.generate_mesh(dim=2)
             
             mesh.write(name)
-            nombre = name.replace(".vtk", ".stl")
-            mesh.write(nombre, file_format="stl", binary=False)
+            nombre = name.replace(".vtk", ".msh")
+            mesh.write(nombre, file_format="gmsh22", binary=False)
     
     def guardar(self, file="out.msh"):
         saved_file = file
         dolfin = pv.read(saved_file)
         qual = dolfin.compute_cell_quality()
         qual.plot(show_edges=True)
+        
+        #Guardar como imagen
+        """
+        plotter = pv.Plotter(off_screen=True)
+        plotter.add_mesh(qual)
+        plotter.show(screenshot='malla.png')
+        """
     
     def convertir(self, file="out"):
         saved_file = os.getcwd() + '/' + file

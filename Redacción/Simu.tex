@@ -1,0 +1,26 @@
+\newpage
+
+\subsection{Desarrollo de la simulaci\'on}
+
+\noindent
+\justify
+
+La simulaci\'on num\'erica a realizar comprende \textbf{dos} m\'etodos num\'ericos: el m\'etodo de \textit{vol\'umenes finitos} (FVM, por sus siglas en ingl\'es), con el cual se predice el comportamiento fluidodin\'amico dentro del volumen de control, y el m\'etodo de \textit{elementos discretos} (DEM, por sus siglas en ingl\'es) con el que se predice el comportamiento din\'amico de las part\'iculas s\'olidas y su interacci\'on con el solvente.
+
+\subsubsection{CFD}
+
+\noindent
+\justify
+
+La \textit{Din\'amica de Fluidos Computacional} (CFD) es una herramienta computacional ampliamente usada en ingenier\'ia para el desarrollo de simulaciones num\'ericas que involucren fluidos. Emplea como m\'etodo base el m\'etodo de vol\'umenes finitos (FVM). Este m\'etodo num\'erico transforma las ecuaciones diferenciales parciales, que representan las leyes conservativas, en ecuaciones algebraicas discretas sobre vol\'umenes finitos.
+
+\noindent
+\justify
+
+Al tratarse de un problema \textit{bidimensional transitorio}, matem\'aticamente hablando se trata de lo siguiente:
+
+\begin{equation}
+    \underbrace{\rho \frac{\partial \phi}{\partial t}}_{\text{transitorio}} + \underbrace{\rho u \frac{\partial \phi}{\partial x} + \rho v \frac{\partial \phi}{\partial y}}_{\text{convectivo}} = \underbrace{ \frac{\partial}{\partial x} \left( \Gamma \frac{\partial \phi}{\partial x} \right) + \frac{\partial}{\partial y} \left( \Gamma \frac{\partial \phi}{\partial y} \right)}_{\text{difusivo}} + \underbrace{S_{\phi}}_{\text{fuente}}
+    \tag{9}
+    \label{2D}
+\end{equation}
