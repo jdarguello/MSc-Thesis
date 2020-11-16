@@ -13,3 +13,4 @@ class Condiciones():
         msg = msg.replace("VEL", str(round(V*100, 3)))
         msg = msg.replace("PRE", str(101.325))
         display(Markdown(msg))
+        

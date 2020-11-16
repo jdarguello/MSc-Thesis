@@ -12,7 +12,7 @@ def Requerimientos():
     return Req
 
 def Esp():
-    Req = widgets.Accordion(children=[widgets.FloatText(value=250),
+    Req = widgets.Accordion(children=[widgets.FloatText(value=1000),
                                       widgets.FloatText(value=1700),
                                       widgets.FloatText(value=80)])
     Req.set_title(0, 'Tamaño de partícula medio [um]')

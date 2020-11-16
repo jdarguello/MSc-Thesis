@@ -1,0 +1,46 @@
+%Datos geométricos
+\def\D{2.7}    	%Diámetro de ingreso
+\def\H{3}		%Altura de la zona de lodos
+\def\A{2.5}		%Ancho del panel de lamelas
+\def\HL{3}		%Altura del panel de lamelas
+\def\nL{10}		%Número de lamelas
+\def\ang{60}	%Ángulo de inclinación del panel
+
+\def\xlam{\x+\A+0.5*\D}
+
+\def\fin{\nL-1}
+
+%Inclinación
+%\def\xL{{\HL*cos(\ang)}}
+
+%Referencia
+\def\x{-\A/2-0.5/2*\D-\HL/2}
+\def\y{0}
+
+\begin{figure}[h!]
+	\centering
+	\begin{adjustbox}{max width = \textwidth}
+	\begin{tikzpicture}
+		%Geometría general
+		\draw (\x,\y) -- (\x,-\D) -- (\x+0.5*\D,-\D) -- 
+			(\x+0.5*\D, -2*\D) -- (\x+\A+0.5*\D, -2*\D) -- 
+			(\x+\A+0.5*\D, \y) -- ({\xlam + \HL*cos(\ang)},{\y + \HL*sin(\ang)}) -- ({\xlam + \HL*cos(\ang) - \A}, {\y + \HL*sin(\ang)}) -- (\xlam - \A, \y) -- cycle;
+		
+		%Lamelas
+		\foreach \xL in {1, ..., \nL}
+			\draw (\xlam - \xL*\A/\nL,\y) -- ({\xlam + \HL*cos(\ang) - \xL*\A/\nL}, {\y + \HL*sin(\ang)});
+		
+		%Área de interés
+		\draw[dashed, step=0.5cm, blue!60!green, pattern=north west lines, pattern color=blue!60!green] (\x,\y) -- (\x,-\D) -- (\x+0.5*\D,-\D) -- (\x+0.5*\D, -2*\D) -- (\x+\A+0.5*\D, -2*\D) -- (\x+\A+0.5*\D, \y) -- ({\xlam + \HL*cos(\ang)},{\y + \HL*sin(\ang)}) -- ({\xlam + \HL*cos(\ang) - \A/\nL},{\y + \HL*sin(\ang)}) -- (\xlam - \A/\nL, \y) -- cycle;
+		
+		%Señalización
+		\draw[red!10!black, arrows={-Triangle[angle=90:3pt,red!10!black,fill=red!10!black]}] (\x-2,-\D/2) node[above] {Entrada \textit{mezcla}} -- (\x-0.5,-\D/2);
+		
+		\draw[red!10!black, arrows={-Triangle[angle=90:3pt,red!10!black,fill=red!10!black]}] ({\xlam + \HL*cos(\ang) - \A/\nL/2},{\y + \HL*sin(\ang)}) node[above] {Salida \textit{fase l\'iquida}} -- ({\xlam + (\HL+1)*cos(\ang) - \A/\nL/2},{\y + (\HL+1)*sin(\ang)});
+		
+		
+	\end{tikzpicture}
+	\end{adjustbox}
+	\caption{Vista en corte de la geometr\'ia del panel de lamelas.}
+	\label{geometria:CFD}
+\end{figure}

@@ -4,7 +4,7 @@ from IPython.display import display, Markdown
 
 def Requerimientos():
     Req = widgets.Accordion(children=[widgets.FloatText(value=25),
-                                      widgets.FloatText(value=30),
+                                      widgets.FloatText(value=20),
                                       widgets.FloatText(value=30),
                                       widgets.FloatText(value=2.5),
                                       widgets.IntSlider(value=60, max=90)])

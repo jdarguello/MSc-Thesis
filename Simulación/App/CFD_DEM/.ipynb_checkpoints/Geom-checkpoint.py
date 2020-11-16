@@ -1,12 +1,13 @@
 import pyvista as pv
 import pygmsh
 import ipywidgets as widgets
-from math import pi, radians, cos, sin, tan
+from math import pi, radians, cos, sin, tan, ceil
 import meshio
+import os
 
-def Rango(minimo=250, maximo=10000):
-    Req = widgets.IntRangeSlider(
-        value=[minimo, 5*minimo],
+def Rango(minimo=250, maximo=20000):
+    rango = widgets.IntRangeSlider(
+        value=[1000, 20000],
         min=minimo,
         max=maximo,
         step=1,
@@ -16,19 +17,81 @@ def Rango(minimo=250, maximo=10000):
         orientation='horizontal',
         readout=True
     )
+    radio = widgets.RadioButtons(
+    options=['Estructurada', 'No estructurada'],
+    value='Estructurada', 
+    layout={'width': 'max-content'}, # If the items' names are long
+    description='Tipo:',
+    disabled=False
+)
+    Req = widgets.Accordion(children=[rango, radio])
+    Req.set_title(0, 'Tamaño de malla')
+    Req.set_title(1, 'Tipo de malla')
+    return Req
+
+def Size():
+    Req = widgets.Accordion(children=[widgets.FloatText(value=25),
+                                      widgets.FloatText(value=20),
+                                      widgets.FloatText(value=30),
+                                      widgets.FloatText(value=2.5),
+                                      widgets.IntSlider(value=60, max=90)])
+    Req.set_title(0, 'Ancho panel [cm]')
+    Req.set_title(1, 'Altura panel [cm]')
+    Req.set_title(2, 'Largo panel [cm]')
+    Req.set_title(3, 'Ancho lamela [cm]')
+    Req.set_title(4, 'Inclinación [°]')
     return Req
 
 def Malla():
     Req = Rango()
+    Tam = Size()
     tab = widgets.Tab()
-    tab.children = [Req]
-    tab.set_title(0, 'Tamaño de malla')
+    tab.children = [Req, Tam]
+    tab.set_title(0, 'Malla')
+    tab.set_title(1, 'Dimensiones')
     return tab
 
-def Dibujar(geo, lamela, rango, e, name ="out.vtk"):
-    g = Geometry()
-    g.malla(geo, lamela, rango, e, name)
-    g.guardar(name)
+
+def Dibujar(geo, lamela, rango, tipo, e, name ="out.vtk"):
+    nom_geo = "Geometry.geo"
+    XXX = geo['Altura panel [cm]']/tan(radians(geo['Inclinación [°]']))    #Horizontal panel inclinado
+    long_panel = ceil(geo['Altura panel [cm]']/sin(radians(geo['Inclinación [°]']))/(rango[0]/10**4))
+    with open("Referencia.geo", "r") as file:
+        contenido = ""
+        ver = True
+        for line in file.readlines():
+            if line[0:6] == "//---G":
+                ver = False
+            if ver:
+                for var in (("DD", geo['DI [m]']), ("HH", geo["Altura panel [cm]"]/100), ("ALL", geo['Ancho lamela [cm]']/100), ("XXX", XXX/100), ("YYY", geo['Altura panel [cm]']/100), ("malMax", rango[1]/10**6), ("REF", long_panel), ("ESP", e/10**6), ("AA", geo['Ancho panel [cm]']/100)):
+                    line = line.replace(var[0], str(round(var[1], 6)))
+            else:
+                if tipo == "No estructurada":
+                    line = line.replace("Recombine", "//Recombine")
+            contenido += line
+    with open(nom_geo, "w+") as file:
+        file.write(contenido)
+    
+    #Generación de msh
+    os.system("gmsh -3 " + nom_geo + " -o geometria.msh -format msh2")
+    os.system("meshio-convert geometria.msh out.vtk")
+    
+    #Observar vtk
+    guardar()
+    os.system("gmsh geometria.msh")
+
+def guardar(file="out.vtk"):
+    saved_file = file
+    dolfin = pv.read(saved_file)
+    qual = dolfin.compute_cell_quality()
+    qual.plot(show_edges=True)
+
+    #Guardar como imagen
+    """
+    plotter = pv.Plotter(off_screen=True)
+    plotter.add_mesh(qual)
+    plotter.show(screenshot='malla.png')
+    """
     
 
 class Geometry():        
@@ -74,8 +137,9 @@ class Geometry():
             mesh = geom.generate_mesh(dim=2)
             
             mesh.write(name)
-            nombre = name.replace(".vtk", ".msh")
-            mesh.write(nombre, file_format="gmsh22", binary=False)
+            nombre = name.replace(".vtk", ".stl")
+            mesh.write(nombre, file_format="stl")
+            #meshio.ansys.write(nombre, mesh, binary=False)
     
     def guardar(self, file="out.msh"):
         saved_file = file
@@ -100,7 +164,7 @@ class Geometry():
         read = meshio.read(
             root + file + '.vtk'
         )
-        meshio.write(
+        meshio.ansys.write(
             root + file + '.msh',
-            read            
+            binary = False            
         )
