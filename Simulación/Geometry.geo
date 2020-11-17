@@ -8,7 +8,7 @@ Lx = 0.11547;    //Ancho de una lamela (depende de la inclinación)
 Ly = 0.2;    //Altura de una lamela (depende del ángulo)
 
 mallaMax = 0.02;   //Tamaño máximo de malla
-mallaMin = 231;   //Subdivisiones de refinamiento de malla
+mallaMin = 27;   //Subdivisiones de refinamiento de malla
 
 espesor = 0.001;    //Espesor de la geometría (tamaño de una partícula)
 

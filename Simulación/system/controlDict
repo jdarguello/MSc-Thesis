@@ -17,19 +17,19 @@ FoamFile
 
 application     icoFoam;
 
-startFrom       latestTime;
+startFrom       firstTime;
 
 startTime       0;
 
 stopAt          endTime;
 
-endTime         10;
+endTime         20;
 
-deltaT          0.05;
+deltaT          0.5;
 
 writeControl    timeStep;
 
-writeInterval   20;
+writeInterval   10;
 
 purgeWrite      0;
 

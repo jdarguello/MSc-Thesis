@@ -6,6 +6,25 @@ class Condiciones():
         self.imprime(V)
         self.execute()
         self.boundary()
+        self.velocidad(V)
+    
+    def velocidad(self, V):
+        archivo = "0/U_ref"
+        with open(archivo, 'r') as file:
+            lineas = file.readlines()
+        ya = False
+        info = ""
+        #print(lineas)
+        for linea in lineas:
+            if linea == '    ingreso\n':
+                ya = True
+            elif linea == '    salida\n':
+                ya = False
+            if ya:
+                linea = linea.replace("VV", str(V))
+            info += linea
+        with open("0/U", "w") as file:
+            file.write(info)
     
     def boundary(self):
         archivo = "constant/polyMesh/boundary"

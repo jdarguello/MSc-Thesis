@@ -9,15 +9,42 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       dictionary;
-    location    "constant";
-    object      transportProperties;
+    class       volVectorField;
+    object      U;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-//[kg m s K mol A cd] 
+dimensions      [0 1 -1 0 0 0 0];
 
-nu              [0 2 -1 0 0 0 0] 0.000001;
+internalField   uniform (0 0 0);
 
+boundaryField
+{
+    defaultFaces
+    {
+        type            noSlip;
+    }
+
+    ingreso
+    {
+        type            fixedValue;
+        value           uniform (VV 0 0);
+    }
+
+    salida
+    {
+        type            zeroGradient;
+    }
+
+    back
+    {
+        type            empty;
+    }
+    
+    front
+    {
+        type            empty;
+    }
+}
 
 // ************************************************************************* //
