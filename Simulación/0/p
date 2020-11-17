@@ -20,33 +20,28 @@ internalField   uniform 0;
 
 boundaryField
 {
-    wall-4
+    defaultFaces
     {
         type            zeroGradient;
     }
 
-    velocity-inlet-5
+    ingreso
     {
         type            zeroGradient;
     }
 
-    velocity-inlet-6
-    {
-        type            zeroGradient;
-    }
-
-    pressure-outlet-7
+    salida
     {
         type            fixedValue;
         value           uniform 0;
     }
 
-    wall-8
+    back
     {
-        type            zeroGradient;
+        type            empty;
     }
-
-    frontAndBackPlanes
+    
+    front
     {
         type            empty;
     }

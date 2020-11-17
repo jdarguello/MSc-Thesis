@@ -45,6 +45,9 @@ Transfinite Curve {6, 8} = mallaMin Using Progression 1;
 
 Recombine Surface {11};
 
+Physical Surface("back") = {11};
+
+
 
 //Extrusión
 surfaceVector[] = Extrude {0,0,espesor} {
@@ -54,17 +57,24 @@ surfaceVector[] = Extrude {0,0,espesor} {
 };
 
 
+/* surfaceVector contains in the following order:
+    [0]	- front surface (opposed to source surface)
+    [1] - extruded volume
+    [2] - bottom surface (belonging to 1st line in "Line Loop (6)")
+    [3] - right surface (belonging to 2nd line in "Line Loop (6)")
+    [4] - top surface (belonging to 3rd line in "Line Loop (6)")
+    [5] - left surface (belonging to 4th line in "Line Loop (6)") */
 
 //Nombre de las superficies!
-Physical Surface("muro-1") = surfaceVector[0];
+Physical Surface("front") = surfaceVector[0];
 Physical Volume("fluido") = surfaceVector[1];
 Physical Surface("ingreso") = surfaceVector[2];
 Physical Surface("salida") = surfaceVector[8];
-Physical Surface("muro-2") = surfaceVector[3];
-Physical Surface("muro-3") = surfaceVector[4];
-Physical Surface("muro-4") = surfaceVector[5];
-Physical Surface("muro-5") = surfaceVector[6];
-Physical Surface("muro-6") = surfaceVector[7];
-Physical Surface("muro-7") = surfaceVector[9];
-
-
+//Physical Surface("muro-2") = surfaceVector[3];
+//Physical Surface("muro-3") = surfaceVector[4];
+//Physical Surface("muro-4") = surfaceVector[5];
+//Physical Surface("muro-5") = surfaceVector[6];
+//Physical Surface("muro-6") = surfaceVector[7];
+//Physical Surface("muro-7") = surfaceVector[9];
+//Physical Surface("muro-8") = surfaceVector[10];
+//Physical Surface("muro-9") = surfaceVector[11];

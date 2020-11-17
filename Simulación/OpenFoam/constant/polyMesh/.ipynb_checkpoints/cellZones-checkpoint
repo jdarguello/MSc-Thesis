@@ -9,42 +9,13 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       volVectorField;
-    object      U;
+    class       regIOobject;
+    location    "constant/polyMesh";
+    object      cellZones;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 1 -1 0 0 0 0];
-
-internalField   uniform (0 0 0);
-
-boundaryField
-{
-    defaultFaces
-    {
-        type            noSlip;
-    }
-
-    ingreso
-    {
-        type            fixedValue;
-        value           uniform (1 0 0);
-    }
-
-    salida
-    {
-        type            zeroGradient;
-    }
-
-    back
-    {
-        type            empty;
-    }
-    
-    front
-    {
-        type            empty;
-    }
-}
+0
+()
 
 // ************************************************************************* //
