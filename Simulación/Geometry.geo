@@ -67,7 +67,7 @@ surfaceVector[] = Extrude {0,0,espesor} {
 
 //Nombre de las superficies!
 Physical Surface("front") = surfaceVector[0];
-Physical Volume("fluido") = surfaceVector[1];
+Physical Volume("fluid") = surfaceVector[1];
 Physical Surface("ingreso") = surfaceVector[2];
 Physical Surface("salida") = surfaceVector[8];
 //Physical Surface("muro-2") = surfaceVector[3];

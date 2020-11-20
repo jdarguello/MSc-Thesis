@@ -17,7 +17,7 @@ FoamFile
 
 1
 (
-fluido
+fluid
 {
     type cellZone;
 cellLabels      List<label> 

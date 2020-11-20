@@ -7,7 +7,7 @@ $PhysicalNames
 2 2 "front"
 2 4 "ingreso"
 2 5 "salida"
-3 3 "fluido"
+3 3 "fluid"
 $EndPhysicalNames
 $Nodes
 1326
