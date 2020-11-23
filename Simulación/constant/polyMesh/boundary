@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7
+    \\  /    A nd           | Version:  8
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -20,32 +20,32 @@ FoamFile
     back
     {
         type            empty;
-        nFaces          591;
-        startFace       1111;
+        nFaces          6398;
+        startFace       12518;
+    }
+    front
+    {
+        type            empty;
+        nFaces          6398;
+        startFace       18916;
     }
     ingreso
     {
         type            patch;
         nFaces          14;
-        startFace       1702;
+        startFace       25314;
     }
     salida
     {
         type            patch;
         nFaces          2;
-        startFace       1716;
-    }
-    front
-    {
-        type            empty;
-        nFaces          591;
-        startFace       1718;
+        startFace       25328;
     }
     defaultFaces
     {
         type            wall;
-        nFaces          126;
-        startFace       2309;
+        nFaces          534;
+        startFace       25330;
     }
 )
 

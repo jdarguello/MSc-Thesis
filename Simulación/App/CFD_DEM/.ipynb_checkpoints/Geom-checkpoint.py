@@ -4,6 +4,7 @@ import ipywidgets as widgets
 from math import pi, radians, cos, sin, tan, ceil
 import meshio
 import os
+import subprocess
 
 def Rango(minimo=250, maximo=20000):
     rango = widgets.IntRangeSlider(
@@ -56,7 +57,7 @@ def Dibujar(geo, lamela, rango, tipo, e, name ="out.vtk"):
     nom_geo = "Geometry.geo"
     XXX = geo['Altura panel [cm]']/tan(radians(geo['Inclinación [°]']))    #Horizontal panel inclinado
     long_panel = ceil(geo['Altura panel [cm]']/sin(radians(geo['Inclinación [°]']))/(rango[0]/10**4))
-    with open("Referencia.geo", "r") as file:
+    with open("Referencia.geo", "r", encoding="utf-8") as file:
         contenido = ""
         ver = True
         for line in file.readlines():
@@ -69,16 +70,16 @@ def Dibujar(geo, lamela, rango, tipo, e, name ="out.vtk"):
                 if tipo == "No estructurada":
                     line = line.replace("Recombine", "//Recombine")
             contenido += line
-    with open(nom_geo, "w+") as file:
+    with open(nom_geo, "w+", encoding="utf-8", errors = "ignore") as file:
         file.write(contenido)
     
     #Generación de msh
-    os.system("gmsh -3 " + nom_geo + " -o geometria.msh -format msh2")
-    os.system("meshio-convert geometria.msh out.vtk")
+    comandos = ("gmsh -3 " + nom_geo + " -o geometria.msh -format msh2", "meshio-convert geometria.msh out.vtk", "gmsh geometria.msh", "rm -rf " + nom_geo)
+    for comando in comandos:
+        proc = subprocess.run(comando.split(" "))
     
     #Observar vtk
     guardar()
-    os.system("gmsh geometria.msh")
 
 def guardar(file="out.vtk"):
     saved_file = file
