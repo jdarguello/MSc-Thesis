@@ -2,14 +2,14 @@ from IPython.display import display, Markdown
 import os
 
 class Condiciones():
-    def __init__(self, V):
+    def __init__(self, V, dir="./OpenFOAM/"):
         self.imprime(V)
-        self.execute()
-        self.boundary()
-        self.velocidad(V)
+        self.execute(dir)
+        self.boundary(dir)
+        self.velocidad(V, dir)
     
-    def velocidad(self, V):
-        archivo = "0/U_ref"
+    def velocidad(self, V, dir):
+        archivo = dir + "0/U_ref"
         with open(archivo, 'r') as file:
             lineas = file.readlines()
         ya = False
@@ -23,11 +23,11 @@ class Condiciones():
             if ya:
                 linea = linea.replace("VV", str(V))
             info += linea
-        with open("0/U", "w") as file:
+        with open(dir + "0/U", "w") as file:
             file.write(info)
     
-    def boundary(self):
-        archivo = "constant/polyMesh/boundary"
+    def boundary(self, dir):
+        archivo = dir + "constant/polyMesh/boundary"
         with open(archivo, 'r') as file:
             lineas = file.readlines()
         dic = {
@@ -56,8 +56,8 @@ class Condiciones():
         with open(archivo, "w") as file:
             file.write(info)
     
-    def execute(self):
-        os.system("gmshToFoam geometria.msh")
+    def execute(self, dir):
+        os.system("gmshToFoam " + dir + "geometria.msh")
     
     def imprime(self, V):
         msg = """|__Zona__|__Propiedad__|__Valor__|__Tipo__|

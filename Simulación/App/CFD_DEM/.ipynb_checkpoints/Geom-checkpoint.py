@@ -74,7 +74,7 @@ def Dibujar(geo, lamela, rango, tipo, e, name ="out.vtk"):
         file.write(contenido)
     
     #Generación de msh
-    comandos = ("gmsh -3 " + nom_geo + " -o geometria.msh -format msh2", "meshio-convert geometria.msh out.vtk", "gmsh geometria.msh", "rm -rf " + nom_geo)
+    comandos = ("gmsh -3 " + nom_geo + " -o ./OpenFOAM/geometria.msh -format msh2", "meshio-convert geometria.msh out.vtk", "gmsh geometria.msh", "rm -rf " + nom_geo)
     for comando in comandos:
         proc = subprocess.run(comando.split(" "))
     

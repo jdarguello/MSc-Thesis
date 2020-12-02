@@ -3,10 +3,13 @@ import os
 from IPython.display import display, Markdown
 
 class ToFoam():
-    def __init__(self, file="geometria.msh"):
+    def __init__(self, file="./OpenFOAM/geometria.msh"):
         raw = self.bash(file)
         out = self.evaluacion(raw)
-        self.imprime(out)
+        try:
+            self.imprime(out)
+        except:
+            pass
     
     def evaluacion(self, raw):
         bites = raw.split(b'\n')
@@ -16,6 +19,7 @@ class ToFoam():
             frase = ''
             for palabra in linea.decode("utf-8"):
                 frase += palabra
+            print(frase)
             cont = 0
             palabras = frase.split()
             for i in range(len(palabras)):
@@ -62,7 +66,7 @@ class ToFoam():
         
     def bash(self, file):
         root =  os.getcwd() + '/'
-        os.system("gmshToFoam geometria.msh")
+        os.system("gmshToFoam " + file)
         p = subprocess.Popen(["checkMesh"], stdout=subprocess.PIPE, shell=True)
         (output, err) = p.communicate()
         return output
