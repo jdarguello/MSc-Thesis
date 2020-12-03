@@ -31,3 +31,9 @@
 \contentsline {subsection}{\numberline {7.3}Condiciones de frontera}{30}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Desarrollo de la simulaci\'on}{32}{subsection.7.4}%
 \contentsline {subsubsection}{\numberline {7.4.1}CFD}{32}{subsubsection.7.4.1}%
+\contentsline {section}{\numberline {8}Validaci\'on del modelo}{33}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Descripci\'on del problema}{33}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Desarrollo experimental}{34}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Descripci\'on particular}{34}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}M\'etodos experimentales}{36}{subsubsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.3}Resultados}{37}{subsection.8.3}%

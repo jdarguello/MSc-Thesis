@@ -47,7 +47,7 @@ solution
 
 constantProperties
 {
-    rho0            500;
+    rho0            8800;
     youngsModulus   1.3e5;
     poissonsRatio   0.35;
 }
