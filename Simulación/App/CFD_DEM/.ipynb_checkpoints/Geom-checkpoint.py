@@ -74,8 +74,15 @@ def Dibujar(geo, lamela, rango, tipo, e, name ="out.vtk"):
         file.write(contenido)
     
     #Generación de msh
-    comandos = ("gmsh -3 " + nom_geo + " -o ./OpenFOAM/geometria.msh -format msh2", "meshio-convert geometria.msh out.vtk", "gmsh geometria.msh", "rm -rf " + nom_geo)
+    comandos = ("gmsh -3 " + nom_geo + " -o ./OpenFOAM/geometria.msh -format msh2", "meshio-convert ./OpenFOAM/geometria.msh out.vtk", "gmsh ./OpenFOAM/geometria.msh", "rm -rf " + nom_geo)
     for comando in comandos:
+        """
+        if comando == "meshio-convert geometria.msh out.vtk" or comando == "gmsh geometria.msh":
+            #proc = subprocess.run(comando.split(" "), cwd = "./OpenFoam")
+            pass
+        else:
+            proc = subprocess.run(comando.split(" "))
+        """
         proc = subprocess.run(comando.split(" "))
     
     #Observar vtk

@@ -6,6 +6,7 @@
 \usepackage{amssymb}
 \usepackage[pdftex]{graphicx}
 \usepackage{bm}
+%\usepackage{natbib}
 
 
 \usepackage{tikz}
@@ -90,6 +91,10 @@
 \include{Resumen}
 \include{Abstract}
 \setcounter{secnumdepth}{0}
+\include{Intro2}
+\setcounter{secnumdepth}{4}
+\iffalse
+\setcounter{secnumdepth}{0}
 \include{Intro}
 \setcounter{secnumdepth}{4}
 \include{Extraction/MSPD}
@@ -99,6 +104,7 @@
 \include{Sedimentacion}
 \include{Filtrado}
 \include{Modelo}
+\fi
 \include{Valid}
 \bibliography{library}
 \end{document}

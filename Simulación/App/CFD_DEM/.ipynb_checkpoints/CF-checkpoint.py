@@ -2,11 +2,38 @@ from IPython.display import display, Markdown
 import os
 
 class Condiciones():
-    def __init__(self, V, dir="./OpenFOAM/"):
+    def __init__(self, V, dir="OpenFOAM/"):
         self.imprime(V)
         self.execute(dir)
         self.boundary(dir)
         self.velocidad(V, dir)
+        self.deltaT(V, dir)
+    
+    def deltaT(self, V, dir, sub=200, t = 2):
+        archivo = dir + "system/controlDict"
+        with open(archivo, 'r') as file:
+            lineas = file.readlines()
+        info = ""
+        delta = False
+        for linea in lineas:
+            palabras = linea.split(" ")
+            frase = ""
+            for palabra in palabras:
+                if palabra == "deltaT":
+                    delta = True
+                if delta:
+                    try:
+                        float(palabra.replace(";", ""))
+                        palabra = str(t/sub) + ";"
+                        delta = False
+                    except:
+                        pass
+                frase += palabra + ' '
+            info += frase.replace("\n", "")[:-1] + "\n"
+        
+        
+        with open(archivo, 'w') as file:
+            file.write(info)        
     
     def velocidad(self, V, dir):
         archivo = dir + "0/U_ref"
@@ -57,7 +84,9 @@ class Condiciones():
             file.write(info)
     
     def execute(self, dir):
-        os.system("gmshToFoam " + dir + "geometria.msh")
+        os.chdir("OpenFOAM")
+        os.system("gmshToFoam " + "geometria.msh")
+        os.chdir("..")
     
     def imprime(self, V):
         msg = """|__Zona__|__Propiedad__|__Valor__|__Tipo__|

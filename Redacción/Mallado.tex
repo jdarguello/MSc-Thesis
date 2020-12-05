@@ -3,11 +3,11 @@
 \noindent
 \justify
 
-Gran parte del \'exito de las simulaciones num\'ericas recaen en la discretizaci\'on del dominio y en la calidad de los elementos que la componen. Se desarroll\'o una metodolog\'ia de mallado autom\'atico a trav\'es de la librer\'ia \textit{Pygmsh} (basada en Python); la cual toma como variables de entrada las dimensiones de la geometr\'ia definida en la secci\'on \ref{geo}. Esta metodolog\'ia emplea elementos de diferentes rangos de tama\~no de malla, como se puede apreciar en la Figura \ref{rango}.
+Gran parte del \'exito de las simulaciones num\'ericas recaen en la discretizaci\'on del dominio y en la calidad de los elementos que la componen. Se desarroll\'o una metodolog\'ia de mallado autom\'atico con base en el lenguaje \textit{gmsh} tomando como variables de entrada las dimensiones de la geometr\'ia definida en la secci\'on \ref{geo}. Esta metodolog\'ia emplea elementos de diferentes rangos de tama\~no de malla, como se puede apreciar en la Figura \ref{rango} y definir la naturaleza de los elementos (cuadrangulares o triangulares).
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Images/CFDEM/size.PNG}
+	\includegraphics[width=0.5\textwidth]{Images/CFDEM/size.png}
 	\caption{Rango de tama\~no de malla.}
 	\label{rango}
 \end{figure}
@@ -19,7 +19,7 @@ El algoritmo ejecuta, adem\'as, un refinamiento autom\'atico en la zona en donde
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=\textwidth]{Images/CFDEM/malla.PNG}
+	\includegraphics[width=\textwidth]{Images/CFDEM/malla2.png}
 	\caption{Mallado de la geometr\'ia.}
 	\label{malla:geo}
 \end{figure}
@@ -34,8 +34,8 @@ De manera resumida, la malla desarrollada presenta los siguientes datos:
 	\begin{tabular}{|c|c|}
 		\hline
 		\textbf{Par\'ametro} & \textbf{Valor} \\ \hline
-		Tipo de malla & Tetrah\'edrica \\ \hline
-		N\'umero de elementos & 12429 \\ \hline
+		Tipo de malla & Cuadrangular \\ \hline
+		N\'umero de elementos & 17284 \\ \hline
 		N\'umero de nodos & 5894 \\ \hline	
 	\end{tabular}
 	\caption{Datos de la malla generada.}

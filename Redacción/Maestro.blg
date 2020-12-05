@@ -1,82 +1,66 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Maestro.aux
-Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: IEEEtran.bst
-Reallocating 'name_of_file' (item size: 1) to 12 items.
 A level-1 auxiliary file: Portada.aux
-Reallocating 'name_of_file' (item size: 1) to 12 items.
 A level-1 auxiliary file: Resumen.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
-A level-1 auxiliary file: Problema.aux
-Reallocating 'name_of_file' (item size: 1) to 18 items.
-A level-1 auxiliary file: Justificacion.aux
-Reallocating 'name_of_file' (item size: 1) to 10 items.
-A level-1 auxiliary file: Marco.aux
-Reallocating 'name_of_file' (item size: 1) to 9 items.
-A level-1 auxiliary file: Arte.aux
-Reallocating 'name_of_file' (item size: 1) to 15 items.
-A level-1 auxiliary file: HPreguntas.aux
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-A level-1 auxiliary file: Objetivos.aux
-Reallocating 'name_of_file' (item size: 1) to 15 items.
-A level-1 auxiliary file: Resultados.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
-A level-1 auxiliary file: Proyecto.aux
-Reallocating 'name_of_file' (item size: 1) to 8 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
+A level-1 auxiliary file: Abstract.aux
+A level-1 auxiliary file: Intro2.aux
+A level-1 auxiliary file: Valid.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: library.bib
-Warning--I didn't find a database entry for "Alboaid2013"
+Warning--I didn't find a database entry for "Hetsroni1989"
+Warning--I didn't find a database entry for "Gore1991"
+Warning--I didn't find a database entry for "Kulick1994"
+Warning--I didn't find a database entry for "Tsuji1984"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--missing publisher in Liadakis2003
-Warning--missing institution in Proyecto
 
 Done.
-You've used 12 entries,
+You've used 1 entry,
             4087 wiz_defined-function locations,
-            922 strings with 10968 characters,
-and the built_in function-call counts, 9387 in all, are:
-= -- 761
-> -- 237
-< -- 82
-+ -- 128
-- -- 41
-* -- 467
-:= -- 1424
-add.period$ -- 24
-call.type$ -- 12
-change.case$ -- 11
-chr.to.int$ -- 192
-cite$ -- 14
-duplicate$ -- 650
-empty$ -- 699
-format.name$ -- 50
-if$ -- 2152
+            844 strings with 7791 characters,
+and the built_in function-call counts, 953 in all, are:
+= -- 75
+> -- 16
+< -- 9
++ -- 9
+- -- 2
+* -- 63
+:= -- 165
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 1
+chr.to.int$ -- 21
+cite$ -- 1
+duplicate$ -- 57
+empty$ -- 60
+format.name$ -- 3
+if$ -- 196
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 117
-newline$ -- 65
-num.names$ -- 12
-pop$ -- 260
+int.to.str$ -- 1
+missing$ -- 8
+newline$ -- 28
+num.names$ -- 1
+pop$ -- 14
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 709
+skip$ -- 65
 stack$ -- 0
-substring$ -- 459
-swap$ -- 567
-text.length$ -- 18
+substring$ -- 49
+swap$ -- 53
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 12
-warning$ -- 2
-while$ -- 44
-width$ -- 14
-write$ -- 144
-(There were 3 warnings)
+type$ -- 1
+warning$ -- 0
+while$ -- 5
+width$ -- 2
+write$ -- 35
+(There were 4 warnings)

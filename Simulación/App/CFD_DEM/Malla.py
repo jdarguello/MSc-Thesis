@@ -3,26 +3,36 @@ import os
 from IPython.display import display, Markdown
 
 class ToFoam():
-    def __init__(self, file="./OpenFOAM/geometria.msh"):
+    def __init__(self, file="geometria.msh"):
         raw = self.bash(file)
-        out = self.evaluacion(raw)
+        out, fail, crudo = self.evaluacion(raw)
         try:
-            self.imprime(out)
+            if not fail:
+                self.imprime(out)
+            else:
+                display(Markdown("## La __malla__ presenta _no ortogonalidad_ y __no es apta__ para el desarrollo de las simulaciones numéricas."))
+                display(Markdown("__Información en crudo:__"))
+                for frase in crudo:
+                    print(frase)
         except:
             pass
     
     def evaluacion(self, raw):
         bites = raw.split(b'\n')
+        crudo = []
         data = {}
         fin = False
+        fail = False
         for linea in bites:
             frase = ''
             for palabra in linea.decode("utf-8"):
                 frase += palabra
-            print(frase)
+            crudo.append(frase)
             cont = 0
             palabras = frase.split()
             for i in range(len(palabras)):
+                if palabras[i] == "<<Writing" or palabras[i] == "Fail":
+                    fail = True
                 if fin and palabras[i] == "Mesh":
                     data[palabras[i]] = palabras[i+1]
                     fin = False
@@ -46,7 +56,7 @@ class ToFoam():
                                 data[par[1]] = palabras[i+4]
                         except:
                             break
-        return data
+        return data, fail, crudo
     
     def imprime(self, out):
         msg = """|__Parámetro__|__Valor__|
@@ -63,11 +73,22 @@ class ToFoam():
         msg = msg.replace("RES", out['Mesh'])
         
         display(Markdown(msg))
+        skew = out['Max skewness'].split()[0]
+        if float(skew) > 1.0:
+            display(Markdown("La oblicuidad máxima es mayor a 1.0. Se recomienda disminuir el _rango_ del tamaño entre elementos para disminuir este valor."))
+        else:
+            display(Markdown("La malla __es apta__ para el desarrollo de las simulaciones numéricas."))
         
     def bash(self, file):
         root =  os.getcwd() + '/'
-        os.system("gmshToFoam " + file)
+        command = "gmshToFoam " + file
+        os.chdir("OpenFOAM")
+        os.system(command)
+        #p = subprocess.Popen(command.split(" "), stdout=subprocess.PIPE, shell=True)
+        #os.system(command)
         p = subprocess.Popen(["checkMesh"], stdout=subprocess.PIPE, shell=True)
+        p.wait()
         (output, err) = p.communicate()
+        os.chdir("..")
         return output
         
