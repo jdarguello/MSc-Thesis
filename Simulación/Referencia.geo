@@ -1,11 +1,15 @@
 //---Dimensiones---
 D = DD;       //Diámetro interno en m
+L = LLL;      //Largo de la boca
 H = HH;       //Altura zona de lodos
 A = AA;       //Ancho del panel de lamelas
 AL = ALL;      //Ancho de una lamela
 
 Lx = XXX;    //Ancho de una lamela (depende de la inclinación)
 Ly = YYY;    //Altura de una lamela (depende del ángulo)
+
+deltax = DELTA;    //Espacio entre lamelas
+NL = NUML;        //Número de lamelas
 
 mallaMax = malMax;   //Tamaño máximo de malla
 mallaMin = REF;   //Subdivisiones de refinamiento de malla
@@ -16,13 +20,10 @@ espesor = ESP;    //Espesor de la geometría (tamaño de una partícula)
 //Puntos
 Point(1) = {0,0,0, mallaMax};
 Point(2) = {0,-D,0, mallaMax};
-Point(3) = {0.5*D,-D,0, mallaMax};
-Point(4) = {0.5*D,-D-H, 0, mallaMax};
-Point(5) = {0.5*D+A, -D-H,0, mallaMax};
-Point(6) = {0.5*D+A,0,0, mallaMax};
-Point(7) = {0.5*D+A+Lx,Ly,0, mallaMax};
-Point(8) = {0.5*D+A+Lx-AL,Ly,0, mallaMax};
-Point(9) = {0.5*D+A-AL,0,0, mallaMax};
+Point(3) = {L,-D,0, mallaMax};
+Point(4) = {L,-D-H, 0, mallaMax};
+Point(5) = {L+A, -D-H,0, mallaMax};
+Point(6) = {L+A,0,0, mallaMax};
 
 //Líneas
 Line(1) = {1,2};
@@ -30,51 +31,67 @@ Line(2) = {2,3};
 Line(3) = {3,4};
 Line(4) = {4,5};
 Line(5) = {5,6};
-Line(6) = {6,7};
-Line(7) = {7,8};
-Line(8) = {8,9};
-Line(9) = {9,1};
+
+ult = 6;    //Último punto conocido
+xpos = L+A;
+trans[] = {};
+transcont = 0;
+exits[] = {};
+For contador In {0:NL-1}
+    trans[transcont] = ult;
+    transcont++;
+    Point(ult+1) = {xpos+Lx,Ly,0, mallaMax};
+    Line(ult) = {ult, ult+1};
+    ult++;
+    Point(ult+1) = {xpos+Lx-AL,Ly,0, mallaMax};
+    Line(ult) = {ult, ult+1};
+    exits[contador] = ult;
+    ult++;
+    trans[transcont] = ult;
+    transcont++;
+    Point(ult+1) = {xpos-AL,0,0, mallaMax};
+    Line(ult) = {ult, ult+1};
+    ult++;
+    If (NL > 1 && contador < NL-1)
+        Point(ult+1) = {xpos-AL-deltax,0,0, mallaMax};
+        Line(ult) = {ult, ult+1};
+        ult++;
+    EndIf
+    xpos = xpos-AL-deltax;
+EndFor
+
+Line(ult) = {ult, 1};
 
 
-//Mallado
-Line Loop(10) = {1,2,3,4,5,6,7,8,9};
-Plane Surface(11) = {10};
+a[] = {};
+For i In {1:ult}
+    a[i-1] = i;
+EndFor
 
-//Refinamiento de malla
-Transfinite Curve {6, 8} = mallaMin Using Progression 1;
+Line Loop(ult+1) = a[];
+Plane Surface(ult+2) = {ult+1};
 
-Recombine Surface {11};
+Transfinite Curve trans[] = mallaMin Using Progression 1;
 
-Physical Surface("back") = {11};
+Recombine Surface {ult+2};
 
+Physical Surface("back") = {ult+2};
 
-
-//Extrusión
 surfaceVector[] = Extrude {0,0,espesor} {
- Surface{11};
+ Surface{ult+2};
  Layers{1};
  Recombine;
 };
-
-
-/* surfaceVector contains in the following order:
-    [0]	- front surface (opposed to source surface)
-    [1] - extruded volume
-    [2] - bottom surface (belonging to 1st line in "Line Loop (6)")
-    [3] - right surface (belonging to 2nd line in "Line Loop (6)")
-    [4] - top surface (belonging to 3rd line in "Line Loop (6)")
-    [5] - left surface (belonging to 4th line in "Line Loop (6)") */
 
 //Nombre de las superficies!
 Physical Surface("front") = surfaceVector[0];
 Physical Volume("fluid") = surfaceVector[1];
 Physical Surface("ingreso") = surfaceVector[2];
-Physical Surface("salida") = surfaceVector[8];
-//Physical Surface("muro-2") = surfaceVector[3];
-//Physical Surface("muro-3") = surfaceVector[4];
-//Physical Surface("muro-4") = surfaceVector[5];
-//Physical Surface("muro-5") = surfaceVector[6];
-//Physical Surface("muro-6") = surfaceVector[7];
-//Physical Surface("muro-7") = surfaceVector[9];
-//Physical Surface("muro-8") = surfaceVector[10];
-//Physical Surface("muro-9") = surfaceVector[11];
+
+salidas[] = {};
+For i In {0:NL-1}
+    salidas[i] = surfaceVector[exits[i]+1];
+EndFor
+
+Physical Surface("salida") = salidas[];
+//Physical Surface("salida") = surfaceVector[8];

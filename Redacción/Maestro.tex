@@ -15,6 +15,8 @@
 \pgfplotsset{compat=1.5.1}
 \pgfplotsset{width=7cm,compat=1.8}
 \usepackage{xcolor}
+\definecolor{light-gray}{gray}{0.95}
+\newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
 \usetikzlibrary{shapes}
 \usepackage{ifthen}
 \newcommand*{\val}{100}
@@ -83,6 +85,7 @@
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+\usepackage{pstricks,pst-node}
 
 \begin{document}
 \include{Portada}
@@ -90,10 +93,6 @@
 \listoffigures
 \include{Resumen}
 \include{Abstract}
-\setcounter{secnumdepth}{0}
-\include{Intro2}
-\setcounter{secnumdepth}{4}
-\iffalse
 \setcounter{secnumdepth}{0}
 \include{Intro}
 \setcounter{secnumdepth}{4}
@@ -104,7 +103,6 @@
 \include{Sedimentacion}
 \include{Filtrado}
 \include{Modelo}
-\fi
 \include{Valid}
 \bibliography{library}
 \end{document}

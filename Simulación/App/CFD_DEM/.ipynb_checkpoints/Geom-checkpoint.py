@@ -8,7 +8,7 @@ import subprocess
 
 def Rango(minimo=250, maximo=20000):
     rango = widgets.IntRangeSlider(
-        value=[1000, 20000],
+        value=[4000, 20000],
         min=minimo,
         max=maximo,
         step=1,
@@ -35,25 +35,41 @@ def Size():
                                       widgets.FloatText(value=20),
                                       widgets.FloatText(value=30),
                                       widgets.FloatText(value=2.5),
+                                      widgets.FloatText(value=0.5),
+                                      widgets.IntText(value=10),
+                                      widgets.FloatText(value=0.1),
                                       widgets.IntSlider(value=60, max=90)])
     Req.set_title(0, 'Ancho panel [cm]')
     Req.set_title(1, 'Altura panel [cm]')
     Req.set_title(2, 'Largo panel [cm]')
     Req.set_title(3, 'Ancho lamela [cm]')
-    Req.set_title(4, 'Inclinación [°]')
+    Req.set_title(4, 'Distancia entre lamelas [cm]')
+    Req.set_title(5, 'Número de lamelas')
+    Req.set_title(6, 'Espesor [cm]')
+    Req.set_title(7, 'Inclinación [°]')
     return Req
 
-def Malla():
+def Entrada(D_I):
+    Req = widgets.Accordion(children=[widgets.FloatText(value=D_I),
+                                      widgets.FloatText(value=0.5*D_I)])
+    Req.set_title(0, 'Diámetro [m]')
+    Req.set_title(1, 'Longitud [m]')
+    return Req
+
+def Malla(D_I):
     Req = Rango()
     Tam = Size()
+    Ent = Entrada(D_I)
     tab = widgets.Tab()
-    tab.children = [Req, Tam]
+    tab.children = [Req, Tam, Ent]
     tab.set_title(0, 'Malla')
     tab.set_title(1, 'Dimensiones')
+    tab.set_title(2, 'Entrada')
+    
     return tab
 
 
-def Dibujar(geo, lamela, rango, tipo, e, name ="out.vtk"):
+def Dibujar(geo, lamela, rango, tipo, e, entrada, name ="out.vtk"):
     nom_geo = "Geometry.geo"
     XXX = geo['Altura panel [cm]']/tan(radians(geo['Inclinación [°]']))    #Horizontal panel inclinado
     long_panel = ceil(geo['Altura panel [cm]']/sin(radians(geo['Inclinación [°]']))/(rango[0]/10**4))
@@ -64,7 +80,7 @@ def Dibujar(geo, lamela, rango, tipo, e, name ="out.vtk"):
             if line[0:6] == "//---G":
                 ver = False
             if ver:
-                for var in (("DD", geo['DI [m]']), ("HH", geo["Altura panel [cm]"]/100), ("ALL", geo['Ancho lamela [cm]']/100), ("XXX", XXX/100), ("YYY", geo['Altura panel [cm]']/100), ("malMax", rango[1]/10**6), ("REF", long_panel), ("ESP", e/10**6), ("AA", geo['Ancho panel [cm]']/100)):
+                for var in (("DD", entrada[0]), ("LLL", entrada[1]), ("HH", geo["Altura panel [cm]"]/100), ("ALL", geo['Ancho lamela [cm]']/100), ("XXX", XXX/100), ("YYY", geo['Altura panel [cm]']/100), ("malMax", rango[1]/10**6), ("REF", long_panel), ("ESP", geo['Espesor [cm]']/100), ("AA", geo['Ancho panel [cm]']/100), ("DELTA", geo['Distancia entre lamelas [cm]']/100), ("NUML", geo['Número de lamelas'])):
                     line = line.replace(var[0], str(round(var[1], 6)))
             else:
                 if tipo == "No estructurada":
@@ -74,16 +90,16 @@ def Dibujar(geo, lamela, rango, tipo, e, name ="out.vtk"):
         file.write(contenido)
     
     #Generación de msh
-    comandos = ("gmsh -3 " + nom_geo + " -o ./OpenFOAM/geometria.msh -format msh2", "meshio-convert ./OpenFOAM/geometria.msh out.vtk", "gmsh ./OpenFOAM/geometria.msh", "rm -rf " + nom_geo)
-    for comando in comandos:
-        """
-        if comando == "meshio-convert geometria.msh out.vtk" or comando == "gmsh geometria.msh":
-            #proc = subprocess.run(comando.split(" "), cwd = "./OpenFoam")
-            pass
-        else:
-            proc = subprocess.run(comando.split(" "))
-        """
-        proc = subprocess.run(comando.split(" "))
+    primera = True
+    for dir in ("OpenFOAM", "CFD_DEM"):
+        comandos = ("gmsh -3 " + nom_geo + " -o ./" + dir + "/geometria.msh -format msh2", "meshio-convert ./" + dir + "/geometria.msh out.vtk", "gmsh ./" + dir + "/geometria.msh")
+        for comando in comandos:
+            if comando != comandos[-1] or primera: 
+                proc = subprocess.run(comando.split(" "))
+            if comando == comandos[-1] and primera:
+                primera = False
+    comando = "rm -rf " + nom_geo
+    proc = subprocess.run(comando.split(" "))
     
     #Observar vtk
     guardar()

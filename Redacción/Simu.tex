@@ -7,20 +7,46 @@
 
 La simulaci\'on num\'erica a realizar comprende \textbf{dos} m\'etodos num\'ericos: el m\'etodo de \textit{vol\'umenes finitos} (FVM, por sus siglas en ingl\'es), con el cual se predice el comportamiento fluidodin\'amico dentro del volumen de control, y el m\'etodo de \textit{elementos discretos} (DEM, por sus siglas en ingl\'es) con el que se predice el comportamiento din\'amico de las part\'iculas s\'olidas y su interacci\'on con el solvente.
 
-\subsubsection{CFD}
+\subsubsection{CFD} \label{CFD:problema}
 
 \noindent
 \justify
 
-La \textit{Din\'amica de Fluidos Computacional} (CFD) es una herramienta computacional ampliamente usada en ingenier\'ia para el desarrollo de simulaciones num\'ericas que involucren fluidos. Emplea como m\'etodo base el m\'etodo de vol\'umenes finitos (FVM). Este m\'etodo num\'erico transforma las ecuaciones diferenciales parciales, que representan las leyes conservativas, en ecuaciones algebraicas discretas sobre vol\'umenes finitos.
+La \textit{Din\'amica de Fluidos Computacional} (CFD) es una herramienta ampliamente usada en ingenier\'ia para el desarrollo de simulaciones num\'ericas que involucren fluidos. Emplea como m\'etodo base el m\'etodo de vol\'umenes finitos (FVM). Este m\'etodo num\'erico transforma las ecuaciones diferenciales parciales, que representan las leyes conservativas, en ecuaciones algebraicas discretas sobre vol\'umenes finitos.
 
 \noindent
 \justify
 
-Al tratarse de un problema \textit{bidimensional transitorio}, matem\'aticamente hablando se trata de lo siguiente:
+Desde un punto de vista de \textit{mec\'anica de fluidos computacional}, el presente problema busca estudiar un flujo con las siguientes caracter\'isticas:
+
+\begin{itemize}
+	\item Laminar.
+	\item Incompresible.
+	\item Transitorio.
+	\item Fluido newtoniano.
+\end{itemize}
+
+\noindent
+\justify
+
+Trat\'andose, adem\'as, de un problema \textit{bidimensional}, que matem\'aticamente hablando se refiere a lo siguiente:
 
 \begin{equation}
     \underbrace{\rho \frac{\partial \phi}{\partial t}}_{\text{transitorio}} + \underbrace{\rho u \frac{\partial \phi}{\partial x} + \rho v \frac{\partial \phi}{\partial y}}_{\text{convectivo}} = \underbrace{ \frac{\partial}{\partial x} \left( \Gamma \frac{\partial \phi}{\partial x} \right) + \frac{\partial}{\partial y} \left( \Gamma \frac{\partial \phi}{\partial y} \right)}_{\text{difusivo}} + \underbrace{S_{\phi}}_{\text{fuente}}
     \tag{9}
     \label{2D}
 \end{equation}
+
+\noindent
+\justify
+
+De la gama de solucionadores est\'andar que maneja OpenFOAM, existen dos que pueden resolver el sistema de ecuaciones de la Ecuaci\'on \ref{2D}: \texttt{icoFoam} y \texttt{pimpleFoam}. Para la soluci\'on del modelo CFD-DEM, se seleccion\'o un solucionador basado en \textit{pimpleFoam} debido a que existe la posibilidad de generaci\'on de turbulencia a ciertas velocidades de flujo del sistema en la interacci\'on fluido-part\'icula.
+
+\noindent
+\justify
+
+La l\'ogica de soluci\'on detr\'as de \texttt{pimpleFoam} se puede apreciar en la Figura \ref{pimpleLog}.
+
+\input{pimpleLogic}
+
+\input{CD}

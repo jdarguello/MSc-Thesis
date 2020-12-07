@@ -3,14 +3,7 @@
 \noindent
 \justify
 
-Gran parte del \'exito de las simulaciones num\'ericas recaen en la discretizaci\'on del dominio y en la calidad de los elementos que la componen. Se desarroll\'o una metodolog\'ia de mallado autom\'atico con base en el lenguaje \textit{gmsh} tomando como variables de entrada las dimensiones de la geometr\'ia definida en la secci\'on \ref{geo}. Esta metodolog\'ia emplea elementos de diferentes rangos de tama\~no de malla, como se puede apreciar en la Figura \ref{rango} y definir la naturaleza de los elementos (cuadrangulares o triangulares).
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.5\textwidth]{Images/CFDEM/size.png}
-	\caption{Rango de tama\~no de malla.}
-	\label{rango}
-\end{figure}
+Gran parte del \'exito de las simulaciones num\'ericas recaen en la discretizaci\'on del dominio y en la calidad de los elementos que la componen. Se desarroll\'o una metodolog\'ia de mallado autom\'atico con base en el lenguaje \textit{gmsh} tomando como variables de entrada las dimensiones de la geometr\'ia definida en la secci\'on \ref{geo}. Esta metodolog\'ia emplea elementos de diferentes tama\~nos y permite tambi\'en definir su naturaleza (rectangulares o triangulares).
 
 \noindent
 \justify
@@ -24,10 +17,12 @@ El algoritmo ejecuta, adem\'as, un refinamiento autom\'atico en la zona en donde
 	\label{malla:geo}
 \end{figure}
 
+\newpage
+
 \noindent
 \justify
 
-De manera resumida, la malla desarrollada presenta los siguientes datos:
+La malla mostrada en la Figura \ref{malla:geo} presenta las siguientes caracter\'isticas:
 
 \begin{table}[h!]
 	\centering
@@ -35,9 +30,33 @@ De manera resumida, la malla desarrollada presenta los siguientes datos:
 		\hline
 		\textbf{Par\'ametro} & \textbf{Valor} \\ \hline
 		Tipo de malla & Cuadrangular \\ \hline
-		N\'umero de elementos & 17284 \\ \hline
-		N\'umero de nodos & 5894 \\ \hline	
+		N\'umero de elementos & 12861 \\ \hline
+		N\'umero de nodos & 8954 \\ \hline	
 	\end{tabular}
 	\caption{Datos de la malla generada.}
 	\label{malla}
 \end{table}
+
+\noindent
+\justify
+
+Al emplear el m\'etodo \texttt{checkMesh} de OpenFOAM para el an\'alisis preliminar de malla, se obtienen los siguientes resultados:
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Par\'ametro} & \textbf{Valor} \\ \hline
+		Apertura \textit{m\'axima} entre elementos & 9.54 \\ \hline
+		Checkeo de \textit{no} ortogonalidad & OK \\ \hline
+		Oblicuidad m\'axima & 0.79 OK \\ \hline
+		Conclusi\'on de malla & OK \\ \hline
+	\end{tabular}
+	\caption{Resumen de resultados sobre el checkeo de malla.}
+	\label{check}
+\end{table}
+
+\noindent
+\justify
+
+A partir de los resultados mostrados en el Cuadro \ref{check}, se concluye que la malla es \'optima para el desarrollo de las simulaciones num\'ericas consecutivas.

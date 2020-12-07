@@ -3,19 +3,20 @@ import os
 from IPython.display import display, Markdown
 
 class ToFoam():
-    def __init__(self, file="geometria.msh"):
-        raw = self.bash(file)
+    def __init__(self, file="geometria.msh", dir="OpenFOAM", imprime=True):
+        raw = self.bash(file, dir)
         out, fail, crudo = self.evaluacion(raw)
-        try:
-            if not fail:
-                self.imprime(out)
-            else:
-                display(Markdown("## La __malla__ presenta _no ortogonalidad_ y __no es apta__ para el desarrollo de las simulaciones numéricas."))
-                display(Markdown("__Información en crudo:__"))
-                for frase in crudo:
-                    print(frase)
-        except:
-            pass
+        if imprime:
+            try:
+                if not fail:
+                    self.imprime(out)
+                else:
+                    display(Markdown("## La __malla__ presenta _no ortogonalidad_ y __no es apta__ para el desarrollo de las simulaciones numéricas."))
+                    display(Markdown("__Información en crudo:__"))
+                    for frase in crudo:
+                        print(frase)
+            except:
+                pass
     
     def evaluacion(self, raw):
         bites = raw.split(b'\n')
@@ -79,10 +80,10 @@ class ToFoam():
         else:
             display(Markdown("La malla __es apta__ para el desarrollo de las simulaciones numéricas."))
         
-    def bash(self, file):
+    def bash(self, file, dir):
         root =  os.getcwd() + '/'
         command = "gmshToFoam " + file
-        os.chdir("OpenFOAM")
+        os.chdir(dir)
         os.system(command)
         #p = subprocess.Popen(command.split(" "), stdout=subprocess.PIPE, shell=True)
         #os.system(command)

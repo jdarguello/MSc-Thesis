@@ -1,0 +1,43 @@
+% Define block styles
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+       text width=7em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+       text width=7em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,
+       minimum height=2em]
+\tikzstyle{blockTwo} = [rectangle, draw, fill=blue!20, 
+       text width=3em, text centered, rounded corners, minimum height=4em]
+
+\begin{figure}
+\centering
+\begin{tikzpicture}[node distance = 2cm, auto]
+       % Place nodes
+       \node [blockTwo] (init) {Inicio};
+       \node [cloud, left of=init] (expert) {Datos};
+       \node [decision, below of=init] (decide) {?`$t = t_{final}$?};
+       \node [blockTwo, right of=decide, node distance=4cm] (update) {Fin};
+       \node [block, below of=decide, node distance=3cm] (ecu) {$t = t + \Delta t$};
+       \node [block, below of=ecu, node distance=2.5cm] (momento) {Resolver ecuaciones de momento};
+       \node [block, below of=momento, node distance=2.5cm] (presion) {Resolver ecuaci\'on de presi\'on};
+       \node [block, below of=presion, node distance=2.5cm] (vel) {Corregir campo de velocidades};
+       \node [block, below of=vel, node distance=2.5cm] (res) {Resolver sistema de ecuaciones};
+       
+       \draw (-1.58,-16) -- (-2.5,-16) -- (-2.5, -3) -- (-1.58,-3);
+       
+       %\node [left of=decide, node distance = 2.5cm] (intermedio)
+       % Draw edges
+       \path [line] (init) -- (decide);
+       \path [line] (decide) -- node {s\'i} (update);
+       %\path [line] (update) |- (identify);
+       \path [line] (decide) -- node {no}(ecu);
+       \path [line] (ecu) -- (momento);
+       \path [line] (momento) -- (presion);
+       \path [line] (presion) -- (vel);
+       \path [line] (vel) -- (res);
+       \path [line,dashed] (expert) -- (init);
+       %\path [line] (res.west) -- (decide.west);
+\end{tikzpicture}
+\caption{Diagrama de flujo del solucionador \texttt{pimpleFoam}.}
+\label{pimpleLog}
+\end{figure}

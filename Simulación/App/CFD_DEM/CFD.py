@@ -1,8 +1,25 @@
 import subprocess
 import os
+import shutil as sh
+from IPython.display import Markdown, display
+
+def clean(dir="OpenFOAM"):
+    clasicas = ("0", "constant", "system", "geometria.msh")
+    for file in os.listdir(dir):
+        delete = True
+        for carpeta in clasicas:
+            if carpeta == file:
+                delete = False
+        if delete:
+            d = dir + '/' + file
+            try:
+                os.remove(d)
+            except:
+                sh.rmtree(d)
 
 class FOAM():
-    def __init__(self):
+    def __init__(self):       
+        clean()
         raw = self.fire()
         self.imprime(raw)
         self.view()
@@ -11,6 +28,7 @@ class FOAM():
         p = subprocess.run("paraFoam", cwd="OpenFOAM")
     
     def imprime(self, raw):
+        display(Markdown("__Información en crudo:__"))
         def decompose(info):
             bites = raw[0].split(b'\n')
             for linea in bites:
@@ -24,7 +42,6 @@ class FOAM():
         os.chdir("OpenFOAM")
         #os.system("icoFoam")
         p = subprocess.Popen(["icoFoam"], stdout=subprocess.PIPE, shell=True)
-        p.wait()
         os.chdir("..")
         (output, err) = p.communicate()
         return output, err

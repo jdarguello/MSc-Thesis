@@ -1,9 +1,13 @@
 from IPython.display import display, Markdown
 import os
+from math import pi
 
 class Condiciones():
-    def __init__(self, V, dir="OpenFOAM/"):
-        self.imprime(V)
+    def __init__(self, Q, D, dir="OpenFOAM/", imprime= True):
+        A = pi*(D/2)**2
+        V = Q/A
+        if imprime:
+            self.imprime(V)
         self.execute(dir)
         self.boundary(dir)
         self.velocidad(V, dir)
