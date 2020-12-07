@@ -1,40 +1,46 @@
 \babel@toc {spanish}{}
-\contentsline {section}{Introducci\'on}{5}{section*.5}%
-\contentsline {section}{\numberline {1}M\'etodo MSPD}{6}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Factores a considerar en la extracci\'on MSPD}{7}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Extracci\'on en fase s\'olida}{7}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Prototipo a escala}{8}{subsection.1.3}%
-\contentsline {section}{\numberline {2}CFD}{9}{section.2}%
-\contentsline {subsection}{\numberline {2.1}An\'alisis unidimensional estacionario - 1D}{11}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}\textit {Solvers}}{13}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Metodolog\'ias de verificaci\'on y validaci\'on}{13}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}An\'alisis bidimensional estacionario - 2D}{14}{subsection.2.4}%
-\contentsline {section}{\numberline {3}DEM}{15}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Detecci\'on de una colici\'on}{16}{subsection.3.1}%
-\contentsline {section}{\numberline {4}CFD-DEM}{17}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Fase del solvente}{17}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Sedimentaci\'on}{19}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Sedimentaci\'on con coagulantes}{19}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Sedimentadores de \textit {placas paralelas}}{19}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Turbiedad}{20}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Etapa de eluci\'on y filtrado}{22}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Naturaleza del flujo}{22}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Par\'ametros operacionales}{23}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Dimensionamiento}{24}{subsection.6.3}%
-\contentsline {subsubsection}{\numberline {6.3.1}Panel de lamelas}{25}{subsubsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.4}M\'etodo de Hazen $\rightarrow $ tiempo de sedimentaci\'on}{26}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Tama\~no de part\'icula m\'inima}{26}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Resultados}{27}{subsection.6.6}%
-\contentsline {section}{\numberline {7}Modelo CFD-DEM}{28}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Geometr\'ia}{28}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Mallado}{29}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Condiciones de frontera}{31}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Desarrollo de la simulaci\'on}{33}{subsection.7.4}%
-\contentsline {subsubsection}{\numberline {7.4.1}CFD}{33}{subsubsection.7.4.1}%
-\contentsline {subsubsection}{\numberline {7.4.2}CFD-DEM}{35}{subsubsection.7.4.2}%
-\contentsline {section}{\numberline {8}Validaci\'on del modelo}{36}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Descripci\'on del problema}{36}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Desarrollo experimental}{37}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Descripci\'on particular}{37}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}M\'etodos experimentales}{39}{subsubsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.3}Resultados}{40}{subsection.8.3}%
+\contentsline {section}{Introducci\'on}{6}{section*.5}%
+\contentsline {section}{\numberline {1}M\'etodo MSPD}{7}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Factores a considerar en la extracci\'on MSPD}{8}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Extracci\'on en fase s\'olida}{8}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Prototipo a escala}{9}{subsection.1.3}%
+\contentsline {section}{\numberline {2}CFD}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}An\'alisis unidimensional estacionario - 1D}{12}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}\textit {Solvers}}{14}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Metodolog\'ias de verificaci\'on y validaci\'on}{14}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}An\'alisis bidimensional estacionario - 2D}{15}{subsection.2.4}%
+\contentsline {section}{\numberline {3}DEM}{16}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Detecci\'on de una colici\'on}{17}{subsection.3.1}%
+\contentsline {section}{\numberline {4}CFD-DEM}{18}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fase del solvente}{18}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Sedimentaci\'on}{20}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Sedimentaci\'on con coagulantes}{20}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Sedimentadores de \textit {placas paralelas}}{20}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Turbiedad}{21}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Etapa de eluci\'on y filtrado}{23}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Naturaleza del flujo}{23}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Par\'ametros operacionales}{24}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Dimensionamiento}{25}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Panel de lamelas}{26}{subsubsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.4}M\'etodo de Hazen $\rightarrow $ tiempo de sedimentaci\'on}{27}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Tama\~no de part\'icula m\'inima}{27}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Resultados}{28}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Modelo CFD-DEM}{29}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Geometr\'ia}{29}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Mallado}{30}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Condiciones de frontera}{32}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Desarrollo de la simulaci\'on}{34}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}CFD}{34}{subsubsection.7.4.1}%
+\contentsline {paragraph}{\numberline {7.4.1.1}Resultados}{36}{paragraph.7.4.1.1}%
+\contentsline {paragraph}{\numberline {7.4.1.2}An\'alisis de resultados}{37}{paragraph.7.4.1.2}%
+\contentsline {subsubsection}{\numberline {7.4.2}CFD-DEM}{37}{subsubsection.7.4.2}%
+\contentsline {paragraph}{\numberline {7.4.2.1}Planteamiento num\'erico}{38}{paragraph.7.4.2.1}%
+\contentsline {paragraph}{\numberline {7.4.2.2}Resultados}{40}{paragraph.7.4.2.2}%
+\contentsline {paragraph}{\numberline {7.4.2.3}An\'alisis de resultados}{42}{paragraph.7.4.2.3}%
+\contentsline {section}{\numberline {8}Validaci\'on del modelo}{43}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Descripci\'on del problema}{43}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Desarrollo experimental}{44}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Descripci\'on particular}{44}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}M\'etodos experimentales}{46}{subsubsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.3}Resultados}{47}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Conclusiones}{50}{section.9}%

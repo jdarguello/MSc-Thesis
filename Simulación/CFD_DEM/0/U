@@ -28,7 +28,7 @@ boundaryField
     ingreso
     {
         type            fixedValue;
-        value           uniform (0.015 0 0);
+        value           uniform (0.0097 0 0);
     }
 
     salida

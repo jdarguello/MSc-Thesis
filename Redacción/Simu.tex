@@ -49,4 +49,47 @@ La l\'ogica de soluci\'on detr\'as de \texttt{pimpleFoam} se puede apreciar en l
 
 \input{pimpleLogic}
 
+\newpage
+
+\paragraph{Resultados} \label{CFD:resultados}
+
+\noindent
+\justify
+
+Los resultados de la simulaci\'on num\'erica mediante el m\'etodo de \textit{vol\'umenes finitos} se puede apreciar en las Figuras \ref{CFD:vel} y \ref{CFD:p}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.35\textwidth]{Images/CFD/vel.png}
+	\caption{Diagrama de contorno de la distribuci\'on de velocidades del sistema de sedimentaci\'on.}
+	\label{CFD:vel}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.35\textwidth]{Images/CFD/p.png}
+	\caption{Diagrama de contorno de la distribuci\'on de presiones del sistema de sedimentaci\'on.}
+	\label{CFD:p}
+\end{figure}
+
+\paragraph{An\'alisis de resultados}
+
+\noindent
+\justify
+
+La simulaci\'on num\'erica, desarrollada en OpenFOAM, encontr\'o su punto de equilibrio (punto \textit{estacionario}) al cabo de ocho segundos de simulaci\'on; cuyos resultados, en t\'erminos de velocidad y presi\'on, pueden apreciarse en las Figuras \ref{CFD:vel} y \ref{CFD:p}, respectivamente.
+
+\noindent
+\justify
+
+En la Figura \ref{CFD:vel} se observa un valor de velocidad m\'axima de $0.0021 [m/s]$ que es alcanzada en la primera lamela y decrece en las lamelas consecuentes hasta un valor cercano de $0.0015 [m/s]$; fen\'omeno f\'isico que va acorde a la realidad por tratarse de flujos en serie.
+
+\noindent
+\justify
+
+En la Figura \ref{CFD:p} se puede apreciar el perfil de presiones sobre el sistema; en donde se presenta un comportamiento uniforme y sim\'etrico alcanzando un valor de presi\'on m\'axima de hasta $0.000012 [kPa]$. Como era de esperarse, las condiciones de frontera establecidas en la secci\'on \ref{CondF} fueron respetadas: en la salida del flujo se aprecia una presi\'on de $0$ (atmosf\'erica) y la velocidad de flujo en la entrada es de $0.00097 [m/s]$.
+
 \input{CD}
+
+
+

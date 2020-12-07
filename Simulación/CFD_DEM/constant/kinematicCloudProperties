@@ -73,14 +73,14 @@ subModels
 	{
             type             patchInjection;
             patchName        ingreso;
-            duration         60;
+            duration         27;
 	    parcelsPerSecond 16000;
             massTotal        0;
             parcelBasisType  fixed;
             flowRateProfile  constant 1;
             nParticle        1;
             SOI              0.4;
-            U0               (0.015 0 0);
+            U0               (0.0097 0 0);
             sizeDistribution
             {
                 type        fixedValue;
