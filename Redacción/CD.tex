@@ -8,12 +8,12 @@ El acoplamiento entre CFD \textit{(``Computational Fluid Dynamics")} y DEM \text
 \noindent
 \justify
 
-La tasa de part\'iculas debido a la sedimentaci\'on, a trav\'es de canales inclinados, ha sido ampliamente estudiado debido al reconocido \textit{efecto Boycott}$^{\cite{Boycott}}$. Este fen\'omeno se produce por el incremento en el \'area efectiva de sedimentaci\'on debido a la presencia de placas inclinadas$^{\cite{Boycott2}}$. Acrivos \textit{et al.} han desarrollado una serie de planteamientos te\'oricos y experimentales entre la tasa de sedimentaci\'on de part\'iculas y el \'area efectiva de sedimentaci\'on. El efecto Boycott ha sido aplicado con \'exito en diversos procesos industriales para la remoci\'on de part\'iculas en lecho de fluidizado a trav\'es del asentamiento gravitacional; entre los principales ejemplos de este hecho se encuentran: tratamientos de aguas residuales$^{\cite{aguares}}$ y procesos de filtrado de agua$^{\cite{aguafil}}$.
+La tasa de part\'iculas debido a la sedimentaci\'on, a trav\'es de canales inclinados, ha sido ampliamente estudiado debido al reconocido \textit{efecto Boycott}$^{\cite{Xu2005}}$. Este fen\'omeno se produce por el incremento en el \'area efectiva de sedimentaci\'on debido a la presencia de placas inclinadas$^{\cite{Galvin2002}}$. Acrivos \textit{et al.} han desarrollado una serie de planteamientos te\'oricos y experimentales entre la tasa de sedimentaci\'on de part\'iculas y el \'area efectiva de sedimentaci\'on. El efecto Boycott ha sido aplicado con \'exito en diversos procesos industriales para la remoci\'on de part\'iculas en lecho de fluidizado a trav\'es del asentamiento gravitacional; entre los principales ejemplos de este hecho se encuentran: tratamientos de aguas residuales y procesos de filtrado de agua.
 
 \noindent
 \justify
 
-El acercamiento experimental para la investigaci\'on caracter\'istica de part\'iculas en suspenci\'on a alta concentraci\'on ha demostrado ser una experiencia retadora debido a las limitantes instrumentales y t\'ecnicas de medici\'on$^{\cite{articulo}}$. Los modelos num\'ericos basados en CFD han demostrado ser una herramienta poderosa y promisoria que provee informaci\'on detallada y precisa sobre las caracter\'isticas locales del flujo particulado. Normalmente, se han aplicado dos enfoques generales en la literatura para resolver problemas que involucran flujo particulado: \textit{Eulerian - Eulerian} (E-E) y \textit{Eulerian - Lagrange} (E-L). En el enfoque E-E, las fases s\'olida y fluida son interpretadas de manera continua en donde comparten el mismo grupo de ecuaciones gobernantes. Doroodchi \textit{et al.}$^{\cite{ref1}}$ emplearon el modelo E-E para investigar la influencia de las placas inclinadas y el efecto expansivo de s\'olidos en suspensi\'on en camas de lecho fluidizado; obteniendo resultados prometedores tanto en la parte experimental como num\'erica. Salem \textit{et al} $^{\cite{ref2}}$ desarrollaron un modelamiento en CFD empleando el modelo E-E para evaluar las caracter\'isticas hidr\'aulicas de un sedimentador de placas hidr\'aulicas (IPS, por sus siglas en ingl\'es); demostrando el importante rol que cumplen las herramientas computacionales en el estudio de los sistemas de sedimentaci\'on. Sin embargo, el tratamiento de la fase s\'olida de manera continua va en contra de la naturaleza discreta de las part\'iculas s\'olidas, y todav\'ia m\'as importante: el acercamiento a trav\'es de E-E carece de facultades num\'ericas para revelar informaci\'on importante referente a la escala particular.
+El acercamiento experimental para la investigaci\'on caracter\'istica de part\'iculas en suspenci\'on a alta concentraci\'on ha demostrado ser una experiencia retadora debido a las limitantes instrumentales y t\'ecnicas de medici\'on$^{\cite{Galvin2002}}$. Los modelos num\'ericos basados en CFD han demostrado ser una herramienta poderosa y promisoria que provee informaci\'on detallada y precisa sobre las caracter\'isticas locales del flujo particulado. Normalmente, se han aplicado dos enfoques generales en la literatura para resolver problemas que involucran flujo particulado: \textit{Eulerian - Eulerian} (E-E) y \textit{Eulerian - Lagrange} (E-L). En el enfoque E-E, las fases s\'olida y fluida son interpretadas de manera continua en donde comparten el mismo grupo de ecuaciones gobernantes. Doroodchi \textit{et al.}$^{\cite{Doroodchi2005}}$ emplearon el modelo E-E para investigar la influencia de las placas inclinadas y el efecto expansivo de s\'olidos en suspensi\'on en camas de lecho fluidizado; obteniendo resultados prometedores tanto en la parte experimental como num\'erica. Salem \textit{et al} $^{\cite{Salem2011}}$ desarrollaron un modelamiento en CFD empleando el modelo E-E para evaluar las caracter\'isticas hidr\'aulicas de un sedimentador de placas hidr\'aulicas (IPS, por sus siglas en ingl\'es); demostrando el importante rol que cumplen las herramientas computacionales en el estudio de los sistemas de sedimentaci\'on. Sin embargo, el tratamiento de la fase s\'olida de manera continua va en contra de la naturaleza discreta de las part\'iculas s\'olidas, y todav\'ia m\'as importante: el acercamiento a trav\'es de E-E carece de facultades num\'ericas para revelar informaci\'on importante referente a la escala particular.
 
 \noindent
 \justify
@@ -25,7 +25,7 @@ El enfoque otorgado por el modelo E-L, por otro lado, adopta la teor\'ia continu
 \noindent
 \justify
 
-El flujo del modelo CFD-DEM se resuelve a trav\'es de las ecuaciones de momento, continuidad y a trav\'es de las ecuaciones de movimiento de cada part\'icula individual, seguidas a trav\'es del m\'etodo de elementos discretos. Se consideraron los efectos e interacciones entre part\'icula-part\'icula (ver Figura \ref{particula}), part\'icula-fluido y part\'icula-muro. Las ecuaciones gobernantes y la metodolog\'ia num\'erica empleada se describe brevemente a continuaci\'on.
+El flujo del modelo CFD-DEM se resuelve a trav\'es de las ecuaciones de momento, continuidad y a trav\'es de las ecuaciones de movimiento de cada part\'icula individual, seguidas a trav\'es del m\'etodo de elementos discretos$^{\cite{Peng2014}}$. Se consideraron los efectos e interacciones entre part\'icula-part\'icula (ver Figura \ref{particula}), part\'icula-fluido y part\'icula-muro. Las ecuaciones gobernantes y la metodolog\'ia num\'erica empleada se describe brevemente a continuaci\'on.
 
 \begin{figure}[h!]
 	\centering
@@ -105,7 +105,7 @@ La fuerza de arrastre $F_{d,i}$ del fluido, de la Ecuaci\'on \ref{ffi}, se resue
 	F_{d,i} = \frac{V_i}{1 - \epsilon} \beta \left( u_L - v_i \right)
 \end{equation}
 
-\paragraph{Resultados}
+\paragraph{Resultados} \label{CFDEM:resultados}
 
 \noindent
 \justify
@@ -179,22 +179,17 @@ Durante la simulaci\'on, en el que se analizaron $30 [s]$, se apreci\'o el desar
 
 \newpage
 
-\paragraph{An\'alisis de resultados}
+\paragraph{An\'alisis de resultados} \label{CFDEM:analisis}
 
 \noindent
 \justify
 
-Comparando las Figuras \ref{CFD:vel} y \ref{CFDEM:vel}, se puede apreciar c\'omo el solvente cambia la distribuci\'on de velocidades por la sedimentaci\'on sufrida por las part\'iculas de arena, cuya densidad es mayor que la del fluido circundante; raz\'on por la que el solvente tiende a moverse con mayor velocidad en las \'ultimas lamelas en lugar de las primeras, a diferencia de lo observado en la secci\'on \ref{CFD:resultados}.
+Comparando las Figuras \ref{CFD:vel} y \ref{CFDEM:vel}, se puede apreciar c\'omo el solvente cambia la distribuci\'on de velocidades por la sedimentaci\'on sufrida por las part\'iculas de arena, cuya densidad es mayor que la del fluido circundante; raz\'on por la que el solvente tiende a moverse con mayor velocidad en las \'ultimas lamelas en lugar de las primeras, a diferencia de lo observado en la secci\'on \ref{CFD:resultados}. Debido a ello, es posible clasificar a las lamelas por zonas de \textit{``pureza"} durante el proceso de separaci\'on: en donde las primeras seis presentan menor concentrac\'on particular que las \'ultimas cuatro.
 
 \noindent
 \justify
 
-Diferente al fen\'omeno apreciado en la Figura \ref{CFD:p}, la distribuci\'on de presiones en la Figura \ref{CFDEM:p} no es sim\'etrica y tiende presentar sus m\'aximos valores en la zona de congregaci\'on de los sedimentos.
-
-\noindent
-\justify
-
-La presencia de v\'ortices y remolinos en la simulaci\'on CFD-DEM rectifica la decisi\'on de haber empleado un solucionador basado en \texttt{pimpleFoam}, el cual se adapt\'o para resolver el problema \textit{Euler - Lagrange} (E - L).
+Diferente al fen\'omeno apreciado en la Figura \ref{CFD:p}, la distribuci\'on de presiones en la Figura \ref{CFDEM:p} no es sim\'etrica y tiende a presentar sus m\'aximos valores en la zona de congregaci\'on de los sedimentos.
 
 \begin{figure}[h!]
 	\centering
@@ -206,4 +201,4 @@ La presencia de v\'ortices y remolinos en la simulaci\'on CFD-DEM rectifica la d
 \noindent
 \justify
 
-De la Figura \ref{CFDEM:residuals}, la l\'inea morada corresponde al residual de la presi\'on, la de color cian al residual de la velocidad en $y$ y la de color verde al residual de la velocidad en $x$. El comportamiento de los residuales est\'a directamente relacionado con la magnitud de los errores en la soluci\'on de las ecuaciones gobernantes. Debido al hecho de que tienden a aglomerarse en valores cercanos a cero, son un indicativo de alta precisi\'on del modelo num\'erico implementado. Las variaciones vistas en los residuales de presi\'on se deben a la vorticidad originada por los reflujos consecuentes a la interacci\'on fluido - part\'icula. Durante la simulaci\'on, se observ\'o una estabilizaci\'on en los perfiles de velocidad; raz\'on por la que los residuales $U_x$ y $U_y$ presentan un comportamiento \textit{``suave"} y con peque\~nas variaciones durante el desarrollo del flujo dentro del volumen de control.
+De la Figura \ref{CFDEM:residuals}, la l\'inea morada corresponde al residual de la presi\'on, la de color cian al residual de la velocidad en $y$ y la de color verde al residual de la velocidad en $x$. El comportamiento de los residuales est\'a directamente relacionado con la magnitud de los errores en la soluci\'on de las ecuaciones gobernantes$^{\cite{Liang2018}}$. Debido al hecho de que tienden a aglomerarse en valores cercanos a cero, son un indicativo de alta precisi\'on del modelo num\'erico implementado. Las variaciones vistas en los residuales de presi\'on se deben a la vorticidad originada por los reflujos consecuentes a la interacci\'on fluido - part\'icula. Durante la simulaci\'on, se observ\'o una estabilizaci\'on en los perfiles de velocidad; raz\'on por la que los residuales $U_x$ y $U_y$ presentan un comportamiento sin fluctuaciones y con peque\~nas variaciones durante el desarrollo del flujo dentro del volumen de control.

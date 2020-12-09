@@ -95,6 +95,64 @@ J.~Vieira, R.~Mantovani, M.~Raposo, M.~Coimbra, A.~Vicente, and R.~Cunha,
   \url{https://www.sciencedirect.com/science/article/pii/S0144861719302206}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Abou-Hweij2020}
+W.~Abou-Hweij and F.~Azizi, ``{CFD simulation of wall-bounded laminar flow
+  through screens. Part I: Hydrodynamic characterization},'' \emph{European
+  Journal of Mechanics, B/Fluids}, vol.~84, pp. 207--232, nov 2020.
+
+\bibitem{Bao2021}
+H.~Bao, J.~Feng, N.~Dinh, and H.~Zhang, ``{Deep learning interfacial momentum
+  closures in coarse-mesh CFD two-phase flow simulation using validation
+  data},'' \emph{International Journal of Multiphase Flow}, vol. 135, p.
+  103489, feb 2021.
+
+\bibitem{Roda-Casanova2021}
+\BIBentryALTinterwordspacing
+V.~Roda-Casanova and F.~Sanchez-Marin, ``{A simple procedure for generating
+  locally refined 2D quadrilateral finite element meshes of gears},''
+  \emph{Mechanism and Machine Theory}, vol. 157, p. 104185, mar 2021. [Online].
+  Available:
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0094114X2030402X}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Xu2005}
+Z.~J. Xu and E.~E. Michaelides, ``{A numerical simulation of the Boycott
+  effect},'' \emph{Chemical Engineering Communications}, vol. 192, no. 4-6, pp.
+  532--549, apr 2005.
+
+\bibitem{Galvin2002}
+K.~P. Galvin and G.~Nguyentranlam, ``{Influence of parallel inclined plates in
+  a liquid fluidized bed system},'' \emph{Chemical Engineering Science},
+  vol.~57, no.~7, pp. 1231--1234, mar 2002.
+
+\bibitem{Doroodchi2005}
+E.~Doroodchi, K.~P. Galvin, and D.~F. Fletcher, ``{The influence of inclined
+  plates on expansion behaviour of solid suspensions in a liquid fluidised bed
+  - A computational fluid dynamics study},'' \emph{Powder Technology}, vol.
+  156, no.~1, pp. 1--7, aug 2005.
+
+\bibitem{Salem2011}
+A.~I. Salem, G.~Okoth, and J.~Th{\"{o}}ming, ``{An approach to improve the
+  separation of solid-liquid suspensions in inclined plate settlers: CFD
+  simulation and experimental validation},'' \emph{Water Research}, vol.~45,
+  no.~11, pp. 3541--3549, may 2011.
+
+\bibitem{Peng2014}
+\BIBentryALTinterwordspacing
+Z.~Peng, E.~Doroodchi, C.~Luo, and B.~Moghtaderi, ``{Influence of void fraction
+  calculation on fidelity of CFD-DEM simulation of gas-solid bubbling fluidized
+  beds},'' \emph{AIChE Journal}, vol.~60, no.~6, pp. 2000--2018, jun 2014.
+  [Online]. Available:
+  \url{https://aiche.onlinelibrary.wiley.com/doi/full/10.1002/aic.14421
+  https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/aic.14421
+  https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.14421}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Liang2018}
+R.~Liang, Y.~Luo, and Z.~Li, ``{The effect of humping on residual stress and
+  distortion in high-speed laser welding using coupled CFD-FEM model},''
+  \emph{Optics and Laser Technology}, vol. 104, pp. 201--205, aug 2018.
+
 \bibitem{Hetsroni1989}
 G.~Hetsroni, ``{Particles-turbulence interaction},'' \emph{International
   Journal of Multiphase Flow}, vol.~15, no.~5, pp. 735--746, sep 1989.

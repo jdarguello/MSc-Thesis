@@ -13,7 +13,9 @@ A level-1 auxiliary file: CFDDEM.aux
 A level-1 auxiliary file: Sedimentacion.aux
 A level-1 auxiliary file: Filtrado.aux
 A level-1 auxiliary file: Modelo.aux
+A level-1 auxiliary file: Implementar.aux
 A level-1 auxiliary file: Valid.aux
+A level-1 auxiliary file: Conclusiones.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -26,45 +28,45 @@ Database file #1: library.bib
 Warning--missing institution in Proyecto
 
 Done.
-You've used 14 entries,
+You've used 23 entries,
             4087 wiz_defined-function locations,
-            947 strings with 11700 characters,
-and the built_in function-call counts, 12179 in all, are:
-= -- 1019
-> -- 289
-< -- 121
-+ -- 161
-- -- 46
-* -- 621
-:= -- 1839
-add.period$ -- 29
-call.type$ -- 14
-change.case$ -- 14
-chr.to.int$ -- 279
-cite$ -- 15
-duplicate$ -- 833
-empty$ -- 867
-format.name$ -- 58
-if$ -- 2797
+            1020 strings with 13843 characters,
+and the built_in function-call counts, 20094 in all, are:
+= -- 1724
+> -- 456
+< -- 202
++ -- 255
+- -- 71
+* -- 1011
+:= -- 3018
+add.period$ -- 47
+call.type$ -- 23
+change.case$ -- 23
+chr.to.int$ -- 453
+cite$ -- 24
+duplicate$ -- 1398
+empty$ -- 1419
+format.name$ -- 92
+if$ -- 4647
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 139
-newline$ -- 77
-num.names$ -- 14
-pop$ -- 286
+int.to.str$ -- 23
+missing$ -- 223
+newline$ -- 108
+num.names$ -- 23
+pop$ -- 437
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 918
+skip$ -- 1541
 stack$ -- 0
-substring$ -- 664
-swap$ -- 757
-text.length$ -- 28
+substring$ -- 1103
+swap$ -- 1284
+text.length$ -- 51
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 14
+type$ -- 23
 warning$ -- 1
-while$ -- 62
-width$ -- 16
-write$ -- 179
+while$ -- 101
+width$ -- 25
+write$ -- 280
 (There was 1 warning)

@@ -36,10 +36,16 @@
 \BOOKMARK [4][-]{paragraph.7.4.2.1}{Planteamiento num\351rico}{subsubsection.7.4.2}% 36
 \BOOKMARK [4][-]{paragraph.7.4.2.2}{Resultados}{subsubsection.7.4.2}% 37
 \BOOKMARK [4][-]{paragraph.7.4.2.3}{An\341lisis de resultados}{subsubsection.7.4.2}% 38
-\BOOKMARK [1][-]{section.8}{Validaci\363n del modelo}{}% 39
-\BOOKMARK [2][-]{subsection.8.1}{Descripci\363n del problema}{section.8}% 40
-\BOOKMARK [2][-]{subsection.8.2}{Desarrollo experimental}{section.8}% 41
-\BOOKMARK [3][-]{subsubsection.8.2.1}{Descripci\363n particular}{subsection.8.2}% 42
-\BOOKMARK [3][-]{subsubsection.8.2.2}{M\351todos experimentales}{subsection.8.2}% 43
-\BOOKMARK [2][-]{subsection.8.3}{Resultados}{section.8}% 44
-\BOOKMARK [1][-]{section.9}{Conclusiones}{}% 45
+\BOOKMARK [1][-]{section.8}{Implementaci\363n del modelo}{}% 39
+\BOOKMARK [2][-]{subsection.8.1}{Frontend}{section.8}% 40
+\BOOKMARK [2][-]{subsection.8.2}{Backend}{section.8}% 41
+\BOOKMARK [3][-]{subsubsection.8.2.1}{Dise\361o funcional te\363rico}{subsection.8.2}% 42
+\BOOKMARK [3][-]{subsubsection.8.2.2}{Modelo CFD}{subsection.8.2}% 43
+\BOOKMARK [3][-]{subsubsection.8.2.3}{Modelo CFD-DEM}{subsection.8.2}% 44
+\BOOKMARK [1][-]{section.9}{Validaci\363n del modelo}{}% 45
+\BOOKMARK [2][-]{subsection.9.1}{Descripci\363n del problema}{section.9}% 46
+\BOOKMARK [2][-]{subsection.9.2}{Desarrollo experimental}{section.9}% 47
+\BOOKMARK [3][-]{subsubsection.9.2.1}{Descripci\363n particular}{subsection.9.2}% 48
+\BOOKMARK [3][-]{subsubsection.9.2.2}{M\351todos experimentales}{subsection.9.2}% 49
+\BOOKMARK [2][-]{subsection.9.3}{Resultados}{section.9}% 50
+\BOOKMARK [1][-]{section*.51}{Conclusiones}{}% 51

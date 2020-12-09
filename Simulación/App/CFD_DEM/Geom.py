@@ -69,7 +69,7 @@ def Malla(D_I):
     return tab
 
 
-def Dibujar(geo, lamela, rango, tipo, e, entrada, name ="out.vtk"):
+def Dibujar(geo, lamela, rango, tipo, e, entrada, DEM=True, name ="out.vtk"):
     nom_geo = "Geometry.geo"
     XXX = geo['Altura panel [cm]']/tan(radians(geo['Inclinación [°]']))    #Horizontal panel inclinado
     long_panel = ceil(geo['Altura panel [cm]']/sin(radians(geo['Inclinación [°]']))/(rango[0]/10**4))
@@ -91,7 +91,11 @@ def Dibujar(geo, lamela, rango, tipo, e, entrada, name ="out.vtk"):
     
     #Generación de msh
     primera = True
-    for dir in ("OpenFOAM", "CFD_DEM"):
+    if DEM:
+        dirs = ("OpenFOAM", "CFD_DEM")
+    else:
+        dirs = ("OpenFOAM",)
+    for dir in dirs:
         comandos = ("gmsh -3 " + nom_geo + " -o ./" + dir + "/geometria.msh -format msh2", "meshio-convert ./" + dir + "/geometria.msh out.vtk", "gmsh ./" + dir + "/geometria.msh")
         for comando in comandos:
             if comando != comandos[-1] or primera: 

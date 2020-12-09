@@ -37,10 +37,16 @@
 \contentsline {paragraph}{\numberline {7.4.2.1}Planteamiento num\'erico}{38}{paragraph.7.4.2.1}%
 \contentsline {paragraph}{\numberline {7.4.2.2}Resultados}{40}{paragraph.7.4.2.2}%
 \contentsline {paragraph}{\numberline {7.4.2.3}An\'alisis de resultados}{42}{paragraph.7.4.2.3}%
-\contentsline {section}{\numberline {8}Validaci\'on del modelo}{43}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Descripci\'on del problema}{43}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Desarrollo experimental}{44}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Descripci\'on particular}{44}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}M\'etodos experimentales}{46}{subsubsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.3}Resultados}{47}{subsection.8.3}%
-\contentsline {section}{\numberline {9}Conclusiones}{50}{section.9}%
+\contentsline {section}{\numberline {8}Implementaci\'on del modelo}{43}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Frontend}{43}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Backend}{46}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Dise\~no funcional te\'orico}{47}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Modelo CFD}{47}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Modelo CFD-DEM}{48}{subsubsection.8.2.3}%
+\contentsline {section}{\numberline {9}Validaci\'on del modelo}{49}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Descripci\'on del problema}{49}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Desarrollo experimental}{50}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Descripci\'on particular}{50}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}M\'etodos experimentales}{52}{subsubsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.3}Resultados}{53}{subsection.9.3}%
+\contentsline {section}{Conclusiones}{56}{section*.51}%
