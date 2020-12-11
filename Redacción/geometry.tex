@@ -25,10 +25,39 @@
 		\draw (\x,\y) -- (\x,-\D) -- (\x+0.5*\D,-\D) -- 
 			(\x+0.5*\D, -2*\D) -- (\x+\A+0.5*\D, -2*\D) -- 
 			(\x+\A+0.5*\D, \y) -- ({\xlam + \HL*cos(\ang)},{\y + \HL*sin(\ang)}) -- ({\xlam + \HL*cos(\ang) - \A}, {\y + \HL*sin(\ang)}) -- (\xlam - \A, \y) -- cycle;
-		
+						
 		%Lamelas
 		\foreach \xL in {1, ..., \nL}
 			\draw (\xlam - \xL*\A/\nL,\y) -- ({\xlam + \HL*cos(\ang) - \xL*\A/\nL}, {\y + \HL*sin(\ang)});
+			
+		%Dimensniones
+		\draw (\x+0.5*\D + 0.1, -2*\D) -- (\x, -2*\D);
+		\draw[arrows={-Triangle[angle=90:3pt,red!10!black,fill=red!10!black]}] (\x+0.25*\D, -2*\D) -- (\x+0.25*\D, -\D);
+		\draw[arrows={-Triangle[angle=90:3pt,red!10!black,fill=red!10!black]}] (\x+0.25*\D, -\D)  -- (\x+0.25*\D, -2*\D);
+		\node[align=left] at (\x, -3/2*\D) {$\H0 [cm]$};
+		
+		\draw (\x+0.5*\D + 0.1 + \A, -2*\D) -- (\x+\D + 0.1 + \A, -2*\D);
+		\draw (\x+0.5*\D + 0.1 + \A, \y) -- (\x+1.5*\D + 0.1 + \A, \y);
+		
+		\draw[arrows={-Triangle[angle=90:3pt,red!10!black,fill=red!10!black]}] (\x+0.75*\D + \A, -2*\D) -- (\x+0.75*\D+ \A, \y);
+		\draw[arrows={-Triangle[angle=90:3pt,red!10!black,fill=red!10!black]}] (\x+0.75*\D+ \A, \y) --  (\x+0.75*\D+ \A, -2*\D);
+		
+		\node[align=right] at (\x+1.05*\D+ \A, -\D) {$57 [cm]$};
+		
+		\draw ({\xlam + \HL*cos(\ang)},{\y + \HL*sin(\ang)}) -- ({\xlam + \HL*cos(\ang) + \D},{\y + \HL*sin(\ang)});
+
+		\draw (\x+0.5*\D, -2*\D - 0.1) -- (\x+0.5*\D, -2.5*\D - 0.1);
+		\draw (\x+0.5*\D + \A, -2*\D - 0.1) -- (\x+0.5*\D + \A, -2.5*\D - 0.1);	
+		\draw[arrows={-Triangle[angle=90:3pt,red!10!black,fill=red!10!black]}] (\x+0.5*\D + \A, -2.25*\D-0.1) -- (\x+0.5*\D, -2.25*\D - 0.1);
+		\draw[arrows={-Triangle[angle=90:3pt,red!10!black,fill=red!10!black]}] (\x+0.5*\D, -2.25*\D - 0.1) -- (\x+0.5*\D + \A, -2.25*\D-0.1);
+		
+		\node at (\x+0.5*\D + \A/2, -2.35*\D - 0.1) {$25 [cm]$};	
+		
+		\draw[arrows={-Triangle[angle=90:3pt,red!10!black,fill=red!10!black]}] ({\xlam + \HL*cos(\ang) + \D/4}, {\y + \HL*sin(\ang)}) -- ({\xlam + \HL*cos(\ang) + \D/4}, \y);
+		
+		\draw[arrows={-Triangle[angle=90:3pt,red!10!black,fill=red!10!black]}] ({\xlam + \HL*cos(\ang) + \D/4}, \y) --  ({\xlam + \HL*cos(\ang) + \D/4}, {\y + \HL*sin(\ang)});
+		
+		\node at ({\xlam + \HL*cos(\ang) + \D/4 + 0.75}, {\y + \HL*sin(\ang)/2}) {$25 [cm]$};
 		
 		%Área de interés
 		\draw[dashed, step=0.5cm, blue!60!green, pattern=north west lines, pattern color=blue!60!green] (\x,\y) -- (\x,-\D) -- (\x+0.5*\D,-\D) -- (\x+0.5*\D, -2*\D) -- (\x+\A+0.5*\D, -2*\D) -- (\x+\A+0.5*\D, \y) -- ({\xlam + \HL*cos(\ang)},{\y + \HL*sin(\ang)}) -- ({\xlam + \HL*cos(\ang) - \A/\nL},{\y + \HL*sin(\ang)}) -- (\xlam - \A/\nL, \y) -- cycle;

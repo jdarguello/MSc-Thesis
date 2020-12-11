@@ -15,8 +15,8 @@
 \contentsline {subsection}{\numberline {4.1}Fase del solvente}{18}{subsection.4.1}%
 \contentsline {section}{\numberline {5}Sedimentaci\'on}{20}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Sedimentaci\'on con coagulantes}{20}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Sedimentadores de \textit {placas paralelas}}{20}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Turbiedad}{21}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.2}Sedimentadores de \textit {placas paralelas}}{21}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Turbiedad}{22}{subsection.5.3}%
 \contentsline {section}{\numberline {6}Etapa de eluci\'on y filtrado}{23}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Naturaleza del flujo}{23}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Par\'ametros operacionales}{24}{subsection.6.2}%

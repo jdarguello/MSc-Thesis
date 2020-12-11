@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.3)  8 DEC 2020 22:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.3)  11 DEC 2020 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1607,7 +1607,7 @@ LaTeX Info: Redefining \% on input line 137.
 
 
 (./Extraction/MSPD.tex
-<Images/mspd.PNG, id=429, 383.93437pt x 371.88937pt>
+<Images/mspd.PNG, id=431, 383.93437pt x 371.88937pt>
 File: Images/mspd.PNG Graphic file (type png)
 <use Images/mspd.PNG>
 Package pdftex.def Info: Images/mspd.PNG  used on input line 23.
@@ -1624,7 +1624,7 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 [8]
-<Images/planta.PNG, id=459, 463.7325pt x 297.36093pt>
+<Images/planta.PNG, id=461, 463.7325pt x 297.36093pt>
 File: Images/planta.PNG Graphic file (type png)
 <use Images/planta.PNG>
 Package pdftex.def Info: Images/planta.PNG  used on input line 12.
@@ -1681,7 +1681,7 @@ LaTeX Info: Redefining \% on input line 140.
 
 
 (./DEM.tex
-<Images/DEM.PNG, id=519, 356.33125pt x 130.4875pt>
+<Images/DEM.PNG, id=521, 356.33125pt x 130.4875pt>
 File: Images/DEM.PNG Graphic file (type png)
 <use Images/DEM.PNG>
 Package pdftex.def Info: Images/DEM.PNG  used on input line 12.
@@ -1704,7 +1704,7 @@ LaTeX Warning: Command \O invalid in math mode on input line 63.
 
 LaTeX Warning: Command \O invalid in math mode on input line 63.
 
-<Images/Colision.PNG, id=533, 458.21187pt x 269.50688pt>
+<Images/Colision.PNG, id=535, 458.21187pt x 269.50688pt>
 File: Images/Colision.PNG Graphic file (type png)
 <use Images/Colision.PNG>
 Package pdftex.def Info: Images/Colision.PNG  used on input line 69.
@@ -1736,22 +1736,22 @@ LaTeX Info: Redefining \% on input line 142.
 \openout2 = `Sedimentacion.aux'.
 
  (./Sedimentacion.tex
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
  [20
 
 
 ]
-<Images/Sedimentacion/placas.jpg, id=563, 271.0125pt x 187.70125pt>
+<Images/Sedimentacion/placas.jpg, id=565, 271.0125pt x 187.70125pt>
 File: Images/Sedimentacion/placas.jpg Graphic file (type jpg)
 <use Images/Sedimentacion/placas.jpg>
 Package pdftex.def Info: Images/Sedimentacion/placas.jpg  used on input line 55
 .
 (pdftex.def)             Requested size: 290.58673pt x 201.26509pt.
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
  [21 <./Images/Sedimentacion/placas.jpg>])
 LaTeX Info: Redefining \. on input line 143.
 LaTeX Info: Redefining \% on input line 143.
@@ -1771,7 +1771,7 @@ LaTeX Info: Redefining \% on input line 58.
 
 
 ]
-<Images/Sedimentacion/G1.PNG, id=586, 456.20438pt x 322.70563pt>
+<Images/Sedimentacion/G1.PNG, id=588, 456.20438pt x 322.70563pt>
 File: Images/Sedimentacion/G1.PNG Graphic file (type png)
 <use Images/Sedimentacion/G1.PNG>
 Package pdftex.def Info: Images/Sedimentacion/G1.PNG  used on input line 118.
@@ -1833,7 +1833,7 @@ LaTeX Info: Redefining \% on input line 30.
 
 
 ]) (./Mallado.tex
-<Images/CFDEM/malla2.png, id=655, 552.0625pt x 379.4175pt>
+<Images/CFDEM/malla2.png, id=658, 552.0625pt x 379.4175pt>
 File: Images/CFDEM/malla2.png Graphic file (type png)
 <use Images/CFDEM/malla2.png>
 Package pdftex.def Info: Images/CFDEM/malla2.png  used on input line 15.
@@ -1891,12 +1891,12 @@ LaTeX Info: Redefining \% on input line 52.
 LaTeX Info: Redefining \. on input line 52.
 LaTeX Info: Redefining \% on input line 52.
  [35]
-<Images/CFD/vel.png, id=699, 477.785pt x 724.7075pt>
+<Images/CFD/vel.png, id=702, 477.785pt x 724.7075pt>
 File: Images/CFD/vel.png Graphic file (type png)
 <use Images/CFD/vel.png>
 Package pdftex.def Info: Images/CFD/vel.png  used on input line 63.
 (pdftex.def)             Requested size: 145.29652pt x 220.3775pt.
-<Images/CFD/p.png, id=700, 477.785pt x 719.68875pt>
+<Images/CFD/p.png, id=703, 477.785pt x 719.68875pt>
 File: Images/CFD/p.png Graphic file (type png)
 <use Images/CFD/p.png>
 Package pdftex.def Info: Images/CFD/p.png  used on input line 70.
@@ -1911,12 +1911,12 @@ LaTeX Info: Redefining \% on input line 17.
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
  [37]
-<Images/normal.png, id=726, 622.325pt x 486.81876pt>
+<Images/normal.png, id=729, 622.325pt x 486.81876pt>
 File: Images/normal.png Graphic file (type png)
 <use Images/normal.png>
 Package pdftex.def Info: Images/normal.png  used on input line 33.
 (pdftex.def)             Requested size: 166.04774pt x 129.8903pt.
-<Images/tangencial.png, id=727, 509.905pt x 488.82625pt>
+<Images/tangencial.png, id=730, 509.905pt x 488.82625pt>
 File: Images/tangencial.png Graphic file (type png)
 <use Images/tangencial.png>
 Package pdftex.def Info: Images/tangencial.png  used on input line 38.
@@ -1961,7 +1961,7 @@ Overfull \hbox (4.64241pt too wide) in paragraph at lines 145--146
 o obe-ser-var el com-por-ta-mien-to din^^Sami-
  []
 
-<Images/CFDEM/vel.png, id=754, 477.785pt x 722.7pt>
+<Images/CFDEM/vel.png, id=757, 477.785pt x 722.7pt>
 File: Images/CFDEM/vel.png Graphic file (type png)
 <use Images/CFDEM/vel.png>
 Package pdftex.def Info: Images/CFDEM/vel.png  used on input line 149.
@@ -1971,12 +1971,12 @@ LaTeX Info: Redefining \% on input line 154.
 LaTeX Info: Redefining \. on input line 154.
 LaTeX Info: Redefining \% on input line 154.
 [40 <./Images/CFDEM/vel.png>]
-<Images/CFDEM/p.png, id=763, 472.76625pt x 711.65875pt>
+<Images/CFDEM/p.png, id=766, 472.76625pt x 711.65875pt>
 File: Images/CFDEM/p.png Graphic file (type png)
 <use Images/CFDEM/p.png>
 Package pdftex.def Info: Images/CFDEM/p.png  used on input line 163.
 (pdftex.def)             Requested size: 128.68796pt x 193.71413pt.
-<Images/CFDEM/part.png, id=765, 474.77374pt x 711.65875pt>
+<Images/CFDEM/part.png, id=768, 474.77374pt x 711.65875pt>
 File: Images/CFDEM/part.png Graphic file (type png)
 <use Images/CFDEM/part.png>
 Package pdftex.def Info: Images/CFDEM/part.png  used on input line 175.
@@ -1986,7 +1986,7 @@ LaTeX Info: Redefining \% on input line 180.
 LaTeX Info: Redefining \. on input line 180.
 LaTeX Info: Redefining \% on input line 180.
  [41 <./Images/CFDEM/p.png> <./Images/CFDEM/part.png>]
-<Images/CFDEM/residuals.png, id=778, 1839.87375pt x 999.735pt>
+<Images/CFDEM/residuals.png, id=781, 1839.87375pt x 999.735pt>
 File: Images/CFDEM/residuals.png Graphic file (type png)
 <use Images/CFDEM/residuals.png>
 Package pdftex.def Info: Images/CFDEM/residuals.png  used on input line 196.
@@ -2000,7 +2000,7 @@ LaTeX Info: Redefining \% on input line 145.
 \openout2 = `Implementar.aux'.
 
  (./Implementar.tex
-<Images/jupyterlab.png, id=790, 1284.8pt x 722.7pt>
+<Images/jupyterlab.png, id=793, 1284.8pt x 722.7pt>
 File: Images/jupyterlab.png Graphic file (type png)
 <use Images/jupyterlab.png>
 Package pdftex.def Info: Images/jupyterlab.png  used on input line 19.
@@ -2017,12 +2017,12 @@ LaTeX Info: Redefining \% on input line 29.
 
 
  <./Images/jupyterlab.png>]
-<Images/interfaz.png, id=797, 912.40875pt x 939.51pt>
+<Images/interfaz.png, id=800, 912.40875pt x 939.51pt>
 File: Images/interfaz.png Graphic file (type png)
 <use Images/interfaz.png>
 Package pdftex.def Info: Images/interfaz.png  used on input line 36.
 (pdftex.def)             Requested size: 415.12572pt x 427.44905pt.
-<Images/interfaz2.png, id=798, 910.40125pt x 929.4725pt>
+<Images/interfaz2.png, id=801, 910.40125pt x 929.4725pt>
 File: Images/interfaz2.png Graphic file (type png)
 <use Images/interfaz2.png>
 Package pdftex.def Info: Images/interfaz2.png  used on input line 49.
@@ -2060,7 +2060,7 @@ LaTeX Info: Redefining \% on input line 146.
 \openout2 = `Valid.aux'.
 
  (./Valid.tex
-<Images/Fessler.PNG, id=843, 879.285pt x 200.75pt>
+<Images/Fessler.PNG, id=846, 879.285pt x 200.75pt>
 File: Images/Fessler.PNG Graphic file (type png)
 <use Images/Fessler.PNG>
 Package pdftex.def Info: Images/Fessler.PNG  used on input line 12.
@@ -2071,7 +2071,7 @@ LaTeX Info: Redefining \% on input line 38.
 
 
  <./Images/Fessler.png>]
-<Images/experimento.png, id=860, 662.475pt x 843.15pt>
+<Images/experimento.png, id=863, 662.475pt x 843.15pt>
 File: Images/experimento.png Graphic file (type png)
 <use Images/experimento.png>
 Package pdftex.def Info: Images/experimento.png  used on input line 72.
@@ -2090,7 +2090,7 @@ LaTeX Info: Redefining \% on input line 115.
 LaTeX Info: Redefining \. on input line 115.
 LaTeX Info: Redefining \% on input line 115.
  [51 <./Images/experimento.png>]
-<Images/pedestal.png, id=883, 1068.99374pt x 757.83125pt>
+<Images/pedestal.png, id=886, 1068.99374pt x 757.83125pt>
 File: Images/pedestal.png Graphic file (type png)
 <use Images/pedestal.png>
 Package pdftex.def Info: Images/pedestal.png  used on input line 153.
@@ -2105,29 +2105,29 @@ LaTeX Info: Redefining \% on input line 196.
 LaTeX Info: Redefining \. on input line 196.
 LaTeX Info: Redefining \% on input line 196.
  [53]
-<Images/contour1999.png, id=903, 1666.225pt x 522.95375pt>
+<Images/contour1999.png, id=906, 1666.225pt x 522.95375pt>
 File: Images/contour1999.png Graphic file (type png)
 <use Images/contour1999.png>
 Package pdftex.def Info: Images/contour1999.png  used on input line 202.
 (pdftex.def)             Requested size: 415.12572pt x 130.28326pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 203.
-<Images/valvel.png, id=906, 776.9025pt x 137.51375pt>
+<Images/valvel.png, id=909, 776.9025pt x 137.51375pt>
 File: Images/valvel.png Graphic file (type png)
 <use Images/valvel.png>
 Package pdftex.def Info: Images/valvel.png  used on input line 208.
 (pdftex.def)             Requested size: 415.12572pt x 73.47995pt.
-<Images/valp.png, id=909, 780.9175pt x 134.5025pt>
+<Images/valp.png, id=912, 780.9175pt x 134.5025pt>
 File: Images/valp.png Graphic file (type png)
 <use Images/valp.png>
 Package pdftex.def Info: Images/valp.png  used on input line 224.
 (pdftex.def)             Requested size: 415.12572pt x 71.4994pt.
-<Images/valk.png, id=910, 775.89874pt x 131.49126pt>
+<Images/valk.png, id=913, 775.89874pt x 131.49126pt>
 File: Images/valk.png Graphic file (type png)
 <use Images/valk.png>
 Package pdftex.def Info: Images/valk.png  used on input line 230.
 (pdftex.def)             Requested size: 415.12572pt x 70.35213pt.
-<Images/valpar.png, id=912, 779.91376pt x 137.51375pt>
+<Images/valpar.png, id=915, 779.91376pt x 137.51375pt>
 File: Images/valpar.png Graphic file (type png)
 <use Images/valpar.png>
 Package pdftex.def Info: Images/valpar.png  used on input line 244.
@@ -2146,7 +2146,7 @@ LaTeX Info: Redefining \. on input line 253.
 LaTeX Info: Redefining \% on input line 253.
 [54 <./Images/contour1999.png> <./Images/valvel.png> <./Images/valp.png> <./Ima
 ges/valk.png>]
-<Images/val.png, id=923, 1088.065pt x 231.86626pt>
+<Images/val.png, id=926, 1088.065pt x 231.86626pt>
 File: Images/val.png Graphic file (type png)
 <use Images/val.png>
 Package pdftex.def Info: Images/val.png  used on input line 256.
@@ -2317,10 +2317,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  ) 
 Here is how much of TeX's memory you used:
- 50779 strings out of 483080
- 1193205 string characters out of 5963339
+ 50790 strings out of 483080
+ 1193408 string characters out of 5963339
  1793500 words of memory out of 5000000
- 64591 multiletter control sequences out of 15000+600000
+ 64602 multiletter control sequences out of 15000+600000
  605978 words of font info for 101 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  153i,20n,190p,1831b,3098s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2351,10 +2351,10 @@ mf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri1
 2.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Maestro.pdf (61 pages, 2724428 bytes).
+Output written on Maestro.pdf (61 pages, 2726267 bytes).
 PDF statistics:
- 1112 PDF objects out of 1200 (max. 8388607)
- 959 compressed objects within 10 object streams
+ 1115 PDF objects out of 1200 (max. 8388607)
+ 962 compressed objects within 10 object streams
  265 named destinations out of 1000 (max. 500000)
  572 words of extra memory for PDF output out of 10000 (max. 10000000)
 
