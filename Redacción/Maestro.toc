@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {5.2}Sedimentadores de \textit {placas paralelas}}{21}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Turbiedad}{22}{subsection.5.3}%
 \contentsline {section}{\numberline {6}Etapa de eluci\'on y filtrado}{23}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Naturaleza del flujo}{23}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.1}Naturaleza del flujo}{24}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Par\'ametros operacionales}{24}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Dimensionamiento}{25}{subsection.6.3}%
 \contentsline {subsubsection}{\numberline {6.3.1}Panel de lamelas}{26}{subsubsection.6.3.1}%
@@ -37,16 +37,16 @@
 \contentsline {paragraph}{\numberline {7.4.2.1}Planteamiento num\'erico}{38}{paragraph.7.4.2.1}%
 \contentsline {paragraph}{\numberline {7.4.2.2}Resultados}{40}{paragraph.7.4.2.2}%
 \contentsline {paragraph}{\numberline {7.4.2.3}An\'alisis de resultados}{42}{paragraph.7.4.2.3}%
-\contentsline {section}{\numberline {8}Implementaci\'on del modelo}{43}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Frontend}{43}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Backend}{46}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Dise\~no funcional te\'orico}{47}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Modelo CFD}{47}{subsubsection.8.2.2}%
-\contentsline {subsubsection}{\numberline {8.2.3}Modelo CFD-DEM}{48}{subsubsection.8.2.3}%
-\contentsline {section}{\numberline {9}Validaci\'on del modelo}{49}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Descripci\'on del problema}{49}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Desarrollo experimental}{50}{subsection.9.2}%
-\contentsline {subsubsection}{\numberline {9.2.1}Descripci\'on particular}{50}{subsubsection.9.2.1}%
-\contentsline {subsubsection}{\numberline {9.2.2}M\'etodos experimentales}{52}{subsubsection.9.2.2}%
-\contentsline {subsection}{\numberline {9.3}Resultados}{53}{subsection.9.3}%
-\contentsline {section}{Conclusiones}{56}{section*.51}%
+\contentsline {section}{\numberline {8}Implementaci\'on del modelo}{44}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Frontend}{44}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Backend}{47}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Dise\~no funcional te\'orico}{48}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Modelo CFD}{48}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Modelo CFD-DEM}{49}{subsubsection.8.2.3}%
+\contentsline {section}{\numberline {9}Validaci\'on del modelo}{50}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Descripci\'on del problema}{50}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Desarrollo experimental}{51}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Descripci\'on particular}{51}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}M\'etodos experimentales}{53}{subsubsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.3}Resultados}{54}{subsection.9.3}%
+\contentsline {section}{Conclusiones}{57}{section*.51}%
