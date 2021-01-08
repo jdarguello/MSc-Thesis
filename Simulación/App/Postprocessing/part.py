@@ -2,6 +2,7 @@ import os
 import re
 import gzip
 import shutil
+import subprocess
 
 
 def gunzip_something(gzipped_file_name, work_dir):
@@ -27,7 +28,10 @@ def unzip(file="nParticle.gz"):
                           os.curdir,
                           'gz')
 
-class particulas():
+def particulas():
+    p = subprocess.run("paraFoam", cwd="CFD_DEM")
+
+class Particulas():
     def __init__(self, t = (0.5,30)):
         #Leer información
         self.read(t)

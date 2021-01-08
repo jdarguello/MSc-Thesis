@@ -7,12 +7,16 @@ def Requerimientos():
                                       widgets.FloatText(value=20),
                                       widgets.FloatText(value=30),
                                       widgets.FloatText(value=2.5),
+                                      widgets.FloatText(value=0.5),
+                                      widgets.IntText(value=10),
                                       widgets.IntSlider(value=60, max=90)])
     Req.set_title(0, 'Ancho panel [cm]')
     Req.set_title(1, 'Altura panel [cm]')
     Req.set_title(2, 'Largo panel [cm]')
     Req.set_title(3, 'Ancho lamela [cm]')
-    Req.set_title(4, 'Inclinación [°]')
+    Req.set_title(4, 'Distancia entre lamelas [cm]')
+    Req.set_title(5, 'Número de lamelas')
+    Req.set_title(6, 'Inclinación [°]')
     return Req
 
 def Geometry():
@@ -23,7 +27,7 @@ def Geometry():
 
 def Flujo_int(geo, general):
     #Caudal dentro de una lamela
-    Num_lamelas = floor(geo['Ancho panel [cm]']/geo['Ancho lamela [cm]'])
+    Num_lamelas = geo['Número de lamelas']
     Q_T = (general['Fluido']['Volumen [L]']/1000)/(general['Fluido']['Tiempo objetivo [h]']*3600)
     Q_L = Q_T/Num_lamelas     #m3/s
     

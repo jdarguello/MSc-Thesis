@@ -5,7 +5,9 @@ class Parametros():
     resul = {}
     def __init__(self, general, prop, lamela, geo):
         
-        L_rel = (geo['Altura panel [cm]']/sin(radians(geo['Inclinación [°]'])))/geo['Ancho lamela [cm]']
+        L_rel = geo['Ancho lamela [cm]']/(geo['Altura panel [cm]']/sin(radians(geo['Inclinación [°]'])))
+        L_rel2 = (geo['Altura panel [cm]']/sin(radians(geo['Inclinación [°]'])))/geo['Ancho lamela [cm]']
+        L_rel = L_rel2
         V = self.Vsc(lamela['V_L'], geo['Inclinación [°]'], L_rel)
         
         Rh = self.Rh(geo['Ancho lamela [cm]']/100, geo['Largo panel [cm]']/100)
@@ -43,4 +45,5 @@ class Parametros():
         return (b*e)/(2*(b+e))
     
     def Vsc(self, V0, theta, L_rel):
-        return V0/(sin(radians(theta)) + L_rel*cos(radians(theta)))    
+        den = (sin(radians(theta)) + L_rel*cos(radians(theta))) 
+        return V0/den   
