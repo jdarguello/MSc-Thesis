@@ -10,7 +10,7 @@ class Parametros():
         L_rel = L_rel2
         V = self.Vsc(lamela['V_L'], geo['Inclinación [°]'], L_rel)
         
-        Rh = self.Rh(geo['Ancho lamela [cm]']/100, geo['Largo panel [cm]']/100)
+        Rh = self.Rh(geo['Ancho lamela [cm]']/100, geo['Altura lamela [cm]']/100)
         Re = self.Reynolds(lamela['V_L'], Rh, prop['visc'])
         
         self.resul = {
@@ -29,7 +29,7 @@ class Parametros():
         msg = msg.replace('VSC', str(round(self.resul['V']*1000, 3)))
         
         if self.resul['Re'] < 250:
-            msg += "garantizando un flujo laminar en dentro de las lamelas."
+            msg += "garantizando un flujo laminar dentro de las lamelas."
         else:
             msg += "lo que significa que se presentan _turbulencias_ dentro de los paneles."
         

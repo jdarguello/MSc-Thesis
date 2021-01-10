@@ -7,6 +7,7 @@ def Requerimientos():
                                       widgets.FloatText(value=20),
                                       widgets.FloatText(value=30),
                                       widgets.FloatText(value=2.5),
+                                      widgets.FloatText(value=2.5),
                                       widgets.FloatText(value=0.5),
                                       widgets.IntText(value=10),
                                       widgets.IntSlider(value=60, max=90)])
@@ -14,9 +15,10 @@ def Requerimientos():
     Req.set_title(1, 'Altura panel [cm]')
     Req.set_title(2, 'Largo panel [cm]')
     Req.set_title(3, 'Ancho lamela [cm]')
-    Req.set_title(4, 'Distancia entre lamelas [cm]')
-    Req.set_title(5, 'Número de lamelas')
-    Req.set_title(6, 'Inclinación [°]')
+    Req.set_title(4, 'Altura lamela [cm]')
+    Req.set_title(5, 'Distancia entre lamelas [cm]')
+    Req.set_title(6, 'Número de lamelas')
+    Req.set_title(7, 'Inclinación [°]')
     return Req
 
 def Geometry():
@@ -32,7 +34,7 @@ def Flujo_int(geo, general):
     Q_L = Q_T/Num_lamelas     #m3/s
     
     #Velocidad dentro de una lamela
-    Area = (geo['Largo panel [cm]']/100)*(geo['Ancho lamela [cm]']/100)
+    Area = (geo['Altura lamela [cm]']/100)*(geo['Ancho lamela [cm]']/100)
     Vel = Q_L/Area   #m/s
     
     msg = "El caudal requerido por el sistema es de $Q = QT \left[cm^3 /s \\right]$. Con base en la geometría dada, significa que la velocidad del fluido dentro de cada lamela es de $V = VEL [cm/min]$."
