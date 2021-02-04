@@ -30,23 +30,6 @@ A.~L. Capriotti, C.~Cavaliere, P.~Foglia, R.~Samperi, S.~Stampachiacchiere,
   \url{https://www.sciencedirect.com/science/article/abs/pii/S0165993615001387}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Proyecto}
-J.~D. {Arg{\"{u}}ello Plata} and {\'{O}}.~A. {G{\'{o}}mez Sep{\'{u}}lveda},
-  ``{Dise{\~{n}}o de un prototipo de una planta destinada a la producci{\'{o}}n
-  de extractos vegetales mediante el m{\'{e}}todo de extracci{\'{o}}n de
-  dispersi{\'{o}}n en la fase s{\'{o}}lida - MSPD, con sistema de
-  recuperaci{\'{o}}n del solvente},'' Tech. Rep., 2017.
-
-\bibitem{Patente2018}
-\BIBentryALTinterwordspacing
-O.~A. {G{\'{e}}lvez Arocha}, J.~R. {Mart{\'{i}}nez Morales}, E.~Stashenko,
-  {\'{O}}.~A. {G{\'{o}}mez Sep{\'{u}}lveda}, and J.~D. {Arg{\"{u}}ello Plata},
-  ``{CO2018013023A1 - Equipo, proceso y producto obtenido a partir de material
-  vegetal con propiedades biol{\'{o}}gicas - Google Patents},'' 2018. [Online].
-  Available:
-  \url{https://patents.google.com/patent/CO2018013023A1/es?inventor=juan+david+arg{\"{u}}ello{\&}oq=juan+david+arg{\"{u}}ello}
-\BIBentrySTDinterwordspacing
-
 \bibitem{Fessler1999}
 \BIBentryALTinterwordspacing
 J.~R. Fessler and J.~K. Eaton, ``{Turbulence modification by particles in a
@@ -59,6 +42,13 @@ J.~R. Fessler and J.~K. Eaton, ``{Turbulence modification by particles in a
 S.~A. Barker, ``{Matrix solid phase dispersion (MSPD)},'' \emph{Journal of
   Biochemical and Biophysical Methods}, vol.~70, no.~2, pp. 151--162, 2007.
 
+\bibitem{Proyecto}
+J.~D. {Arg{\"{u}}ello Plata} and {\'{O}}.~A. {G{\'{o}}mez Sep{\'{u}}lveda},
+  ``{Dise{\~{n}}o de un prototipo de una planta destinada a la producci{\'{o}}n
+  de extractos vegetales mediante el m{\'{e}}todo de extracci{\'{o}}n de
+  dispersi{\'{o}}n en la fase s{\'{o}}lida - MSPD, con sistema de
+  recuperaci{\'{o}}n del solvente},'' Tech. Rep., 2017.
+
 \bibitem{Stashenko2017}
 E.~Stashenko, O.~A. {G{\'{e}}lvez Arocha}, J.~R. {Mart{\'{i}}nez Morales},
   D.~C. {Dur{\'{a}}n Garc{\'{i}}a}, J.~D. {Arg{\"{u}}ello Plata}, and
@@ -69,6 +59,16 @@ E.~Stashenko, O.~A. {G{\'{e}}lvez Arocha}, J.~R. {Mart{\'{i}}nez Morales},
   Colombiano de M{\'{e}}todos Num{\'{e}}ricos}, vol.~1.\hskip 1em plus 0.5em
   minus 0.4em\relax Bucaramanga: Universidad Industrial de Santander, 2017, pp.
   57--66.
+
+\bibitem{Patente2018}
+\BIBentryALTinterwordspacing
+O.~A. {G{\'{e}}lvez Arocha}, J.~R. {Mart{\'{i}}nez Morales}, E.~Stashenko,
+  {\'{O}}.~A. {G{\'{o}}mez Sep{\'{u}}lveda}, and J.~D. {Arg{\"{u}}ello Plata},
+  ``{CO2018013023A1 - Equipo, proceso y producto obtenido a partir de material
+  vegetal con propiedades biol{\'{o}}gicas - Google Patents},'' 2018. [Online].
+  Available:
+  \url{https://patents.google.com/patent/CO2018013023A1/es?inventor=juan+david+arg{\"{u}}ello{\&}oq=juan+david+arg{\"{u}}ello}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Alobaid2013}
 F.~Alobaid and B.~Epple, ``{Improvement, validation and application of CFD/DEM
@@ -85,6 +85,11 @@ A.~E. {Carlos Varas}, E.~A. Peters, and J.~A. Kuipers, ``{CFD-DEM simulations
   and experimental validation of clustering phenomena and riser
   hydrodynamics},'' \emph{Chemical Engineering Science}, vol. 169, pp.
   246--258, sep 2017.
+
+\bibitem{Hennebelle2008}
+T.~Hennebelle, S.~Sahpaz, H.~Joseph, and F.~Bailleul, ``{Ethnopharmacology of
+  Lippia alba},'' \emph{Journal of Ethnopharmacology}, vol. 116, no.~2, pp.
+  211--222, mar 2008.
 
 \bibitem{Vieira2019}
 \BIBentryALTinterwordspacing
@@ -105,6 +110,18 @@ H.~Bao, J.~Feng, N.~Dinh, and H.~Zhang, ``{Deep learning interfacial momentum
   closures in coarse-mesh CFD two-phase flow simulation using validation
   data},'' \emph{International Journal of Multiphase Flow}, vol. 135, p.
   103489, feb 2021.
+
+\bibitem{Voutchkov2017}
+N.~Voutchkov, ``{Sand Removal, Sedimentation, and Dissolved Air Flotation},''
+  in \emph{Pretreatment for Reverse Osmosis Desalination}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Elsevier, jan 2017, pp. 137--152.
+
+\bibitem{OMSagua}
+\BIBentryALTinterwordspacing
+``{OMS | Manual para el desarrollo de planes de seguridad del agua},''
+  \emph{WHO}, 2017. [Online]. Available:
+  \url{http://www.who.int/water{\_}sanitation{\_}health/publications/publication{\_}9789241562638/es/}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Roda-Casanova2021}
 \BIBentryALTinterwordspacing

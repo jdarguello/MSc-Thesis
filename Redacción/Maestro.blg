@@ -6,6 +6,7 @@ A level-1 auxiliary file: Portada.aux
 A level-1 auxiliary file: Resumen.aux
 A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: Intro.aux
+A level-1 auxiliary file: dummies.aux
 A level-1 auxiliary file: Extraction/MSPD.aux
 A level-1 auxiliary file: CFD.aux
 A level-1 auxiliary file: DEM.aux
@@ -26,47 +27,48 @@ Database file #1: library.bib
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--missing institution in Proyecto
+Warning--empty author in OMSagua
 
 Done.
-You've used 23 entries,
+You've used 26 entries,
             4087 wiz_defined-function locations,
-            1020 strings with 13843 characters,
-and the built_in function-call counts, 20094 in all, are:
-= -- 1724
-> -- 456
-< -- 202
-+ -- 255
-- -- 71
-* -- 1011
-:= -- 3018
-add.period$ -- 47
-call.type$ -- 23
-change.case$ -- 23
-chr.to.int$ -- 453
-cite$ -- 24
-duplicate$ -- 1398
-empty$ -- 1419
-format.name$ -- 92
-if$ -- 4647
+            1041 strings with 14400 characters,
+and the built_in function-call counts, 22250 in all, are:
+= -- 1901
+> -- 494
+< -- 222
++ -- 278
+- -- 76
+* -- 1117
+:= -- 3342
+add.period$ -- 54
+call.type$ -- 26
+change.case$ -- 26
+chr.to.int$ -- 501
+cite$ -- 28
+duplicate$ -- 1556
+empty$ -- 1598
+format.name$ -- 98
+if$ -- 5149
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 223
-newline$ -- 108
-num.names$ -- 23
-pop$ -- 437
+int.to.str$ -- 26
+missing$ -- 246
+newline$ -- 119
+num.names$ -- 25
+pop$ -- 491
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1541
+skip$ -- 1707
 stack$ -- 0
-substring$ -- 1103
-swap$ -- 1284
-text.length$ -- 51
+substring$ -- 1218
+swap$ -- 1412
+text.length$ -- 55
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 23
-warning$ -- 1
-while$ -- 101
-width$ -- 25
-write$ -- 280
-(There was 1 warning)
+type$ -- 26
+warning$ -- 2
+while$ -- 111
+width$ -- 28
+write$ -- 310
+(There were 2 warnings)

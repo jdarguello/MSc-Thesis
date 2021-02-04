@@ -1,51 +1,51 @@
 \BOOKMARK [1][-]{section*.5}{Introducci\363n}{}% 1
-\BOOKMARK [1][-]{section.1}{M\351todo MSPD}{}% 2
-\BOOKMARK [2][-]{subsection.1.1}{Factores a considerar en la extracci\363n MSPD}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.2}{Extracci\363n en fase s\363lida}{section.1}% 4
-\BOOKMARK [2][-]{subsection.1.3}{Prototipo a escala}{section.1}% 5
-\BOOKMARK [1][-]{section.2}{CFD}{}% 6
-\BOOKMARK [2][-]{subsection.2.1}{An\341lisis unidimensional estacionario - 1D}{section.2}% 7
-\BOOKMARK [2][-]{subsection.2.2}{Solvers}{section.2}% 8
-\BOOKMARK [2][-]{subsection.2.3}{Metodolog\355as de verificaci\363n y validaci\363n}{section.2}% 9
-\BOOKMARK [2][-]{subsection.2.4}{An\341lisis bidimensional estacionario - 2D}{section.2}% 10
-\BOOKMARK [1][-]{section.3}{DEM}{}% 11
-\BOOKMARK [2][-]{subsection.3.1}{Detecci\363n de una colici\363n}{section.3}% 12
-\BOOKMARK [1][-]{section.4}{CFD-DEM}{}% 13
-\BOOKMARK [2][-]{subsection.4.1}{Fase del solvente}{section.4}% 14
-\BOOKMARK [1][-]{section.5}{Sedimentaci\363n}{}% 15
-\BOOKMARK [2][-]{subsection.5.1}{Sedimentaci\363n con coagulantes}{section.5}% 16
-\BOOKMARK [2][-]{subsection.5.2}{Sedimentadores de placas paralelas}{section.5}% 17
-\BOOKMARK [2][-]{subsection.5.3}{Turbiedad}{section.5}% 18
-\BOOKMARK [1][-]{section.6}{Etapa de eluci\363n y filtrado}{}% 19
-\BOOKMARK [2][-]{subsection.6.1}{Naturaleza del flujo}{section.6}% 20
-\BOOKMARK [2][-]{subsection.6.2}{Par\341metros operacionales}{section.6}% 21
-\BOOKMARK [2][-]{subsection.6.3}{Dimensionamiento}{section.6}% 22
-\BOOKMARK [3][-]{subsubsection.6.3.1}{Panel de lamelas}{subsection.6.3}% 23
-\BOOKMARK [2][-]{subsection.6.4}{M\351todo de Hazen \040tiempo de sedimentaci\363n}{section.6}% 24
-\BOOKMARK [2][-]{subsection.6.5}{Tama\361o de part\355cula m\355nima}{section.6}% 25
-\BOOKMARK [2][-]{subsection.6.6}{Resultados}{section.6}% 26
-\BOOKMARK [1][-]{section.7}{Modelo CFD-DEM}{}% 27
-\BOOKMARK [2][-]{subsection.7.1}{Geometr\355a}{section.7}% 28
-\BOOKMARK [2][-]{subsection.7.2}{Mallado}{section.7}% 29
-\BOOKMARK [2][-]{subsection.7.3}{Condiciones de frontera}{section.7}% 30
-\BOOKMARK [2][-]{subsection.7.4}{Desarrollo de la simulaci\363n}{section.7}% 31
-\BOOKMARK [3][-]{subsubsection.7.4.1}{CFD}{subsection.7.4}% 32
-\BOOKMARK [4][-]{paragraph.7.4.1.1}{Resultados}{subsubsection.7.4.1}% 33
-\BOOKMARK [4][-]{paragraph.7.4.1.2}{An\341lisis de resultados}{subsubsection.7.4.1}% 34
-\BOOKMARK [3][-]{subsubsection.7.4.2}{CFD-DEM}{subsection.7.4}% 35
-\BOOKMARK [4][-]{paragraph.7.4.2.1}{Planteamiento num\351rico}{subsubsection.7.4.2}% 36
-\BOOKMARK [4][-]{paragraph.7.4.2.2}{Resultados}{subsubsection.7.4.2}% 37
-\BOOKMARK [4][-]{paragraph.7.4.2.3}{An\341lisis de resultados}{subsubsection.7.4.2}% 38
-\BOOKMARK [1][-]{section.8}{Implementaci\363n del modelo}{}% 39
-\BOOKMARK [2][-]{subsection.8.1}{Frontend}{section.8}% 40
-\BOOKMARK [2][-]{subsection.8.2}{Backend}{section.8}% 41
-\BOOKMARK [3][-]{subsubsection.8.2.1}{Dise\361o funcional te\363rico}{subsection.8.2}% 42
-\BOOKMARK [3][-]{subsubsection.8.2.2}{Modelo CFD}{subsection.8.2}% 43
-\BOOKMARK [3][-]{subsubsection.8.2.3}{Modelo CFD-DEM}{subsection.8.2}% 44
-\BOOKMARK [1][-]{section.9}{Validaci\363n del modelo}{}% 45
-\BOOKMARK [2][-]{subsection.9.1}{Descripci\363n del problema}{section.9}% 46
-\BOOKMARK [2][-]{subsection.9.2}{Desarrollo experimental}{section.9}% 47
-\BOOKMARK [3][-]{subsubsection.9.2.1}{Descripci\363n particular}{subsection.9.2}% 48
-\BOOKMARK [3][-]{subsubsection.9.2.2}{M\351todos experimentales}{subsection.9.2}% 49
-\BOOKMARK [2][-]{subsection.9.3}{Resultados}{section.9}% 50
-\BOOKMARK [1][-]{section*.51}{Conclusiones}{}% 51
+\BOOKMARK [1][-]{section.1}{Planta de extracci\363n}{}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Planta desarrollada}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{M\351todo MSPD}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Factores a considerar en la extracci\363n MSPD}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Extracci\363n en fase s\363lida}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{CFD}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{An\341lisis unidimensional estacionario - 1D}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Solvers}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Metodolog\355as de verificaci\363n y validaci\363n}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.4}{An\341lisis bidimensional estacionario - 2D}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{DEM}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Detecci\363n de una colici\363n}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{CFD-DEM}{}% 14
+\BOOKMARK [2][-]{subsection.5.1}{Fase del solvente}{section.5}% 15
+\BOOKMARK [1][-]{section.6}{Sedimentaci\363n}{}% 16
+\BOOKMARK [2][-]{subsection.6.1}{Sedimentadores convencionales}{section.6}% 17
+\BOOKMARK [2][-]{subsection.6.2}{Sedimentador de placas inclinadas}{section.6}% 18
+\BOOKMARK [1][-]{section.7}{Dise\361o te\363rico}{}% 19
+\BOOKMARK [2][-]{subsection.7.1}{Naturaleza del flujo}{section.7}% 20
+\BOOKMARK [2][-]{subsection.7.2}{Par\341metros operacionales}{section.7}% 21
+\BOOKMARK [2][-]{subsection.7.3}{Dimensionamiento}{section.7}% 22
+\BOOKMARK [3][-]{subsubsection.7.3.1}{Panel de lamelas}{subsection.7.3}% 23
+\BOOKMARK [2][-]{subsection.7.4}{M\351todo de Hazen \040tiempo de sedimentaci\363n}{section.7}% 24
+\BOOKMARK [2][-]{subsection.7.5}{Tama\361o de part\355cula m\355nima}{section.7}% 25
+\BOOKMARK [2][-]{subsection.7.6}{Resultados}{section.7}% 26
+\BOOKMARK [1][-]{section.8}{Modelo CFD-DEM}{}% 27
+\BOOKMARK [2][-]{subsection.8.1}{Geometr\355a}{section.8}% 28
+\BOOKMARK [2][-]{subsection.8.2}{Mallado}{section.8}% 29
+\BOOKMARK [2][-]{subsection.8.3}{Condiciones de frontera}{section.8}% 30
+\BOOKMARK [2][-]{subsection.8.4}{Desarrollo de la simulaci\363n}{section.8}% 31
+\BOOKMARK [3][-]{subsubsection.8.4.1}{CFD}{subsection.8.4}% 32
+\BOOKMARK [4][-]{paragraph.8.4.1.1}{Resultados}{subsubsection.8.4.1}% 33
+\BOOKMARK [4][-]{paragraph.8.4.1.2}{An\341lisis de resultados}{subsubsection.8.4.1}% 34
+\BOOKMARK [3][-]{subsubsection.8.4.2}{CFD-DEM}{subsection.8.4}% 35
+\BOOKMARK [4][-]{paragraph.8.4.2.1}{Planteamiento num\351rico}{subsubsection.8.4.2}% 36
+\BOOKMARK [4][-]{paragraph.8.4.2.2}{Resultados}{subsubsection.8.4.2}% 37
+\BOOKMARK [4][-]{paragraph.8.4.2.3}{An\341lisis de resultados}{subsubsection.8.4.2}% 38
+\BOOKMARK [1][-]{section.9}{Implementaci\363n del modelo}{}% 39
+\BOOKMARK [2][-]{subsection.9.1}{Frontend}{section.9}% 40
+\BOOKMARK [2][-]{subsection.9.2}{Backend}{section.9}% 41
+\BOOKMARK [3][-]{subsubsection.9.2.1}{Dise\361o funcional te\363rico}{subsection.9.2}% 42
+\BOOKMARK [3][-]{subsubsection.9.2.2}{Modelo CFD}{subsection.9.2}% 43
+\BOOKMARK [3][-]{subsubsection.9.2.3}{Modelo CFD-DEM}{subsection.9.2}% 44
+\BOOKMARK [1][-]{section.10}{Validaci\363n del modelo}{}% 45
+\BOOKMARK [2][-]{subsection.10.1}{Descripci\363n del problema}{section.10}% 46
+\BOOKMARK [2][-]{subsection.10.2}{Desarrollo experimental}{section.10}% 47
+\BOOKMARK [3][-]{subsubsection.10.2.1}{Descripci\363n particular}{subsection.10.2}% 48
+\BOOKMARK [3][-]{subsubsection.10.2.2}{M\351todos experimentales}{subsection.10.2}% 49
+\BOOKMARK [2][-]{subsection.10.3}{Resultados}{section.10}% 50
+\BOOKMARK [1][-]{section*.53}{Conclusiones}{}% 51
