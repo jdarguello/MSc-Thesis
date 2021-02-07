@@ -30,6 +30,11 @@ A.~L. Capriotti, C.~Cavaliere, P.~Foglia, R.~Samperi, S.~Stampachiacchiere,
   \url{https://www.sciencedirect.com/science/article/abs/pii/S0165993615001387}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Voutchkov2017}
+N.~Voutchkov, ``{Sand Removal, Sedimentation, and Dissolved Air Flotation},''
+  in \emph{Pretreatment for Reverse Osmosis Desalination}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Elsevier, jan 2017, pp. 137--152.
+
 \bibitem{Fessler1999}
 \BIBentryALTinterwordspacing
 J.~R. Fessler and J.~K. Eaton, ``{Turbulence modification by particles in a
@@ -111,17 +116,42 @@ H.~Bao, J.~Feng, N.~Dinh, and H.~Zhang, ``{Deep learning interfacial momentum
   data},'' \emph{International Journal of Multiphase Flow}, vol. 135, p.
   103489, feb 2021.
 
-\bibitem{Voutchkov2017}
-N.~Voutchkov, ``{Sand Removal, Sedimentation, and Dissolved Air Flotation},''
-  in \emph{Pretreatment for Reverse Osmosis Desalination}.\hskip 1em plus 0.5em
-  minus 0.4em\relax Elsevier, jan 2017, pp. 137--152.
-
 \bibitem{OMSagua}
 \BIBentryALTinterwordspacing
 ``{OMS | Manual para el desarrollo de planes de seguridad del agua},''
   \emph{WHO}, 2017. [Online]. Available:
   \url{http://www.who.int/water{\_}sanitation{\_}health/publications/publication{\_}9789241562638/es/}
 \BIBentrySTDinterwordspacing
+
+\bibitem{Acrivos1995}
+\BIBentryALTinterwordspacing
+A.~Acrivos, ``{Sedimentation and sediment flow in settling tanks with inclined
+  walls},'' \emph{Journal of Fluid Mechanics}, vol. 290, pp. 39--66, 1995.
+  [Online]. Available:
+  \url{https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/abs/sedimentation-and-sediment-flow-in-settling-tanks-with-inclined-walls/F5D7B030CCA97FE3A551D6148C1E5C74}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Lekang2001}
+O.~I. Lekang, A.~{Marie Bomo}, and I.~Svendsen, ``{Biological lamella
+  sedimentation used for wastewater treatment},'' \emph{Aquacultural
+  Engineering}, vol.~24, no.~2, pp. 115--127, feb 2001.
+
+\bibitem{Robescu2010}
+\BIBentryALTinterwordspacing
+L.~D. Robescu, I.~C. Moga, and D.~Robescu, ``{Design lamellar secondary
+  settling tank using numerical modeling},'' \emph{UPB Scientific Bulletin,
+  Series D: Mechanical Engineering}, vol.~72, 2010. [Online]. Available:
+  \url{https://www.researchgate.net/publication/265268495{\_}Design{\_}lamellar{\_}secondary{\_}settling{\_}tank{\_}using{\_}numerical{\_}modeling}
+\BIBentrySTDinterwordspacing
+
+\bibitem{RobertoRojas}
+J.~A. {Roberto Rojas}, \emph{{Purificaci{\'{o}}n del agua}}.\hskip 1em plus
+  0.5em minus 0.4em\relax Escuela Colombiana de Ingenier{\'{i}}a, 2009.
+
+\bibitem{PerezParra1997}
+J.~A. {P{\'{e}}rez Parra}, \emph{{Manual de potabilizaci{\'{o}}n del
+  agua}}.\hskip 1em plus 0.5em minus 0.4em\relax Medell{\'{i}}n: Universidad
+  Nacional de Colombia, 1997.
 
 \bibitem{Roda-Casanova2021}
 \BIBentryALTinterwordspacing

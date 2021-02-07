@@ -1,0 +1,115 @@
+\paragraph{Desarrollo matem\'atico}
+
+\noindent
+\justify
+
+Como se aprecia en la Figura \ref{lamelas_inclinadas}, el sedimentador de placas paralelas subdivide el espacio en compartimientos. Esta configuraci\'on geom\'etrica cumple dos objetivos: incrementa el \'area de sedimentaci\'on y origina el flujo laminar$^{\cite{Lekang2001}}$. La inclinaci\'on de las placas permite el deslizamiento de los sedimentos gracias a la gravedad y a la diferencia de densidades respecto al fluido circundante (ver Figura \ref{vel_particula}). El sedimentador debe contar con una tolva c\'onica en el fondo del recipiente para la recolecci\'on y expulsi\'on de lodos. Es importante destacar que durante toda la operaci\'on, el flujo debe ser laminar; de modo que el n\'umero de Reynolds debe ser inferior a 500$^{\cite{Robescu2010}}$. 
+
+\noindent
+\justify
+
+Los par\'ametros m\'as empleados en el dise\~no de sedimentadores son la carga de sedimentaci\'on superficial y el \'area superficial$^{\cite{RobertoRojas}}$. En el Cuadro \ref{critSed}, se muestran los criterios de dise\~no sugeridos por Romero$^{\cite{RobertoRojas}}$ y P\'erez$^{\cite{PerezParra1997}}$.
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Par\'ametro} & \textbf{Valor} \\ \hline
+		Carga superficial $C_s$ & $6.0 - 180 [m/d]$ \\ \hline
+		Tiempo de retenci\'on en placas $t_p$ & $8 - 25 [min]$ \\ \hline
+		Inclinaci\'on de placas $\theta$ & $60 [\degree]$ \\ \hline
+		N\'umero de Reynolds $Re$ & $<500$ \\ \hline
+		Distancia entre placas & $5 [cm]$ \\ \hline
+		Velocidad cr\'itica de asentamiento $V_{sc}$ & $15 - 60 [m/d]$ \\ \hline
+		Relaci\'on longitud-distanciamiento entre placas $l/d$ & $>8$ \\ \hline
+	\end{tabular}
+	\caption{Criterios de dise\~no.}
+	\label{critSed}
+\end{table}
+
+\noindent
+\justify
+
+Para el desarrollo del dise\~no, se debe conocer el caudal de entrada, la relaci\'on m\'asica entre el material s\'olido con el fluido y las propiedades del fluido. El tiempo de retenci\'on en las celdas se calcula de acuerdo a lo expuesto en la Ecuaci\'on \ref{tp}.
+
+\begin{equation}
+	t_p = \frac{l}{v_0}
+	\label{tp}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde: $l$ es el largo de las placas y $v_0$ es la velocidad promedio del fluido. La carga superficial es equivalente a:
+
+\begin{equation}
+	v_0 = \frac{Q}{A \sin \theta}
+	\label{v0}
+\end{equation}
+
+\noindent
+\justify
+
+De la Ecuac\'on \ref{v0}, $\theta$ es el \'angulo de inclinaci\'on de las placas. El n\'umero de Reynolds se calcula de la siguiente forma:
+
+\begin{equation}
+	Re = \frac{v_0 \, d}{\mu}
+	\label{Reynolds}
+\end{equation}
+
+\noindent
+\justify
+
+De la Ecuaci\'on \ref{Reynolds}: $\mu$ se refiere a la viscosidad cinem\'atica del fluido, $d$ es la separac\'on entre placas y $v_0$ es la velocidad promedio del fluido en el elemento de sedimentaci\'on. La velocidad cr\'itica de sedimentaci\'on se define de la siguiente forma:
+
+\begin{equation}
+	V_{sc} = \frac{S_c \, v_0}{\sin (\theta ) + L_c \cos (\theta )}
+	\label{Vsc}
+\end{equation}
+
+\noindent
+\justify
+
+En la Ecuaci\'on \ref{Vsc}: $S_c$ es el par\'ametro de eficiencia (1 para sedimentadores de placas inclinadas) y $L_c$ es la longitud relativa efectiva de sedimentaci\'on en flujo laminar y est\'a definida por la Ecuaci\'on \ref{Lc}.
+
+\begin{equation}
+	L_c = \left\{\begin{matrix}
+		(l/d) - 0.013 Re \rightarrow (l/d) - 0.013 Re \ge 0 \\
+		\frac{1}{2} (l/d) \rightarrow (l/d) - 0.013 Re < 0
+	\end{matrix}\right.
+	\label{Lc}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde $l$ es el largo de las placas y $d$ es la separaci\'on entre ellas. Romero$^{\cite{RobertoRojas}}$ establece que el tiempo de retenci\'on satisface la siguiente expresi\'on:
+
+\begin{equation}
+	t_p = \frac{V}{Q} = \frac{A d}{Q}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde $V$ es el volumen de la lamela, $Q$ el caudal y $A$ es el \'area \'util de sedimentaci\'on. El \'area \'util est\'a definida por la Ecuaci\'on \ref{Au}; siendo $L_s$ la longitud de una lamela y $W_s$ el ancho del sistema de sedimentaci\'on.
+
+\begin{equation}
+	A = L_s \, W_s
+	\label{Au}
+\end{equation}
+
+\noindent
+\justify
+
+Romero$^{\cite{RobertoRojas}}$ estipula que el n\'umero de placas del sistema de sedimentaci\'on se calcula con base en la siguiente expresi\'on:
+
+\begin{equation}
+	N = \frac{L_s \sin \theta + d}{d+e}
+	\label{NL}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde: $L_s$ es el longitud de la lamela, $d$ es la separaci\'on entre placas, $e$ es el espesor de las placas y $\theta$ es el \'angulo de inclinaci\'on.

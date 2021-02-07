@@ -30,45 +30,45 @@ Warning--missing institution in Proyecto
 Warning--empty author in OMSagua
 
 Done.
-You've used 26 entries,
+You've used 31 entries,
             4087 wiz_defined-function locations,
-            1041 strings with 14400 characters,
-and the built_in function-call counts, 22250 in all, are:
-= -- 1901
-> -- 494
-< -- 222
-+ -- 278
-- -- 76
-* -- 1117
-:= -- 3342
-add.period$ -- 54
-call.type$ -- 26
-change.case$ -- 26
-chr.to.int$ -- 501
-cite$ -- 28
-duplicate$ -- 1556
-empty$ -- 1598
-format.name$ -- 98
-if$ -- 5149
+            1079 strings with 15519 characters,
+and the built_in function-call counts, 25138 in all, are:
+= -- 2143
+> -- 546
+< -- 242
++ -- 306
+- -- 85
+* -- 1249
+:= -- 3824
+add.period$ -- 64
+call.type$ -- 31
+change.case$ -- 29
+chr.to.int$ -- 543
+cite$ -- 33
+duplicate$ -- 1769
+empty$ -- 1850
+format.name$ -- 109
+if$ -- 5816
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 246
-newline$ -- 119
-num.names$ -- 25
-pop$ -- 491
+int.to.str$ -- 31
+missing$ -- 281
+newline$ -- 138
+num.names$ -- 30
+pop$ -- 569
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1707
+skip$ -- 1938
 stack$ -- 0
-substring$ -- 1218
-swap$ -- 1412
-text.length$ -- 55
+substring$ -- 1319
+swap$ -- 1574
+text.length$ -- 61
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 26
+type$ -- 31
 warning$ -- 2
-while$ -- 111
-width$ -- 28
-write$ -- 310
+while$ -- 124
+width$ -- 33
+write$ -- 360
 (There were 2 warnings)

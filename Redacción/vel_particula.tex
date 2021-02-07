@@ -1,0 +1,63 @@
+\begin{figure}[h!]
+	\centering
+	\begin{tikzpicture}
+		%Lamela
+		\draw (0,0) -- ({\aancho*cos(90-\ang)},{\aancho*sin(90-\ang)});
+		\draw[line width=1.0mm] (0,0) -- ({-\LL*cos(\ang)}, {\LL*sin(\ang)});
+		\draw ({-\LL*cos(\ang)}, {\LL*sin(\ang)}) -- ({-\LL*cos(\ang)+\aancho*cos(90-\ang)}, {\LL*sin(\ang) + \aancho*sin(90-\ang)});
+		\draw[line width=1.0mm] ({-\LL*cos(\ang)+\aancho*cos(90-\ang)}, {\LL*sin(\ang) + \aancho*sin(90-\ang)}) -- ({\aancho*cos(90-\ang)},{\aancho*sin(90-\ang)});
+		
+		%--Medidas--
+		%b
+		\draw ({0.25*cos(\ang)}, {-0.25*sin(\ang)}) -- ({0.5*cos(\ang)}, {-0.5*sin(\ang)});
+		\draw ({\aancho*cos(90-\ang) + 0.25*cos(\ang)},{\aancho*sin(90-\ang) - 0.25*sin(\ang)}) -- ({\aancho*cos(90-\ang) + 0.5*cos(\ang)},{\aancho*sin(90-\ang) - 0.5*sin(\ang)});	
+		
+		\draw[-triangle 45, fill=black] ({0.375*cos(\ang)}, {-0.375*sin(\ang)}) -- ({\aancho*cos(90-\ang) + 0.375*cos(\ang)},{\aancho*sin(90-\ang) - 0.375*sin(\ang)});
+
+		\draw[-triangle 45, fill=black] ({\aancho*cos(90-\ang) + 0.375*cos(\ang)},{\aancho*sin(90-\ang) - 0.375*sin(\ang)}) -- ({0.375*cos(\ang)}, {-0.375*sin(\ang)}) node [midway, below, rotate=\ang] {$b$};	
+		
+		%L
+		\draw ({-0.25*cos(\ang)}, {-0.25*sin(\ang)}) -- ({-0.5*cos(\ang)}, {-0.5*sin(\ang)});
+		
+		\draw ({-1*\LL*cos(\ang)-0.25*cos(\ang)}, {1*\LL*sin(\ang)-0.25*sin(\ang)}) -- ({-1*\LL*cos(\ang)-0.5*cos(\ang)}, {1*\LL*sin(\ang)-0.5*sin(\ang)});
+		
+		\draw[-triangle 45, fill=black] ({-0.375*cos(\ang)}, {-0.375*sin(\ang)}) -- ({-1*\LL*cos(\ang)-0.375*cos(\ang)}, {1*\LL*sin(\ang)-0.375*sin(\ang)});
+		
+		\draw[-triangle 45, fill=black] ({-1*\LL*cos(\ang)-0.375*cos(\ang)}, {1*\LL*sin(\ang)-0.375*sin(\ang)}) -- ({-0.375*cos(\ang)}, {-0.375*sin(\ang)}) node [midway, below, rotate=-\ang] {$L$};
+		
+		%Theta
+		\draw[dashed] (-0.75,0) -- (-0.3*\LL, 0);
+		
+		\draw (-0.15*\LL,0) arc (180:180-\ang:0.15*\LL) node [midway, left] {$\theta$};
+		
+		%Eje coordenado
+		\draw[-triangle 45] (1, {0.8*\LL*sin(\ang)}) -- ({1+1.5*cos(\ang)}, {0.8*\LL*sin(\ang) + 1.5*sin(\ang)}) node [left=4mm, above, rotate=-\ang] {$y$};
+		
+		\draw[-triangle 45] (1, {0.8*\LL*sin(\ang)}) -- ({1-1.5*cos(\ang)}, {0.8*\LL*sin(\ang) + 1.5*sin(\ang)}) node [left=4mm, above, rotate=-\ang] {$x$};
+		
+		%g
+		\draw[-triangle 45, dashed] (1, {0.8*\LL*sin(\ang)}) -- (1, 3) node [midway, left] {$\vec{g}$};
+		
+		%Sedimentos
+		\draw[pattern=dots, pattern color=brown!80!gray, dotted] (0,0) -- ({0.2*\aancho*cos(90-\ang)},{0.2*\aancho*sin(90-\ang)}) -- ({-0.85*\LL*cos(\ang)}, {0.85*\LL*sin(\ang)}) -- cycle;
+		
+		%--Análisis de la partícula--
+		\draw[dotted] ({\aancho*cos(90-\ang)},{\aancho*sin(90-\ang)}) node [right=1mm] {$O$} -- ({-\LL*cos(\ang)}, {\LL*sin(\ang)}) node [left] {$B$};
+		
+		\draw[fill=brown!80!gray] ({-0.35*\LL*cos(\ang) + 0.65*\aancho*cos(90-\ang)}, {0.35*\LL*sin(\ang) + 0.65*\aancho*sin(90-\ang)}) circle (0.16);
+		
+		\draw[-triangle 45] ({-0.35*\LL*cos(\ang) + 0.65*\aancho*cos(90-\ang)}, {0.35*\LL*sin(\ang) + 0.65*\aancho*sin(90-\ang)}) -- ({-0.5*\LL*cos(\ang) + 0.65*\aancho*cos(90-\ang)}, {0.5*\LL*sin(\ang) + 0.65*\aancho*sin(90-\ang)}) node [left, above] {$\vec{v}$};
+		
+		\draw[-triangle 45] ({-0.35*\LL*cos(\ang) + 0.65*\aancho*cos(90-\ang)}, {0.35*\LL*sin(\ang) + 0.65*\aancho*sin(90-\ang)}) -- ({-0.35*\LL*cos(\ang) + 0.65*\aancho*cos(90-\ang)}, 2.2) node [below] {$\vec{U}$};
+		
+		\draw[dashed] plot [smooth] coordinates{({-0.35*\LL*cos(\ang) + 0.65*\aancho*cos(90-\ang)}, {0.35*\LL*sin(\ang) + 0.65*\aancho*sin(90-\ang)}) ({-0.55*\LL*cos(\ang) + 0.5*\aancho*cos(90-\ang)}, {0.55*\LL*sin(\ang) + 0.5*\aancho*sin(90-\ang)}) ({-0.8*\LL*cos(\ang)}, {0.8*\LL*sin(\ang)})};
+		
+		\draw[dashed, brown!80!gray, pattern=north west lines, pattern color=brown!80!gray] ({-0.55*\LL*cos(\ang) + 0.5*\aancho*cos(90-\ang)}, {0.55*\LL*sin(\ang) + 0.5*\aancho*sin(90-\ang)}) circle (0.16);
+		
+		\draw[dashed, brown!80!gray, pattern=north west lines, pattern color=brown!80!gray] ({-0.7*\LL*cos(\ang) + 0.22*\aancho*cos(90-\ang)}, {0.7*\LL*sin(\ang) + 0.22*\aancho*sin(90-\ang)}) circle (0.16);
+		
+		\draw[dashed, -triangle 45] ({-0.35*\LL*cos(\ang) + 0.65*\aancho*cos(90-\ang)}, {0.35*\LL*sin(\ang) + 0.65*\aancho*sin(90-\ang)}) -- ({-0.35*\LL*cos(\ang) + 0.35*\aancho*cos(90-\ang)}, {0.35*\LL*sin(\ang) + 0.35*\aancho*sin(90-\ang)}) node [rotate=-\ang, below=-1mm] {$u$};	
+	\end{tikzpicture}
+	\caption{Cinem\'atica de una part\'icula s\'olida.}
+	\label{vel_particula}
+\end{figure}

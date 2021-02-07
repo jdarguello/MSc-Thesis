@@ -1,0 +1,79 @@
+\paragraph{An\'alisis hidrodin\'amico de una part\'icula}
+
+\noindent
+\justify
+
+La \textit{sedimentaci\'on discreta} se refiere a un modelo de sedimentaci\'on en donde las part\'iculas s\'olidas no tienden a aglomerarse ni a colisionar entre s\'i. El comportamiento de los s\'olidos se encuentra, \'unicamente, en funci\'on de las propiedades de las part\'iculas y del fluido directamente. El balance de fuerzas sobre una part\'icula se puede apreciar directamente en la Figura \ref{partF}.
+
+\input{partF}
+
+\noindent
+\justify
+
+
+De la Figura \ref{partF}, $\vec{W}$ se refiere al peso de la part\'icula, $\vec{F}$ a la fuerza de arrastre, $\vec{U}$ es la velocidad de asentamiento y $\vec{a}$ es la aceleraci\'on de asentamiento.
+
+\noindent
+\justify
+
+Romero$^{\cite{RobertoRojas}}$ indica que la fuerza de arrastre se puede calcular con base en la Ecuaci\'on \ref{farr}.
+
+\begin{equation}
+	F = \frac{C \, A_n \, \rho _f \, U^2}{2}
+	\label{farr}
+\end{equation}
+
+\noindent
+\justify
+
+De la Ecuaci\'on \ref{farr}, $C$ es el coeficiente de arrastre de Newton, $A_n$ es el \'area transversal de la part\'icula en la direcci\'on de asentamiento, $U$ es la velocidad de asentamiento y $\rho _f$ es la densidad del fluido.
+
+\noindent
+\justify
+
+El peso de la part\'icula en el fluido depende directamente de la gravedad y de las densidades del fluido y de la part\'icula, como se aprecia en la ecuaci\'on \ref{pesoP}.
+
+\begin{equation}
+	W = V \left(\rho _s - \rho _f \right) g
+	\label{pesoP}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde: $V$ es el volumen de la part\'icula, $\rho _s$ es la densidad de la part\'icula, $\rho _f$ es la densidad del fluido y $g$ corresponde a la aceleraci\'on de la gravedad.
+
+\noindent
+\justify
+
+El coeficiente de arrastre es funci\'on del n\'umero de Reynolds:
+
+\begin{equation}
+	Re _s = \frac{d_p \, U}{\mu}
+	\label{Res}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde $d_p$ es el di\'ametro de la part\'icula y $\mu$ la viscosidad cinem\'atica del fluido. Se estipula que para part\'iculas esf\'ericas y $Re _s < 10000$ el coeficiente de arrastre se puede calcular de la siguiente forma:
+
+\begin{equation}
+	C = \frac{24}{Re_s} + \frac{3}{Re _s ^{1/2}} + 0.34
+	\label{CoefArr}
+\end{equation}
+
+\noindent
+\justify
+
+En un principio, se espera que en el decenso la part\'icula acelere hasta que la fuerza de arrastre sea igual a la fuerza impulsora del asentamiento. Cuando las fuerzas verticuales se encuentran en equilibrio, la velocidad ser\'a constante. De esta manera, es posible relacionar las Ecuaciones \ref{pesoP} y \ref{farr}:
+
+\begin{equation}
+	U = \sqrt{\frac{2 V \left(\rho _s - \rho _f \right) g}{C \, A_n \, \rho _f}}
+	\label{Uas}
+\end{equation}
+
+\noindent
+\justify
+
+La Ecuaci\'on \ref{Uas} se conoce como la Ley de Stokes y ha sido comprobada de manera experimental$^{\cite{RobertoRojas}}$.

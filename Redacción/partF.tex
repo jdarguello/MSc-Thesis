@@ -1,0 +1,17 @@
+\begin{figure}[h!]
+	\centering
+	\begin{tikzpicture}
+		\draw[pattern = dots, pattern color= brown] (0,0) circle (2);
+		\node[align=center] at (0,0) {Spherical\\ particle};
+		\draw[-triangle 45, gray!30!black] (0,3) node [above] {$\vec{W}$} -- (0,0.5) ;
+		\foreach \x in {0, ..., 10}
+			\draw[-triangle 45, blue!70!white] (0.4*\x-2,{-sqrt(2^2-(0.4*\x-2)^2)-0.5}) -- (0.4*\x-2,{-sqrt(2^2-(0.4*\x-2)^2)});
+		\foreach \x in {0, ..., 10}
+			\draw[-triangle 45, blue!70!white] (0.4*\x-2,{sqrt(2^2-(0.4*\x-2)^2)+0.5}) -- (0.4*\x-2,{sqrt(2^2-(0.4*\x-2)^2)});
+		\draw[-triangle 45, gray!80!white] (0,-3) node [below] {$\vec{F}$} -- (0,-2);
+		\draw[-triangle 45, dashed] (-3,2) -- (-3,0) node [below] {$\vec{U}$};
+		\draw[-triangle 45, dashed] (3,2) -- (3,0) node [below] {$\vec{a}$};
+	\end{tikzpicture}
+	\caption{Din\'amica de la part\'icula.}
+	\label{partF}
+\end{figure}

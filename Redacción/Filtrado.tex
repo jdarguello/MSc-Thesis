@@ -5,45 +5,99 @@
 \noindent
 \justify
 
-Como se explic\'o en el cap\'itulo \ref{MSPD_chap}, la etapa de eluci\'on y filtrado busca separar la fase s\'olida, compuesta por el material pulverizado, de la fase l\'iquida que consiste de una mezcla homog\'enea entre el solvente y el extracto (producto final). En el presente cap\'itulo, se desarrolla el dise\~no te\'orico de esta etapa del m\'etodo extractivo; proponiendo una geometr\'ia inicial para el desarrollo de simulaciones num\'ericas.
-
-\noindent
-\justify
-
-Las condiciones operacionales se pueden apreciar en el Cuadro \ref{condiciones}.
+En la etapa de eluci\'on y filtrado de la planta de extracci\'on se busca separar la fase s\'olida de la l\'iquida. El dise\~no te\'orico de este sistema se desarrolla con base en lo estipulado en la secci\'on \ref{simplificado}, teniendo en cuenta las cosideraciones estipuladas en el Cuadro \ref{condiciones}.
 
 \begin{table}[h!]
 	\centering
-	\begin{tabular}{c|c}
+	\begin{tabular}{c|p{4cm}}
 		\hline
 		\textbf{Par\'ametro} & \textbf{Valor} \\ \hline
 		Cantidad de material s\'olido a remover $[kg]$ & 80 \\ \hline
 		Densidad media del material s\'olido $\left[kg / m^3 \right]$ & 1700 \\ \hline
 		Volumen de la mezcla $[L]$ & 200 \\ \hline
 		Tama\~no de part\'icula medio $[\mu m]$ & 250 \\ \hline
-		Tipo de solvente & Mezcla agua - etanol ($50 \%$ volum\'etrico) \\ \hline
+		Tipo de solvente & Mezcla agua - etanol ($50 \%$) \\ \hline
 		Temperatura del proceso $[\degree C]$ & 28 \\ \hline
 		Tiempo del proceso $[h]$ & 1 \\ \hline
-		
 	\end{tabular}
-	\caption{Condiciones operacionales requeridas por el sistema de eluci\'on y filtrado.}
+	\caption{Condiciones operacionales.}
 	\label{condiciones}
 \end{table}
 
 \noindent
 \justify
 
-El principio f\'isico de separaci\'on de sustancias empleado por el sistema es la \textbf{sedimentaci\'on}, producida por la diferencia de densidades entre el material s\'olido a separar y el solvente; siendo el material s\'olido de mayor densidad que el l\'iquido. Es debido a ello que en el presente trabajo se desarrolla el dise\~no y simulaci\'on num\'erica de un sedimentador de placas paralelas como sistema de eluci\'on y filtrado de la planta de extracci\'on.
+El principio f\'isico de separaci\'on de sustancias empleado por el sistema es la \textbf{sedimentaci\'on}, producida por la diferencia de densidades entre el material s\'olido a separar y el solvente. Es debido a ello que en el presente trabajo se desarrolla el dise\~no y simulaci\'on num\'erica de un sedimentador de placas paralelas como sistema de eluci\'on y filtrado de la planta de extracci\'on.
 
 \noindent
 \justify
 
-El dise\~no del sistema, requerido para para definir la geometr\'ia de los modelos num\'ericos a resolver, parte de las siguientes afirmaciones y suposiciones:
+Para definir la geometr\'ia del sistema, se parte de las siguientes afirmaciones y suposiciones:
 
 \begin{itemize}
-	\item El fen\'omeno a describir se trata de la \textit{sedimentaci\'on discreta}; indicativo de que las part\'iculas no tienden a aglomerarse y se desprecian los efectos de colisi\'on entre ellas. 
+	\item El fen\'omeno a describir se basa en la \textit{sedimentaci\'on discreta}; indicativo de que las part\'iculas no tienden a aglomerarse y se desprecian los efectos de colisi\'on entre ellas. 
 	\item Cada part\'icula se trata como un cuerpo esf\'erico microm\'etrico de tama\~no equivalente a $250 [\mu m]$.
 \end{itemize}
+
+\subsection{Propiedades termodin\'amicas}
+
+\noindent
+\justify
+
+Para desarrollar la automatizaci\'on del dise\~no, es necesario predecir el valor de las propiedades del solvente a cualquier valor de temperatura y relaci\'on agua - etanol. Para ello, se inicia calculando las propiedades del etanol y del agua a presi\'on atmosf\'erica empleando las Ecuaciones \ref{rhoH2O}. \ref{viscH2O}, \ref{rhoEt} y \ref{viscEt}.
+
+\begin{equation}
+	\rho _{H_2O} = 1.00048675 \, 10^3 - 2.23243162 \, 10^{-2}*T - 4.60579811 \, 10^{-3}*T^2 \equiv \left[ kg / m^3 \right] 
+	\label{rhoH2O}
+\end{equation}
+
+\begin{equation}
+	\mu _{H_2O} = 1.63190407 \, 10^{-6} - 3.73507082 \, 10^{-8}*T + 3.20602877 \, 10^{-10}*T^2 \equiv \left[ m^2 / s \right] 
+	\label{viscH2O}
+\end{equation}
+
+
+\begin{equation}
+	\rho _{et} = 8.06320738 \, 10^{2}-8.32481402 \, 10^{-1}*T-5.78205398 \, 10^{-4}*T^2 \equiv \left[ kg / m^3 \right] 
+	\label{rhoEt}
+\end{equation}
+
+\begin{equation}
+	\mu _{et} = 2.11316694 \, 10^{-6} - 3.69955667 \, 10^{-8}*T + 2.57275555 \, 10^{-10}*T^2 \equiv \left[ m^2 / s \right] 
+	\label{viscEt}
+\end{equation}
+
+\noindent
+\justify
+
+Una vez conocidas las propiedades individuales, se calcula la propiedad de la mezcla a trav\'es de la Ecuaci\'on \ref{mezcla}.
+
+\begin{equation}
+	\lambda _f = (1-x) \, \lambda _{H_2O} + x \, \lambda _{et}
+	\label{mezcla}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde: $\lambda$ es la propiedad termodin\'amica (densidad, viscosidad, etc) $x$ es la concentraci\'on de la mezcla.
+
+\noindent
+\justify
+
+Para las condiciones dadas en el Cuadro \ref{condiciones}, las propiedades termodin\'amicas de la mezcla se pueden apreciar en el Cuadro \ref{temoM}.
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|}
+	\hline
+	\textbf{Propiedad} & \textbf{Valor} \\ \hline
+	$\rho _f \left[ kg / m^3 \right]$ & $889.4$ \\ \hline
+	$\mu _f \left[ m^2 / s \right] $ & $1.06 \, 10^{-6}$ \\ \hline
+	\end{tabular}
+	\caption{Propiedades de la mezcla agua - etanol al $50 \%$.}
+	\label{temoM}
+\end{table}
 
 \subsection{Naturaleza del flujo}
 

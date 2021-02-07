@@ -1,0 +1,63 @@
+\paragraph{Carga superficial}
+
+\noindent
+\justify
+
+``Una part\'icula con velocidad de asentamiento $\vec{U}$, y transportada con velocidad $\vec{v}$, seguir\'ia una trayectoria rectil\'inea inclinada como resultado de la suma del vector de velocidad de flujo y del vector de velocidad de asentamiento, indicada por la recta $OB$"$^{\cite{RobertoRojas}}$.
+
+\input{vel_particula}
+
+\noindent
+\justify
+
+Por semejanza de tri\'angulos, se obtiene la siguiente relaci\'on matem\'atica:
+
+\begin{equation}
+	\frac{v}{u} = \frac{L}{b}
+	\label{triS}
+\end{equation}
+
+\noindent
+\justify
+
+Como se aprecia en la Figura \ref{vel_particula}, $\vec{v}$ va en la misma direcci\'on del flujo de entrada $(x^{+})$. Debido a la inclinaci\'on, existe una componente de la velocidad de sedimentaci\'on que se opone al movimiento de la part\'icula sobre la lamela; de modo que:
+
+\begin{equation}
+	v = \frac{Q _l}{b \, W} - U \sin \theta
+	\label{v}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde $W$ es el ancho del tanque de sedimentaci\'on y $Q_l$ el caudal dentro de la lamela. De igual forma, el valor de $u$ corresponde a la magnitud de $\vec{U}$ en la componente $y^{-}$.
+
+\begin{equation}
+	u = U \cos \theta
+	\label{u}
+\end{equation}
+
+\noindent
+\justify
+
+Relacionando las Ecuaciones \ref{triS}, \ref{v} y \ref{u} se obtiene:
+
+\begin{equation}
+	\boxed{U = \frac{Q_l}{\left(\frac{L}{b} +  \tan \theta \right) b W \cos \theta } }
+	\label{cargaS}
+\end{equation}
+
+\noindent
+\justify
+
+Si el \'angulo de inclinaci\'on es $0 [\degree]$, la Ecuaci\'on \ref{cargaS} se reduce a lo siguiente:
+
+\begin{equation}
+	U = \frac{Q_l}{L W} = \frac{Q_l}{A} = C_s
+	\label{Crgs}
+\end{equation}
+
+\noindent
+\justify
+
+La Ecuaci\'on \ref{Crgs} se conoce en la literatura$^{\cite{RobertoRojas, PerezParra1997}}$ como \textit{carga superficial} $(C_s)$; la cual define la sedimentaci\'on como una funci\'on del \'area superficial de las lamelas. ``Todas las part\'iculas discretas con velocidad de asentamiento igual o mayor que $U$ ser\'an completamente removidas"$^{\cite{RobertoRojas}}$.

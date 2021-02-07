@@ -5,12 +5,12 @@
 \noindent
 \justify
 
-El \textit{principio funcional} del sistema de eluci\'on y filtrado de la planta de extracci\'on recae en este fen\'omeno natural.
+Se plantea que el \textit{principio funcional} del sistema de eluci\'on y filtrado de la planta de extracci\'on recaiga sobre este fen\'omeno natural.
 
 \noindent
 \justify
 
-Los tanques de sedimentaci\'on son ampliamente usados como medios filtrantes en plantas purificadoras de agua debido a su capacidad de remoci\'on de residuos s\'olidos; siendo empleadas para limpiar aguas con turbidez\footnote{La turbidez define el nivel de transparencia de fluidos incoloros en contraste a la presencia de part\'iculas en suspensi\'on.} de hasta $50 [NTU]^{\cite{Voutchkov2017}}$\footnote{La Organizaci\'on Mundial de la Salud estipula que el agua de consumo humano debe presentar un nivel de turbidez inferior a $2 [NTU]^{\cite{OMSagua}}$.}. 
+Los tanques de sedimentaci\'on han sido ampliamente usados como medios filtrantes en plantas purificadoras de agua debido a su capacidad de remoci\'on de residuos s\'olidos; siendo empleadas para limpiar aguas con turbidez\footnote{La turbidez define el nivel de transparencia de fluidos incoloros en contraste a la presencia de part\'iculas en suspensi\'on.} de hasta $50 [NTU]^{\cite{Voutchkov2017}}$\footnote{La Organizaci\'on Mundial de la Salud estipula que el agua de consumo humano debe presentar un nivel de turbidez inferior a $2 [NTU]^{\cite{OMSagua}}$.}. 
 
 \noindent
 \justify
@@ -65,8 +65,123 @@ Los criterios clave de dise\~no para su uso en plantas de trateminto de agua se 
 	\item Velocidad del recolector de lodos: $0.4 - 0.8 [m/min]$.
 \end{itemize}
 
-\subsubsection{Desarrollo te\'orico}
+\subsubsection{Desarrollo te\'orico} \label{Acribos}
 
 \noindent
 \justify
 
+Considere el caso bidimensional mostrado en la Figura \ref{teo_sed} que consiste de una superficie de longitud infinita y ancho arbitrario, inclinada a un \'angulo $\theta$ sobre la horizontal y ubicada en una suspensi\'on infinita de esferas pesadas de radio $\tilde{a}$. La fracci\'on de volumen de las part\'iculas, tambi\'en conocido como la alimentaci\'on de part\'iculas, se identifica mediante el s\'imbolo $\phi _s$.
+
+\input{lamela}
+
+\noindent
+\justify
+
+Acrivos$^{\cite{Acrivos1995}}$ model\'o la suspensi\'on como un fluido Newtoniano con propiedades f\'isicas \textit{efectivas} que, relativo a la propiedad correspondiente del l\'iquido suspendido, son funciones \'unicamente de la fracci\'on de volumen local de las part\'iculas. De esta manera, la densidad efectiva est\'a definida mediante la Ecuaci\'on \ref{rhoEff}.
+
+\begin{equation}
+	\tilde{\rho} (\phi) = \tilde{\rho} _f \, \gamma (\phi)
+	\label{rhoEff}
+\end{equation}
+
+\noindent
+\justify
+
+De igual modo, la viscosidad efectiva se define de la siguiente manera:
+
+\begin{equation}
+	\tilde{\mu} (\phi) = \tilde{\mu} _f \, \lambda (\phi)
+	\label{viscEff}
+\end{equation}
+
+\noindent
+\justify
+
+De las Ecuaciones \ref{rhoEff} y \ref{viscEff}: $\phi$ denota la fracci\'on de volumen local de las part\'iculas, la acentuaci\'on es un indicativo de que la variable en cuesti\'on presenta dimensiones y el suscrito $f$ se refiere a la propiedad correspondiente del fluido. En vista de esta descripci\'on continua efectiva, el balance de momento para el flujo suspendido puede escribirse de la forma usual, como se aprecia en la Ecuaci\'on \ref{generalSedT}.
+
+\begin{equation}
+	\frac{\partial}{\partial y} \left[ \lambda (\phi) \frac{\partial u}{\partial y} \right] + \frac{9}{2} \left( \phi - \phi _s \right) \sin \theta = R_p \, \gamma (\phi) \left( u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} \right)
+	\label{generalSedT}
+\end{equation}
+
+\noindent
+\justify
+
+Siendo:
+
+\begin{equation}
+	\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
+	\label{vels}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde: $\tilde{u} _t = \frac{2}{9} \tilde{a} ^2 \left( \tilde{\rho} _s - \tilde{\rho} _f \right)$ es la velocidad de asentamiento de Stokes del fluido l\'impio; $\tilde{\rho} _s$ es la densidad del s\'olido, de forma esf\'erica, y $R_p = \tilde{\rho} _f \, \tilde{u} _t \, \tilde{a} / \tilde{\mu} _f$ es el n\'umero de Reynolds de la part\'icula basada en el movimiento relativo entre la part\'icula y el fluido. Dado que $R_p$ es generalmente peque\~no en la mayor\'ia de sistemas pr\'acticos, el t\'ermino derecho de la Ecuaci\'on \ref{generalSedT} es despreciable \textit{dentro} de la capa de sedimentos (ver Figura \ref{teo_sed}). Adicionalmente, al aplicar el balance de momento en la direcci\'on $y$, la ca\'ida de presi\'on sobre la delgada capa es, tambi\'en, despreciable para esta aproximaci\'on.
+
+\noindent
+\justify
+
+La presencia de cortante en una suspensi\'on concentrada induce a la migraci\'on de part\'iculas dentro de esta; la cual, junto con el flujo de sedimentos y el flujo a granel, tiende al desarrollo de concentraci\'on particular no uniforme, $\phi$. Para determinar este perfil, Acrivos$^{\cite{Acrivos1995}}$ explica que es necesario analizar, en adici\'on a la Ecuaci\'on de momento \ref{generalSedT}, la Ecuaci\'on de balance estable de part\'iculas.
+
+\begin{equation}
+	u \frac{\partial \phi}{\partial x} + v \frac{\partial \phi}{\partial y} + \frac{\partial}{\partial y} \left( N_g \right) + \frac{\partial}{\partial y} \left(N _d \right) = 0
+	\label{balEs}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde $N_g$ y $N_d$ denotan, respectivamente, el flujo adimensional de part\'iculas debido al asentamiento gravitacional y al cortante inducido por la difusi\'on en la direcci\'on $y$.
+
+\noindent
+\justify
+
+Las condiciones de frontera en $y=0$ son:
+
+\begin{equation}
+	v = 0
+\end{equation}
+	
+\begin{equation}
+	\left[\beta (\phi ) \frac{\partial u}{\partial y} \frac{\partial \phi}{\partial y} + \frac{\alpha (\phi )}{\lambda (\phi )} \frac{\partial}{\partial y} \left( \lambda (\phi ) \frac{\partial u}{\partial y} \right) \right] + \phi f (\phi ) \cos \theta = 0
+	\label{bulto}
+\end{equation}
+
+\noindent
+\justify
+
+La Ecuaci\'on \ref{bulto} refleja que el flujo de sedimentaci\'on de las part\'iculas debe estar balanceado por su correspondiente flujo cortante difusivo si el flujo neto de part\'iculas en el muro est\'a por desaparecer; previniendo que la concentraci\'on de part\'iculas en el muro alcance su m\'aximo valor.
+
+\noindent
+\justify
+
+Para el an\'alisis de la condici\'on de deslizamiento en el muro (zona de sedimentos), se emplea lo siguiente:
+
+\begin{equation}
+	u = \zeta \left( \partial u / \partial y \right) _{y=0} \, \text{en } \, y=0 
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde $\zeta$ es el coeficiente de deslizamiento. Para una primera aproximaci\'on, se asume este coeficiente como una funci\'on de la fracci\'on de volumen particular sobre el muro.
+
+\noindent
+\justify
+
+Acrivos$^{\cite{Acrivos1995}}$ compar\'o la soluci\'on del sistema de ecuaciones diferenciales parciales planteadas, resuelto mediante el m\'etodo de diferencias finitas, con los resultados experimentales referentes al espesor de la zona de sedimentos; reportando una diferencia media superior al $14 \%$ con respecto al modelo en donde se emplea la condici\'on de deslizamiento.
+
+\subsubsection{Modelo simplificado} \label{simplificado}
+
+\noindent
+\justify
+
+El modelo te\'orico expuesto en la secci\'on \ref{Acribos} estudia el sistema en estado \textit{estacionario} en una lamela y aproxima el flujo de sedimentos a un fluido denso y viscoso; contrario a la naturaleza propia del problema. Desde este enfoque, no es posible predecir la interacci\'on fluido-part\'icula durante la separaci\'on de las fases s\'olida y l\'iquida. Adicional al hecho de que este modelo te\'orico no presenta un nivel de precisi\'on lo suficientemente alto para definir un dise\~no final del sistema de sedimentaci\'on. Se expone, a continuaci\'on, una metodolog\'ia de dise\~no simplificada que permite proponer una geometr\'ia inicial, para su respectiva evaluaci\'on mediante el m\'etodo CFD-DEM.
+
+
+\input{hidrodinamica}
+
+\input{carga}
+
+\input{simplificadoM}
