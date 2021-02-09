@@ -20,38 +20,39 @@
 \BOOKMARK [3][-]{subsubsection.6.2.2}{Modelo simplificado}{subsection.6.2}% 20
 \BOOKMARK [4][-]{paragraph.6.2.2.1}{An\341lisis hidrodin\341mico de una part\355cula}{subsubsection.6.2.2}% 21
 \BOOKMARK [4][-]{paragraph.6.2.2.2}{Carga superficial}{subsubsection.6.2.2}% 22
-\BOOKMARK [4][-]{paragraph.6.2.2.3}{Desarrollo matem\341tico}{subsubsection.6.2.2}% 23
-\BOOKMARK [1][-]{section.7}{Dise\361o te\363rico}{}% 24
-\BOOKMARK [2][-]{subsection.7.1}{Propiedades termodin\341micas}{section.7}% 25
-\BOOKMARK [2][-]{subsection.7.2}{Naturaleza del flujo}{section.7}% 26
-\BOOKMARK [2][-]{subsection.7.3}{Par\341metros operacionales}{section.7}% 27
-\BOOKMARK [2][-]{subsection.7.4}{Dimensionamiento}{section.7}% 28
-\BOOKMARK [3][-]{subsubsection.7.4.1}{Panel de lamelas}{subsection.7.4}% 29
-\BOOKMARK [2][-]{subsection.7.5}{M\351todo de Hazen \040tiempo de sedimentaci\363n}{section.7}% 30
-\BOOKMARK [2][-]{subsection.7.6}{Tama\361o de part\355cula m\355nima}{section.7}% 31
-\BOOKMARK [2][-]{subsection.7.7}{Resultados}{section.7}% 32
-\BOOKMARK [1][-]{section.8}{Modelo CFD-DEM}{}% 33
-\BOOKMARK [2][-]{subsection.8.1}{Geometr\355a}{section.8}% 34
-\BOOKMARK [2][-]{subsection.8.2}{Mallado}{section.8}% 35
-\BOOKMARK [2][-]{subsection.8.3}{Condiciones de frontera}{section.8}% 36
-\BOOKMARK [2][-]{subsection.8.4}{Desarrollo de la simulaci\363n}{section.8}% 37
-\BOOKMARK [3][-]{subsubsection.8.4.1}{CFD}{subsection.8.4}% 38
-\BOOKMARK [4][-]{paragraph.8.4.1.1}{Resultados}{subsubsection.8.4.1}% 39
-\BOOKMARK [4][-]{paragraph.8.4.1.2}{An\341lisis de resultados}{subsubsection.8.4.1}% 40
-\BOOKMARK [3][-]{subsubsection.8.4.2}{CFD-DEM}{subsection.8.4}% 41
-\BOOKMARK [4][-]{paragraph.8.4.2.1}{Planteamiento num\351rico}{subsubsection.8.4.2}% 42
-\BOOKMARK [4][-]{paragraph.8.4.2.2}{Resultados}{subsubsection.8.4.2}% 43
-\BOOKMARK [4][-]{paragraph.8.4.2.3}{An\341lisis de resultados}{subsubsection.8.4.2}% 44
-\BOOKMARK [1][-]{section.9}{Implementaci\363n del modelo}{}% 45
-\BOOKMARK [2][-]{subsection.9.1}{Frontend}{section.9}% 46
-\BOOKMARK [2][-]{subsection.9.2}{Backend}{section.9}% 47
-\BOOKMARK [3][-]{subsubsection.9.2.1}{Dise\361o funcional te\363rico}{subsection.9.2}% 48
-\BOOKMARK [3][-]{subsubsection.9.2.2}{Modelo CFD}{subsection.9.2}% 49
-\BOOKMARK [3][-]{subsubsection.9.2.3}{Modelo CFD-DEM}{subsection.9.2}% 50
-\BOOKMARK [1][-]{section.10}{Validaci\363n del modelo}{}% 51
-\BOOKMARK [2][-]{subsection.10.1}{Descripci\363n del problema}{section.10}% 52
-\BOOKMARK [2][-]{subsection.10.2}{Desarrollo experimental}{section.10}% 53
-\BOOKMARK [3][-]{subsubsection.10.2.1}{Descripci\363n particular}{subsection.10.2}% 54
-\BOOKMARK [3][-]{subsubsection.10.2.2}{M\351todos experimentales}{subsection.10.2}% 55
-\BOOKMARK [2][-]{subsection.10.3}{Resultados}{section.10}% 56
-\BOOKMARK [1][-]{section*.58}{Conclusiones}{}% 57
+\BOOKMARK [4][-]{paragraph.6.2.2.3}{Trayectoria de una part\355cula en una lamela}{subsubsection.6.2.2}% 23
+\BOOKMARK [4][-]{paragraph.6.2.2.4}{Desarrollo matem\341tico}{subsubsection.6.2.2}% 24
+\BOOKMARK [1][-]{section.7}{Dise\361o te\363rico}{}% 25
+\BOOKMARK [2][-]{subsection.7.1}{Propiedades termodin\341micas}{section.7}% 26
+\BOOKMARK [2][-]{subsection.7.2}{Naturaleza del flujo}{section.7}% 27
+\BOOKMARK [2][-]{subsection.7.3}{Par\341metros operacionales}{section.7}% 28
+\BOOKMARK [2][-]{subsection.7.4}{Dimensionamiento}{section.7}% 29
+\BOOKMARK [3][-]{subsubsection.7.4.1}{Panel de lamelas}{subsection.7.4}% 30
+\BOOKMARK [2][-]{subsection.7.5}{M\351todo de Hazen \040tiempo de sedimentaci\363n}{section.7}% 31
+\BOOKMARK [2][-]{subsection.7.6}{Tama\361o de part\355cula m\355nima}{section.7}% 32
+\BOOKMARK [2][-]{subsection.7.7}{Resultados}{section.7}% 33
+\BOOKMARK [1][-]{section.8}{Modelo CFD-DEM}{}% 34
+\BOOKMARK [2][-]{subsection.8.1}{Geometr\355a}{section.8}% 35
+\BOOKMARK [2][-]{subsection.8.2}{Mallado}{section.8}% 36
+\BOOKMARK [2][-]{subsection.8.3}{Condiciones de frontera}{section.8}% 37
+\BOOKMARK [2][-]{subsection.8.4}{Desarrollo de la simulaci\363n}{section.8}% 38
+\BOOKMARK [3][-]{subsubsection.8.4.1}{CFD}{subsection.8.4}% 39
+\BOOKMARK [4][-]{paragraph.8.4.1.1}{Resultados}{subsubsection.8.4.1}% 40
+\BOOKMARK [4][-]{paragraph.8.4.1.2}{An\341lisis de resultados}{subsubsection.8.4.1}% 41
+\BOOKMARK [3][-]{subsubsection.8.4.2}{CFD-DEM}{subsection.8.4}% 42
+\BOOKMARK [4][-]{paragraph.8.4.2.1}{Planteamiento num\351rico}{subsubsection.8.4.2}% 43
+\BOOKMARK [4][-]{paragraph.8.4.2.2}{Resultados}{subsubsection.8.4.2}% 44
+\BOOKMARK [4][-]{paragraph.8.4.2.3}{An\341lisis de resultados}{subsubsection.8.4.2}% 45
+\BOOKMARK [1][-]{section.9}{Implementaci\363n del modelo}{}% 46
+\BOOKMARK [2][-]{subsection.9.1}{Frontend}{section.9}% 47
+\BOOKMARK [2][-]{subsection.9.2}{Backend}{section.9}% 48
+\BOOKMARK [3][-]{subsubsection.9.2.1}{Dise\361o funcional te\363rico}{subsection.9.2}% 49
+\BOOKMARK [3][-]{subsubsection.9.2.2}{Modelo CFD}{subsection.9.2}% 50
+\BOOKMARK [3][-]{subsubsection.9.2.3}{Modelo CFD-DEM}{subsection.9.2}% 51
+\BOOKMARK [1][-]{section.10}{Validaci\363n del modelo}{}% 52
+\BOOKMARK [2][-]{subsection.10.1}{Descripci\363n del problema}{section.10}% 53
+\BOOKMARK [2][-]{subsection.10.2}{Desarrollo experimental}{section.10}% 54
+\BOOKMARK [3][-]{subsubsection.10.2.1}{Descripci\363n particular}{subsection.10.2}% 55
+\BOOKMARK [3][-]{subsubsection.10.2.2}{M\351todos experimentales}{subsection.10.2}% 56
+\BOOKMARK [2][-]{subsection.10.3}{Resultados}{section.10}% 57
+\BOOKMARK [1][-]{section*.58}{Conclusiones}{}% 58

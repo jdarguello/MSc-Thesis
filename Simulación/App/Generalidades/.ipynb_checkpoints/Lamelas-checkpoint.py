@@ -12,7 +12,7 @@ def Requerimientos():
                                       widgets.IntText(value=10),
                                       widgets.IntSlider(value=60, max=90)])
     Req.set_title(0, 'Ancho panel [cm]')
-    Req.set_title(1, 'Altura panel [cm]')
+    Req.set_title(1, 'Longitud lamela [cm]')
     Req.set_title(2, 'Largo panel [cm]')
     Req.set_title(3, 'Ancho lamela [cm]')
     Req.set_title(4, 'Altura lamela [cm]')

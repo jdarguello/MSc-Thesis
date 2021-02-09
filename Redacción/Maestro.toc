@@ -21,7 +21,8 @@
 \contentsline {subsubsection}{\numberline {6.2.2}Modelo simplificado}{27}{subsubsection.6.2.2}%
 \contentsline {paragraph}{\numberline {6.2.2.1}An\'alisis hidrodin\'amico de una part\'icula}{27}{paragraph.6.2.2.1}%
 \contentsline {paragraph}{\numberline {6.2.2.2}Carga superficial}{29}{paragraph.6.2.2.2}%
-\contentsline {paragraph}{\numberline {6.2.2.3}Desarrollo matem\'atico}{30}{paragraph.6.2.2.3}%
+\contentsline {paragraph}{\numberline {6.2.2.3}Trayectoria de una part\'icula en una lamela}{30}{paragraph.6.2.2.3}%
+\contentsline {paragraph}{\numberline {6.2.2.4}Desarrollo matem\'atico}{31}{paragraph.6.2.2.4}%
 \contentsline {section}{\numberline {7}Dise\~no te\'orico}{33}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Propiedades termodin\'amicas}{33}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Naturaleza del flujo}{34}{subsection.7.2}%

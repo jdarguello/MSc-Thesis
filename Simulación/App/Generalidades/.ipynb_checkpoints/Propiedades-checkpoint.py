@@ -15,7 +15,6 @@ class SolProp():
         tabla = """| Propiedad | Valor |
 |---|---|
 | Densidad $[kg / m^3 ]$ | RHO |
-| Viscosidad $[kg / m \, s]$ | VISCO |
 |Visc. cinemática $m^2/s$|VISCC|
 | Relación de densidades | SS |
         """
