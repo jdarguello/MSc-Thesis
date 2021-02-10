@@ -15,7 +15,8 @@ class SolProp():
         tabla = """| Propiedad | Valor |
 |---|---|
 | Densidad $[kg / m^3 ]$ | RHO |
-|Visc. cinemática $m^2/s$|VISCC|
+|Visc. cinemática $kg \, m/s$|VISCO|
+|Visc. dinámica $m^2/s$|VISCC|
 | Relación de densidades | SS |
         """
         tabla = tabla.replace("RHO", "$" + str(round(self.prop['mezcla']['rho'],2)) + "$")
@@ -23,7 +24,7 @@ class SolProp():
         tabla = tabla.replace("VISCO", viscosidad)
         S_s = "$" +  str(round(self.prop['mezcla']['S_s'],2)) + "$"
         tabla = tabla.replace("SS", S_s)
-        nu = "$" +  str(round(self.prop['mezcla']['nu']*1000000,2)) + " \, 10 ^{-6} $"
+        nu = "$" +  str(round(self.prop['mezcla']['nu'],6)*10000) + " \, 10 ^{-4} $"
         tabla = tabla.replace("VISCC", nu)
         titulo = """#### _Propiedades termodinámicas de la mezcla agua - etanol al XXX_
         """
@@ -46,7 +47,7 @@ class SolProp():
     def Agua(self, T):
         rho_agua=1.00048675E+03-2.23243162E-02*T-4.60579811E-03*T**2    #kg/m3
         visc_agua = 1.63190407E-06-3.73507082E-08*T+3.20602877E-10*T**2
-        nu=1.54292435E-06-3.13835325E-08*T+2.29417684E-10*T**2
+        nu=1.59366659E-03-3.42276923E-05*T+2.62798502E-07*T**2
         dic = {
             'rho': rho_agua,
             'visc': visc_agua,
@@ -57,7 +58,7 @@ class SolProp():
     def Etanol(self, T):
         rho_eta=8.06320738E+02-8.32481402E-01*T-5.78205398E-04*T**2
         visc_eta=2.11316694E-06-3.69955667E-08*T+2.57275555E-10*T**2
-        nu=2.06399337E-06-3.36687806E-08*T+2.06103641E-10*T**2
+        nu=1.68059553E-03-2.94778702E-05*T+1.90387050E-07*T**2
         dic = {
             'rho': rho_eta,
             'visc': visc_eta,

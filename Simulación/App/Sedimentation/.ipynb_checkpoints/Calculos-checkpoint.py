@@ -1,5 +1,9 @@
 from math import sqrt, pi, cos, tan, sin
 from IPython.display import Markdown, display
+try:
+    from App.Sedimentation.Area import Geometria
+except:
+    from .Area import Geometria
 
 class VelSed():
     """
@@ -45,7 +49,7 @@ class VelSed():
     def __call__(self):
         return self.res
 
-class Lamela():
+class Lamela(Geometria):
     """
         Objetivo: dimensionamiento de una sola lamela
     """
@@ -53,31 +57,29 @@ class Lamela():
         Lb = geo['Longitud lamela [cm]']/geo['Ancho lamela [cm]']   #Relación largo-acho de la lamela
         #Caudal total
         Q = (fluido["Volumen [L]"]/1000)/(fluido['Tiempo objetivo [h]']*3600) #m3/s
+        print("Q", Q)
+        
+        super().__init__(Q, geo['Longitud lamela [cm]']/100, geo['Ancho lamela [cm]']/100, geo['Inclinación [°]'], prop['nu'])
+        
         W = self.W(Q/N, Lb, geo['Inclinación [°]'], geo['Ancho lamela [cm]']/100, velRes['U'])
+        Cs = self.CS(Q, N, geo['Longitud lamela [cm]']/100, geo['Ancho lamela [cm]']/100, geo['Inclinación [°]'], W)*3600*24   #m/d
+        print("Cs", Cs)
         print("W_i", W)
         Al = W*geo['Ancho lamela [cm]']/100    #Área de entrada a la lamela
         #Velocidad fluido en lamela
         v0 = self.V0(Q/N, geo['Inclinación [°]'], Al)
         print("v0", v0)
         #Reynolds
-        Re = self.Re(v0, geo['Ancho lamela [cm]']/100, prop['visc'])
+        Re = self.Re(v0, geo['Ancho lamela [cm]']/100, prop['nu'])
         print("Re", Re)
-        """
-        if Re > 500:
-            Re = 500
-            #---Recalcular variables---
-            v0 = self.RV0(Re, geo['Ancho lamela [cm]']/100, prop['visc'])
-            Al = self.RA(v0, Q/N, geo['Inclinación [°]'])
-            W = Al/geo['Ancho lamela [cm]']/100
-            U = self.RU(Q/N, Lb, geo['Inclinación [°]'], geo['Ancho lamela [cm]']/100, W)
-            print("W", W)
-            print("U",U)
-        """
         #Número de lamelas
         Lc = self.Lc(Lb, Re)
         Nl = self.N(Lc, geo['Inclinación [°]'], geo['Ancho lamela [cm]']/100, geo['Distancia entre lamelas [cm]']/100)
         print("Nl", Nl)
     
+    def CS(self, Q, N, L, b, theta, W):
+        return Q/(N*((L/b)+tan(theta*pi/180))*b*W*cos(theta*pi/180))
+
     def RU(self, Ql, Lb, theta, b, W):
         return Ql/((Lb+tan(theta*pi/180))*b*W*cos(theta*pi/180))
     

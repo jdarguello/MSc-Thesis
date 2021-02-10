@@ -1,14 +1,19 @@
-\paragraph{Desarrollo matem\'atico}
+\paragraph{Metodolog\'ia de dise\~no}
 
 \noindent
 \justify
 
-Como se aprecia en la Figura \ref{lamelas_inclinadas}, el sedimentador de placas paralelas subdivide el espacio en compartimientos. Esta configuraci\'on geom\'etrica cumple dos objetivos: incrementa el \'area de sedimentaci\'on y origina el flujo laminar$^{\cite{Lekang2001}}$. La inclinaci\'on de las placas permite el deslizamiento de los sedimentos gracias a la gravedad y a la diferencia de densidades respecto al fluido circundante (ver Figura \ref{vel_particula}). El sedimentador debe contar con una tolva c\'onica en el fondo del recipiente para la recolecci\'on y expulsi\'on de lodos. Es importante destacar que durante toda la operaci\'on, el flujo debe ser laminar; de modo que el n\'umero de Reynolds debe ser inferior a 500$^{\cite{Robescu2010}}$. 
+Hasta el momento, el an\'alisis te\'orico se ha enfocado en desarrollar un an\'alisis aproximado de la interacci\'on fluido-part\'icula en \underline{una} lamela. En la presente secci\'on, se complementa esta informaci\'on con una metodolog\'ia de dimensionamiento del sistema de sedimentaci\'on.
 
 \noindent
 \justify
 
-Los par\'ametros m\'as empleados en el dise\~no de sedimentadores son la carga de sedimentaci\'on superficial y el \'area superficial$^{\cite{RobertoRojas}}$. En el Cuadro \ref{critSed}, se muestran los criterios de dise\~no sugeridos por Romero$^{\cite{RobertoRojas}}$ y P\'erez$^{\cite{PerezParra1997}}$.
+Como se aprecia en la Figura \ref{lamelas_inclinadas}, el sedimentador de placas paralelas subdivide el espacio en compartimientos (lamelas). Esta configuraci\'on geom\'etrica cumple dos objetivos: incrementa el \'area de sedimentaci\'on y origina el flujo laminar$^{\cite{Lekang2001}}$. La inclinaci\'on de las placas permite el deslizamiento de los sedimentos gracias a la gravedad y a la diferencia de densidades respecto al fluido circundante (ver Figura \ref{teo_sed}). El sedimentador debe contar con una tolva c\'onica en el fondo del recipiente para la recolecci\'on y expulsi\'on de lodos. Es importante destacar que durante toda la operaci\'on, el flujo debe ser laminar; de modo que se recomienda que el n\'umero de Reynolds sea inferior a 500$^{\cite{Robescu2010}}$. 
+
+\noindent
+\justify
+
+Los par\'ametros m\'as empleados en el dise\~no de sedimentadores son la \textit{carga superficial} y el \textit{\'area superficial}$^{\cite{RobertoRojas}}$. En el Cuadro \ref{critSed}, se muestran los criterios de dise\~no sugeridos por Romero$^{\cite{RobertoRojas}}$ y P\'erez$^{\cite{PerezParra1997}}$.
 
 \begin{table}[h!]
 	\centering
@@ -18,10 +23,10 @@ Los par\'ametros m\'as empleados en el dise\~no de sedimentadores son la carga d
 		Carga superficial $C_s$ & $6.0 - 180 [m/d]$ \\ \hline
 		Tiempo de retenci\'on en placas $t_p$ & $8 - 25 [min]$ \\ \hline
 		Inclinaci\'on de placas $\theta$ & $60 [\degree]$ \\ \hline
-		N\'umero de Reynolds $Re$ & $<500$ \\ \hline
+		N\'umero de Reynolds $Re$ & $\le 500$ \\ \hline
 		Distancia entre placas & $5 [cm]$ \\ \hline
 		Velocidad cr\'itica de asentamiento $V_{sc}$ & $15 - 60 [m/d]$ \\ \hline
-		Relaci\'on longitud-distanciamiento entre placas $l/d$ & $>8$ \\ \hline
+		Relaci\'on longitud-distanciamiento entre placas $l/d$ & $\ge 8$ \\ \hline
 	\end{tabular}
 	\caption{Criterios de dise\~no.}
 	\label{critSed}
@@ -30,74 +35,65 @@ Los par\'ametros m\'as empleados en el dise\~no de sedimentadores son la carga d
 \noindent
 \justify
 
-Para el desarrollo del dise\~no, se debe conocer el caudal de entrada, la relaci\'on m\'asica entre el material s\'olido con el fluido y las propiedades del fluido. El tiempo de retenci\'on en las celdas se calcula de acuerdo a lo expuesto en la Ecuaci\'on \ref{tp}.
+Para el desarrollo del dise\~no, se debe conocer el caudal de entrada, la relaci\'on m\'asica entre el material s\'olido con el fluido y las propiedades del fluido. El tiempo de retenci\'on en las lamelas se calcula de acuerdo a lo expuesto en la Ecuaci\'on \ref{tp}.
 
 \begin{equation}
-	t_p = \frac{l}{v_0}
+	t_p = \frac{L}{v_0}
 	\label{tp}
 \end{equation}
 
 \noindent
 \justify
 
-D\'onde: $l$ es el largo de las placas y $v_0$ es la velocidad promedio del fluido. La carga superficial es equivalente a:
+D\'onde: $l$ es el largo de las placas y $v_0$ es la velocidad promedio del fluido en la lamela. La carga superficial es equivalente a:
+
+\noindent
+\justify
+
+Es posible adaptar la Ecuaci\'on \ref{cargaS} para relacionar la carga superficial con todas las dimensiones del panel de lamelas:
 
 \begin{equation}
-	v_0 = \frac{Q}{A \sin \theta}
-	\label{v0}
+	U = \frac{Q}{N \left(\frac{L}{b} + \tan \theta \right) b W \cos \theta}
+	\label{carS}
 \end{equation}
 
 \noindent
 \justify
 
-De la Ecuac\'on \ref{v0}, $\theta$ es el \'angulo de inclinaci\'on de las placas. El n\'umero de Reynolds se calcula de la siguiente forma:
+De la Ecuaci\'on \ref{carS}, $U$ se refiere a la carga superficial, $Q$ al caudal total de entrada al sistema de sedimentaci\'on, $N$ es el n\'umero de lamelas, $L$ es el largo cada lamela, $b$ es el ancho de una lamela, $W$ es la profundidad del panel de lamelas y $\theta$ es el \'angulo de inclinaci\'on del panel.
+
+\noindent
+\justify
+
+La \textbf{metodolog\'ia de dise\~no} consiste en desarrollar un algoritmo iterativo tal que se minimice la carga superficial, de acuerdo a lo recomendado en el Cuadro \ref{critSed}, con las menores dimensiones posibles (a menor tama\~no de panel, menor costo de inversi\'on) y garantizando un valor de Reynolds en r\'egimen laminar, menor a $500$, en cada una de las lamelas.
+
+\noindent
+\justify
+
+El n\'umero de Reynolds de una lamela se calcula conforme a la Ecuaci\'on \ref{Re}$^{\cite{streeter1951fluid}}$.
 
 \begin{equation}
-	Re = \frac{v_0 \, d}{\mu}
+	Re = \frac{v_0 \, b}{\mu}
 	\label{Reynolds}
 \end{equation}
 
 \noindent
 \justify
 
-De la Ecuaci\'on \ref{Reynolds}: $\mu$ se refiere a la viscosidad cinem\'atica del fluido, $d$ es la separac\'on entre placas y $v_0$ es la velocidad promedio del fluido en el elemento de sedimentaci\'on. La velocidad cr\'itica de sedimentaci\'on se define de la siguiente forma:
+De la Ecuaci\'on \ref{Reynolds}: $\mu$ se refiere a la viscosidad cinem\'atica del fluido, $b$ es la separac\'on entre placas y $v_0$ es la velocidad promedio del fluido en la lamela. La velocidad promedio corresponde a lo siguiente:
 
 \begin{equation}
-	V_{sc} = \frac{S_c \, v_0}{\sin (\theta ) + L_c \cos (\theta )}
-	\label{Vsc}
+	v_0 = \frac{Q}{N \, b W}
+	\label{v0}
 \end{equation}
+
+% TOMAR LA ECUACIÓN DE CARGA SUPERFICIAL Y EXPLICAR LA METODOLOGÍA DE DISEÑO ENTRE VELOCIDAD, CAUDAL, NÚMERO DE LAMELAS Y DIMENSIONES DE LA LAMELA. TENER EN CUENTA EL REYNOLDS COMO PARÁMETRO DE SELECCIÓN DE GEOMETRÍA EN LA LAMELA. LUEGO, TOMAR LA SEDIMENTACIÓN CRÍTICA Y DEFINIRLA COMO UN PARÁMETRO DE EFICIENCIA. LA LONGITUD CORREGIDA TOMARLA DEL PAPER BUENO QUE VI.
 
 \noindent
 \justify
 
-En la Ecuaci\'on \ref{Vsc}: $S_c$ es el par\'ametro de eficiencia (1 para sedimentadores de placas inclinadas) y $L_c$ es la longitud relativa efectiva de sedimentaci\'on en flujo laminar y est\'a definida por la Ecuaci\'on \ref{Lc}.
+La eficiencia del sistema de sedimentaci\'on se estima como la relaci\'on entre la velocidad cr\'itica de sedimentaci\'on (Ecuaci\'on \ref{Uc}) y la velocidad de asentamiento m\'axima (Ecuaci\'on \ref{Uas}).
 
-\begin{equation}
-	L_c = \left\{\begin{matrix}
-		(l/d) - 0.013 Re \rightarrow (l/d) - 0.013 Re \ge 0 \\
-		\frac{1}{2} (l/d) \rightarrow (l/d) - 0.013 Re < 0
-	\end{matrix}\right.
-	\label{Lc}
-\end{equation}
-
-\noindent
-\justify
-
-D\'onde $l$ es el largo de las placas y $d$ es la separaci\'on entre ellas. Romero$^{\cite{RobertoRojas}}$ establece que el tiempo de retenci\'on satisface la siguiente expresi\'on:
-
-\begin{equation}
-	t_p = \frac{V}{Q} = \frac{A d}{Q}
-\end{equation}
-
-\noindent
-\justify
-
-D\'onde $V$ es el volumen de la lamela, $Q$ el caudal y $A$ es el \'area \'util de sedimentaci\'on. El \'area \'util est\'a definida por la Ecuaci\'on \ref{Au}; siendo $L_s$ la longitud de una lamela y $W_s$ el ancho del sistema de sedimentaci\'on.
-
-\begin{equation}
-	A = L_s \, W_s
-	\label{Au}
-\end{equation}
 
 \noindent
 \justify

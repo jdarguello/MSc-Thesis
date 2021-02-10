@@ -22,38 +22,38 @@
 \contentsline {paragraph}{\numberline {6.2.2.1}An\'alisis hidrodin\'amico de una part\'icula}{27}{paragraph.6.2.2.1}%
 \contentsline {paragraph}{\numberline {6.2.2.2}Carga superficial}{29}{paragraph.6.2.2.2}%
 \contentsline {paragraph}{\numberline {6.2.2.3}Trayectoria de una part\'icula en una lamela}{30}{paragraph.6.2.2.3}%
-\contentsline {paragraph}{\numberline {6.2.2.4}Desarrollo matem\'atico}{31}{paragraph.6.2.2.4}%
-\contentsline {section}{\numberline {7}Dise\~no te\'orico}{33}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Propiedades termodin\'amicas}{33}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Naturaleza del flujo}{34}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Par\'ametros operacionales}{35}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Dimensionamiento}{36}{subsection.7.4}%
-\contentsline {subsubsection}{\numberline {7.4.1}Panel de lamelas}{37}{subsubsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.5}M\'etodo de Hazen $\rightarrow $ tiempo de sedimentaci\'on}{38}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Tama\~no de part\'icula m\'inima}{38}{subsection.7.6}%
-\contentsline {subsection}{\numberline {7.7}Resultados}{39}{subsection.7.7}%
-\contentsline {section}{\numberline {8}Modelo CFD-DEM}{40}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Geometr\'ia}{40}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Mallado}{41}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Condiciones de frontera}{43}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Desarrollo de la simulaci\'on}{45}{subsection.8.4}%
-\contentsline {subsubsection}{\numberline {8.4.1}CFD}{45}{subsubsection.8.4.1}%
-\contentsline {paragraph}{\numberline {8.4.1.1}Resultados}{47}{paragraph.8.4.1.1}%
-\contentsline {paragraph}{\numberline {8.4.1.2}An\'alisis de resultados}{48}{paragraph.8.4.1.2}%
-\contentsline {subsubsection}{\numberline {8.4.2}CFD-DEM}{48}{subsubsection.8.4.2}%
-\contentsline {paragraph}{\numberline {8.4.2.1}Planteamiento num\'erico}{49}{paragraph.8.4.2.1}%
-\contentsline {paragraph}{\numberline {8.4.2.2}Resultados}{51}{paragraph.8.4.2.2}%
-\contentsline {paragraph}{\numberline {8.4.2.3}An\'alisis de resultados}{53}{paragraph.8.4.2.3}%
-\contentsline {section}{\numberline {9}Implementaci\'on del modelo}{55}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Frontend}{55}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Backend}{58}{subsection.9.2}%
-\contentsline {subsubsection}{\numberline {9.2.1}Dise\~no funcional te\'orico}{59}{subsubsection.9.2.1}%
-\contentsline {subsubsection}{\numberline {9.2.2}Modelo CFD}{59}{subsubsection.9.2.2}%
-\contentsline {subsubsection}{\numberline {9.2.3}Modelo CFD-DEM}{60}{subsubsection.9.2.3}%
-\contentsline {section}{\numberline {10}Validaci\'on del modelo}{61}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Descripci\'on del problema}{61}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Desarrollo experimental}{62}{subsection.10.2}%
-\contentsline {subsubsection}{\numberline {10.2.1}Descripci\'on particular}{62}{subsubsection.10.2.1}%
-\contentsline {subsubsection}{\numberline {10.2.2}M\'etodos experimentales}{64}{subsubsection.10.2.2}%
-\contentsline {subsection}{\numberline {10.3}Resultados}{65}{subsection.10.3}%
-\contentsline {section}{Conclusiones}{68}{section*.58}%
+\contentsline {paragraph}{\numberline {6.2.2.4}Metodolog\'ia de dise\~no}{32}{paragraph.6.2.2.4}%
+\contentsline {section}{\numberline {7}Dise\~no te\'orico}{35}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Propiedades termodin\'amicas}{35}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Naturaleza del flujo}{36}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Par\'ametros operacionales}{37}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Dimensionamiento}{38}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}Panel de lamelas}{39}{subsubsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.5}M\'etodo de Hazen $\rightarrow $ tiempo de sedimentaci\'on}{40}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Tama\~no de part\'icula m\'inima}{40}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Resultados}{41}{subsection.7.7}%
+\contentsline {section}{\numberline {8}Modelo CFD-DEM}{42}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Geometr\'ia}{42}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Mallado}{43}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Condiciones de frontera}{45}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Desarrollo de la simulaci\'on}{47}{subsection.8.4}%
+\contentsline {subsubsection}{\numberline {8.4.1}CFD}{47}{subsubsection.8.4.1}%
+\contentsline {paragraph}{\numberline {8.4.1.1}Resultados}{49}{paragraph.8.4.1.1}%
+\contentsline {paragraph}{\numberline {8.4.1.2}An\'alisis de resultados}{50}{paragraph.8.4.1.2}%
+\contentsline {subsubsection}{\numberline {8.4.2}CFD-DEM}{50}{subsubsection.8.4.2}%
+\contentsline {paragraph}{\numberline {8.4.2.1}Planteamiento num\'erico}{51}{paragraph.8.4.2.1}%
+\contentsline {paragraph}{\numberline {8.4.2.2}Resultados}{53}{paragraph.8.4.2.2}%
+\contentsline {paragraph}{\numberline {8.4.2.3}An\'alisis de resultados}{55}{paragraph.8.4.2.3}%
+\contentsline {section}{\numberline {9}Implementaci\'on del modelo}{57}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Frontend}{57}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Backend}{60}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Dise\~no funcional te\'orico}{61}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}Modelo CFD}{61}{subsubsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.3}Modelo CFD-DEM}{62}{subsubsection.9.2.3}%
+\contentsline {section}{\numberline {10}Validaci\'on del modelo}{63}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Descripci\'on del problema}{63}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Desarrollo experimental}{64}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}Descripci\'on particular}{64}{subsubsection.10.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.2}M\'etodos experimentales}{66}{subsubsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.3}Resultados}{67}{subsection.10.3}%
+\contentsline {section}{Conclusiones}{70}{section*.58}%
