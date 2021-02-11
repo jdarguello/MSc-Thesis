@@ -30,15 +30,15 @@ def Rango(minimo=250, maximo=20000):
     Req.set_title(1, 'Tipo de malla')
     return Req
 
-def Size():
+def Size(geo):
     Req = widgets.Accordion(children=[widgets.FloatText(value=25),
                                       widgets.FloatText(value=20),
                                       widgets.FloatText(value=30),
-                                      widgets.FloatText(value=2.5),
+                                      widgets.FloatText(value=geo['Ancho lamela [cm]']),
                                       widgets.FloatText(value=0.5),
-                                      widgets.IntText(value=10),
+                                      widgets.IntText(value=geo['Número de lamelas']),
                                       widgets.FloatText(value=0.1),
-                                      widgets.IntSlider(value=60, max=90)])
+                                      widgets.IntSlider(value=geo['Inclinación [°]'], max=90)])
     Req.set_title(0, 'Ancho panel [cm]')
     Req.set_title(1, 'Altura panel [cm]')
     Req.set_title(2, 'Largo panel [cm]')
@@ -56,9 +56,9 @@ def Entrada(D_I):
     Req.set_title(1, 'Longitud [m]')
     return Req
 
-def Malla(D_I):
+def Malla(D_I, geo):
     Req = Rango()
-    Tam = Size()
+    Tam = Size(geo)
     Ent = Entrada(D_I)
     tab = widgets.Tab()
     tab.children = [Req, Tam, Ent]

@@ -26,41 +26,15 @@ class Geometria():
         self.fig = plt.figure()
         self.ax = self.fig.gca(projection='3d')
         #---Datos---
+        ms = 1/24*1/3600
         NbW = np.linspace(NbWlimit/10, NbWlimit, puntos)
         Cs = np.linspace(CSmin, CSmax, puntos)
-        var = {
-            'N': np.linspace(1, Nlimit, Nlimit),
-            'W': np.arange(Wlimit/Nlimit, Wlimit + Wlimit/Nlimit, Wlimit/Nlimit),
-            'Q': Q,
-            'L': L,
-            'b': b,
-            'theta': theta,
-            'mu': mu
-        }
+        
         #meshgrids
         NbW, Cs = np.meshgrid(NbW, Cs)
-        Q = Cs*NbW*np.cos(theta*pi/180)*(Lb+tan(theta*pi/180))
-        for key in var:
-            if key != 'N' and key != 'W':
-                var[key] = self.vectorizar(var[key], Nlimit)
-            var[key] = np.meshgrid(var[key])
-        #Calcular carga superficial y Reynolds
-        CS = []
-        Re = []
-        for i in range(len(N)):
-            filaCS = []
-            filaRe = []
-            for j in range(len(N[i])):
-                filaCS.append(self.cargaS(Q, N[i][j], L, b, theta, W[i][j]))
-                filaRe.append(self.Reynolds(Q, N[i][j], W[i][j], mu))
-            CS.append(np.array(filaCS))
-            Re.append(np.array(filaRe))
-        CS = np.array(CS)
-        Re = np.array(Re)
-        #CS = self.cargaS(var['Q'], var['N'], var['L'], var['b'], var['theta'], var['W'])
-        #Re = self.Re(var['Q'], var['N'], var['W'], var['mu'])
-        #Desarrollar gráfica
-        self.graph(N, W, CS, Re)
+        Lb = L/b
+        Q = ((Cs*ms)*NbW*np.cos(theta*pi/180)*(Lb+tan(theta*pi/180)))*1000*60
+        self.graph(NbW, Cs, Q, 0)
     
     def Reynolds(self, Q, N, W, mu):
         return Q/(N*W*mu)
@@ -68,7 +42,13 @@ class Geometria():
     def cargaS(self, Q, N, L, b, theta, W):
         return Q/(N*((L/b)+np.tan(theta*pi/180))*b*W*np.cos(theta*pi/180))
     
-    def graph(self, N, W, CS, Re, cuarta = False):
+    def graph(self, X, Y, Z, C, cuarta = False):
+        N = X
+        W = Y
+        CS = Z
+        Re = C
+        
+        
         #Color
         cmap = cm.jet
         if cuarta:
@@ -102,9 +82,9 @@ class Geometria():
         # Add a color bar which maps values to colors.
         if cuarta:
             plt.colorbar(m)
-        self.ax.set_xlabel("Número de lamelas")
-        self.ax.set_ylabel("W [m]")
-        self.ax.set_zlabel("Carga superficial [m/s]")
+        self.ax.set_xlabel("NbW [m2]")
+        self.ax.set_ylabel("Carga superficial [m/d]")
+        self.ax.set_zlabel("Q [L/min]")
         plt.show()
     
     def vectorizar(self, var, limit):

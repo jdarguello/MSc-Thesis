@@ -1,140 +1,50 @@
 \begin{center}
-	\section{Implementaci\'on del modelo}
+	\section{Metodolog\'ia}
 \end{center}
 
 \noindent
 \justify
 
-El modelo CFD-DEM se implement\'o a trav\'es de herramientas de \textit{c\'odigo abierto}, dando paso a la automatizaci\'on del trabajo documentado en los cap\'itulos \ref{teorico:sed} y \ref{CFD-DEM}. El software desarrollado se compone, principalmente, de dos partes: \textit{Frontend} (interfaz de usuario), desarrollada en Jupyter y ParaView, y \textit{Backend} (l\'ogica detr\'as del software), desarrollada en Python, C++ y gmsh. 
+En la Figura \ref{metodologia} se muestra la metodolog\'ia empleada para el dise\~no del sistema de eluci\'on y filtrado de la planta de extracci\'on (ver Figura \ref{planta}).
 
-\subsection{Frontend}
+\input{metodologia}
 
 \noindent
 \justify
 
-La interfaz gr\'afica se desarroll\'o en \textit{Jupyter}. El proyecto Jupyter existe para facilitar el desarrollo de software libre; trat\'andose de un servicio de computaci\'on interactiva que funciona con diferentes lenguajes de programaci\'on, entre ellos: Python y C++. Un ejemplo que permite visualizar el alcance de esta herramienta se puede apreciar en la Figura \ref{jupyter}; en d\'onde se observa la escritura de algoritmos de programaci\'on, evaluaci\'on de la interactividad del algoritmo y documentaci\'on del mismo: todo en una sola pantalla. Jupyter es un acr\'onimo de los lenguajes: \textit{Julia, Python} y \textit{R}.
+En esta metodolog\'ia desarrolla el dise\~no del sistema con base en las herramientas anal\'iticas descritas en la secci\'on \ref{simplificado} y 
 
-\begin{figure}[h!]
+\subsection{Recopilaci\'on de datos}
+
+\noindent
+\justify
+
+Los criterios de dise\~no del sistema de sedimentaci\'on de placas inclinadas se pueden apreciar en los Cuadros \ref{critSed} y \ref{condiciones}.
+
+\begin{table}[h!]
 	\centering
-	\includegraphics[width=\textwidth]{Images/jupyterlab.png}
-	\caption{Interfaz gr\'afica de ejemplo desarrollada con Jupyter. Fuente: https://jupyterlab.readthedocs.io/en/latest/}
-	\label{jupyter}
-\end{figure}
+	\begin{tabular}{c|p{4cm}}
+		\hline
+		\textbf{Par\'ametro} & \textbf{Valor} \\ \hline
+		Cantidad de material s\'olido a remover $[kg]$ & 80 \\ \hline
+		Densidad media del material s\'olido $\left[kg / m^3 \right]$ & 1700 \\ \hline
+		Volumen de la mezcla $[L]$ & 200 \\ \hline
+		Tama\~no de part\'icula medio $[\mu m]$ & 250 \\ \hline
+		Tipo de solvente & Mezcla agua - etanol ($50 \%$) \\ \hline
+		Temperatura del proceso $[\degree C]$ & 28 \\ \hline
+		Tiempo del proceso $[h]$ & 1 \\ \hline
+	\end{tabular}
+	\caption{Condiciones operacionales.}
+	\label{condiciones}
+\end{table}
+
+\input{PropFluido}
+
+\subsection{Velocidad m\'axima de sedimentaci\'on}
 
 \noindent
 \justify
 
-``Jupyter es una aplicaci\'on web de c\'odigo abierto que permite la creaci\'on y compartibilidad de diferentes documentos, encontr\'andose en ellos: c\'odigo \textit{en vivo}, ecuaciones y visualizaci\'on de texto explicativo. Entre sus usos se encuentran: limpieza y transformaci\'on de datos, simulaciones num\'ericas, modelado estad\'istico y aprendizaje autom\'atico, entre muchos otros." Descripci\'on oficial del proyecto Jupyter.
+La velocidad m\'axima de sedimentaci\'on se calcula empleando los valores de 
 
-\noindent
-\justify
-
-Parte del Frontend desarrollado para brindar interactividad de usuario se puede apreciar en la Figura \ref{interfaz}.
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\textwidth]{Images/interfaz.png}
-	\caption{Parte de la interfaz gr\'afica desarrollada para la automatizaci\'on del modelo CFD-DEM.}
-	\label{interfaz}
-\end{figure}
-
-\noindent
-\justify
-
-
-Jupyter permite la interactividad a trav\'es de diferentes lenguajes de Frontend; entre ellos: HTML, CSS y JavaScript. Para la escritura de textos, adopta lenguajes como Markdown y \LaTeX. Adem\'as, cuenta con diferentes librer\'ias internas para el desarrollo de contenidos interactivos, de las que se destacan: \texttt{ipywidgets}, \texttt{IPython.display} y \texttt{Plotly}. 
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\textwidth]{Images/interfaz2.png}
-	\caption{Secci\'on de mallado autom\'atico del software desarrollado mediante \texttt{gmsh}.}
-	\label{mallado:gmsh}
-\end{figure}
-
-\noindent
-\justify
-
-En la Figura \ref{mallado:gmsh} se puede apreciar la interfaz gr\'afica referente al mallado autom\'atico de la geometr\'ia, desarrollado en el lenguaje \texttt{gmsh}; en d\'onde el usuario puede definir el rango de tama\~no de malla, tipo de los elementos (rectangular o triangular) y las dimensiones de la geometr\'ia.
-
-\newpage
-
-\subsection{Backend}
-
-\noindent
-\justify
-
-Detr\'as de la funcionalidad del software se encuentra el \'arbol de directorios mostrado en la Figura \ref{particion}.
-
-\input{dirTree}
-
-\newpage
-
-\noindent
-\justify
-
-El software resuelve, b\'asicamente, tres problemas:
-
-\begin{itemize}
-	\item Dise\~no funcional del panel de lamelas desde un enfoque te\'orico.
-	\item An\'alisis del comportamiento, a trav\'es de OpenFOAM, de la din\'amica de fluidos del panel de lamelas.
-	\item Simulaci\'on CFD-DEM que permite predecir la interacci\'on fluido - part\'icula a distintas condiciones de flujo.
-\end{itemize}
-
-\subsubsection{Dise\~no funcional te\'orico}
-
-\noindent
-\justify
-
-El dise\~no funcional busca defnir una geometr\'ia inicial del panel de lamelas, para el an\'alisis consecuente mediante los m\'etodos num\'ericos de \textit{vol\'umenes finitos} y \textit{elementos discretos}, a trav\'es de metodolog\'ias te\'oricas y experimentales (cap\'itulo \ref{teorico:sed}).
-
-\noindent
-\justify
-
-La l\'ogica desarrollada comprende los siguientes pasos:
-
-\begin{enumerate}
-	\item Definici\'on, por parte del usuario, de las propiedades del solvente (entre ellas: proporci\'on de la mezcla hidroetan\'olica) y del material particulado.
-	\item C\'alculo de las propiedades termodin\'amicas del fluido.
-	\item Definici\'on de la geometr\'ia del panel de lamelas.
-	\item C\'alculo de las diferentes propiedades del solvente: caudal, velocidad del fluido y de la sedimentaci\'on y el n\'umero de Reynolds, por mencionar algunos.
-\end{enumerate}
-
-\noindent
-\justify
-
-Los algoritmos que emplean esta l\'ogica se encuentran ubicados en las direcciones \texttt{App/Sedimentaci\'on} y \texttt{App/Generalidades}, como se aprecia en la Figura \ref{particion}.
-
-\subsubsection{Modelo CFD} \label{imp:CFD}
-
-\noindent
-\justify
-
-El modelo CFD permite conocer el comportamiento del solvente dentro del volumen de control para contrastarlo con el modelo CFD-DEM. Comprende los siguientes pasos:
-
-\begin{enumerate}
-	\item Definici\'on de la geometr\'ia.
-	\item Mallado de la geometr\'ia.
-	\item Definici\'on de las condiciones de frontera.
-	\item Desarrollo de la simulaci\'on.
-	\item Postprocesamiento y presentaci\'on de resultados.
-\end{enumerate}
-
-\noindent
-\justify
-
-Los algoritmos desarrollados para el desarrollo de este modelo se encuentran ubicados en la direcci\'on \texttt{App/{CFD\_DEM}}:
-
-\begin{itemize}
-	\item \texttt{Geom.py} permite establecer la geometr\'ia del problema de acuerdo a los par\'ametros definidos por el usuario.
-	\item \texttt{Malla.py} define el mallado de la geometr\'ia, ejecutando el lenguaje \textit{gmsh}.
-	\item \texttt{CF.py} define las condiciones de frontera.
-	\item \texttt{CFD.py} se encarga de ejecutar la simulaci\'on num\'erica a trav\'es de OpenFOAM.
-\end{itemize}
-
-\subsubsection{Modelo CFD-DEM}
-
-\noindent
-\justify
-
-El modelo CFD-DEM predice las interacciones fluido-part\'icula del sistema de sedimentaci\'on. Emplea la misma l\'ogica descrita en la secci\'on \ref{imp:CFD}. La \'unica diferencia radica en la ejecuci\'on del algoritmo descrito en \texttt{CFD.py}; en su lugar, ejecuta el de \texttt{CFDEM.py} que contiene la metodolog\'ia de desarrollo de la simulaci\'on CFD-DEM basada en el m\'etodo Euler - Lagrange.
-
+\input{software}

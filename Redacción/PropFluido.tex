@@ -1,0 +1,59 @@
+\subsection{Propiedades del fluido}
+
+\noindent
+\justify
+
+Para desarrollar la automatizaci\'on del dise\~no, es necesario predecir el valor de las propiedades del solvente a cualquier valor de temperatura y relaci\'on agua - etanol. Para ello, se inicia calculando las propiedades del etanol y del agua a presi\'on atmosf\'erica empleando las Ecuaciones \ref{rhoH2O}. \ref{viscH2O}, \ref{rhoEt} y \ref{viscEt}.
+
+\begin{equation}
+	\rho _{H_2O} = 1.00048675 \, 10^3 - 2.23243162 \, 10^{-2}*T - 4.60579811 \, 10^{-3}*T^2 \equiv \left[ kg / m^3 \right] 
+	\label{rhoH2O}
+\end{equation}
+
+\begin{equation}
+	\mu _{H_2O} = 1.63190407 \, 10^{-6} - 3.73507082 \, 10^{-8}*T + 3.20602877 \, 10^{-10}*T^2 \equiv \left[ m^2 / s \right] 
+	\label{viscH2O}
+\end{equation}
+
+
+\begin{equation}
+	\rho _{et} = 8.06320738 \, 10^{2}-8.32481402 \, 10^{-1}*T-5.78205398 \, 10^{-4}*T^2 \equiv \left[ kg / m^3 \right] 
+	\label{rhoEt}
+\end{equation}
+
+\begin{equation}
+	\mu _{et} = 2.11316694 \, 10^{-6} - 3.69955667 \, 10^{-8}*T + 2.57275555 \, 10^{-10}*T^2 \equiv \left[ m^2 / s \right] 
+	\label{viscEt}
+\end{equation}
+
+\noindent
+\justify
+
+Una vez conocidas las propiedades individuales, se calcula la propiedad de la mezcla a trav\'es de la Ecuaci\'on \ref{mezcla}.
+
+\begin{equation}
+	\lambda _f = (1-x) \, \lambda _{H_2O} + x \, \lambda _{et}
+	\label{mezcla}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde: $\lambda$ es la propiedad termodin\'amica (densidad, viscosidad, etc) $x$ es la concentraci\'on de la mezcla.
+
+\noindent
+\justify
+
+Para las condiciones dadas en el Cuadro \ref{condiciones}, las propiedades termodin\'amicas de la mezcla se pueden apreciar en el Cuadro \ref{temoM}.
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|}
+	\hline
+	\textbf{Propiedad} & \textbf{Valor} \\ \hline
+	$\rho _f \left[ kg / m^3 \right]$ & $889.4$ \\ \hline
+	$\mu _f \left[ m^2 / s \right] $ & $1.06 \, 10^{-6}$ \\ \hline
+	\end{tabular}
+	\caption{Propiedades de la mezcla agua - etanol al $50 \%$.}
+	\label{temoM}
+\end{table}

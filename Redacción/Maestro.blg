@@ -6,15 +6,10 @@ A level-1 auxiliary file: Portada.aux
 A level-1 auxiliary file: Resumen.aux
 A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: Intro.aux
-A level-1 auxiliary file: dummies.aux
-A level-1 auxiliary file: Extraction/MSPD.aux
-A level-1 auxiliary file: CFD.aux
-A level-1 auxiliary file: DEM.aux
-A level-1 auxiliary file: CFDDEM.aux
-A level-1 auxiliary file: Sedimentacion.aux
+A level-1 auxiliary file: MarcoT.aux
+A level-1 auxiliary file: Implementar.aux
 A level-1 auxiliary file: Filtrado.aux
 A level-1 auxiliary file: Modelo.aux
-A level-1 auxiliary file: Implementar.aux
 A level-1 auxiliary file: Valid.aux
 A level-1 auxiliary file: Conclusiones.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -30,45 +25,45 @@ Warning--missing institution in Proyecto
 Warning--empty author in OMSagua
 
 Done.
-You've used 33 entries,
+You've used 41 entries,
             4087 wiz_defined-function locations,
-            1094 strings with 15789 characters,
-and the built_in function-call counts, 26361 in all, are:
-= -- 2249
-> -- 562
-< -- 252
-+ -- 316
-- -- 87
-* -- 1304
-:= -- 4033
-add.period$ -- 68
-call.type$ -- 33
-change.case$ -- 30
-chr.to.int$ -- 567
-cite$ -- 35
-duplicate$ -- 1852
-empty$ -- 1955
-format.name$ -- 111
-if$ -- 6098
+            1146 strings with 17778 characters,
+and the built_in function-call counts, 33186 in all, are:
+= -- 2833
+> -- 719
+< -- 318
++ -- 403
+- -- 113
+* -- 1649
+:= -- 5073
+add.period$ -- 85
+call.type$ -- 41
+change.case$ -- 38
+chr.to.int$ -- 708
+cite$ -- 43
+duplicate$ -- 2330
+empty$ -- 2450
+format.name$ -- 143
+if$ -- 7678
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 293
-newline$ -- 148
-num.names$ -- 32
-pop$ -- 595
+int.to.str$ -- 41
+missing$ -- 374
+newline$ -- 180
+num.names$ -- 40
+pop$ -- 758
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2039
+skip$ -- 2563
 stack$ -- 0
-substring$ -- 1376
-swap$ -- 1639
-text.length$ -- 63
+substring$ -- 1718
+swap$ -- 2072
+text.length$ -- 82
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 33
+type$ -- 41
 warning$ -- 2
-while$ -- 130
-width$ -- 35
-write$ -- 383
+while$ -- 163
+width$ -- 43
+write$ -- 477
 (There were 2 warnings)

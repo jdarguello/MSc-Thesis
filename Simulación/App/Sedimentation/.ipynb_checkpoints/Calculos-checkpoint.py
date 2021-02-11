@@ -5,6 +5,22 @@ try:
 except:
     from .Area import Geometria
 
+
+class VelCr():
+    #Objetivo: calcular la velocidad crítica de sedimentación
+    def __init__(self, lamela, geo):
+        Uc = self.Uc(lamela['v0'], geo['Inclinación [°]'], geo['Rel. longitud - ancho'])
+        self.imprime(Uc)
+    
+    def imprime(self, Uc):
+        msg = "La velocidad crítica de asentamiento tiene un valor de $" + str(round(Uc*100, 3)) + " [cm/s]$."
+        
+        display(Markdown(msg))
+        
+    def Uc(self, v0, theta, Lb):
+        return v0/(sin(theta*pi/180)+Lb*cos(theta*pi/180))
+
+    
 class VelSed():
     """
         Calcula el valor de la velocidad de sedimentación. 
@@ -53,30 +69,54 @@ class Lamela(Geometria):
     """
         Objetivo: dimensionamiento de una sola lamela
     """
-    def __init__(self, fluido, prop, geo, velRes, N=1):
-        Lb = geo['Longitud lamela [cm]']/geo['Ancho lamela [cm]']   #Relación largo-acho de la lamela
+    def __init__(self, fluido, prop, geo, velRes):
+        L = geo['Ancho lamela [cm]']*geo['Rel. longitud - ancho']/100    #Longitud de una lamela - m
         #Caudal total
         Q = (fluido["Volumen [L]"]/1000)/(fluido['Tiempo objetivo [h]']*3600) #m3/s
-        print("Q", Q)
         
-        super().__init__(Q, geo['Longitud lamela [cm]']/100, geo['Ancho lamela [cm]']/100, geo['Inclinación [°]'], prop['nu'])
-        
-        W = self.W(Q/N, Lb, geo['Inclinación [°]'], geo['Ancho lamela [cm]']/100, velRes['U'])
-        Cs = self.CS(Q, N, geo['Longitud lamela [cm]']/100, geo['Ancho lamela [cm]']/100, geo['Inclinación [°]'], W)*3600*24   #m/d
-        print("Cs", Cs)
-        print("W_i", W)
+        #super().__init__(Q, geo['Longitud lamela [cm]']/100, geo['Ancho lamela [cm]']/100, geo['Inclinación [°]'], prop['nu'])
+        CS = geo['Carga superficial [m/d]']/24/3600
+        #CS = velRes['U']
+        W = self.W(CS, Q, geo['Número de lamelas'], geo['Rel. longitud - ancho'], geo['Inclinación [°]'], geo['Ancho lamela [cm]']/100)
         Al = W*geo['Ancho lamela [cm]']/100    #Área de entrada a la lamela
         #Velocidad fluido en lamela
-        v0 = self.V0(Q/N, geo['Inclinación [°]'], Al)
-        print("v0", v0)
+        v0 = Q/(geo['Número de lamelas']*geo['Ancho lamela [cm]']/100*W)
         #Reynolds
-        Re = self.Re(v0, geo['Ancho lamela [cm]']/100, prop['nu'])
-        print("Re", Re)
-        #Número de lamelas
-        Lc = self.Lc(Lb, Re)
-        Nl = self.N(Lc, geo['Inclinación [°]'], geo['Ancho lamela [cm]']/100, geo['Distancia entre lamelas [cm]']/100)
-        print("Nl", Nl)
+        Re = self.Re(v0, geo['Ancho lamela [cm]']/100, prop['visc'])
+        
+        self.res = {
+            'QT':Q, 
+            'ancho': W,
+            'v0': v0,
+            "Reynolds": Re
+        }
+        
+        self.imprime()
     
+    def __call__(self):
+        return self.res
+    
+    def imprime(self):
+        msg = """| Propiedad | Valor |
+|---|---|
+| $Q \, [L / min ]$ | QT |
+| $W \, [m]$|ancho|
+|$v_0 \, [cm / s]$|v0|
+| $Re$ | Reynolds |
+        """
+        mult = 1
+        for key in self.res:
+            if key == 'QT':
+                mult = 1000*60
+            elif key == 'v0':
+                mult = 100
+            else:
+                mult = 1
+            msg = msg.replace(key, str(round(self.res[key]*mult,3)))
+            
+        display(Markdown(msg))
+        
+
     def CS(self, Q, N, L, b, theta, W):
         return Q/(N*((L/b)+tan(theta*pi/180))*b*W*cos(theta*pi/180))
 
@@ -98,8 +138,8 @@ class Lamela(Geometria):
     def V0(self, Ql, theta, Al):
         return Ql/(Al*sin(theta*pi/180))
     
-    def W(self, Ql, Lb, theta, b, U):
-        return Ql/((Lb+tan(theta*pi/180))*b*U*cos(theta*pi/180))
+    def W(self, U, Q, N, Lb, theta, b):
+        return Q/(N*(Lb+tan(theta*pi/180))*b*U*cos(theta*pi/180))
     
     def Lc(self, ld, Re):
         lc = ld-0.013*Re

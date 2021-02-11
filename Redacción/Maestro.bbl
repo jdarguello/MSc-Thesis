@@ -80,6 +80,11 @@ F.~Alobaid and B.~Epple, ``{Improvement, validation and application of CFD/DEM
   model to dense gas-solid flow in a fluidized bed},'' \emph{Particuology},
   vol.~11, no.~5, pp. 514--526, oct 2013.
 
+\bibitem{Chu2011}
+K.~W. Chu, B.~Wang, D.~L. Xu, Y.~X. Chen, and A.~B. Yu, ``{CFD-DEM simulation
+  of the gas-solid flow in a cyclone separator},'' \emph{Chemical Engineering
+  Science}, vol.~66, no.~5, pp. 834--847, mar 2011.
+
 \bibitem{Yue2016}
 C.~Yue, Q.~Zhang, and Z.~Zhai, ``{Numerical simulation of the filtration
   process in fibrous filters using CFD-DEM method},'' \emph{Journal of Aerosol
@@ -90,6 +95,39 @@ A.~E. {Carlos Varas}, E.~A. Peters, and J.~A. Kuipers, ``{CFD-DEM simulations
   and experimental validation of clustering phenomena and riser
   hydrodynamics},'' \emph{Chemical Engineering Science}, vol. 169, pp.
   246--258, sep 2017.
+
+\bibitem{Stashenko2007}
+\BIBentryALTinterwordspacing
+E.~Stashenko, ``{Plantas aromaticas y aceites esenciales: estudio y viabilidad
+  de su desarrollo en colombia.}'' \emph{Plantas aromaticas y aceites
+  esenciales: estudio y viabilidad de su desarrollo en colombia.}, vol.~1,
+  no.~33, p. 245, jan 2007. [Online]. Available:
+  \url{https://revistas.utp.edu.co/index.php/revistaciencia/article/view/5815}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Pavlic2021}
+B.~Pavli{\'{c}}, B.~{\v{S}}oji{\'{c}}, N.~Tesli{\'{c}}, P.~Putnik, and D.~B.
+  Kova{\v{c}}evi{\'{c}}, ``{Extraction of bioactive compounds and essential
+  oils from herbs using green technologies},'' in \emph{Aromatic Herbs in
+  Food}.\hskip 1em plus 0.5em minus 0.4em\relax Elsevier, jan 2021, pp.
+  233--262.
+
+\bibitem{Balass2013}
+\BIBentryALTinterwordspacing
+M.~Balass, ``{Distillation method for extraction of essential oils and
+  hydrosols from plant matter within a capsule - Google Patents},'' 2013.
+  [Online]. Available:
+  \url{https://patents.google.com/patent/US10569193B2/en?q=steam+destillation{\&}oq=steam+destillation}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Stashenko2013}
+\BIBentryALTinterwordspacing
+E.~E. Stashenko, J.~R. Mart{\'{i}}nez, M.~P. Cala, D.~C. Dur{\'{a}}n, and
+  D.~Caballero, ``{Chromatographic and mass spectrometric characterization of
+  essential oils and extracts from Lippia (Verbenaceae) aromatic plants},''
+  \emph{Journal of Separation Science}, vol.~36, no.~1, pp. 192--202, jan 2013.
+  [Online]. Available: \url{https://pubmed.ncbi.nlm.nih.gov/23292852/}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Hennebelle2008}
 T.~Hennebelle, S.~Sahpaz, H.~Joseph, and F.~Bailleul, ``{Ethnopharmacology of
@@ -116,12 +154,15 @@ H.~Bao, J.~Feng, N.~Dinh, and H.~Zhang, ``{Deep learning interfacial momentum
   data},'' \emph{International Journal of Multiphase Flow}, vol. 135, p.
   103489, feb 2021.
 
-\bibitem{OMSagua}
-\BIBentryALTinterwordspacing
-``{OMS | Manual para el desarrollo de planes de seguridad del agua},''
-  \emph{WHO}, 2017. [Online]. Available:
-  \url{http://www.who.int/water{\_}sanitation{\_}health/publications/publication{\_}9789241562638/es/}
-\BIBentrySTDinterwordspacing
+\bibitem{Xu2005}
+Z.~J. Xu and E.~E. Michaelides, ``{A numerical simulation of the Boycott
+  effect},'' \emph{Chemical Engineering Communications}, vol. 192, no. 4-6, pp.
+  532--549, apr 2005.
+
+\bibitem{Galvin2002}
+K.~P. Galvin and G.~Nguyentranlam, ``{Influence of parallel inclined plates in
+  a liquid fluidized bed system},'' \emph{Chemical Engineering Science},
+  vol.~57, no.~7, pp. 1231--1234, mar 2002.
 
 \bibitem{Acrivos1995}
 \BIBentryALTinterwordspacing
@@ -129,6 +170,36 @@ A.~Acrivos, ``{Sedimentation and sediment flow in settling tanks with inclined
   walls},'' \emph{Journal of Fluid Mechanics}, vol. 290, pp. 39--66, 1995.
   [Online]. Available:
   \url{https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/abs/sedimentation-and-sediment-flow-in-settling-tanks-with-inclined-walls/F5D7B030CCA97FE3A551D6148C1E5C74}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Doroodchi2005}
+E.~Doroodchi, K.~P. Galvin, and D.~F. Fletcher, ``{The influence of inclined
+  plates on expansion behaviour of solid suspensions in a liquid fluidised bed
+  - A computational fluid dynamics study},'' \emph{Powder Technology}, vol.
+  156, no.~1, pp. 1--7, aug 2005.
+
+\bibitem{Salem2011}
+A.~I. Salem, G.~Okoth, and J.~Th{\"{o}}ming, ``{An approach to improve the
+  separation of solid-liquid suspensions in inclined plate settlers: CFD
+  simulation and experimental validation},'' \emph{Water Research}, vol.~45,
+  no.~11, pp. 3541--3549, may 2011.
+
+\bibitem{Peng2014}
+\BIBentryALTinterwordspacing
+Z.~Peng, E.~Doroodchi, C.~Luo, and B.~Moghtaderi, ``{Influence of void fraction
+  calculation on fidelity of CFD-DEM simulation of gas-solid bubbling fluidized
+  beds},'' \emph{AIChE Journal}, vol.~60, no.~6, pp. 2000--2018, jun 2014.
+  [Online]. Available:
+  \url{https://aiche.onlinelibrary.wiley.com/doi/full/10.1002/aic.14421
+  https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/aic.14421
+  https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.14421}
+\BIBentrySTDinterwordspacing
+
+\bibitem{OMSagua}
+\BIBentryALTinterwordspacing
+``{OMS | Manual para el desarrollo de planes de seguridad del agua},''
+  \emph{WHO}, 2017. [Online]. Available:
+  \url{http://www.who.int/water{\_}sanitation{\_}health/publications/publication{\_}9789241562638/es/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{RobertoRojas}
@@ -176,38 +247,25 @@ V.~Roda-Casanova and F.~Sanchez-Marin, ``{A simple procedure for generating
   \url{https://linkinghub.elsevier.com/retrieve/pii/S0094114X2030402X}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Xu2005}
-Z.~J. Xu and E.~E. Michaelides, ``{A numerical simulation of the Boycott
-  effect},'' \emph{Chemical Engineering Communications}, vol. 192, no. 4-6, pp.
-  532--549, apr 2005.
+\bibitem{Hoomans1996}
+B.~P. Hoomans, J.~A. Kuipers, W.~J. Briels, and W.~P. {Van Swaaij}, ``{Discrete
+  particle simulation of bubble and slug formation in a two-dimensional
+  gas-fluidised bed: A hard-sphere approach},'' \emph{Chemical Engineering
+  Science}, vol.~51, no.~1, pp. 99--118, jan 1996.
 
-\bibitem{Galvin2002}
-K.~P. Galvin and G.~Nguyentranlam, ``{Influence of parallel inclined plates in
-  a liquid fluidized bed system},'' \emph{Chemical Engineering Science},
-  vol.~57, no.~7, pp. 1231--1234, mar 2002.
-
-\bibitem{Doroodchi2005}
-E.~Doroodchi, K.~P. Galvin, and D.~F. Fletcher, ``{The influence of inclined
-  plates on expansion behaviour of solid suspensions in a liquid fluidised bed
-  - A computational fluid dynamics study},'' \emph{Powder Technology}, vol.
-  156, no.~1, pp. 1--7, aug 2005.
-
-\bibitem{Salem2011}
-A.~I. Salem, G.~Okoth, and J.~Th{\"{o}}ming, ``{An approach to improve the
-  separation of solid-liquid suspensions in inclined plate settlers: CFD
-  simulation and experimental validation},'' \emph{Water Research}, vol.~45,
-  no.~11, pp. 3541--3549, may 2011.
-
-\bibitem{Peng2014}
+\bibitem{Xu1997}
 \BIBentryALTinterwordspacing
-Z.~Peng, E.~Doroodchi, C.~Luo, and B.~Moghtaderi, ``{Influence of void fraction
-  calculation on fidelity of CFD-DEM simulation of gas-solid bubbling fluidized
-  beds},'' \emph{AIChE Journal}, vol.~60, no.~6, pp. 2000--2018, jun 2014.
-  [Online]. Available:
-  \url{https://aiche.onlinelibrary.wiley.com/doi/full/10.1002/aic.14421
-  https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/aic.14421
-  https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.14421}
+B.~H. Xu and A.~B. Yu, ``{Numerical simulation of the gas-solid flow in a
+  fluidized bed by combining discrete particle method with computational fluid
+  dynamics},'' \emph{Chemical Engineering Science}, vol.~52, no.~16, pp.
+  2785--2809, aug 1997. [Online]. Available:
+  \url{https://research.monash.edu/en/publications/numerical-simulation-of-the-gas-solid-flow-in-a-fluidized-bed-by-}
 \BIBentrySTDinterwordspacing
+
+\bibitem{Tsuji1993}
+Y.~Tsuji, T.~Kawaguchi, and T.~Tanaka, ``{Discrete particle simulation of
+  two-dimensional fluidized bed},'' \emph{Powder Technology}, vol.~77, no.~1,
+  pp. 79--87, 1993.
 
 \bibitem{Liang2018}
 R.~Liang, Y.~Luo, and Z.~Li, ``{The effect of humping on residual stress and

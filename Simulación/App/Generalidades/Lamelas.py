@@ -3,22 +3,17 @@ from math import floor
 from IPython.display import display, Markdown
 
 def Requerimientos():
-    Req = widgets.Accordion(children=[widgets.FloatText(value=25),
-                                      widgets.FloatText(value=20),
-                                      widgets.FloatText(value=30),
-                                      widgets.FloatText(value=2.5),
-                                      widgets.FloatText(value=2.5),
-                                      widgets.FloatText(value=0.5),
-                                      widgets.IntText(value=10),
-                                      widgets.IntSlider(value=60, max=90)])
-    Req.set_title(0, 'Ancho panel [cm]')
-    Req.set_title(1, 'Longitud lamela [cm]')
-    Req.set_title(2, 'Largo panel [cm]')
-    Req.set_title(3, 'Ancho lamela [cm]')
-    Req.set_title(4, 'Altura lamela [cm]')
-    Req.set_title(5, 'Distancia entre lamelas [cm]')
-    Req.set_title(6, 'Número de lamelas')
-    Req.set_title(7, 'Inclinación [°]')
+    Req = widgets.Accordion(children=[widgets.FloatText(value=5),
+                                      widgets.IntText(value=8),
+                                      widgets.IntText(value=5),
+                                      widgets.IntSlider(value=60, max=90),
+                                      widgets.FloatText(value=180)])
+    
+    Req.set_title(0, 'Ancho lamela [cm]')
+    Req.set_title(1, 'Rel. longitud - ancho')
+    Req.set_title(2, 'Número de lamelas')
+    Req.set_title(3, 'Inclinación [°]')
+    Req.set_title(4, 'Carga superficial [m/d]')
     return Req
 
 def Geometry():
