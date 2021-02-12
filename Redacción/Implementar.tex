@@ -5,14 +5,14 @@
 \noindent
 \justify
 
-En la Figura \ref{metodologia} se muestra la metodolog\'ia empleada para el dise\~no del sistema de eluci\'on y filtrado de la planta de extracci\'on (ver Figura \ref{planta}).
+En la Figura \ref{metodologia} se muestra la metodolog\'ia empleada para el dise\~no del sistema de eluci\'on y filtrado de la planta de extracci\'on.
 
 \input{metodologia}
 
 \noindent
 \justify
 
-En esta metodolog\'ia desarrolla el dise\~no del sistema con base en las herramientas anal\'iticas descritas en la secci\'on \ref{simplificado} y 
+En esta metodolog\'ia se desarrolla el dise\~no del sistema con base en las herramientas anal\'iticas descritas en la secci\'on \ref{simplificado} y al plantemiento num\'erico mostrado en las secciones \ref{DFC} y \ref{MCFDEM}.
 
 \subsection{Recopilaci\'on de datos}
 
@@ -45,6 +45,126 @@ Los criterios de dise\~no del sistema de sedimentaci\'on de placas inclinadas se
 \noindent
 \justify
 
-La velocidad m\'axima de sedimentaci\'on se calcula empleando los valores de 
+La velocidad m\'axima de sedimentaci\'on se calcula empleando una metodolog\'ia de c\'alculo iterativa con base en las Ecuaciones \ref{Res}, \ref{CoefArr} y \ref{Uas}. La l\'ogica detra\'s de dicha metodolog\'ia se evidencia en la Figura \ref{UmaxS}.
+
+\input{UmaxS}
+
+\subsection{Geometr\'ia de lamelas}
+
+\noindent
+\justify
+
+Se asume una geometr\'ia inicial con base en lo recomendado en el Cuadro \ref{critSed}. La geometr\'ia inicial evaluada es la siguiente:
+
+\begin{table}[h!]
+	\centering
+	\begin{adjustbox}{max width=\textwidth}
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Par\'ametro} & \textbf{Valor} \\ \hline
+		$b [cm]$ & $5$ \\ \hline
+		$L/b$ & $8$ \\ \hline
+		$\theta [\degree]$ & $60$ \\ \hline
+		N\'umero de lamelas & $5$ \\ \hline
+		$C_s [m/d]$ & $180$ \\ \hline
+	\end{tabular}
+	\end{adjustbox}
+	\caption{Geometr\'ia inicial supuesta.}
+	\label{GeoI}
+\end{table}
+
+\subsection{Ancho del sedimentador}
+
+\noindent
+\justify
+
+El ancho del sedimentador se calcula con base en la Ecuaci\'on \ref{carS} y a la geometr\'ia inicial mostrada en el Cuadro \ref{GeoI}; definiendo as\'i la geometr\'ia del panel de lamelas del sistema de sedimentaci\'on.
+
+\subsection{C\'alculo de $Re$ y $v_0$}
+
+\noindent
+\justify
+
+El n\'umero de Reynolds, empleado para evaluar el comportamiento del flujo dentro de la lamela, se calcula con base en lo estipulado en la Ecuaci\'on \ref{Reynolds}. La velocidad media del flujo dentro del sedimentador se calcula con la ayuda de la Ecuaci\'on \ref{v0}.
+
+\subsection{Tuber\'ia de entrada y tolva de sedimentos}
+
+\noindent
+\justify
+
+La tuber\'ia de entrada y tolva de sedimentos se calcula con base en las Ecuaciones \ref{De}, \ref{Des} y \ref{Qdes}.
+
+\subsection{CAD y mallado de geometr\'ia}
+
+\noindent
+\justify
+
+Gran parte del \'exito de las simulaciones num\'ericas recaen en la discretizaci\'on del dominio y en la calidad de los elementos que la componen$^{\cite{Roda-Casanova2021}}$. Se desarroll\'o un algoritmo que define la geometr\'ia CAD y realiza el mallado de la geometr\'ia basado en el lenguaje de c\'odigo abierto \texttt{gmsh}. El algoritmo discretiza el dominio con elementos rectangulares (malla estructurada) o triangulares (malla no estructurada). Adem\'as, tiene la capacidad de desarrollar un refinamiento de malla en cada una de las lamelas, como se aprecia en la Figura \ref{malla}.
+
+\subsection{Checkeo de malla}
+
+\noindent
+\justify
+
+La evaluaci\'on de la malla se desarrolla con base en el comando \texttt{checkMesh} de OpenFOAM. Los criterios de aprobaci\'on de malla son: \textbf{no ortogonalidad}, \textbf{oblicuidad m\'axima} menor a $1$ y que la \textbf{conclusi\'on} de la malla sea \textbf{ok}.
+
+\input{CF}
+
+\input{SimuCFD}
+
+\subsection{Error de la simulaci\'on}
+
+\noindent
+\justify
+
+Para la estimaci\'on del error de la simulaci\'on, se emplea la metodolog\'ia descrita en la secci\'on \ref{verified}. Al tener el comportamiento gr\'afico mostrado en la Figura \ref{valsimple}, es posible calcular el error de la simulaci\'on con base en la Ecuaci\'on \ref{errorSimu}.
+
+\begin{equation}
+	Err = \left| \frac{\gamma _i - \gamma _{i-1}}{\gamma _i} \right| \leq 5 \%
+	\label{errorSimu}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde: $Err$ corresponde al porcentaje de error, $\gamma$ a la propiedad de an\'alisis (puede ser velocidad o presi\'on m\'aximas) e $i$ corresponde a la \'ultima iteraci\'on desarrollada con un n\'umero $n$ de nodos definido durante el mallado de la geometr\'ia. El n\'umero de nodos en $i-1$ corresponde a $n/2$.
+
+\subsection{Simulaci\'on CFD-DEM}
+
+\noindent
+\justify
+
+Se emple\'o un solucionador adaptado que vincula OpenFOAM (soluciona las ecuaciones de Navier Stokes) y Yade (soluciona la din\'amica de part\'iculas) a trav\'es de la Interfaz de Paso de Mensajes (MPI, por sus siglas en ingl\'es)$^{\cite{Kunhappan2018}}$. El solucionador emplea el enfoque Euler - Lagrange (ver secci\'on \ref{EuLag}) y \texttt{pimpleFOAM} para predecir la interacci\'on fluido-part\'icula en el tiempo.
+
+\newpage
+
+\noindent
+\justify
+
+Para el desarrollo de la simulaci\'on CFD-DEM, se emplearon los datos mostrados en el Cuadro \ref{CFDEMdata}.
+
+\begin{table}[h!]
+	\centering
+	\begin{adjustbox}{max width = 0.8\textwidth}
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Par\'ametro} & \textbf{Valor} \\ \hline
+		\multicolumn{2}{|c|}{\textbf{\textit{Generales}}} \\ \hline
+		Material & Arena de r\'io \\ \hline
+		Tama\~no de part\'icula $[\mu m]$ & 250 \\ \hline
+		M\'odulo de Young & $10 ^6$ \\ \hline
+		 N\'umero de part\'iculas por segundo & $22300$ \\
+		  \hline
+		 $\rho [kg/m^3]$ & 1600 \\ \hline
+		 $\nu$ & $0.2$ \\ \hline
+		 \multicolumn{2}{|c|}{\textbf{\textit{Coeficientes de par de resorte Dashpot}}} \\ \hline
+		 $\alpha$ & $0.12$ \\ \hline
+		 $\mu$ & $0.52$ \\ \hline
+		 Pasos de resoluci\'on de colisi\'on & 12 \\ \hline
+	\end{tabular}
+	\end{adjustbox}
+	\caption{Datos generales para el desarrollo de la simulaci\'on CFD-DEM.}
+	\label{CFDEMdata}
+\end{table}
 
 \input{software}

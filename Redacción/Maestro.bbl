@@ -48,11 +48,14 @@ S.~A. Barker, ``{Matrix solid phase dispersion (MSPD)},'' \emph{Journal of
   Biochemical and Biophysical Methods}, vol.~70, no.~2, pp. 151--162, 2007.
 
 \bibitem{Proyecto}
+\BIBentryALTinterwordspacing
 J.~D. {Arg{\"{u}}ello Plata} and {\'{O}}.~A. {G{\'{o}}mez Sep{\'{u}}lveda},
   ``{Dise{\~{n}}o de un prototipo de una planta destinada a la producci{\'{o}}n
   de extractos vegetales mediante el m{\'{e}}todo de extracci{\'{o}}n de
   dispersi{\'{o}}n en la fase s{\'{o}}lida - MSPD, con sistema de
-  recuperaci{\'{o}}n del solvente},'' Tech. Rep., 2017.
+  recuperaci{\'{o}}n del solvente},'' Tech. Rep., 2017. [Online]. Available:
+  \url{https://www.foamacademy.com/wp-content/uploads/2016/11/GOFUN2017{\_}ParticleSimulations{\_}slides.pdf}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Stashenko2017}
 E.~Stashenko, O.~A. {G{\'{e}}lvez Arocha}, J.~R. {Mart{\'{i}}nez Morales},
@@ -245,6 +248,13 @@ V.~Roda-Casanova and F.~Sanchez-Marin, ``{A simple procedure for generating
   \emph{Mechanism and Machine Theory}, vol. 157, p. 104185, mar 2021. [Online].
   Available:
   \url{https://linkinghub.elsevier.com/retrieve/pii/S0094114X2030402X}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Kunhappan2018}
+\BIBentryALTinterwordspacing
+D.~Kunhappan, ``{Numerical modeling of long flexible fibers in inertial
+  flows},'' Ph.D. dissertation, Universit{\'{e}} Grenoble Alpes, 2018.
+  [Online]. Available: \url{https://tel.archives-ouvertes.fr/tel-01877792}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Hoomans1996}

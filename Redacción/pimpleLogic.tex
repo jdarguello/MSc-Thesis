@@ -9,8 +9,9 @@
 \tikzstyle{blockTwo} = [rectangle, draw, fill=blue!20, 
        text width=3em, text centered, rounded corners, minimum height=4em]
 
-\begin{figure}
+\begin{figure}[h!]
 \centering
+\begin{adjustbox}{max width = 0.5\textwidth}
 \begin{tikzpicture}[node distance = 2cm, auto]
        % Place nodes
        \node [blockTwo] (init) {Inicio};
@@ -38,6 +39,7 @@
        \path [line,dashed] (expert) -- (init);
        %\path [line] (res.west) -- (decide.west);
 \end{tikzpicture}
+\end{adjustbox}
 \caption{Diagrama de flujo del solucionador \texttt{pimpleFoam}.}
 \label{pimpleLog}
 \end{figure}
