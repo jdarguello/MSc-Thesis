@@ -257,6 +257,22 @@ D.~Kunhappan, ``{Numerical modeling of long flexible fibers in inertial
   [Online]. Available: \url{https://tel.archives-ouvertes.fr/tel-01877792}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Tu2018}
+J.~Tu, G.-H. Yeoh, and C.~Liu, ``{CFD Mesh Generation: A Practical
+  Guideline},'' in \emph{Computational Fluid Dynamics}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Elsevier, jan 2018, pp. 125--154.
+
+\bibitem{Illes2020}
+B.~Ill{\'{e}}s, O.~Krammer, and A.~G{\'{e}}czy, ``{Numerical simulation of
+  reflow ovens},'' in \emph{Reflow Soldering}.\hskip 1em plus 0.5em minus
+  0.4em\relax Elsevier, jan 2020, pp. 199--280.
+
+\bibitem{Martinez2019}
+J.~Mart{\'{i}}nez, ``{Mesh handling for the CFD simulation of external gear
+  pumps},'' in \emph{Positive Displacement Machines: Modern Design Innovations
+  and Tools}.\hskip 1em plus 0.5em minus 0.4em\relax Elsevier, jan 2019, pp.
+  345--368.
+
 \bibitem{Hoomans1996}
 B.~P. Hoomans, J.~A. Kuipers, W.~J. Briels, and W.~P. {Van Swaaij}, ``{Discrete
   particle simulation of bubble and slug formation in a two-dimensional

@@ -8,7 +8,7 @@ A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: Intro.aux
 A level-1 auxiliary file: MarcoT.aux
 A level-1 auxiliary file: Implementar.aux
-A level-1 auxiliary file: Filtrado.aux
+A level-1 auxiliary file: Ress.aux
 A level-1 auxiliary file: Modelo.aux
 A level-1 auxiliary file: Valid.aux
 A level-1 auxiliary file: Conclusiones.aux
@@ -25,45 +25,45 @@ Warning--missing institution in Proyecto
 Warning--empty author in OMSagua
 
 Done.
-You've used 42 entries,
+You've used 45 entries,
             4087 wiz_defined-function locations,
-            1154 strings with 18063 characters,
-and the built_in function-call counts, 33610 in all, are:
-= -- 2880
-> -- 723
-< -- 318
-+ -- 405
-- -- 114
-* -- 1671
-:= -- 5178
-add.period$ -- 87
-call.type$ -- 42
-change.case$ -- 39
-chr.to.int$ -- 708
-cite$ -- 44
-duplicate$ -- 2356
-empty$ -- 2477
-format.name$ -- 144
-if$ -- 7765
+            1172 strings with 18535 characters,
+and the built_in function-call counts, 36310 in all, are:
+= -- 3086
+> -- 777
+< -- 345
++ -- 437
+- -- 121
+* -- 1799
+:= -- 5541
+add.period$ -- 96
+call.type$ -- 45
+change.case$ -- 42
+chr.to.int$ -- 780
+cite$ -- 47
+duplicate$ -- 2546
+empty$ -- 2722
+format.name$ -- 153
+if$ -- 8409
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 380
-newline$ -- 187
-num.names$ -- 41
-pop$ -- 767
+int.to.str$ -- 45
+missing$ -- 408
+newline$ -- 196
+num.names$ -- 44
+pop$ -- 847
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2598
+skip$ -- 2801
 stack$ -- 0
-substring$ -- 1719
-swap$ -- 2091
-text.length$ -- 82
+substring$ -- 1890
+swap$ -- 2248
+text.length$ -- 85
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 42
+type$ -- 45
 warning$ -- 2
-while$ -- 164
-width$ -- 44
-write$ -- 492
+while$ -- 179
+width$ -- 47
+write$ -- 519
 (There were 2 warnings)

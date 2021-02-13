@@ -49,7 +49,7 @@ La velocidad m\'axima de sedimentaci\'on se calcula empleando una metodolog\'ia 
 
 \input{UmaxS}
 
-\subsection{Geometr\'ia de lamelas}
+\subsection{Geometr\'ia de lamelas} \label{geoLa}
 
 \noindent
 \justify
@@ -73,21 +73,21 @@ Se asume una geometr\'ia inicial con base en lo recomendado en el Cuadro \ref{cr
 	\label{GeoI}
 \end{table}
 
-\subsection{Ancho del sedimentador}
+\subsection{Ancho del sedimentador} \label{anchoSed}
 
 \noindent
 \justify
 
 El ancho del sedimentador se calcula con base en la Ecuaci\'on \ref{carS} y a la geometr\'ia inicial mostrada en el Cuadro \ref{GeoI}; definiendo as\'i la geometr\'ia del panel de lamelas del sistema de sedimentaci\'on.
 
-\subsection{C\'alculo de $Re$ y $v_0$}
+\subsection{C\'alculo de $Re$ y $v_0$} \label{Rev0}
 
 \noindent
 \justify
 
 El n\'umero de Reynolds, empleado para evaluar el comportamiento del flujo dentro de la lamela, se calcula con base en lo estipulado en la Ecuaci\'on \ref{Reynolds}. La velocidad media del flujo dentro del sedimentador se calcula con la ayuda de la Ecuaci\'on \ref{v0}.
 
-\subsection{Tuber\'ia de entrada y tolva de sedimentos}
+\subsection{Tuber\'ia de entrada y tolva de sedimentos} \label{enTol}
 
 \noindent
 \justify
@@ -112,7 +112,7 @@ La evaluaci\'on de la malla se desarrolla con base en el comando \texttt{checkMe
 
 \input{SimuCFD}
 
-\subsection{Error de la simulaci\'on}
+\subsection{C\'alculo del error} \label{errorSimu}
 
 \noindent
 \justify
@@ -120,7 +120,7 @@ La evaluaci\'on de la malla se desarrolla con base en el comando \texttt{checkMe
 Para la estimaci\'on del error de la simulaci\'on, se emplea la metodolog\'ia descrita en la secci\'on \ref{verified}. Al tener el comportamiento gr\'afico mostrado en la Figura \ref{valsimple}, es posible calcular el error de la simulaci\'on con base en la Ecuaci\'on \ref{errorSimu}.
 
 \begin{equation}
-	Err = \left| \frac{\gamma _i - \gamma _{i-1}}{\gamma _i} \right| \leq 5 \%
+	Err = \left| \frac{\gamma _i - \gamma _{i-1}}{\gamma _i} \right| *100 \leq 5 \%
 	\label{errorSimu}
 \end{equation}
 
@@ -129,7 +129,7 @@ Para la estimaci\'on del error de la simulaci\'on, se emplea la metodolog\'ia de
 
 D\'onde: $Err$ corresponde al porcentaje de error, $\gamma$ a la propiedad de an\'alisis (puede ser velocidad o presi\'on m\'aximas) e $i$ corresponde a la \'ultima iteraci\'on desarrollada con un n\'umero $n$ de nodos definido durante el mallado de la geometr\'ia. El n\'umero de nodos en $i-1$ corresponde a $n/2$.
 
-\subsection{Simulaci\'on CFD-DEM}
+\subsection{Metodolog\'ia CFD-DEM}
 
 \noindent
 \justify
@@ -166,5 +166,7 @@ Para el desarrollo de la simulaci\'on CFD-DEM, se emplearon los datos mostrados 
 	\caption{Datos generales para el desarrollo de la simulaci\'on CFD-DEM.}
 	\label{CFDEMdata}
 \end{table}
+
+\newpage
 
 \input{software}

@@ -31,11 +31,11 @@ def Rango(minimo=250, maximo=20000):
     return Req
 
 def Size(geo):
-    Req = widgets.Accordion(children=[widgets.FloatText(value=25),
-                                      widgets.FloatText(value=20),
+    Req = widgets.Accordion(children=[widgets.FloatText(value=35),
+                                      widgets.FloatText(value=34.6),
                                       widgets.FloatText(value=30),
                                       widgets.FloatText(value=geo['Ancho lamela [cm]']),
-                                      widgets.FloatText(value=0.5),
+                                      widgets.FloatText(value=2.5),
                                       widgets.IntText(value=geo['Número de lamelas']),
                                       widgets.FloatText(value=0.1),
                                       widgets.IntSlider(value=geo['Inclinación [°]'], max=90)])

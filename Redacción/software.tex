@@ -3,7 +3,7 @@
 \noindent
 \justify
 
-Para la ejecuci\'on de la metodolog\'ia mostrada en la Figura \ref{metodologia}, se desarroll\'o un software de dise\~no con herramientas de \textit{c\'odigo abierto}. El software se compone, principalmente, de dos partes: \textit{Frontend} (interfaz de usuario), desarrollada en Jupyter y ParaView, y \textit{Backend} (l\'ogica detr\'as del software), desarrollada en Python, C++ y gmsh. 
+Para la ejecuci\'on de la metodolog\'ia mostrada en la Figura \ref{metodologia}, se desarroll\'o un software de dise\~no con herramientas de \textit{c\'odigo abierto}. El software se compone, principalmente, de dos partes: \textit{Frontend} (interfaz de usuario), desarrollada en Jupyter y ParaView, y \textit{Backend} (l\'ogica detr\'as del software), desarrollada en Python, C++ y gmsh. Anexo a este trabajo se encuentran los diferentes componentes desarrollados del software; dando evidencia de la calidad de resultados obtenidos a trav\'es de este.
 
 \subsubsection{Frontend}
 
@@ -78,6 +78,8 @@ El software resuelve, b\'asicamente, tres problemas:
 	\item Simulaci\'on CFD-DEM que permite predecir la interacci\'on fluido - part\'icula a distintas condiciones de flujo.
 \end{itemize}
 
+\newpage
+
 \paragraph{Dise\~no funcional te\'orico}
 
 \noindent
@@ -102,7 +104,7 @@ La l\'ogica desarrollada comprende los siguientes pasos:
 
 Los algoritmos que emplean esta l\'ogica se encuentran ubicados en las direcciones \texttt{App/Sedimentaci\'on} y \texttt{App/Generalidades}, como se aprecia en la Figura \ref{particion}.
 
-\paragraph{Modelo CFD} \label{imp:CFD}
+\paragraph{Simulaciones num\'ericas} \label{imp:CFD}
 
 \noindent
 \justify
@@ -128,8 +130,6 @@ Los algoritmos desarrollados para el desarrollo de este modelo se encuentran ubi
 	\item \texttt{CF.py} define las condiciones de frontera.
 	\item \texttt{CFD.py} se encarga de ejecutar la simulaci\'on num\'erica a trav\'es de OpenFOAM.
 \end{itemize}
-
-\paragraph{Modelo CFD-DEM}
 
 \noindent
 \justify

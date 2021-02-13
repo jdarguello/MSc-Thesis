@@ -6,6 +6,15 @@ except:
     from .Area import Geometria
 
 
+class Desague():
+    #Objetivo: calcular diámetros de entrada y salida del sedimentador
+    def __init__(self, lamela, mu, geo):
+        De = self.De(lamela['QT'], lamela['Reynolds'], mu)
+        
+    
+    def De(self, Q, Re, mu):
+        return 4*Q/(Re*pi*mu)
+    
 class VelCr():
     #Objetivo: calcular la velocidad crítica de sedimentación
     def __init__(self, lamela, geo):
