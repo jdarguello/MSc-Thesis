@@ -141,14 +141,17 @@ Con base en la metodolog\'ia descrita en la secci\'on \ref{MetCFD}, se emple\'o 
 \noindent
 \justify
 
-De acuerdo a lo estipulado en la secci\'on \ref{errorSimu}, se desarroll\'o un refinamiento de malla para calcular el error de la simulaci\'on num\'erica debido a la calidad de malla. El resumen de resultados se puede apreciar en el Cuadro \ref{resumErr}.
+De acuerdo a lo estipulado en la secci\'on \ref{SimuErr}, se desarroll\'o un refinamiento de malla para calcular el error de la simulaci\'on num\'erica. El resumen de resultados se puede apreciar en el Cuadro \ref{resumErr}.
 
 \begin{table}[h!]
 	\centering
-	\begin{tabular}{|c|c|c|c|}
+	\begin{tabular}{|c|c|c|c|c|}
 		\hline
-		\textbf{Iteraci\'on} & \textbf{N\'um. nodos} & \textbf{Vel. m\'ax.$[m/s]$} & \textbf{P. m\'ax. $[KPa]$} \\ \hline
-		1 & $4560$ & $0.0017$ & $6.5 \, \cdot 10 ^{-6}$ \\ \hline
+		\textbf{Iteraci\'on} & \textbf{N\'um. nodos} & \textbf{Vel. m\'ax.$[m/s]$} & \textbf{P. m\'ax. $[KPa]$} & \textbf{Error m\'ax.} \\ \hline
+		1 & $4560$ & $17.82 \cdot 10 ^{-3}$ & $5.90 \cdot 10 ^{-6}$ & $12.98 \%$ \\ \hline
+		2 & $8832$ & $19.66 \cdot 10 ^{-3}$ & $6.78 \cdot 10 ^{-6}$ & $5.83 \%$ \\ \hline
+		3 & $17636$ & $20.50 \cdot 10 ^{-3}$ & $ 7.20 \cdot 10 ^{-6}$ & $3.17 \%$ \\ \hline
+		4 & $36820$ & $19.87 \cdot 10 ^{-3}$ & $7.25 \cdot 10 ^{-6}$ & - \\ \hline
 	\end{tabular}
 	\caption{Resultados del proceso iterativo.}
 	\label{resumErr}
@@ -157,4 +160,95 @@ De acuerdo a lo estipulado en la secci\'on \ref{errorSimu}, se desarroll\'o un r
 \noindent
 \justify
 
-En la Figura \ref{resumErrG}, se puede apreciar la tendencia 
+En la Figura \ref{resumErrG}, se puede apreciar la tendencia del error de velocidad m\'axima de forma gr\'afica.
+
+\input{resumErrG}
+
+\noindent
+\justify
+
+En la Figura \ref{resumErrGP}, se puede apreciar la tendencia del error en la presi\'on m\'axima de forma gr\'afica.
+
+\input{resumErrGP}
+
+\noindent
+\justify
+
+Cabe destacar, con base en las Figuras \ref{CFD:vel} y \ref{CFD:p}, que la presi\'on m\'axima se encuentra entre la zona de entrada de la mezcla y la zona de dep\'osito de los sedimentos; mientras que la velocidad m\'axima se encuentra en la primera lamela de izquierda a derecha. Con base en los resultados reportados en el Cuadro \ref{resumErr}, y las Figuras \ref{resumErr} y \ref{resumErrG}, se escoge la malla de $17636$ nodos para el desarrollo de la simulaci\'on CFD-DEM.
+
+\subsection{Simulaci\'on CFD-DEM}
+
+\noindent
+\justify
+
+La informaci\'on referente a la malla empleada para el desarrollo de la simulaci\'on CFD-DEM se puede apreciar en el Cuadro \ref{mallaF}.
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Par\'ametro} & \textbf{Valor} \\ \hline
+		Tipo de elementos & Rectangulares \\ \hline
+		N\'umero de elementos & 23587 \\ \hline
+		N\'umero de nodos & 17636 \\ \hline
+		Tama\~no m\'aximo de elementos $[\mu m]$ & $10000$ \\ \hline
+		Tama\~no m\'inimo $[\mu m]$ & $5000$ \\ \hline	
+	\end{tabular}
+	\caption{Datos de la malla inicial generada.}
+	\label{mallaF}
+\end{table}
+
+\noindent
+\justify
+
+Se emple\'o un refinamiento de malla en las lamelas que corresponden a $5000 [\mu m]$ de tama\~no m\'inimo. 
+
+\noindent
+\justify
+
+La validaci\'on de malla a trav\'es del comando \texttt{checkMesh} de OpenFOAM presenta los siguientes resultados:
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Par\'ametro} & \textbf{Valor} \\ \hline
+		Apertura \textit{m\'axima} entre elementos & 11.65 \\ \hline
+		Checkeo de \textit{no} ortogonalidad & OK \\ \hline
+		Oblicuidad m\'axima & 0.79 OK \\ \hline
+		Conclusi\'on de malla & OK \\ \hline
+	\end{tabular}
+	\caption{Resumen de resultados sobre el checkeo de malla.}
+	\label{check}
+\end{table}
+
+\noindent
+\justify
+
+En la Figura \ref{CFDEM:fpart} se puede apreciar el comportamiento fluido - part\'icula del sistema de sedimentaci\'on en $t = 60 [s]$.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Images/CFDEM/simu1.png}
+	\caption{Simulaci\'on CFD-DEM $\rightarrow$ interacci\'on fluido-part\'icula.}
+	\label{CFDEM:fpart}
+\end{figure}
+
+\noindent
+\justify
+
+Los resultados de los diagramas de contorno de velocidad y de presi\'on, en $t = 60 [s]$, se pueden apreciar en las Figuras \ref{CFDEM:vel} y \ref{CFDEM:p}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.42\textwidth]{Images/CFDEM/vel.png}
+	\caption{Diagrama de contorno de velocidad $t = 60 [s]$.}
+	\label{CFDEM:vel}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.42\textwidth]{Images/CFDEM/p.png}
+	\caption{Diagrama de contorno de presi\'on $t=60 [s]$.}
+	\label{CFDEM:p}
+\end{figure}

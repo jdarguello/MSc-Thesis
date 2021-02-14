@@ -1,0 +1,50 @@
+% Define block styles: decision, block, line, cloud, blockTwo
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+       text width=7em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+       text width=7em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{blockConc} = [rectangle, draw, fill=orange!20, 
+       text width=7em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{empty} = [rectangle, draw, white, fill=white, 
+       text width=-4em, text centered, rounded corners, minimum height=-4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,
+       minimum height=2em]
+\tikzstyle{blockTwo} = [rectangle, draw, fill=blue!20, 
+       text width=3em, text centered, rounded corners, minimum height=4em]
+
+\begin{figure}[h!]
+\centering
+\begin{adjustbox}{max width=0.53\textwidth}
+\begin{tikzpicture}[scale=1, node distance = 2cm, auto]
+       % Place nodes
+       \node [cloud] (init) {Inicio $t=0$};
+       \node [block, below of=init, node distance=3cm] (Transfer) {MPI $\rightarrow$ datos de part\'iculas desde DEM hacia CFD};
+       \node [block, below of=Errac, node distance=3cm] (Errac) {C\'alculo de la velocidad de las part\'iculas};
+       \node [block, below of=Uas, node distance=3cm] (Res) {Soluci\'on ecuaciones gobernantes CFD};
+       \node [block, below of=Res, node distance=3cm] (Carr) {C\'alculo de fuerzas hidrodin\'amicas y torque en cada part\'icula};
+       \node [block, below of=Carr, node distance=3cm] (Uc) {MPI $\rightarrow$ fuerzas y torque desde CFD hacia DEM};
+       \node [block, below of=Uc, node distance=3cm] (Errc) {Resolver ecuaciones gobernantes DEM};
+       \node [block, below of=Errc, node distance=3cm] (dt) {$t = t + \Delta t$};
+       \node [decision, below of=dt] (comp) {?`$t = t_{final}$?};
+       \node [empty, left of=comp, node distance=4.5cm] (Us) {};
+       \node [blockConc, right of=comp, node distance=4.5cm] (conc) {Fin};
+      
+       % Draw edges
+       \path [line] (init) -- (Transfer);
+       \path [line] (Transfer) -- (Errac);
+       \path [line] (Errac) -- (Uas);
+       \path [line] (Uas) -- (Res);
+       \path [line] (Res) -- (Carr);
+       \path [line] (Carr) -- (Uc);
+       \path [line] (Uc) -- (Errc);
+       \path [line] (Errc) -- (dt);
+       \path [line] (dt) -- (comp);
+       \path [line] (comp) -- node {no} (Us);
+       \path [line] (Us) |- (Transfer);
+       \path [line] (comp) -- node {s\'i} (conc);
+\end{tikzpicture}
+\end{adjustbox}
+\caption{Simulaci\'on CFD-DEM.}
+\label{CFDEMeth}
+\end{figure}

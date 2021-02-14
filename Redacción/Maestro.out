@@ -49,18 +49,12 @@
 \BOOKMARK [2][-]{subsection.3.5}{Condiciones de frontera}{section.3}% 49
 \BOOKMARK [2][-]{subsection.3.6}{Simulaci\363n CFD}{section.3}% 50
 \BOOKMARK [2][-]{subsection.3.7}{Error computacional}{section.3}% 51
-\BOOKMARK [1][-]{section.4}{Modelo CFD-DEM}{}% 52
-\BOOKMARK [2][-]{subsection.4.1}{Desarrollo de la simulaci\363n}{section.4}% 53
-\BOOKMARK [3][-]{subsubsection.4.1.1}{CFD}{subsection.4.1}% 54
-\BOOKMARK [4][-]{paragraph.4.1.1.1}{Resultados}{subsubsection.4.1.1}% 55
-\BOOKMARK [4][-]{paragraph.4.1.1.2}{An\341lisis de resultados}{subsubsection.4.1.1}% 56
-\BOOKMARK [3][-]{subsubsection.4.1.2}{M\351todo CFD-DEM}{subsection.4.1}% 57
-\BOOKMARK [4][-]{paragraph.4.1.2.1}{Resultados}{subsubsection.4.1.2}% 58
-\BOOKMARK [4][-]{paragraph.4.1.2.2}{An\341lisis de resultados}{subsubsection.4.1.2}% 59
-\BOOKMARK [1][-]{section.5}{Validaci\363n del modelo}{}% 60
-\BOOKMARK [2][-]{subsection.5.1}{Descripci\363n del problema}{section.5}% 61
-\BOOKMARK [2][-]{subsection.5.2}{Desarrollo experimental}{section.5}% 62
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Descripci\363n particular}{subsection.5.2}% 63
-\BOOKMARK [3][-]{subsubsection.5.2.2}{M\351todos experimentales}{subsection.5.2}% 64
-\BOOKMARK [2][-]{subsection.5.3}{Resultados}{section.5}% 65
-\BOOKMARK [1][-]{section*.70}{Conclusiones}{}% 66
+\BOOKMARK [2][-]{subsection.3.8}{Simulaci\363n CFD-DEM}{section.3}% 52
+\BOOKMARK [1][-]{section.4}{An\341lisis de resultados}{}% 53
+\BOOKMARK [1][-]{section.5}{Validaci\363n del modelo}{}% 54
+\BOOKMARK [2][-]{subsection.5.1}{Descripci\363n del problema}{section.5}% 55
+\BOOKMARK [2][-]{subsection.5.2}{Desarrollo experimental}{section.5}% 56
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Descripci\363n particular}{subsection.5.2}% 57
+\BOOKMARK [3][-]{subsubsection.5.2.2}{M\351todos experimentales}{subsection.5.2}% 58
+\BOOKMARK [2][-]{subsection.5.3}{Resultados}{section.5}% 59
+\BOOKMARK [1][-]{section*.70}{Conclusiones}{}% 60

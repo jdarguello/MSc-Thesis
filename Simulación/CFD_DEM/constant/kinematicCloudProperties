@@ -73,7 +73,7 @@ subModels
 	{
             type             patchInjection;
             patchName        ingreso;
-            duration         27;
+            duration         90;
 	    parcelsPerSecond 16000;
             massTotal        0;
             parcelBasisType  fixed;

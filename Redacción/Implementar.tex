@@ -112,7 +112,7 @@ La evaluaci\'on de la malla se desarrolla con base en el comando \texttt{checkMe
 
 \input{SimuCFD}
 
-\subsection{C\'alculo del error} \label{errorSimu}
+\subsection{C\'alculo del error} \label{SimuErr}
 
 \noindent
 \justify
@@ -134,9 +134,9 @@ D\'onde: $Err$ corresponde al porcentaje de error, $\gamma$ a la propiedad de an
 \noindent
 \justify
 
-Se emple\'o un solucionador adaptado que vincula OpenFOAM (soluciona las ecuaciones de Navier Stokes) y Yade (soluciona la din\'amica de part\'iculas) a trav\'es de la Interfaz de Paso de Mensajes (MPI, por sus siglas en ingl\'es)$^{\cite{Kunhappan2018}}$. El solucionador emplea el enfoque Euler - Lagrange (ver secci\'on \ref{EuLag}) y \texttt{pimpleFOAM} para predecir la interacci\'on fluido-part\'icula en el tiempo.
+Se emple\'o un solucionador adaptado que vincula OpenFOAM (soluciona las ecuaciones de Navier Stokes) y Yade (soluciona la din\'amica de part\'iculas) a trav\'es de la Interfaz de Paso de Mensajes (MPI, por sus siglas en ingl\'es)$^{\cite{Kunhappan2018}}$. El solucionador emplea el enfoque Euler - Lagrange (ver secci\'on \ref{EuLag}) y \texttt{pimpleFOAM} para predecir la interacci\'on fluido-part\'icula en el tiempo. La metodolog\'ia de c\'alculo del solucionador se puede apreciar en la Figura \ref{CFDEMeth}.
 
-\newpage
+\input{CFDEMeth}
 
 \noindent
 \justify
@@ -145,7 +145,7 @@ Para el desarrollo de la simulaci\'on CFD-DEM, se emplearon los datos mostrados 
 
 \begin{table}[h!]
 	\centering
-	\begin{adjustbox}{max width = 0.8\textwidth}
+	\begin{adjustbox}{max width = 0.5\textwidth}
 	\begin{tabular}{|c|c|}
 		\hline
 		\textbf{Par\'ametro} & \textbf{Valor} \\ \hline

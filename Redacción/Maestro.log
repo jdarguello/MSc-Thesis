@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.3)  12 FEB 2021 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.3)  14 FEB 2021 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1311,24 +1311,11 @@ Package: forest-lib-edges 2016/12/05 v0.1.1
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  (./Resumen.aux) (./Abstract.aux) (./Intro.aux)
-(./MarcoT.aux) (./Implementar.aux
+(./MarcoT.aux) (./Implementar.aux) (./Ress.aux
 
-LaTeX Warning: Label `errorSimu' multiply defined.
+LaTeX Warning: Label `check' multiply defined.
 
-) (./Ress.aux) (./Modelo.aux
-
-LaTeX Warning: Label `pimpleLog' multiply defined.
-
-
-LaTeX Warning: Label `CFD:vel' multiply defined.
-
-
-LaTeX Warning: Label `CFD:p' multiply defined.
-
-
-LaTeX Warning: Label `CFDEMdata' multiply defined.
-
-) (./Valid.aux) (./Conclusiones.aux))
+) (./Analisis.aux) (./Valid.aux) (./Conclusiones.aux) (./Anexos.aux))
 \openout1 = `Maestro.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
@@ -1349,11 +1336,13 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
 LaTeX Font Info:    ... okay on input line 135.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 35.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Info: Redefining \. on input line 135.
 LaTeX Info: Redefining \% on input line 135.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count408
@@ -1538,7 +1527,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 ...{2.14.2}Backend}{50}{subsubsection.2.14.2}
+l.47 ...{2.14.2}Backend}{51}{subsubsection.2.14.2}
                                                   % [1
 
 ])
@@ -1548,15 +1537,15 @@ l.47 ...{2.14.2}Backend}{50}{subsubsection.2.14.2}
  (./Maestro.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 ...t\'iculas.\relax }}{23}{figure.caption.20}
+l.14 ...ov2017}}$.\relax }}{28}{figure.caption.23}
                                                   % [2]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
 22.
@@ -1564,16 +1553,12 @@ LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (181.64523pt too wide) in paragraph at lines 23--23
+Overfull \hbox (181.64523pt too wide) in paragraph at lines 24--24
  [][] [][]\OT1/lmr/m/n/12 Interfaz gr^^Safi-ca de ejem-plo desa-rro-lla-da con 
 Jupy-ter. Fuen-te: https://jupyterlab.readthedocs.io/en/latest/[] [][]  
  []
 
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
-[3])
+)
 \tf@lof=\write9
 \openout9 = `Maestro.lof'.
 
@@ -1581,7 +1566,7 @@ LaTeX Info: Redefining \. on input line 139.
 LaTeX Info: Redefining \% on input line 139.
 LaTeX Info: Redefining \. on input line 139.
 LaTeX Info: Redefining \% on input line 139.
- [4]
+ [3]
 \openout2 = `Resumen.aux'.
 
  (./Resumen.tex
@@ -1596,7 +1581,7 @@ LaTeX Info: Redefining \. on input line 139.
 LaTeX Info: Redefining \% on input line 139.
 LaTeX Info: Redefining \. on input line 139.
 LaTeX Info: Redefining \% on input line 139.
- [5
+ [4
 
 ]
 \openout2 = `Abstract.aux'.
@@ -1606,7 +1591,7 @@ LaTeX Info: Redefining \. on input line 140.
 LaTeX Info: Redefining \% on input line 140.
 LaTeX Info: Redefining \. on input line 140.
 LaTeX Info: Redefining \% on input line 140.
- [6
+ [5
 
 
 ]
@@ -1615,11 +1600,11 @@ LaTeX Info: Redefining \% on input line 140.
  (./Intro.tex
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
- [7
+ [6
 
 
-]
-(./dummies.tex (./plant_extraction.tex
+] (./dummies.tex
+(./plant_extraction.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1633,22 +1618,26 @@ LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
+ [7]
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
  [8]
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
- [9]
-<Images/Planta.png, id=549, 1122.1925pt x 687.56876pt>
+<Images/Planta.png, id=510, 1122.1925pt x 687.56876pt>
 File: Images/Planta.png Graphic file (type png)
 <use Images/Planta.png>
 Package pdftex.def Info: Images/Planta.png  used on input line 36.
 (pdftex.def)             Requested size: 415.12572pt x 254.344pt.
+
+
+LaTeX Warning: Reference `CFD-DEM' on page 9 undefined on input line 49.
+
 LaTeX Info: Redefining \. on input line 52.
 LaTeX Info: Redefining \% on input line 52.
 LaTeX Info: Redefining \. on input line 52.
 LaTeX Info: Redefining \% on input line 52.
- [10 <./Images/Planta.png>]
+[9 <./Images/Planta.png>]
 Underfull \hbox (badness 2096) in paragraph at lines 67--67
 \OT1/lmr/m/n/12 ci^^Son desa-rro-lla-da fue di-se~nada
  []
@@ -1671,16 +1660,16 @@ LaTeX Info: Redefining \. on input line 142.
 LaTeX Info: Redefining \% on input line 142.
 LaTeX Info: Redefining \. on input line 142.
 LaTeX Info: Redefining \% on input line 142.
+ [10]
+LaTeX Info: Redefining \. on input line 142.
+LaTeX Info: Redefining \% on input line 142.
+LaTeX Info: Redefining \. on input line 142.
+LaTeX Info: Redefining \% on input line 142.
  [11]
-LaTeX Info: Redefining \. on input line 142.
-LaTeX Info: Redefining \% on input line 142.
-LaTeX Info: Redefining \. on input line 142.
-LaTeX Info: Redefining \% on input line 142.
- [12]
 \openout2 = `MarcoT.aux'.
 
  (./MarcoT.tex (./Extraction/MSPD.tex
-<Images/mspd.PNG, id=571, 383.93437pt x 371.88937pt>
+<Images/mspd.PNG, id=532, 383.93437pt x 371.88937pt>
 File: Images/mspd.PNG Graphic file (type png)
 <use Images/mspd.PNG>
 Package pdftex.def Info: Images/mspd.PNG  used on input line 21.
@@ -1691,7 +1680,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
-[13
+[12
 
 
 ]
@@ -1699,12 +1688,12 @@ LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
- [14 <./Images/mspd.PNG>]) (./CFD.tex
+ [13 <./Images/mspd.PNG>]) (./CFD.tex
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
- [15]
+ [14]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1712,18 +1701,18 @@ LaTeX Info: Redefining \. on input line 77.
 LaTeX Info: Redefining \% on input line 77.
 LaTeX Info: Redefining \. on input line 77.
 LaTeX Info: Redefining \% on input line 77.
-[16]
+[15]
 PGFPlots: reading {malla.txt}
 LaTeX Info: Redefining \. on input line 131.
 LaTeX Info: Redefining \% on input line 131.
 LaTeX Info: Redefining \. on input line 131.
 LaTeX Info: Redefining \% on input line 131.
+ [16]
+LaTeX Info: Redefining \. on input line 220.
+LaTeX Info: Redefining \% on input line 220.
+LaTeX Info: Redefining \. on input line 220.
+LaTeX Info: Redefining \% on input line 220.
  [17]
-LaTeX Info: Redefining \. on input line 220.
-LaTeX Info: Redefining \% on input line 220.
-LaTeX Info: Redefining \. on input line 220.
-LaTeX Info: Redefining \% on input line 220.
- [18]
 Missing character: There is no ; in font nullfont!
 
 
@@ -1733,7 +1722,7 @@ LaTeX Info: Redefining \. on input line 312.
 LaTeX Info: Redefining \% on input line 312.
 LaTeX Info: Redefining \. on input line 312.
 LaTeX Info: Redefining \% on input line 312.
-[19]
+[18]
 \c@contx=\count415
 \c@conty=\count416
 
@@ -1745,8 +1734,8 @@ LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
- [20]
-<Images/DEM.PNG, id=647, 356.33125pt x 130.4875pt>
+ [19]
+<Images/DEM.PNG, id=607, 356.33125pt x 130.4875pt>
 File: Images/DEM.PNG Graphic file (type png)
 <use Images/DEM.PNG>
 Package pdftex.def Info: Images/DEM.PNG  used on input line 11.
@@ -1755,7 +1744,7 @@ LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
- [21 <./Images/DEM.PNG>]
+ [20 <./Images/DEM.PNG>]
 
 LaTeX Warning: Command \O invalid in math mode on input line 57.
 
@@ -1768,7 +1757,7 @@ LaTeX Warning: Command \O invalid in math mode on input line 62.
 
 LaTeX Warning: Command \O invalid in math mode on input line 62.
 
-<Images/Colision.PNG, id=656, 458.21187pt x 269.50688pt>
+<Images/Colision.PNG, id=616, 458.21187pt x 269.50688pt>
 File: Images/Colision.PNG Graphic file (type png)
 <use Images/Colision.PNG>
 Package pdftex.def Info: Images/Colision.PNG  used on input line 68.
@@ -1781,28 +1770,28 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- [22]
+ [21]
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
- [23 <./Images/Colision.PNG>] (./malla.tex)
+ [22 <./Images/Colision.PNG>] (./malla.tex)
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
+ [23]
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
  [24]
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
- [25]
-<Images/normal.png, id=704, 622.325pt x 486.81876pt>
+<Images/normal.png, id=665, 622.325pt x 486.81876pt>
 File: Images/normal.png Graphic file (type png)
 <use Images/normal.png>
 Package pdftex.def Info: Images/normal.png  used on input line 69.
 (pdftex.def)             Requested size: 166.04774pt x 129.8903pt.
-<Images/tangencial.png, id=705, 509.905pt x 488.82625pt>
+<Images/tangencial.png, id=666, 509.905pt x 488.82625pt>
 File: Images/tangencial.png Graphic file (type png)
 <use Images/tangencial.png>
 Package pdftex.def Info: Images/tangencial.png  used on input line 74.
@@ -1812,19 +1801,19 @@ LaTeX Info: Redefining \% on input line 101.
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
 
-[26 <./Images/normal.png> <./Images/tangencial.png>]) (./Sedimentacion.tex
+[25 <./Images/normal.png> <./Images/tangencial.png>]) (./Sedimentacion.tex
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
 
-[27]
+[26]
 LaTeX Info: Redefining \. on input line 36.
 LaTeX Info: Redefining \% on input line 36.
 LaTeX Info: Redefining \. on input line 36.
 LaTeX Info: Redefining \% on input line 36.
- [28]
-<Images/lamelas_inclinadas.png, id=746, 827.09pt x 411.5375pt>
+ [27]
+<Images/lamelas_inclinadas.png, id=707, 827.09pt x 411.5375pt>
 File: Images/lamelas_inclinadas.png Graphic file (type png)
 <use Images/lamelas_inclinadas.png>
 Package pdftex.def Info: Images/lamelas_inclinadas.png  used on input line 47.
@@ -1838,67 +1827,67 @@ LaTeX Info: Redefining \. on input line 79.
 LaTeX Info: Redefining \% on input line 79.
 LaTeX Info: Redefining \. on input line 79.
 LaTeX Info: Redefining \% on input line 79.
- [29 <./Images/lamelas_inclinadas.png>]
+ [28 <./Images/lamelas_inclinadas.png>]
 LaTeX Info: Redefining \. on input line 119.
 LaTeX Info: Redefining \% on input line 119.
 LaTeX Info: Redefining \. on input line 119.
 LaTeX Info: Redefining \% on input line 119.
- [30]
+ [29]
 LaTeX Info: Redefining \. on input line 173.
 LaTeX Info: Redefining \% on input line 173.
 LaTeX Info: Redefining \. on input line 173.
 LaTeX Info: Redefining \% on input line 173.
- [31] (./hidrodinamica.tex
+ [30] (./hidrodinamica.tex
 (./partF.tex)
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
- [32]) (./carga.tex (./vel_particula.tex
+ [31]) (./carga.tex (./vel_particula.tex
 LaTeX Info: Redefining \. on input line 97.
 LaTeX Info: Redefining \% on input line 97.
 LaTeX Info: Redefining \. on input line 97.
 LaTeX Info: Redefining \% on input line 97.
+ [32])
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
  [33])
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
- [34])
 (./trayectoria.tex
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
- [35]
+ [34]
 LaTeX Info: Redefining \. on input line 107.
 LaTeX Info: Redefining \% on input line 107.
 LaTeX Info: Redefining \. on input line 107.
 LaTeX Info: Redefining \% on input line 107.
- [36]) (./simplificadoM.tex
+ [35]) (./simplificadoM.tex
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
- [37]
+ [36]
 
-LaTeX Warning: Reference `Re' on page 38 undefined on input line 73.
+LaTeX Warning: Reference `Re' on page 37 undefined on input line 73.
 
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
-[38]) (./enTolva.tex
+[37]) (./enTolva.tex
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
- [39])))
+ [38])))
 LaTeX Info: Redefining \. on input line 144.
 LaTeX Info: Redefining \% on input line 144.
 LaTeX Info: Redefining \. on input line 144.
 LaTeX Info: Redefining \% on input line 144.
- [40]
+ [39]
 \openout2 = `Implementar.aux'.
 
  (./Implementar.tex (./metodologia.tex
@@ -1918,7 +1907,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 (./PropFluido.tex
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
- [41
+ [40
 
 
 ]) (./UmaxS.tex
@@ -1926,7 +1915,7 @@ LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
 LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
- [42])
+ [41])
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1934,7 +1923,7 @@ LaTeX Info: Redefining \. on input line 79.
 LaTeX Info: Redefining \% on input line 79.
 LaTeX Info: Redefining \. on input line 79.
 LaTeX Info: Redefining \% on input line 79.
-[43]
+[42]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 83.
 
@@ -1963,7 +1952,7 @@ LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
- [44] (./GeneracionP.tex
+ [43] (./GeneracionP.tex
 Overfull \hbox (15.75809pt too wide) in paragraph at lines 9--9
 [][][]$[]$[]  
  []
@@ -1983,82 +1972,84 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [45] (./pimpleLogic.tex
+ [44] (./pimpleLogic.tex)
+
+LaTeX Warning: Reference `2D' on page 45 undefined on input line 20.
+
+)
+LaTeX Info: Redefining \. on input line 115.
+LaTeX Info: Redefining \% on input line 115.
+LaTeX Info: Redefining \. on input line 115.
+LaTeX Info: Redefining \% on input line 115.
+ [45] (./CFDEMeth.tex
+Overfull \hbox (46.99933pt too wide) in paragraph at lines 30--30
+ [][][][] 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-))
-LaTeX Info: Redefining \. on input line 139.
-LaTeX Info: Redefining \% on input line 139.
-LaTeX Info: Redefining \. on input line 139.
-LaTeX Info: Redefining \% on input line 139.
- [46]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+)
 LaTeX Info: Redefining \. on input line 170.
 LaTeX Info: Redefining \% on input line 170.
 LaTeX Info: Redefining \. on input line 170.
 LaTeX Info: Redefining \% on input line 170.
-[47] (./software.tex
-<Images/jupyterlab.png, id=1018, 1284.8pt x 722.7pt>
+ [46] (./software.tex
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+ [47]
+<Images/jupyterlab.png, id=982, 1284.8pt x 722.7pt>
 File: Images/jupyterlab.png Graphic file (type png)
 <use Images/jupyterlab.png>
 Package pdftex.def Info: Images/jupyterlab.png  used on input line 17.
 (pdftex.def)             Requested size: 415.12572pt x 233.5073pt.
 
 Underfull \hbox (badness 1817) in paragraph at lines 18--18
-[]\OT1/lmr/m/n/12 Figura 22: |In-ter-faz gr^^Safi-ca de ejem-plo desa-rro-lla-d
+[]\OT1/lmr/m/n/12 Figura 23: |In-ter-faz gr^^Safi-ca de ejem-plo desa-rro-lla-d
 a con Jupy-ter. Fuen-te:
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Images/interfaz.png, id=1020, 912.40875pt x 939.51pt>
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+[48 <./Images/jupyterlab.png>]
+<Images/interfaz.png, id=989, 912.40875pt x 939.51pt>
 File: Images/interfaz.png Graphic file (type png)
 <use Images/interfaz.png>
 Package pdftex.def Info: Images/interfaz.png  used on input line 34.
 (pdftex.def)             Requested size: 415.12572pt x 427.44905pt.
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
-[48]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Images/interfaz2.png, id=1026, 910.40125pt x 929.4725pt>
+<Images/interfaz2.png, id=990, 910.40125pt x 929.4725pt>
 File: Images/interfaz2.png Graphic file (type png)
 <use Images/interfaz2.png>
 Package pdftex.def Info: Images/interfaz2.png  used on input line 47.
 (pdftex.def)             Requested size: 415.12572pt x 423.83252pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+LaTeX Info: Redefining \. on input line 53.
+LaTeX Info: Redefining \% on input line 53.
+LaTeX Info: Redefining \. on input line 53.
+LaTeX Info: Redefining \% on input line 53.
+[49 <./Images/interfaz.png>]
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
-[49 <./Images/jupyterlab.png>] (./dirTree.tex
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-)
+ [50 <./Images/interfaz2.png>] (./dirTree.tex)
 LaTeX Info: Redefining \. on input line 68.
 LaTeX Info: Redefining \% on input line 68.
 LaTeX Info: Redefining \. on input line 68.
 LaTeX Info: Redefining \% on input line 68.
- [50 <./Images/interfaz.png>]
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
- [51 <./Images/interfaz2.png>]
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
+
+[51]
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
  [52]))
 LaTeX Info: Redefining \. on input line 145.
 LaTeX Info: Redefining \% on input line 145.
@@ -2067,8 +2058,7 @@ LaTeX Info: Redefining \% on input line 145.
  [53]
 \openout2 = `Ress.aux'.
 
-
-(./Ress.tex
+ (./Ress.tex
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2083,7 +2073,7 @@ LaTeX Info: Redefining \% on input line 85.
 LaTeX Info: Redefining \. on input line 85.
 LaTeX Info: Redefining \% on input line 85.
  [55] (./Mallado.tex
-<Images/CFDEM/malla.png, id=1096, 894.34125pt x 516.93124pt>
+<Images/CFDEM/malla.png, id=1059, 894.34125pt x 516.93124pt>
 File: Images/CFDEM/malla.png Graphic file (type png)
 <use Images/CFDEM/malla.png>
 Package pdftex.def Info: Images/CFDEM/malla.png  used on input line 10.
@@ -2102,151 +2092,123 @@ LaTeX Info: Redefining \% on input line 116.
 LaTeX Info: Redefining \. on input line 116.
 LaTeX Info: Redefining \% on input line 116.
  [57]
-<Images/CFD/vel1.png, id=1122, 458.71375pt x 717.68124pt>
+<Images/CFD/vel1.png, id=1086, 459.7175pt x 717.68124pt>
 File: Images/CFD/vel1.png Graphic file (type png)
 <use Images/CFD/vel1.png>
 Package pdftex.def Info: Images/CFD/vel1.png  used on input line 127.
-(pdftex.def)             Requested size: 136.99223pt x 214.33139pt.
-<Images/CFD/p1.png, id=1123, 465.74pt x 720.6925pt>
+(pdftex.def)             Requested size: 136.99223pt x 213.8605pt.
+<Images/CFD/p1.png, id=1087, 458.71375pt x 716.6775pt>
 File: Images/CFD/p1.png Graphic file (type png)
 <use Images/CFD/p1.png>
 Package pdftex.def Info: Images/CFD/p1.png  used on input line 134.
-(pdftex.def)             Requested size: 136.99223pt x 211.97562pt.
+(pdftex.def)             Requested size: 136.99223pt x 214.03165pt.
 LaTeX Info: Redefining \. on input line 142.
 LaTeX Info: Redefining \% on input line 142.
 LaTeX Info: Redefining \. on input line 142.
 LaTeX Info: Redefining \% on input line 142.
  [58 <./Images/CFD/vel1.png> <./Images/CFD/p1.png>]
-
-LaTeX Warning: Reference `resumErr' on page 59 undefined on input line 144.
-
-
-LaTeX Warning: Reference `resumErrG' on page 59 undefined on input line 158.
-
-)
-LaTeX Info: Redefining \. on input line 146.
-LaTeX Info: Redefining \% on input line 146.
-LaTeX Info: Redefining \. on input line 146.
-LaTeX Info: Redefining \% on input line 146.
- [59]
-\openout2 = `Modelo.aux'.
-
- (./Modelo.tex (./Simu.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [60
-
-
-] (./pimpleLogic.tex
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-)
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
- [61]
-<Images/CFD/vel.png, id=1155, 477.785pt x 724.7075pt>
-File: Images/CFD/vel.png Graphic file (type png)
-<use Images/CFD/vel.png>
-Package pdftex.def Info: Images/CFD/vel.png  used on input line 63.
-(pdftex.def)             Requested size: 145.29652pt x 220.3775pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Images/CFD/p.png, id=1156, 477.785pt x 719.68875pt>
-File: Images/CFD/p.png Graphic file (type png)
-<use Images/CFD/p.png>
-Package pdftex.def Info: Images/CFD/p.png  used on input line 70.
-(pdftex.def)             Requested size: 145.29652pt x 218.85135pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
-[62]
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
- [63 <./Images/CFD/vel.png> <./Images/CFD/p.png>] (./CD.tex
-Overfull \hbox (4.64241pt too wide) in paragraph at lines 50--51
-[]\OT1/lmr/m/n/12 La si-mu-la-ci^^Son num^^Seri-ca desa-rro-lla-da per-mi-ti^^S
-o obe-ser-var el com-por-ta-mien-to din^^Sami-
+Overfull \hbox (3.48215pt too wide) in paragraph at lines 148--156
+ [][] 
  []
 
-<Images/CFDEM/vel.png, id=1178, 477.785pt x 722.7pt>
-File: Images/CFDEM/vel.png Graphic file (type png)
-<use Images/CFDEM/vel.png>
-Package pdftex.def Info: Images/CFDEM/vel.png  used on input line 54.
-(pdftex.def)             Requested size: 128.68796pt x 194.6464pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 59.
-LaTeX Info: Redefining \% on input line 59.
-LaTeX Info: Redefining \. on input line 59.
-LaTeX Info: Redefining \% on input line 59.
-[64]
-<Images/CFDEM/p.png, id=1188, 472.76625pt x 711.65875pt>
-File: Images/CFDEM/p.png Graphic file (type png)
-<use Images/CFDEM/p.png>
-Package pdftex.def Info: Images/CFDEM/p.png  used on input line 68.
-(pdftex.def)             Requested size: 128.68796pt x 193.71413pt.
-<Images/CFDEM/part.png, id=1190, 474.77374pt x 711.65875pt>
-File: Images/CFDEM/part.png Graphic file (type png)
-<use Images/CFDEM/part.png>
-Package pdftex.def Info: Images/CFDEM/part.png  used on input line 80.
-(pdftex.def)             Requested size: 147.36784pt x 220.89426pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-[65 <./Images/CFDEM/vel.png> <./Images/CFDEM/p.png>]
-<Images/CFDEM/residuals.png, id=1203, 1839.87375pt x 999.735pt>
-File: Images/CFDEM/residuals.png Graphic file (type png)
-<use Images/CFDEM/residuals.png>
-Package pdftex.def Info: Images/CFDEM/residuals.png  used on input line 106.
-(pdftex.def)             Requested size: 415.12572pt x 225.5561pt.
-
+(./resumErrG.tex) (./resumErrGP.tex
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
- [66 <./Images/CFDEM/part.png>]))
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
+ [59]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Images/CFDEM/simu1.png, id=1111, 462.72874pt x 718.685pt>
+File: Images/CFDEM/simu1.png Graphic file (type png)
+<use Images/CFDEM/simu1.png>
+Package pdftex.def Info: Images/CFDEM/simu1.png  used on input line 232.
+(pdftex.def)             Requested size: 207.56285pt x 322.37444pt.
+LaTeX Info: Redefining \. on input line 235.
+LaTeX Info: Redefining \% on input line 235.
+LaTeX Info: Redefining \. on input line 235.
+LaTeX Info: Redefining \% on input line 235.
+[60]
+<Images/CFDEM/vel.png, id=1119, 462.72874pt x 717.68124pt>
+File: Images/CFDEM/vel.png Graphic file (type png)
+<use Images/CFDEM/vel.png>
+Package pdftex.def Info: Images/CFDEM/vel.png  used on input line 244.
+(pdftex.def)             Requested size: 174.35204pt x 270.41106pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Images/CFDEM/p.png, id=1120, 460.72125pt x 720.6925pt>
+File: Images/CFDEM/p.png Graphic file (type png)
+<use Images/CFDEM/p.png>
+Package pdftex.def Info: Images/CFDEM/p.png  used on input line 251.
+(pdftex.def)             Requested size: 174.35204pt x 272.73332pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+LaTeX Info: Redefining \. on input line 146.
+LaTeX Info: Redefining \% on input line 146.
+LaTeX Info: Redefining \. on input line 146.
+LaTeX Info: Redefining \% on input line 146.
+ [61 <./Images/CFDEM/simu1.png>]
+
+LaTeX Warning: Text page 62 contains only floats.
+
+
+Overfull \vbox (3.89088pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 146.
+LaTeX Info: Redefining \% on input line 146.
+LaTeX Info: Redefining \. on input line 146.
+LaTeX Info: Redefining \% on input line 146.
+
+[62 <./Images/CFDEM/vel.png> <./Images/CFDEM/p.png>]
+\openout2 = `Analisis.aux'.
+
+ (./Analisis.tex
+
+LaTeX Warning: Reference `CFD:resultados' on page 63 undefined on input line 23
+.
+
+<Images/CFDEM/residuals.png, id=1141, 1839.87375pt x 999.735pt>
+File: Images/CFDEM/residuals.png Graphic file (type png)
+<use Images/CFDEM/residuals.png>
+Package pdftex.def Info: Images/CFDEM/residuals.png  used on input line 37.
+(pdftex.def)             Requested size: 415.12572pt x 225.5561pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
 LaTeX Info: Redefining \. on input line 147.
 LaTeX Info: Redefining \% on input line 147.
+ [63
+
+
+]
 LaTeX Info: Redefining \. on input line 147.
 LaTeX Info: Redefining \% on input line 147.
- [67 <./Images/CFDEM/residuals.png>]
+ [64 <./Images/CFDEM/residuals.png>]
 \openout2 = `Valid.aux'.
 
-
-(./Valid.tex
-<Images/Fessler.PNG, id=1219, 879.285pt x 200.75pt>
+ (./Valid.tex
+<Images/Fessler.PNG, id=1156, 879.285pt x 200.75pt>
 File: Images/Fessler.PNG Graphic file (type png)
 <use Images/Fessler.PNG>
 Package pdftex.def Info: Images/Fessler.PNG  used on input line 12.
 (pdftex.def)             Requested size: 311.34428pt x 71.08142pt.
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
- [68
+ [65
 
 
  <./Images/Fessler.png>]
-<Images/experimento.png, id=1236, 662.475pt x 843.15pt>
+<Images/experimento.png, id=1174, 662.475pt x 843.15pt>
 File: Images/experimento.png Graphic file (type png)
 <use Images/experimento.png>
 Package pdftex.def Info: Images/experimento.png  used on input line 72.
@@ -2259,13 +2221,13 @@ LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
-[69]
+[66]
 LaTeX Info: Redefining \. on input line 115.
 LaTeX Info: Redefining \% on input line 115.
 LaTeX Info: Redefining \. on input line 115.
 LaTeX Info: Redefining \% on input line 115.
- [70 <./Images/experimento.png>]
-<Images/pedestal.png, id=1259, 1068.99374pt x 757.83125pt>
+ [67 <./Images/experimento.png>]
+<Images/pedestal.png, id=1198, 1068.99374pt x 757.83125pt>
 File: Images/pedestal.png Graphic file (type png)
 <use Images/pedestal.png>
 Package pdftex.def Info: Images/pedestal.png  used on input line 153.
@@ -2274,35 +2236,35 @@ LaTeX Info: Redefining \. on input line 162.
 LaTeX Info: Redefining \% on input line 162.
 LaTeX Info: Redefining \. on input line 162.
 LaTeX Info: Redefining \% on input line 162.
- [71 <./Images/pedestal.png>]
+ [68 <./Images/pedestal.png>]
 LaTeX Info: Redefining \. on input line 196.
 LaTeX Info: Redefining \% on input line 196.
 LaTeX Info: Redefining \. on input line 196.
 LaTeX Info: Redefining \% on input line 196.
- [72]
-<Images/contour1999.png, id=1279, 1666.225pt x 522.95375pt>
+ [69]
+<Images/contour1999.png, id=1217, 1666.225pt x 522.95375pt>
 File: Images/contour1999.png Graphic file (type png)
 <use Images/contour1999.png>
 Package pdftex.def Info: Images/contour1999.png  used on input line 202.
 (pdftex.def)             Requested size: 415.12572pt x 130.28326pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 203.
-<Images/valvel.png, id=1282, 776.9025pt x 137.51375pt>
+<Images/valvel.png, id=1220, 776.9025pt x 137.51375pt>
 File: Images/valvel.png Graphic file (type png)
 <use Images/valvel.png>
 Package pdftex.def Info: Images/valvel.png  used on input line 208.
 (pdftex.def)             Requested size: 415.12572pt x 73.47995pt.
-<Images/valp.png, id=1285, 780.9175pt x 134.5025pt>
+<Images/valp.png, id=1223, 780.9175pt x 134.5025pt>
 File: Images/valp.png Graphic file (type png)
 <use Images/valp.png>
 Package pdftex.def Info: Images/valp.png  used on input line 224.
 (pdftex.def)             Requested size: 415.12572pt x 71.4994pt.
-<Images/valk.png, id=1286, 775.89874pt x 131.49126pt>
+<Images/valk.png, id=1224, 775.89874pt x 131.49126pt>
 File: Images/valk.png Graphic file (type png)
 <use Images/valk.png>
 Package pdftex.def Info: Images/valk.png  used on input line 230.
 (pdftex.def)             Requested size: 415.12572pt x 70.35213pt.
-<Images/valpar.png, id=1288, 779.91376pt x 137.51375pt>
+<Images/valpar.png, id=1226, 779.91376pt x 137.51375pt>
 File: Images/valpar.png Graphic file (type png)
 <use Images/valpar.png>
 Package pdftex.def Info: Images/valpar.png  used on input line 244.
@@ -2319,9 +2281,9 @@ LaTeX Info: Redefining \. on input line 253.
 LaTeX Info: Redefining \% on input line 253.
 LaTeX Info: Redefining \. on input line 253.
 LaTeX Info: Redefining \% on input line 253.
-[73 <./Images/contour1999.png> <./Images/valvel.png> <./Images/valp.png> <./Ima
+[70 <./Images/contour1999.png> <./Images/valvel.png> <./Images/valp.png> <./Ima
 ges/valk.png>]
-<Images/val.png, id=1298, 1088.065pt x 231.86626pt>
+<Images/val.png, id=1236, 1088.065pt x 231.86626pt>
 File: Images/val.png Graphic file (type png)
 <use Images/val.png>
 Package pdftex.def Info: Images/val.png  used on input line 256.
@@ -2332,21 +2294,24 @@ Overfull \hbox (41.51509pt too wide) in paragraph at lines 256--257
  []
 
 )
-LaTeX Info: Redefining \. on input line 148.
-LaTeX Info: Redefining \% on input line 148.
-LaTeX Info: Redefining \. on input line 148.
-LaTeX Info: Redefining \% on input line 148.
- [74 <./Images/valpar.png> <./Images/val.png>]
+LaTeX Info: Redefining \. on input line 149.
+LaTeX Info: Redefining \% on input line 149.
+LaTeX Info: Redefining \. on input line 149.
+LaTeX Info: Redefining \% on input line 149.
+ [71 <./Images/valpar.png> <./Images/val.png>]
 \openout2 = `Conclusiones.aux'.
 
- (./Conclusiones.tex)
-LaTeX Info: Redefining \. on input line 150.
-LaTeX Info: Redefining \% on input line 150.
- [75
+ (./Conclusiones.tex
+
+LaTeX Warning: Reference `CFDEM:part' on page 72 undefined on input line 9.
+
+)
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
+ [72
 
 
-]
-(./Maestro.bbl
+] (./Maestro.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 40--45
 \OT1/lmr/m/n/12 / / www . cambridge . org / core / journals / journal-[]of-[]^^
 Muid-[]mechanics / article /
@@ -2429,14 +2394,14 @@ LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
-[76
+[73
 
 ]
 LaTeX Info: Redefining \. on input line 148.
 LaTeX Info: Redefining \% on input line 148.
 LaTeX Info: Redefining \. on input line 148.
 LaTeX Info: Redefining \% on input line 148.
- [77]
+ [74]
 Underfull \hbox (badness 2443) in paragraph at lines 172--177
 \OT1/lmr/m/n/12 tanks with in-cli-ned walls,'' \OT1/lmr/m/it/12 Jour-nal of Flu
 id Me-cha-nics\OT1/lmr/m/n/12 ,
@@ -2470,12 +2435,12 @@ LaTeX Info: Redefining \. on input line 207.
 LaTeX Info: Redefining \% on input line 207.
 LaTeX Info: Redefining \. on input line 207.
 LaTeX Info: Redefining \% on input line 207.
-[78]
+[75]
 LaTeX Info: Redefining \. on input line 281.
 LaTeX Info: Redefining \% on input line 281.
 LaTeX Info: Redefining \. on input line 281.
 LaTeX Info: Redefining \% on input line 281.
- [79]
+ [76]
 Underfull \hbox (badness 10000) in paragraph at lines 312--317
 \OT1/lmr/m/n/12 www . cambridge . org / core / journals / journal-[]of-[]^^Muid
 -[]mechanics / article / abs /
@@ -2500,23 +2465,34 @@ w-[]in-[]a-[]vertical-[]pipe /
  []
 
 )
-LaTeX Info: Redefining \. on input line 153.
-LaTeX Info: Redefining \% on input line 153.
-LaTeX Info: Redefining \. on input line 153.
-LaTeX Info: Redefining \% on input line 153.
- [80]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
+LaTeX Info: Redefining \. on input line 154.
+LaTeX Info: Redefining \% on input line 154.
+LaTeX Info: Redefining \. on input line 154.
+LaTeX Info: Redefining \% on input line 154.
+ [77]
+\openout2 = `Anexos.aux'.
+
+ (./Anexos.tex (./AnexoA.tex))
+LaTeX Info: Redefining \. on input line 154.
+LaTeX Info: Redefining \% on input line 154.
+LaTeX Info: Redefining \. on input line 154.
+LaTeX Info: Redefining \% on input line 154.
+ [78
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
  (./Maestro.aux (./Portada.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
- (./Resumen.aux) (./Abstract.aux)
-(./Intro.aux) (./MarcoT.aux) (./Implementar.aux) (./Ress.aux) (./Modelo.aux)
-(./Valid.aux) (./Conclusiones.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
+
+(./Resumen.aux) (./Abstract.aux) (./Intro.aux) (./MarcoT.aux)
+(./Implementar.aux) (./Ress.aux) (./Analisis.aux) (./Valid.aux)
+(./Conclusiones.aux) (./Anexos.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `Maestro.out' has not changed.
-(rerunfilecheck)             Checksum: 5D7A378444652C3E7E21498353659C5D;5007.
+(rerunfilecheck)             Checksum: 414A3E2F536A79EEC463DB6A8C61C48C;4547.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2527,13 +2503,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 51560 strings out of 483080
- 1206524 string characters out of 5963339
- 1803214 words of memory out of 5000000
- 65255 multiletter control sequences out of 15000+600000
+ 51577 strings out of 483080
+ 1206778 string characters out of 5963339
+ 1803520 words of memory out of 5000000
+ 65275 multiletter control sequences out of 15000+600000
  601752 words of font info for 100 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  156i,20n,402p,1822b,3116s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2564,10 +2540,10 @@ mf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri1
 2.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Maestro.pdf (82 pages, 3207276 bytes).
+Output written on Maestro.pdf (80 pages, 3460424 bytes).
 PDF statistics:
- 1539 PDF objects out of 1728 (max. 8388607)
- 1356 compressed objects within 14 object streams
- 371 named destinations out of 1000 (max. 500000)
- 709 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1482 PDF objects out of 1728 (max. 8388607)
+ 1305 compressed objects within 14 object streams
+ 358 named destinations out of 1000 (max. 500000)
+ 651 words of extra memory for PDF output out of 10000 (max. 10000000)
 
