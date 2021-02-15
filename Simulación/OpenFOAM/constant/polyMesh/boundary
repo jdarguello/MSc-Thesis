@@ -20,32 +20,32 @@ FoamFile
     back
     {
         type            empty;
-        nFaces          7843;
-        startFace       15173;
+        nFaces          5490;
+        startFace       10659;
     }
     ingreso
     {
         type            patch;
-        nFaces          28;
-        startFace       23016;
+        nFaces          26;
+        startFace       16149;
     }
     salida
     {
         type            patch;
-        nFaces          30;
-        startFace       23044;
+        nFaces          18;
+        startFace       16175;
     }
     front
     {
         type            empty;
-        nFaces          7843;
-        startFace       23074;
+        nFaces          5490;
+        startFace       16193;
     }
     defaultFaces
     {
         type            wall;
-        nFaces          968;
-        startFace       30917;
+        nFaces          598;
+        startFace       21683;
     }
 )
 

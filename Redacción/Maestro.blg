@@ -9,9 +9,12 @@ A level-1 auxiliary file: Intro.aux
 A level-1 auxiliary file: MarcoT.aux
 A level-1 auxiliary file: Implementar.aux
 A level-1 auxiliary file: Ress.aux
+A level-1 auxiliary file: Analisis.aux
 A level-1 auxiliary file: Modelo.aux
 A level-1 auxiliary file: Valid.aux
 A level-1 auxiliary file: Conclusiones.aux
+A level-1 auxiliary file: Recomendaciones.aux
+A level-1 auxiliary file: Anexos.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -25,45 +28,45 @@ Warning--missing institution in Proyecto
 Warning--empty author in OMSagua
 
 Done.
-You've used 45 entries,
+You've used 52 entries,
             4087 wiz_defined-function locations,
-            1172 strings with 18535 characters,
-and the built_in function-call counts, 36310 in all, are:
-= -- 3086
-> -- 777
-< -- 345
-+ -- 437
-- -- 121
-* -- 1799
-:= -- 5541
-add.period$ -- 96
-call.type$ -- 45
-change.case$ -- 42
-chr.to.int$ -- 780
-cite$ -- 47
-duplicate$ -- 2546
-empty$ -- 2722
-format.name$ -- 153
-if$ -- 8409
+            1225 strings with 20217 characters,
+and the built_in function-call counts, 42336 in all, are:
+= -- 3598
+> -- 914
+< -- 406
++ -- 514
+- -- 142
+* -- 2103
+:= -- 6449
+add.period$ -- 111
+call.type$ -- 52
+change.case$ -- 49
+chr.to.int$ -- 921
+cite$ -- 54
+duplicate$ -- 2963
+empty$ -- 3163
+format.name$ -- 180
+if$ -- 9806
 int.to.chr$ -- 0
-int.to.str$ -- 45
-missing$ -- 408
-newline$ -- 196
-num.names$ -- 44
-pop$ -- 847
+int.to.str$ -- 52
+missing$ -- 473
+newline$ -- 223
+num.names$ -- 51
+pop$ -- 980
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2801
+skip$ -- 3261
 stack$ -- 0
-substring$ -- 1890
-swap$ -- 2248
-text.length$ -- 85
+substring$ -- 2225
+swap$ -- 2623
+text.length$ -- 99
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 45
+type$ -- 52
 warning$ -- 2
-while$ -- 179
-width$ -- 47
-write$ -- 519
+while$ -- 210
+width$ -- 54
+write$ -- 598
 (There were 2 warnings)

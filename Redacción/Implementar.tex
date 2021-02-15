@@ -14,6 +14,11 @@ En la Figura \ref{metodologia} se muestra la metodolog\'ia empleada para el dise
 
 En esta metodolog\'ia se desarrolla el dise\~no del sistema con base en las herramientas anal\'iticas descritas en la secci\'on \ref{simplificado} y al plantemiento num\'erico mostrado en las secciones \ref{DFC} y \ref{MCFDEM}.
 
+\noindent
+\justify
+
+En simulaciones num\'ericas que emplean el m\'etodo CFD se consideran aceptables errores inferiores al $9 \%$ para casos de estudio del transporte de fluidos en tuber\'ias de PVC$^{\cite{Ordonez-Vinan2018}}$, e inferiores al $3 \%$ relativo en estudios de enfriamiento de fundici\'on de cobre$^{\cite{Perez-Cortes2017}}$; por citar algunos ejemplos. Debido a ello, en el presente estudio, se adopta un criterio de error m\'aximo del $3.5 \%$ relativo mediante refinamiento de malla.
+
 \subsection{Recopilaci\'on de datos}
 
 \noindent
@@ -94,7 +99,7 @@ El n\'umero de Reynolds, empleado para evaluar el comportamiento del flujo dentr
 
 La tuber\'ia de entrada y tolva de sedimentos se calcula con base en las Ecuaciones \ref{De}, \ref{Des} y \ref{Qdes}.
 
-\subsection{CAD y mallado de geometr\'ia}
+\subsection{Discretizaci\'on del volumen de control}
 
 \noindent
 \justify
@@ -120,7 +125,7 @@ La evaluaci\'on de la malla se desarrolla con base en el comando \texttt{checkMe
 Para la estimaci\'on del error de la simulaci\'on, se emplea la metodolog\'ia descrita en la secci\'on \ref{verified}. Al tener el comportamiento gr\'afico mostrado en la Figura \ref{valsimple}, es posible calcular el error de la simulaci\'on con base en la Ecuaci\'on \ref{errorSimu}.
 
 \begin{equation}
-	Err = \left| \frac{\gamma _i - \gamma _{i-1}}{\gamma _i} \right| *100 \leq 5 \%
+	Err = \left| \frac{\gamma _i - \gamma _{i-1}}{\gamma _i} \right| *100 \leq 3.5 \%
 	\label{errorSimu}
 \end{equation}
 

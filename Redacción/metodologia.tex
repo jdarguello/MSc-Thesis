@@ -30,12 +30,12 @@
        \node [decision, right of=ReM, node distance=4cm] (velF) {?`$v_0 \geq U_{max}$?};
        \node [empty, left of=ReM, node distance=4.5cm] (red) {};
        \node [block, right of=velF, node distance=4.5cm] (geoI) {Definir geometr\'ia de entrada y tolva de sedimentos};
-       \node [block, above of=geoI, node distance=4.5cm] (malla) {Desarrollo CAD y mallado de geometr\'ia};
+       \node [block, above of=geoI, node distance=4.5cm] (malla) {Discretizaci\'on del volumen de control};
        \node [decision, above of=malla, node distance=4cm] (check) {Checkeo de malla: ?`es apta?};
        \node [empty, right of=check, node distance=4cm] (remalla) {};
        \node [block, above of=check, node distance=4cm] (cf) {Definir condiciones de frontera};
        \node [block, above of=cf, node distance=4cm] (cfd) {Simulaci\'on CFD};
-	   \node [decision, right of=cfd, node distance=4cm] (res) {?`Error mayor al $5 \%$?};
+	   \node [decision, right of=cfd, node distance=4cm] (res) {?`Error mayor al $3.5 \%$?};
 	   \node [block, right of=res, node distance=4cm] (cfdem) {Simulaci\'on CFD-DEM};
 	   \node [blockConc, below of=cfdem, node distance=4cm] (conc) {An\'alisis de resultados y conclusiones};     
        

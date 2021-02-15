@@ -30,6 +30,12 @@ A.~L. Capriotti, C.~Cavaliere, P.~Foglia, R.~Samperi, S.~Stampachiacchiere,
   \url{https://www.sciencedirect.com/science/article/abs/pii/S0165993615001387}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Smilauer2015}
+\BIBentryALTinterwordspacing
+V.~{\v{S}}milauer and B.~Chareyre, ``{DEM Formulation},'' \emph{The Yade
+  Project}, vol.~2, 2015. [Online]. Available: \url{http://yade-dem.org/doc/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Voutchkov2017}
 N.~Voutchkov, ``{Sand Removal, Sedimentation, and Dissolved Air Flotation},''
   in \emph{Pretreatment for Reverse Osmosis Desalination}.\hskip 1em plus 0.5em
@@ -137,6 +143,11 @@ T.~Hennebelle, S.~Sahpaz, H.~Joseph, and F.~Bailleul, ``{Ethnopharmacology of
   Lippia alba},'' \emph{Journal of Ethnopharmacology}, vol. 116, no.~2, pp.
   211--222, mar 2008.
 
+\bibitem{Perez2019}
+R.~A. P{\'{e}}rez, B.~Albero, and J.~L. Tadeo, ``{Matrix solid phase
+  dispersion},'' in \emph{Solid-Phase Extraction}.\hskip 1em plus 0.5em minus
+  0.4em\relax Elsevier, jan 2019, pp. 531--549.
+
 \bibitem{Vieira2019}
 \BIBentryALTinterwordspacing
 J.~Vieira, R.~Mantovani, M.~Raposo, M.~Coimbra, A.~Vicente, and R.~Cunha,
@@ -156,6 +167,24 @@ H.~Bao, J.~Feng, N.~Dinh, and H.~Zhang, ``{Deep learning interfacial momentum
   closures in coarse-mesh CFD two-phase flow simulation using validation
   data},'' \emph{International Journal of Multiphase Flow}, vol. 135, p.
   103489, feb 2021.
+
+\bibitem{Bai2021}
+Z.~Z. Bai, L.~Wang, and W.~T. Wu, ``{On convergence rate of the randomized
+  Gauss-Seidel method},'' \emph{Linear Algebra and Its Applications}, vol. 611,
+  pp. 237--252, feb 2021.
+
+\bibitem{Maxey2017}
+\BIBentryALTinterwordspacing
+M.~Maxey, ``{Simulation Methods for Particulate Flows and Concentrated
+  Suspensions},'' \emph{Annual Review of Fluid Mechanics}, vol.~49, no.~1, pp.
+  171--193, jan 2017. [Online]. Available:
+  \url{http://www.annualreviews.org/doi/10.1146/annurev-fluid-122414-034408}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Lungu2021}
+M.~Lungu, J.~Siame, and L.~Mukosha, ``{Comparison of CFD-DEM and TFM approaches
+  for the simulation of the small scale challenge problem 1},'' \emph{Powder
+  Technology}, vol. 378, pp. 85--103, jan 2021.
 
 \bibitem{Xu2005}
 Z.~J. Xu and E.~E. Michaelides, ``{A numerical simulation of the Boycott
@@ -241,6 +270,23 @@ L.~D. Robescu, I.~C. Moga, and D.~Robescu, ``{Design lamellar secondary
   \url{https://www.researchgate.net/publication/265268495{\_}Design{\_}lamellar{\_}secondary{\_}settling{\_}tank{\_}using{\_}numerical{\_}modeling}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Ordonez-Vinan2018}
+\BIBentryALTinterwordspacing
+M.~Ordo{\~{n}}ez-Vi{\~{n}}{\'{a}}n, S.~Aquino-Arroba, L.~Orozco-Cantos,
+  E.~Pozo-Safla, and E.~J{\'{a}}come-Dom{\'{i}}nguez, ``{Modelizaci{\'{o}}n CFD
+  para determinar el comportamiento del fluido en tuber{\'{i}}a PVC},''
+  \emph{Dominio de las Ciencias}, vol.~4, pp. 434--446, 2018. [Online].
+  Available: \url{https://dominiodelasciencias.com/ojs/index.php/es/index}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Perez-Cortes2017}
+S.~P{\'{e}}rez-Cortes, Y.~Aguilera-Carvajal, J.~Hurtado-Cruz, and J.~P.
+  Vargas-Norambuena, ``{Modelaci{\'{o}}n y simulaci{\'{o}}n
+  fluido-din{\'{a}}mica computacional de sistema de enfriamiento de gases para
+  fundici{\'{o}}n de cobre mediante Convertidor Teniente con enfriador
+  evaporativo},'' \emph{Revista Internacional de Metodos Numericos para Calculo
+  y Diseno en Ingenieria}, vol.~33, no. 3-4, pp. 179--187, jul 2017.
+
 \bibitem{Roda-Casanova2021}
 \BIBentryALTinterwordspacing
 V.~Roda-Casanova and F.~Sanchez-Marin, ``{A simple procedure for generating
@@ -273,6 +319,11 @@ J.~Mart{\'{i}}nez, ``{Mesh handling for the CFD simulation of external gear
   and Tools}.\hskip 1em plus 0.5em minus 0.4em\relax Elsevier, jan 2019, pp.
   345--368.
 
+\bibitem{Liang2018}
+R.~Liang, Y.~Luo, and Z.~Li, ``{The effect of humping on residual stress and
+  distortion in high-speed laser welding using coupled CFD-FEM model},''
+  \emph{Optics and Laser Technology}, vol. 104, pp. 201--205, aug 2018.
+
 \bibitem{Hoomans1996}
 B.~P. Hoomans, J.~A. Kuipers, W.~J. Briels, and W.~P. {Van Swaaij}, ``{Discrete
   particle simulation of bubble and slug formation in a two-dimensional
@@ -292,11 +343,6 @@ B.~H. Xu and A.~B. Yu, ``{Numerical simulation of the gas-solid flow in a
 Y.~Tsuji, T.~Kawaguchi, and T.~Tanaka, ``{Discrete particle simulation of
   two-dimensional fluidized bed},'' \emph{Powder Technology}, vol.~77, no.~1,
   pp. 79--87, 1993.
-
-\bibitem{Liang2018}
-R.~Liang, Y.~Luo, and Z.~Li, ``{The effect of humping on residual stress and
-  distortion in high-speed laser welding using coupled CFD-FEM model},''
-  \emph{Optics and Laser Technology}, vol. 104, pp. 201--205, aug 2018.
 
 \bibitem{Hetsroni1989}
 G.~Hetsroni, ``{Particles-turbulence interaction},'' \emph{International
