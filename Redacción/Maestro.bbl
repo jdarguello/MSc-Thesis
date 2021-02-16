@@ -168,6 +168,15 @@ H.~Bao, J.~Feng, N.~Dinh, and H.~Zhang, ``{Deep learning interfacial momentum
   data},'' \emph{International Journal of Multiphase Flow}, vol. 135, p.
   103489, feb 2021.
 
+\bibitem{Roda-Casanova2021}
+\BIBentryALTinterwordspacing
+V.~Roda-Casanova and F.~Sanchez-Marin, ``{A simple procedure for generating
+  locally refined 2D quadrilateral finite element meshes of gears},''
+  \emph{Mechanism and Machine Theory}, vol. 157, p. 104185, mar 2021. [Online].
+  Available:
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0094114X2030402X}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Bai2021}
 Z.~Z. Bai, L.~Wang, and W.~T. Wu, ``{On convergence rate of the randomized
   Gauss-Seidel method},'' \emph{Linear Algebra and Its Applications}, vol. 611,
@@ -287,15 +296,6 @@ S.~P{\'{e}}rez-Cortes, Y.~Aguilera-Carvajal, J.~Hurtado-Cruz, and J.~P.
   evaporativo},'' \emph{Revista Internacional de Metodos Numericos para Calculo
   y Diseno en Ingenieria}, vol.~33, no. 3-4, pp. 179--187, jul 2017.
 
-\bibitem{Roda-Casanova2021}
-\BIBentryALTinterwordspacing
-V.~Roda-Casanova and F.~Sanchez-Marin, ``{A simple procedure for generating
-  locally refined 2D quadrilateral finite element meshes of gears},''
-  \emph{Mechanism and Machine Theory}, vol. 157, p. 104185, mar 2021. [Online].
-  Available:
-  \url{https://linkinghub.elsevier.com/retrieve/pii/S0094114X2030402X}
-\BIBentrySTDinterwordspacing
-
 \bibitem{Kunhappan2018}
 \BIBentryALTinterwordspacing
 D.~Kunhappan, ``{Numerical modeling of long flexible fibers in inertial
@@ -323,26 +323,6 @@ J.~Mart{\'{i}}nez, ``{Mesh handling for the CFD simulation of external gear
 R.~Liang, Y.~Luo, and Z.~Li, ``{The effect of humping on residual stress and
   distortion in high-speed laser welding using coupled CFD-FEM model},''
   \emph{Optics and Laser Technology}, vol. 104, pp. 201--205, aug 2018.
-
-\bibitem{Hoomans1996}
-B.~P. Hoomans, J.~A. Kuipers, W.~J. Briels, and W.~P. {Van Swaaij}, ``{Discrete
-  particle simulation of bubble and slug formation in a two-dimensional
-  gas-fluidised bed: A hard-sphere approach},'' \emph{Chemical Engineering
-  Science}, vol.~51, no.~1, pp. 99--118, jan 1996.
-
-\bibitem{Xu1997}
-\BIBentryALTinterwordspacing
-B.~H. Xu and A.~B. Yu, ``{Numerical simulation of the gas-solid flow in a
-  fluidized bed by combining discrete particle method with computational fluid
-  dynamics},'' \emph{Chemical Engineering Science}, vol.~52, no.~16, pp.
-  2785--2809, aug 1997. [Online]. Available:
-  \url{https://research.monash.edu/en/publications/numerical-simulation-of-the-gas-solid-flow-in-a-fluidized-bed-by-}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Tsuji1993}
-Y.~Tsuji, T.~Kawaguchi, and T.~Tanaka, ``{Discrete particle simulation of
-  two-dimensional fluidized bed},'' \emph{Powder Technology}, vol.~77, no.~1,
-  pp. 79--87, 1993.
 
 \bibitem{Hetsroni1989}
 G.~Hetsroni, ``{Particles-turbulence interaction},'' \emph{International

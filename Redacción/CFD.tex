@@ -89,7 +89,7 @@ Existen dos tipos de mallas para el an\'alisis mediante CFD, como se aprecia en 
 		\begin{tikzpicture}
 			\foreach \i [evaluate={\ii=int(\i-1);}] in {0,...,6}{
   			\foreach \j [evaluate={\jj=int(\j-1);}] in {0,...,6}{
-    			\coordinate [shift={(\j,\i)}] (n-\i-\j) at (rand*270:1/2+rnd/8);
+    			\coordinate [shift={(\j,\i)}] (n-\i-\j) at (rand*190:1/3+rnd/8);
 				\ifnum\i>0
   					\draw [help lines] (n-\i-\j) -- (n-\ii-\j);
 				\fi
@@ -101,7 +101,7 @@ Existen dos tipos de mallas para el an\'alisis mediante CFD, como se aprecia en 
 		\end{adjustbox}
 	\caption{Malla no estructurada.}
 	\end{subfigure}
-	\caption{Tipos de mallas.}
+	\caption{Tipos de mallas$^{\cite{Roda-Casanova2021}}$.}
 	\label{mallas}
 \end{figure}
 

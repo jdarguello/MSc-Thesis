@@ -10,7 +10,6 @@ A level-1 auxiliary file: MarcoT.aux
 A level-1 auxiliary file: Implementar.aux
 A level-1 auxiliary file: Ress.aux
 A level-1 auxiliary file: Analisis.aux
-A level-1 auxiliary file: Modelo.aux
 A level-1 auxiliary file: Valid.aux
 A level-1 auxiliary file: Conclusiones.aux
 A level-1 auxiliary file: Recomendaciones.aux
@@ -21,6 +20,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: library.bib
+Warning--I didn't find a database entry for "Garcia-CuevasGonzalez"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -28,45 +28,45 @@ Warning--missing institution in Proyecto
 Warning--empty author in OMSagua
 
 Done.
-You've used 52 entries,
+You've used 49 entries,
             4087 wiz_defined-function locations,
-            1225 strings with 20217 characters,
-and the built_in function-call counts, 42336 in all, are:
-= -- 3598
-> -- 914
-< -- 406
-+ -- 514
-- -- 142
-* -- 2103
-:= -- 6449
-add.period$ -- 111
-call.type$ -- 52
-change.case$ -- 49
-chr.to.int$ -- 921
-cite$ -- 54
-duplicate$ -- 2963
-empty$ -- 3163
-format.name$ -- 180
-if$ -- 9806
+            1203 strings with 19563 characters,
+and the built_in function-call counts, 39527 in all, are:
+= -- 3351
+> -- 852
+< -- 374
++ -- 479
+- -- 133
+* -- 1958
+:= -- 6025
+add.period$ -- 105
+call.type$ -- 49
+change.case$ -- 46
+chr.to.int$ -- 852
+cite$ -- 51
+duplicate$ -- 2772
+empty$ -- 2972
+format.name$ -- 168
+if$ -- 9155
 int.to.chr$ -- 0
-int.to.str$ -- 52
-missing$ -- 473
-newline$ -- 223
-num.names$ -- 51
-pop$ -- 980
+int.to.str$ -- 49
+missing$ -- 443
+newline$ -- 212
+num.names$ -- 48
+pop$ -- 929
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3261
+skip$ -- 3045
 stack$ -- 0
-substring$ -- 2225
-swap$ -- 2623
-text.length$ -- 99
+substring$ -- 2062
+swap$ -- 2440
+text.length$ -- 90
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 52
+type$ -- 49
 warning$ -- 2
-while$ -- 210
-width$ -- 54
-write$ -- 598
-(There were 2 warnings)
+while$ -- 195
+width$ -- 51
+write$ -- 562
+(There were 3 warnings)
