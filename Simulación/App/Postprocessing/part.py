@@ -33,15 +33,9 @@ def particulas():
 
 class Particulas():
     def __init__(self, t = (0.5,30)):
-        #Leer información
-        self.read(t)
-        
-    
-    def read(self, t, root="CFD_DEM/"):
-        subpath = "/lagrangian/kinematicCloud/"
-        file = "nParticle.gz"
-        suma = t[0]
-        for tt in range(round(t[1]/t[0])):
-            path = root + str(suma) + subpath
-            unzip(path + file)
-            suma += t[0]
+        #Ejecutar
+        root =  os.getcwd() + '/'
+        command = "gmshToFoam " + file
+        os.chdir("CFD_DEM")
+        os.system(command)
+        os.chdir("..")

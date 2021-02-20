@@ -2,6 +2,7 @@ import os
 import re
 import gzip
 import shutil
+import subprocess
 
 
 def gunzip_something(gzipped_file_name, work_dir):
@@ -27,17 +28,14 @@ def unzip(file="nParticle.gz"):
                           os.curdir,
                           'gz')
 
-class particulas():
+def particulas():
+    p = subprocess.run("paraFoam", cwd="CFD_DEM")
+
+class Particulas():
     def __init__(self, t = (0.5,30)):
-        #Leer información
-        self.read(t)
-        
-    
-    def read(self, t, root="CFD_DEM/"):
-        subpath = "/lagrangian/kinematicCloud/"
-        file = "nParticle.gz"
-        suma = t[0]
-        for tt in range(round(t[1]/t[0])):
-            path = root + str(suma) + subpath
-            unzip(path + file)
-            suma += t[0]
+        #Ejecutar
+        root =  os.getcwd() + '/'
+        command = "gmshToFoam " + file
+        os.chdir("CFD_DEM")
+        os.system(command)
+        os.chdir("..")
