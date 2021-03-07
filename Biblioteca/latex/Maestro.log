@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.3)  7 MAR 2021 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.3)  7 MAR 2021 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1554,9 +1554,26 @@ LaTeX Info: Redefining \% on input line 1.
 ] (./Maestro.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+
+
+LaTeX Warning: Citation `Capriotti2015' on page 6 undefined on input line 4.
+
+
+LaTeX Warning: Citation `Roda-Casanova2021' on page 6 undefined on input line 6
+.
+
+
+LaTeX Warning: Citation `Smilauer2015' on page 6 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Smilauer2015' on page 6 undefined on input line 10.
+
+
+LaTeX Warning: Citation `Voutchkov2017' on page 6 undefined on input line 13.
+
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
 21.
- (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Overfull \hbox (181.64531pt too wide) in paragraph at lines 23--23
@@ -1566,7 +1583,14 @@ Jupy-ter. Fuen-te: https://jupyterlab.readthedocs.io/en/latest/[] [][]
 
 [6
 
-])
+]
+
+LaTeX Warning: Citation `Fessler1999' on page 7 undefined on input line 38.
+
+
+LaTeX Warning: Citation `Fessler1999' on page 7 undefined on input line 39.
+
+)
 \tf@lof=\write10
 \openout10 = `Maestro.lof'.
 
@@ -1591,11 +1615,38 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]
 \openout2 = `Intro.aux'.
 
- (./Intro.tex [10
+ (./Intro.tex
+
+LaTeX Warning: Citation `barker2007' on page 10 undefined on input line 8.
 
 
-]
-(./dummies.tex (./plant_extraction.tex
+LaTeX Warning: Citation `Proyecto' on page 10 undefined on input line 8.
+
+
+LaTeX Warning: Citation `Stashenko2017' on page 10 undefined on input line 8.
+
+
+LaTeX Warning: Citation `Patente2018' on page 10 undefined on input line 8.
+
+
+LaTeX Warning: Citation `Alobaid2013' on page 10 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Chu2011' on page 10 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Yue2016' on page 10 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Alobaid2013' on page 10 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Varas2017' on page 10 undefined on input line 18.
+
+[10
+
+
+] (./dummies.tex (./plant_extraction.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1605,12 +1656,31 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 ) [11]
-<Images/Planta.png, id=622, 1122.1925pt x 687.56876pt>
+
+LaTeX Warning: Citation `Stashenko2007' on page 12 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Pavlic2021' on page 12 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Balass2013' on page 12 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Stashenko2013' on page 12 undefined on input line 23.
+
+
+LaTeX Warning: Citation `Hennebelle2008' on page 12 undefined on input line 23.
+
+
+
+LaTeX Warning: Citation `Patente2018' on page 12 undefined on input line 33.
+
+<Images/Planta.png, id=587, 1122.1925pt x 687.56876pt>
 File: Images/Planta.png Graphic file (type png)
 <use Images/Planta.png>
 Package pdftex.def Info: Images/Planta.png  used on input line 42.
 (pdftex.def)             Requested size: 415.12572pt x 254.344pt.
- [12]
+[12]
 
 LaTeX Warning: Reference `CFD-DEM' on page 13 undefined on input line 55.
 
@@ -1633,11 +1703,28 @@ Underfull \hbox (badness 6348) in paragraph at lines 83--83
 \openout2 = `MarcoT.aux'.
 
  (./MarcoT.tex (./Extraction/MSPD.tex
-<Images/mspd.PNG, id=650, 383.93437pt x 371.88937pt>
+
+LaTeX Warning: Citation `barker2007' on page 15 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Capriotti2015' on page 15 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Perez2019' on page 15 undefined on input line 6.
+
+
+LaTeX Warning: Citation `barker2007' on page 15 undefined on input line 6.
+
+<Images/mspd.PNG, id=606, 383.93437pt x 371.88937pt>
 File: Images/mspd.PNG Graphic file (type png)
 <use Images/mspd.PNG>
 Package pdftex.def Info: Images/mspd.PNG  used on input line 21.
 (pdftex.def)             Requested size: 332.10184pt x 321.70258pt.
+
+LaTeX Warning: Citation `Capriotti2015' on page 15 undefined on input line 22.
+
+
+LaTeX Warning: Citation `Capriotti2015' on page 15 undefined on input line 22.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1645,10 +1732,43 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [15
 
 
-] [16 <./Images/mspd.PNG>]) (./CFD.tex [17] [18]
-PGFPlots: reading {malla.txt}
-Missing character: There is no ; in font nullfont!
+]
 
+LaTeX Warning: Citation `barker2007' on page 16 undefined on input line 34.
+
+
+LaTeX Warning: Citation `barker2007' on page 16 undefined on input line 36.
+
+
+LaTeX Warning: Citation `Vieira2019' on page 16 undefined on input line 37.
+
+[16 <./Images/mspd.PNG>]
+
+LaTeX Warning: Citation `barker2007' on page 17 undefined on input line 45.
+
+) (./CFD.tex [17]
+
+LaTeX Warning: Citation `Abou-Hweij2020' on page 18 undefined on input line 35.
+
+
+
+LaTeX Warning: Citation `Bao2021' on page 18 undefined on input line 40.
+
+[18]
+PGFPlots: reading {malla.txt}
+
+
+LaTeX Warning: Citation `Roda-Casanova2021' on page 19 undefined on input line 
+104.
+
+
+LaTeX Warning: Citation `Roda-Casanova2021' on page 19 undefined on input line 
+104.
+
+
+LaTeX Warning: Citation `Bai2021' on page 19 undefined on input line 123.
+
+Missing character: There is no ; in font nullfont!
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1660,11 +1780,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [20]) (./DEM.tex
-<Images/DEM.PNG, id=712, 356.33125pt x 130.4875pt>
+<Images/DEM.PNG, id=651, 356.33125pt x 130.4875pt>
 File: Images/DEM.PNG Graphic file (type png)
 <use Images/DEM.PNG>
 Package pdftex.def Info: Images/DEM.PNG  used on input line 11.
 (pdftex.def)             Requested size: 415.12572pt x 152.02463pt.
+
+
+LaTeX Warning: Citation `Smilauer2015' on page 21 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Smilauer2015' on page 21 undefined on input line 13.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1683,47 +1809,201 @@ LaTeX Warning: Command \O invalid in math mode on input line 62.
 
 LaTeX Warning: Command \O invalid in math mode on input line 62.
 
-<Images/Colision.PNG, id=736, 458.21187pt x 269.50688pt>
+<Images/Colision.PNG, id=673, 458.21187pt x 269.50688pt>
 File: Images/Colision.PNG Graphic file (type png)
 <use Images/Colision.PNG>
 Package pdftex.def Info: Images/Colision.PNG  used on input line 68.
 (pdftex.def)             Requested size: 373.61061pt x 219.75513pt.
 
-LaTeX Warning: Command \O invalid in math mode on input line 84.
+LaTeX Warning: Citation `Smilauer2015' on page 23 undefined on input line 69.
+
+
+LaTeX Warning: Citation `Smilauer2015' on page 23 undefined on input line 69.
+
+
+LaTeX Warning: Citation `Smilauer2015' on page 23 undefined on input line 76.
 
 
 LaTeX Warning: Command \O invalid in math mode on input line 84.
 
-) (./CFDDEM.tex [23 <./Images/Colision.PNG>] [24] (./malla.tex) [25] [26]
-<Images/normal.png, id=789, 622.325pt x 486.81876pt>
+
+LaTeX Warning: Command \O invalid in math mode on input line 84.
+
+) (./CFDDEM.tex [23 <./Images/Colision.PNG>]
+
+LaTeX Warning: Citation `Maxey2017' on page 24 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Lungu2021' on page 24 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Maxey2017' on page 24 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Lungu2021' on page 24 undefined on input line 16.
+
+[24] (./malla.tex)
+
+LaTeX Warning: Citation `Xu2005' on page 25 undefined on input line 52.
+
+
+LaTeX Warning: Citation `Galvin2002' on page 25 undefined on input line 52.
+
+
+LaTeX Warning: Citation `Acrivos1995' on page 25 undefined on input line 52.
+
+[25]
+
+LaTeX Warning: Citation `Galvin2002' on page 26 undefined on input line 57.
+
+
+LaTeX Warning: Citation `Doroodchi2005' on page 26 undefined on input line 57.
+
+
+LaTeX Warning: Citation `Salem2011' on page 26 undefined on input line 57.
+
+[26]
+
+LaTeX Warning: Citation `Peng2014' on page 27 undefined on input line 69.
+
+<Images/normal.png, id=706, 622.325pt x 486.81876pt>
 File: Images/normal.png Graphic file (type png)
 <use Images/normal.png>
 Package pdftex.def Info: Images/normal.png  used on input line 74.
 (pdftex.def)             Requested size: 166.04774pt x 129.8903pt.
-<Images/tangencial.png, id=790, 509.905pt x 488.82625pt>
+<Images/tangencial.png, id=707, 509.905pt x 488.82625pt>
 File: Images/tangencial.png Graphic file (type png)
 <use Images/tangencial.png>
 Package pdftex.def Info: Images/tangencial.png  used on input line 79.
 (pdftex.def)             Requested size: 132.8387pt x 127.34541pt.
-
 [27 <./Images/normal.png> <./Images/tangencial.png>]) (./Sedimentacion.tex
+
+LaTeX Warning: Citation `Voutchkov2017' on page 28 undefined on input line 11.
+
+
+LaTeX Warning: Citation `OMSagua' on page 28 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Voutchkov2017' on page 28 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Voutchkov2017' on page 28 undefined on input line 24.
+
 [28] [29]
-<Images/lamelas_inclinadas.png, id=831, 827.09pt x 411.5375pt>
+
+LaTeX Warning: Citation `Voutchkov2017' on page 30 undefined on input line 43.
+
+<Images/lamelas_inclinadas.png, id=742, 827.09pt x 411.5375pt>
 File: Images/lamelas_inclinadas.png Graphic file (type png)
 <use Images/lamelas_inclinadas.png>
 Package pdftex.def Info: Images/lamelas_inclinadas.png  used on input line 47.
 (pdftex.def)             Requested size: 415.12572pt x 206.55946pt.
- (./lamela.tex
+
+LaTeX Warning: Citation `Voutchkov2017' on page 30 undefined on input line 48.
+
+
+LaTeX Warning: Citation `Voutchkov2017' on page 30 undefined on input line 48.
+
+(./lamela.tex
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [30 <./Images/lamelas_inclinadas.png>] [31] [32] (./hidrodinamica.tex
-(./partF.tex) [33]) (./carga.tex (./vel_particula.tex [34]) [35])
-(./trayectoria.tex [36] [37]) (./simplificadoM.tex [38]
+)
+
+LaTeX Warning: Citation `Acrivos1995' on page 30 undefined on input line 78.
+
+[30 <./Images/lamelas_inclinadas.png>] [31]
+
+LaTeX Warning: Citation `Acrivos1995' on page 32 undefined on input line 123.
+
+
+LaTeX Warning: Citation `Acrivos1995' on page 32 undefined on input line 171.
+
+[32] (./hidrodinamica.tex (./partF.tex) [33]
+
+LaTeX Warning: Citation `RobertoRojas' on page 34 undefined on input line 19.
+
+
+LaTeX Warning: Citation `RobertoRojas' on page 34 undefined on input line 79.
+
+) (./carga.tex
+
+LaTeX Warning: Citation `RobertoRojas' on page 34 undefined on input line 6.
+
+(./vel_particula.tex [34]) [35]
+
+LaTeX Warning: Citation `RobertoRojas' on page 36 undefined on input line 68.
+
+
+LaTeX Warning: Citation `PerezParra1997' on page 36 undefined on input line 68.
+
+
+
+LaTeX Warning: Citation `RobertoRojas' on page 36 undefined on input line 68.
+
+) (./trayectoria.tex
+
+LaTeX Warning: Citation `Yao1970' on page 36 undefined on input line 11.
+
+[36]
+
+LaTeX Warning: Citation `streeter1951fluid' on page 37 undefined on input line 
+56.
+
+
+LaTeX Warning: Citation `Yao1970' on page 37 undefined on input line 106.
+
+
+LaTeX Warning: Citation `RobertoRojas' on page 37 undefined on input line 106.
+
+
+LaTeX Warning: Citation `RobertoRojas' on page 37 undefined on input line 106.
+
+[37]
+
+LaTeX Warning: Citation `Yao1970' on page 38 undefined on input line 133.
+
+) (./simplificadoM.tex
+
+LaTeX Warning: Citation `Lekang2001' on page 38 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Robescu2010' on page 38 undefined on input line 11.
+
+[38]
+
+LaTeX Warning: Citation `RobertoRojas' on page 39 undefined on input line 16.
+
+
+LaTeX Warning: Citation `RobertoRojas' on page 39 undefined on input line 16.
+
+
+LaTeX Warning: Citation `PerezParra1997' on page 39 undefined on input line 16.
+
+
 
 LaTeX Warning: Reference `Re' on page 39 undefined on input line 73.
 
-[39]) (./enTolva.tex [40]))) [41]
+
+LaTeX Warning: Citation `streeter1951fluid' on page 39 undefined on input line 
+73.
+
+[39]
+
+LaTeX Warning: Citation `RobertoRojas' on page 40 undefined on input line 101.
+
+) (./enTolva.tex
+
+LaTeX Warning: Citation `RobertoRojas' on page 40 undefined on input line 18.
+
+
+LaTeX Warning: Citation `RobertoRojas' on page 40 undefined on input line 18.
+
+[40]
+
+LaTeX Warning: Citation `RobertoRojas' on page 41 undefined on input line 43.
+
+))) [41]
 \openout2 = `Implementar.aux'.
 
  (./Implementar.tex (./metodologia.tex
@@ -1736,7 +2016,16 @@ Overfull \hbox (46.99933pt too wide) in paragraph at lines 35--35
  [][][][] 
  []
 
-) [42
+)
+
+LaTeX Warning: Citation `Ordonez-Vinan2018' on page 42 undefined on input line 
+20.
+
+
+LaTeX Warning: Citation `Perez-Cortes2017' on page 42 undefined on input line 2
+0.
+
+[42
 
 
 ] (./PropFluido.tex) [43] (./UmaxS.tex)
@@ -1767,6 +2056,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 88.
 
+
+LaTeX Warning: Citation `Roda-Casanova2021' on page 45 undefined on input line 
+107.
+
 (./CF.tex [45] (./GeneracionP.tex
 Overfull \hbox (15.75809pt too wide) in paragraph at lines 9--9
 [][][]$[]$[]  
@@ -1786,7 +2079,12 @@ Overfull \hbox (12.48624pt too wide) in paragraph at lines 13--13
 
 LaTeX Warning: Reference `2D' on page 47 undefined on input line 20.
 
-) [47] (./CFDEMeth.tex
+) [47]
+
+LaTeX Warning: Citation `Kunhappan2018' on page 48 undefined on input line 142.
+
+
+(./CFDEMeth.tex
 Overfull \hbox (46.99933pt too wide) in paragraph at lines 30--30
  [][][][] 
  []
@@ -1795,7 +2093,7 @@ Overfull \hbox (46.99933pt too wide) in paragraph at lines 30--30
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) [48] (./software.tex [49]
-<Images/jupyterlab.png, id=1103, 1284.8pt x 722.7pt>
+<Images/jupyterlab.png, id=973, 1284.8pt x 722.7pt>
 File: Images/jupyterlab.png Graphic file (type png)
 <use Images/jupyterlab.png>
 Package pdftex.def Info: Images/jupyterlab.png  used on input line 17.
@@ -1807,12 +2105,12 @@ a con Jupy-ter. Fuen-te:
  []
 
 [50 <./Images/jupyterlab.png>]
-<Images/interfaz.png, id=1110, 912.40875pt x 939.51pt>
+<Images/interfaz.png, id=980, 912.40875pt x 939.51pt>
 File: Images/interfaz.png Graphic file (type png)
 <use Images/interfaz.png>
 Package pdftex.def Info: Images/interfaz.png  used on input line 34.
 (pdftex.def)             Requested size: 415.12572pt x 427.44905pt.
-<Images/interfaz2.png, id=1111, 910.40125pt x 929.4725pt>
+<Images/interfaz2.png, id=981, 910.40125pt x 929.4725pt>
 File: Images/interfaz2.png Graphic file (type png)
 <use Images/interfaz2.png>
 Package pdftex.def Info: Images/interfaz2.png  used on input line 47.
@@ -1833,22 +2131,37 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ] (./geometry.tex) [57] (./Mallado.tex
-<Images/CFDEM/malla.png, id=1177, 894.34125pt x 516.93124pt>
+<Images/CFDEM/malla.png, id=1047, 894.34125pt x 516.93124pt>
 File: Images/CFDEM/malla.png Graphic file (type png)
 <use Images/CFDEM/malla.png>
 Package pdftex.def Info: Images/CFDEM/malla.png  used on input line 10.
 (pdftex.def)             Requested size: 415.12572pt x 239.9446pt.
 
 
+LaTeX Warning: Citation `Tu2018' on page 58 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Illes2020' on page 58 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Tu2018' on page 58 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Martinez2019' on page 58 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Tu2018' on page 58 undefined on input line 18.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [58 <./Images/CFDEM/malla.png>]) [59]
-<Images/CFD/vel1.png, id=1201, 459.7175pt x 717.68124pt>
+<Images/CFD/vel1.png, id=1063, 459.7175pt x 717.68124pt>
 File: Images/CFD/vel1.png Graphic file (type png)
 <use Images/CFD/vel1.png>
 Package pdftex.def Info: Images/CFD/vel1.png  used on input line 127.
 (pdftex.def)             Requested size: 136.99223pt x 213.8605pt.
-<Images/CFD/p1.png, id=1202, 458.71375pt x 716.6775pt>
+<Images/CFD/p1.png, id=1064, 458.71375pt x 716.6775pt>
 File: Images/CFD/p1.png Graphic file (type png)
 <use Images/CFD/p1.png>
 Package pdftex.def Info: Images/CFD/p1.png  used on input line 134.
@@ -1866,13 +2179,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Images/CFDEM/simu1.png, id=1225, 462.72874pt x 718.685pt>
+<Images/CFDEM/simu1.png, id=1087, 462.72874pt x 718.685pt>
 File: Images/CFDEM/simu1.png Graphic file (type png)
 <use Images/CFDEM/simu1.png>
 Package pdftex.def Info: Images/CFDEM/simu1.png  used on input line 232.
 (pdftex.def)             Requested size: 207.56285pt x 322.37444pt.
 [62]
-<Images/CFDEM/vel.png, id=1232, 462.72874pt x 717.68124pt>
+<Images/CFDEM/vel.png, id=1094, 462.72874pt x 717.68124pt>
 File: Images/CFDEM/vel.png Graphic file (type png)
 <use Images/CFDEM/vel.png>
 Package pdftex.def Info: Images/CFDEM/vel.png  used on input line 244.
@@ -1881,7 +2194,7 @@ Package pdftex.def Info: Images/CFDEM/vel.png  used on input line 244.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Images/CFDEM/p.png, id=1233, 460.72125pt x 720.6925pt>
+<Images/CFDEM/p.png, id=1095, 460.72125pt x 720.6925pt>
 File: Images/CFDEM/p.png Graphic file (type png)
 <use Images/CFDEM/p.png>
 Package pdftex.def Info: Images/CFDEM/p.png  used on input line 251.
@@ -1901,7 +2214,7 @@ Overfull \vbox (3.89088pt too high) has occurred while \output is active []
 \openout2 = `Analisis.aux'.
 
  (./Analisis.tex
-<Images/CFDEM/residuals.png, id=1253, 1833.85126pt x 951.555pt>
+<Images/CFDEM/residuals.png, id=1116, 1833.85126pt x 951.555pt>
 File: Images/CFDEM/residuals.png Graphic file (type png)
 <use Images/CFDEM/residuals.png>
 Package pdftex.def Info: Images/CFDEM/residuals.png  used on input line 32.
@@ -1910,6 +2223,9 @@ Package pdftex.def Info: Images/CFDEM/residuals.png  used on input line 32.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+LaTeX Warning: Citation `Liang2018' on page 65 undefined on input line 40.
+
 [65
 
 
@@ -1917,54 +2233,98 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 \openout2 = `Valid.aux'.
 
  (./Valid.tex
-<Images/Fessler.PNG, id=1269, 879.285pt x 200.75pt>
+
+LaTeX Warning: Citation `Fessler1999' on page 67 undefined on input line 8.
+
+<Images/Fessler.PNG, id=1128, 879.285pt x 200.75pt>
 File: Images/Fessler.PNG Graphic file (type png)
 <use Images/Fessler.PNG>
 Package pdftex.def Info: Images/Fessler.PNG  used on input line 12.
 (pdftex.def)             Requested size: 311.34428pt x 71.08142pt.
- [67
+
+LaTeX Warning: Citation `Hetsroni1989' on page 67 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Gore1991' on page 67 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Kulick1994' on page 67 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Tsuji1984' on page 67 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Kulick1994' on page 67 undefined on input line 37.
+
+[67
 
 
  <./Images/Fessler.png>]
-<Images/experimento.png, id=1287, 662.475pt x 843.15pt>
+<Images/experimento.png, id=1137, 662.475pt x 843.15pt>
 File: Images/experimento.png Graphic file (type png)
 <use Images/experimento.png>
 Package pdftex.def Info: Images/experimento.png  used on input line 72.
 (pdftex.def)             Requested size: 290.58673pt x 369.82925pt.
 
 
+LaTeX Warning: Citation `Fessler1999' on page 68 undefined on input line 73.
+
+
+LaTeX Warning: Citation `Fessler1999' on page 68 undefined on input line 73.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [68] [69 <./Images/experimento.png>]
-<Images/pedestal.png, id=1309, 1068.99374pt x 757.83125pt>
+<Images/pedestal.png, id=1156, 1068.99374pt x 757.83125pt>
 File: Images/pedestal.png Graphic file (type png)
 <use Images/pedestal.png>
 Package pdftex.def Info: Images/pedestal.png  used on input line 153.
 (pdftex.def)             Requested size: 282.28244pt x 200.11894pt.
- [70 <./Images/pedestal.png>] [71]
-<Images/contour1999.png, id=1327, 1666.225pt x 522.95375pt>
+
+
+LaTeX Warning: Citation `Fessler1999' on page 70 undefined on input line 154.
+
+
+LaTeX Warning: Citation `Fessler1999' on page 70 undefined on input line 154.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[70] [71 <./Images/pedestal.png>]
+<Images/contour1999.png, id=1173, 1666.225pt x 522.95375pt>
 File: Images/contour1999.png Graphic file (type png)
 <use Images/contour1999.png>
 Package pdftex.def Info: Images/contour1999.png  used on input line 202.
 (pdftex.def)             Requested size: 415.12572pt x 130.28326pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 203.
-<Images/valvel.png, id=1330, 776.9025pt x 137.51375pt>
+
+
+LaTeX Warning: Citation `Fessler1999' on page 72 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Fessler1999' on page 72 undefined on input line 203.
+
+<Images/valvel.png, id=1174, 776.9025pt x 137.51375pt>
 File: Images/valvel.png Graphic file (type png)
 <use Images/valvel.png>
 Package pdftex.def Info: Images/valvel.png  used on input line 208.
 (pdftex.def)             Requested size: 415.12572pt x 73.47995pt.
-<Images/valp.png, id=1333, 780.9175pt x 134.5025pt>
+<Images/valp.png, id=1177, 780.9175pt x 134.5025pt>
 File: Images/valp.png Graphic file (type png)
 <use Images/valp.png>
 Package pdftex.def Info: Images/valp.png  used on input line 224.
 (pdftex.def)             Requested size: 415.12572pt x 71.4994pt.
-<Images/valk.png, id=1334, 775.89874pt x 131.49126pt>
+<Images/valk.png, id=1178, 775.89874pt x 131.49126pt>
 File: Images/valk.png Graphic file (type png)
 <use Images/valk.png>
 Package pdftex.def Info: Images/valk.png  used on input line 230.
 (pdftex.def)             Requested size: 415.12572pt x 70.35213pt.
-<Images/valpar.png, id=1336, 779.91376pt x 137.51375pt>
+<Images/valpar.png, id=1180, 779.91376pt x 137.51375pt>
 File: Images/valpar.png Graphic file (type png)
 <use Images/valpar.png>
 Package pdftex.def Info: Images/valpar.png  used on input line 244.
@@ -1979,7 +2339,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [72 <./Images/contour1999.png> <./Images/valvel.png> <./Images/valp.png> <./Ima
 ges/valk.png>]
-<Images/val.png, id=1346, 1088.065pt x 231.86626pt>
+<Images/val.png, id=1190, 1088.065pt x 231.86626pt>
 File: Images/val.png Graphic file (type png)
 <use Images/val.png>
 Package pdftex.def Info: Images/val.png  used on input line 256.
@@ -2144,7 +2504,7 @@ w-[]in-[]a-[]vertical-[]pipe /
 \openout2 = `Anexos.aux'.
 
  (./Anexos.tex (./AnexoA.tex
-<Images/Anexos/1.png, id=1449, 873.2625pt x 872.25874pt>
+<Images/Anexos/1.png, id=1343, 873.2625pt x 872.25874pt>
 File: Images/Anexos/1.png Graphic file (type png)
 <use Images/Anexos/1.png>
 Package pdftex.def Info: Images/Anexos/1.png  used on input line 12.
@@ -2152,56 +2512,56 @@ Package pdftex.def Info: Images/Anexos/1.png  used on input line 12.
  [82
 
  <./Images/Anexos/1.png>]
-<Images/Anexos/3.png, id=1457, 873.2625pt x 887.315pt>
+<Images/Anexos/3.png, id=1351, 873.2625pt x 887.315pt>
 File: Images/Anexos/3.png Graphic file (type png)
 <use Images/Anexos/3.png>
 Package pdftex.def Info: Images/Anexos/3.png  used on input line 24.
 (pdftex.def)             Requested size: 415.12572pt x 421.80396pt.
  [83 <./Images/Anexos/3.png>]
-<Images/Anexos/4.png, id=1463, 876.27374pt x 858.20625pt>
+<Images/Anexos/4.png, id=1357, 876.27374pt x 858.20625pt>
 File: Images/Anexos/4.png Graphic file (type png)
 <use Images/Anexos/4.png>
 Package pdftex.def Info: Images/Anexos/4.png  used on input line 38.
 (pdftex.def)             Requested size: 415.12572pt x 406.5653pt.
  [84 <./Images/Anexos/4.png>]
-<Images/Anexos/5.png, id=1469, 876.27374pt x 850.17625pt>
+<Images/Anexos/5.png, id=1363, 876.27374pt x 850.17625pt>
 File: Images/Anexos/5.png Graphic file (type png)
 <use Images/Anexos/5.png>
 Package pdftex.def Info: Images/Anexos/5.png  used on input line 52.
 (pdftex.def)             Requested size: 415.12572pt x 402.76118pt.
  [85 <./Images/Anexos/5.png>]
-<Images/Anexos/7.png, id=1476, 879.285pt x 889.3225pt>
+<Images/Anexos/7.png, id=1370, 879.285pt x 889.3225pt>
 File: Images/Anexos/7.png Graphic file (type png)
 <use Images/Anexos/7.png>
 Package pdftex.def Info: Images/Anexos/7.png  used on input line 66.
 (pdftex.def)             Requested size: 415.12572pt x 419.85428pt.
 
 [86 <./Images/Anexos/7.png>]
-<Images/Anexos/8.png, id=1482, 878.28125pt x 941.5175pt>
+<Images/Anexos/8.png, id=1376, 878.28125pt x 941.5175pt>
 File: Images/Anexos/8.png Graphic file (type png)
 <use Images/Anexos/8.png>
 Package pdftex.def Info: Images/Anexos/8.png  used on input line 80.
 (pdftex.def)             Requested size: 415.12572pt x 445.0274pt.
  [87 <./Images/Anexos/8.png>]
-<Images/Anexos/9.png, id=1488, 873.2625pt x 881.2925pt>
+<Images/Anexos/9.png, id=1382, 873.2625pt x 881.2925pt>
 File: Images/Anexos/9.png Graphic file (type png)
 <use Images/Anexos/9.png>
 Package pdftex.def Info: Images/Anexos/9.png  used on input line 94.
 (pdftex.def)             Requested size: 415.12572pt x 418.94102pt.
  [88 <./Images/Anexos/9.png>]
-<Images/Anexos/10.png, id=1494, 876.27374pt x 939.51pt>
+<Images/Anexos/10.png, id=1388, 876.27374pt x 939.51pt>
 File: Images/Anexos/10.png Graphic file (type png)
 <use Images/Anexos/10.png>
 Package pdftex.def Info: Images/Anexos/10.png  used on input line 108.
 (pdftex.def)             Requested size: 415.12572pt x 445.08202pt.
  [89 <./Images/Anexos/10.png>]
-<Images/Anexos/11.png, id=1500, 876.27374pt x 912.40875pt>
+<Images/Anexos/11.png, id=1394, 876.27374pt x 912.40875pt>
 File: Images/Anexos/11.png Graphic file (type png)
 <use Images/Anexos/11.png>
 Package pdftex.def Info: Images/Anexos/11.png  used on input line 122.
 (pdftex.def)             Requested size: 415.12572pt x 432.24312pt.
  [90 <./Images/Anexos/11.png>]
-<Images/Anexos/12.png, id=1506, 878.28125pt x 903.375pt>
+<Images/Anexos/12.png, id=1400, 878.28125pt x 903.375pt>
 File: Images/Anexos/12.png Graphic file (type png)
 <use Images/Anexos/12.png>
 Package pdftex.def Info: Images/Anexos/12.png  used on input line 136.
@@ -2218,9 +2578,15 @@ LaTeX Info: Redefining \% on input line 27.
 (./Anexos.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
-Package rerunfilecheck Info: File `Maestro.out' has not changed.
-(rerunfilecheck)             Checksum: C02262679ECC8B9F866251CBAB7C7879;4786.
 
+
+Package rerunfilecheck Warning: File `Maestro.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Maestro.out':
+(rerunfilecheck)             Before: 700F21F6D3556ACA356C3CF7A587243B;4803
+(rerunfilecheck)             After:  61BABE7BF38C264CEE2C92148F9DBF49;4854.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2233,13 +2599,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 51209 strings out of 483080
- 1201306 string characters out of 5963339
- 1774750 words of memory out of 5000000
- 64869 multiletter control sequences out of 15000+600000
- 598788 words of font info for 99 fonts, out of 8000000 for 9000
+ 51212 strings out of 483080
+ 1201355 string characters out of 5963339
+ 1774101 words of memory out of 5000000
+ 64871 multiletter control sequences out of 15000+600000
+ 604680 words of font info for 101 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 156i,20n,402p,1822b,3114s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 156i,20n,402p,1819b,3114s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -2261,21 +2627,21 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvip
 s/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/sha
 re/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lme
-x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmtt12.pfb>
-Output written on Maestro.pdf (91 pages, 4427444 bytes).
+lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
+i10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri1
+2.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Maestro.pdf (91 pages, 4442918 bytes).
 PDF statistics:
- 1652 PDF objects out of 1728 (max. 8388607)
- 1386 compressed objects within 14 object streams
+ 1549 PDF objects out of 1728 (max. 8388607)
+ 1290 compressed objects within 13 object streams
  370 named destinations out of 1000 (max. 500000)
  701 words of extra memory for PDF output out of 10000 (max. 10000000)
 

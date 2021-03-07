@@ -17,7 +17,7 @@
 \contentsline {subsubsection}{\numberline {1.4.2}Enfoque \textit {Euler - Lagrange}}{26}{subsubsection.0.1.4.2}%
 \contentsline {paragraph}{\numberline {1.4.2.1}Planteamiento num\'erico}{27}{paragraph.0.1.4.2.1}%
 \contentsline {subsection}{\numberline {1.5}Sedimentaci\'on}{28}{subsection.0.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}Sedimentadores convencionales}{28}{subsubsection.0.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.1}Sedimentadores convencionales}{29}{subsubsection.0.1.5.1}%
 \contentsline {subsubsection}{\numberline {1.5.2}Sedimentador de placas inclinadas}{30}{subsubsection.0.1.5.2}%
 \contentsline {paragraph}{\numberline {1.5.2.1}Desarrollo te\'orico}{30}{paragraph.0.1.5.2.1}%
 \contentsline {paragraph}{\numberline {1.5.2.2}Modelo simplificado}{33}{paragraph.0.1.5.2.2}%
@@ -63,5 +63,6 @@
 \contentsline {subsection}{\numberline {5.3}Resultados}{71}{subsection.0.5.3}%
 \contentsline {section}{Conclusiones}{74}{section*.64}%
 \contentsline {section}{Recomendaciones}{75}{section*.65}%
+\contentsline {section}{Bibliograf\'ia}{76}{table.caption.66}%
 \contentsline {chapter}{\numberline {1}Bibliograf\'{\i }a}{76}{chapter.1}%
 \contentsfinish 
