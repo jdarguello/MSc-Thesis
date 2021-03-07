@@ -1,66 +1,67 @@
 \babel@toc {spanish}{}
-\contentsline {section}{Introducci\'on}{7}{section*.5}%
-\contentsline {subsection}{Proceso de extracci\'on}{8}{section*.6}%
-\contentsline {subsection}{Objeto de estudio}{9}{section*.8}%
-\contentsline {subsection}{Organizaci\'on de la tesis}{11}{section*.10}%
-\contentsline {section}{\numberline {1}Marco te\'orico}{12}{section.1}%
-\contentsline {subsection}{\numberline {1.1}M\'etodo de Dispersi\'on de la Matriz en Fase S\'olida}{12}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Factores a considerar en la extracci\'on MSPD}{13}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Extracci\'on en fase s\'olida}{14}{subsubsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.2}Din\'amica de Fluidos Computacional}{14}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}Solucionadores}{16}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Metodolog\'ias de verificaci\'on y validaci\'on}{16}{subsubsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.3}An\'alisis bidimensional - 2D}{17}{subsubsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.3}M\'etodo de Elementos Discretos}{18}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Detecci\'on de una colici\'on}{19}{subsubsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.4}M\'etodo CFD-DEM}{20}{subsection.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1}Fase del solvente}{21}{subsubsection.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.2}Enfoque \textit {Euler - Lagrange}}{23}{subsubsection.1.4.2}%
-\contentsline {paragraph}{\numberline {1.4.2.1}Planteamiento num\'erico}{24}{paragraph.1.4.2.1}%
-\contentsline {subsection}{\numberline {1.5}Sedimentaci\'on}{25}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}Sedimentadores convencionales}{25}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}Sedimentador de placas inclinadas}{27}{subsubsection.1.5.2}%
-\contentsline {paragraph}{\numberline {1.5.2.1}Desarrollo te\'orico}{27}{paragraph.1.5.2.1}%
-\contentsline {paragraph}{\numberline {1.5.2.2}Modelo simplificado}{30}{paragraph.1.5.2.2}%
-\contentsline {subparagraph}{\numberline {1.5.2.2.1}An\'alisis hidrodin\'amico de una part\'icula}{30}{subparagraph.1.5.2.2.1}%
-\contentsline {subparagraph}{\numberline {1.5.2.2.2}Carga superficial}{32}{subparagraph.1.5.2.2.2}%
-\contentsline {subparagraph}{\numberline {1.5.2.2.3}Trayectoria de una part\'icula en una lamela}{33}{subparagraph.1.5.2.2.3}%
-\contentsline {subparagraph}{\numberline {1.5.2.2.4}Dise\~no anal\'itico}{35}{subparagraph.1.5.2.2.4}%
-\contentsline {subparagraph}{\numberline {1.5.2.2.5}Tuber\'ia de entrada y tolva de sedimentos}{37}{subparagraph.1.5.2.2.5}%
-\contentsline {section}{\numberline {2}Metodolog\'ia}{39}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Recopilaci\'on de datos}{40}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Propiedades del fluido}{40}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Velocidad m\'axima de sedimentaci\'on}{41}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Geometr\'ia de lamelas}{41}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Ancho del sedimentador}{42}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}C\'alculo de $Re$ y $v_0$}{42}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Tuber\'ia de entrada y tolva de sedimentos}{42}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Discretizaci\'on del volumen de control}{42}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Checkeo de malla}{42}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Metodolog\'ia de frontera}{43}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}Metodolog\'ia CFD}{44}{subsection.2.11}%
-\contentsline {subsection}{\numberline {2.12}C\'alculo del error}{45}{subsection.2.12}%
-\contentsline {subsection}{\numberline {2.13}Metodolog\'ia CFD-DEM}{45}{subsection.2.13}%
-\contentsline {subsection}{\numberline {2.14}Software de dise\~no}{46}{subsection.2.14}%
-\contentsline {subsubsection}{\numberline {2.14.1}Frontend}{47}{subsubsection.2.14.1}%
-\contentsline {subsubsection}{\numberline {2.14.2}Backend}{50}{subsubsection.2.14.2}%
-\contentsline {paragraph}{\numberline {2.14.2.1}Dise\~no funcional te\'orico}{51}{paragraph.2.14.2.1}%
-\contentsline {paragraph}{\numberline {2.14.2.2}Simulaciones num\'ericas}{51}{paragraph.2.14.2.2}%
-\contentsline {section}{\numberline {3}Resultados}{53}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Propiedades del fluido}{53}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Velocidad m\'axima de sedimentaci\'on}{53}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Geometr\'ia inicial}{53}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Mallado de la geometr\'ia}{55}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Condiciones de frontera}{56}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Simulaci\'on CFD}{57}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Error computacional}{58}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Simulaci\'on CFD-DEM}{59}{subsection.3.8}%
-\contentsline {section}{\numberline {4}An\'alisis de resultados}{62}{section.4}%
-\contentsline {section}{\numberline {5}Validaci\'on del modelo}{64}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Descripci\'on del problema}{64}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Desarrollo experimental}{65}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Descripci\'on particular}{65}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}M\'etodos experimentales}{67}{subsubsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.3}Resultados}{68}{subsection.5.3}%
-\contentsline {section}{Conclusiones}{71}{section*.68}%
-\contentsline {section}{Recomendaciones}{72}{section*.69}%
+\contentsline {chapter}{\'{I}ndice de cuadros}{5}{chapter*.2}%
+\contentsline {chapter}{\'{I}ndice de figuras}{6}{chapter*.3}%
+\contentsline {section}{Introducci\'on}{10}{section*.4}%
+\contentsline {section}{\numberline {1}Marco te\'orico}{15}{section.0.1}%
+\contentsline {subsection}{\numberline {1.1}M\'etodo de Dispersi\'on de la Matriz en Fase S\'olida}{15}{subsection.0.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Factores a considerar en la extracci\'on MSPD}{16}{subsubsection.0.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Extracci\'on en fase s\'olida}{17}{subsubsection.0.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Din\'amica de Fluidos Computacional}{17}{subsection.0.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Solucionadores}{19}{subsubsection.0.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Metodolog\'ias de verificaci\'on y validaci\'on}{19}{subsubsection.0.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}An\'alisis bidimensional - 2D}{20}{subsubsection.0.1.2.3}%
+\contentsline {subsection}{\numberline {1.3}M\'etodo de Elementos Discretos}{21}{subsection.0.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Detecci\'on de una colici\'on}{22}{subsubsection.0.1.3.1}%
+\contentsline {subsection}{\numberline {1.4}M\'etodo CFD-DEM}{23}{subsection.0.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Fase del solvente}{24}{subsubsection.0.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Enfoque \textit {Euler - Lagrange}}{26}{subsubsection.0.1.4.2}%
+\contentsline {paragraph}{\numberline {1.4.2.1}Planteamiento num\'erico}{27}{paragraph.0.1.4.2.1}%
+\contentsline {subsection}{\numberline {1.5}Sedimentaci\'on}{28}{subsection.0.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Sedimentadores convencionales}{28}{subsubsection.0.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Sedimentador de placas inclinadas}{30}{subsubsection.0.1.5.2}%
+\contentsline {paragraph}{\numberline {1.5.2.1}Desarrollo te\'orico}{30}{paragraph.0.1.5.2.1}%
+\contentsline {paragraph}{\numberline {1.5.2.2}Modelo simplificado}{33}{paragraph.0.1.5.2.2}%
+\contentsline {subparagraph}{\numberline {1.5.2.2.1}An\'alisis hidrodin\'amico de una part\'icula}{33}{subparagraph.0.1.5.2.2.1}%
+\contentsline {subparagraph}{\numberline {1.5.2.2.2}Carga superficial}{35}{subparagraph.0.1.5.2.2.2}%
+\contentsline {subparagraph}{\numberline {1.5.2.2.3}Trayectoria de una part\'icula en una lamela}{36}{subparagraph.0.1.5.2.2.3}%
+\contentsline {subparagraph}{\numberline {1.5.2.2.4}Dise\~no anal\'itico}{38}{subparagraph.0.1.5.2.2.4}%
+\contentsline {subparagraph}{\numberline {1.5.2.2.5}Tuber\'ia de entrada y tolva de sedimentos}{40}{subparagraph.0.1.5.2.2.5}%
+\contentsline {section}{\numberline {2}Metodolog\'ia}{42}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1}Recopilaci\'on de datos}{43}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {2.2}Propiedades del fluido}{43}{subsection.0.2.2}%
+\contentsline {subsection}{\numberline {2.3}Velocidad m\'axima de sedimentaci\'on}{44}{subsection.0.2.3}%
+\contentsline {subsection}{\numberline {2.4}Geometr\'ia de lamelas}{44}{subsection.0.2.4}%
+\contentsline {subsection}{\numberline {2.5}Ancho del sedimentador}{45}{subsection.0.2.5}%
+\contentsline {subsection}{\numberline {2.6}C\'alculo de $Re$ y $v_0$}{45}{subsection.0.2.6}%
+\contentsline {subsection}{\numberline {2.7}Tuber\'ia de entrada y tolva de sedimentos}{45}{subsection.0.2.7}%
+\contentsline {subsection}{\numberline {2.8}Discretizaci\'on del volumen de control}{45}{subsection.0.2.8}%
+\contentsline {subsection}{\numberline {2.9}Checkeo de malla}{45}{subsection.0.2.9}%
+\contentsline {subsection}{\numberline {2.10}Metodolog\'ia de frontera}{46}{subsection.0.2.10}%
+\contentsline {subsection}{\numberline {2.11}Metodolog\'ia CFD}{47}{subsection.0.2.11}%
+\contentsline {subsection}{\numberline {2.12}C\'alculo del error}{48}{subsection.0.2.12}%
+\contentsline {subsection}{\numberline {2.13}Metodolog\'ia CFD-DEM}{48}{subsection.0.2.13}%
+\contentsline {subsection}{\numberline {2.14}Software de dise\~no}{49}{subsection.0.2.14}%
+\contentsline {subsubsection}{\numberline {2.14.1}Frontend}{50}{subsubsection.0.2.14.1}%
+\contentsline {subsubsection}{\numberline {2.14.2}Backend}{53}{subsubsection.0.2.14.2}%
+\contentsline {paragraph}{\numberline {2.14.2.1}Dise\~no funcional te\'orico}{54}{paragraph.0.2.14.2.1}%
+\contentsline {paragraph}{\numberline {2.14.2.2}Simulaciones num\'ericas}{54}{paragraph.0.2.14.2.2}%
+\contentsline {section}{\numberline {3}Resultados}{56}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1}Propiedades del fluido}{56}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {3.2}Velocidad m\'axima de sedimentaci\'on}{56}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {3.3}Geometr\'ia inicial}{56}{subsection.0.3.3}%
+\contentsline {subsection}{\numberline {3.4}Mallado de la geometr\'ia}{58}{subsection.0.3.4}%
+\contentsline {subsection}{\numberline {3.5}Condiciones de frontera}{59}{subsection.0.3.5}%
+\contentsline {subsection}{\numberline {3.6}Simulaci\'on CFD}{60}{subsection.0.3.6}%
+\contentsline {subsection}{\numberline {3.7}Error computacional}{61}{subsection.0.3.7}%
+\contentsline {subsection}{\numberline {3.8}Simulaci\'on CFD-DEM}{62}{subsection.0.3.8}%
+\contentsline {section}{\numberline {4}An\'alisis de resultados}{65}{section.0.4}%
+\contentsline {section}{\numberline {5}Validaci\'on del modelo}{67}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1}Descripci\'on del problema}{67}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}Desarrollo experimental}{68}{subsection.0.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Descripci\'on particular}{68}{subsubsection.0.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}M\'etodos experimentales}{70}{subsubsection.0.5.2.2}%
+\contentsline {subsection}{\numberline {5.3}Resultados}{71}{subsection.0.5.3}%
+\contentsline {section}{Conclusiones}{74}{section*.64}%
+\contentsline {section}{Recomendaciones}{75}{section*.65}%
+\contentsline {chapter}{\numberline {1}Bibliograf\'{\i }a}{76}{chapter.1}%
+\contentsfinish 

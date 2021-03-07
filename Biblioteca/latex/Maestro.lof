@@ -1,53 +1,55 @@
 \babel@toc {spanish}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Extracci\'on.\relax }}{8}{figure.caption.7}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Proceso productivo de la planta de extracci\'on.\relax }}{10}{figure.caption.9}%
-\contentsline {figure}{\numberline {3}{\ignorespaces M\'etodo MSPD$^{\cite {Capriotti2015}}$.\relax }}{13}{figure.caption.12}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Discretizaci\'on del dominio (malla cartesiana).\relax }}{15}{figure.caption.13}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Tipos de mallas$^{\cite {Roda-Casanova2021}}$.\relax }}{16}{figure.caption.14}%
-\contentsline {figure}{\numberline {6}{\ignorespaces M\'etodo de validaci\'on simple.\relax }}{17}{figure.caption.15}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Discretizaci\'on dominio bidimensional.\relax }}{18}{figure.caption.16}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Comparaci\'on entre metodolog\'ias de an\'alisis de part\'iculas para una esfera suave deformada en un plano: situaci\'on f\'isica real (izquierda), modelo analizado con el m\'etodo de elementos finitos (centro) y modelo con el m\'etodo de elementos discretos (derecha). Fuente: \v Smilauer 2015$^{\cite {Smilauer2015}}$.\relax }}{19}{figure.caption.17}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Detecci\'on de colisi\'on entre part\'iculas. Fuente: \v Smilauer 2015$^{\cite {Smilauer2015}}$.\relax }}{20}{figure.caption.18}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Esquema de la aproximaci\'on por malla dual para la b\'usqueda de part\'iculas vecinas en un fluido.\relax }}{22}{figure.caption.19}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Interacci\'on din\'amica entre part\'iculas.\relax }}{24}{figure.caption.20}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Esquema de un sedimentador de placas inclinadas$^{\cite {Voutchkov2017}}$.\relax }}{27}{figure.caption.21}%
-\contentsline {figure}{\numberline {13}{\ignorespaces An\'alisis de una lamela.\relax }}{28}{figure.caption.22}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Din\'amica de la part\'icula.\relax }}{30}{figure.caption.23}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Cinem\'atica de una part\'icula s\'olida.\relax }}{32}{figure.caption.24}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Esquema de la metodolog\'ia de dise\~no del presente trabajo.\relax }}{39}{figure.caption.26}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Metodolog\'ia de c\'alculo de la velocidad de sedimentaci\'on m\'axima.\relax }}{41}{figure.caption.28}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Zona de generaci\'on de part\'iculas en la tuber\'ia de entrada.\relax }}{43}{figure.caption.30}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Condiciones de frontera.\relax }}{43}{figure.caption.31}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Solucionador \texttt {pimpleFoam}.\relax }}{44}{figure.caption.33}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Simulaci\'on CFD-DEM.\relax }}{46}{figure.caption.34}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Interfaz gr\'afica de ejemplo desarrollada con Jupyter. Fuente: https://jupyterlab.readthedocs.io/en/latest/\relax }}{47}{figure.caption.36}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Parte de la interfaz gr\'afica desarrollada para la automatizaci\'on del modelo CFD-DEM.\relax }}{48}{figure.caption.37}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Secci\'on de mallado autom\'atico del software desarrollado mediante \texttt {gmsh}.\relax }}{49}{figure.caption.38}%
-\contentsline {figure}{\numberline {25}{\ignorespaces \'Arbol de directorios.\relax }}{50}{figure.caption.39}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Vista en corte de la geometr\'ia del sistema de sedimentaci\'on.\relax }}{54}{figure.caption.43}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Mallado inicial de la geometr\'ia.\relax }}{55}{figure.caption.44}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Diagrama de contorno de la distribuci\'on de velocidades.\relax }}{57}{figure.caption.48}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Diagrama de contorno de la distribuci\'on de presiones.\relax }}{57}{figure.caption.49}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Cambio de la velocidad m\'axima con respecto al refinamiento de malla.\relax }}{58}{figure.caption.51}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Cambio de la presi\'on m\'axima con respecto al refinamiento de malla.\relax }}{59}{figure.caption.52}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Simulaci\'on CFD-DEM $\rightarrow $ interacci\'on fluido-part\'icula.\relax }}{60}{figure.caption.55}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Diagrama de contorno de velocidad $t = 60 [s]$.\relax }}{61}{figure.caption.56}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Diagrama de contorno de presi\'on $t=60 [s]$.\relax }}{61}{figure.caption.57}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Monitoreo de residuales en la simulaci\'on CFD-DEM.\relax }}{63}{figure.caption.58}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Geometr\'ia de estudio.\relax }}{64}{figure.caption.59}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Esquema del montaje experimental$^{\cite {Fessler1999}}$.\relax }}{66}{figure.caption.61}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Esquema del sistema de medici\'on de la interacci\'on part\'icula fluido$^{\cite {Fessler1999}}$.\relax }}{67}{figure.caption.62}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Comparaci\'on entre resultados del dise\~no experimental desarrollado por Fessler \& Eaton y los obtenidos a partir del modelo CFD-DEM desarrollado.\relax }}{69}{figure.caption.64}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Resultados obtenidos a partir del modelo CFD-DEM desarrollado.\relax }}{69}{figure.caption.65}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Distribuci\'on de las part\'iculas de cobre sobre la geometr\'ia.\relax }}{70}{figure.caption.66}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Comparaci\'on directa de los perfiles de velocidad experimentales con respecto al del modelo num\'erico desarrollado.\relax }}{70}{figure.caption.67}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Inicio del software.\relax }}{79}{figure.caption.73}%
-\contentsline {figure}{\numberline {44}{\ignorespaces Datos y propiedades del solvente.\relax }}{80}{figure.caption.74}%
-\contentsline {figure}{\numberline {45}{\ignorespaces Velocidad de asentamiento m\'axima.\relax }}{81}{figure.caption.75}%
-\contentsline {figure}{\numberline {46}{\ignorespaces Geometr\'ia inicial.\relax }}{82}{figure.caption.76}%
-\contentsline {figure}{\numberline {47}{\ignorespaces Datos del mallado de la geometr\'ia.\relax }}{83}{figure.caption.77}%
-\contentsline {figure}{\numberline {48}{\ignorespaces Mallado de la geometr\'ia.\relax }}{84}{figure.caption.78}%
-\contentsline {figure}{\numberline {49}{\ignorespaces Caracter\'isticas del mallado.\relax }}{85}{figure.caption.79}%
-\contentsline {figure}{\numberline {50}{\ignorespaces Cambios en el mallado.\relax }}{86}{figure.caption.80}%
-\contentsline {figure}{\numberline {51}{\ignorespaces Cambios en el mallado.\relax }}{87}{figure.caption.81}%
-\contentsline {figure}{\numberline {52}{\ignorespaces Cambios en el mallado.\relax }}{88}{figure.caption.82}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Extracci\'on.\relax }}{11}{figure.caption.5}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Proceso productivo de la planta de extracci\'on.\relax }}{13}{figure.caption.6}%
+\contentsline {figure}{\numberline {3}{\ignorespaces M\'etodo MSPD$^{\cite {Capriotti2015}}$.\relax }}{16}{figure.caption.8}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Discretizaci\'on del dominio (malla cartesiana).\relax }}{18}{figure.caption.9}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Tipos de mallas$^{\cite {Roda-Casanova2021}}$.\relax }}{19}{figure.caption.10}%
+\contentsline {figure}{\numberline {6}{\ignorespaces M\'etodo de validaci\'on simple.\relax }}{20}{figure.caption.11}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Discretizaci\'on dominio bidimensional.\relax }}{21}{figure.caption.12}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Comparaci\'on entre metodolog\'ias de an\'alisis de part\'iculas para una esfera suave deformada en un plano: situaci\'on f\'isica real (izquierda), modelo analizado con el m\'etodo de elementos finitos (centro) y modelo con el m\'etodo de elementos discretos (derecha). Fuente: \v Smilauer 2015$^{\cite {Smilauer2015}}$.\relax }}{22}{figure.caption.13}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Detecci\'on de colisi\'on entre part\'iculas. Fuente: \v Smilauer 2015$^{\cite {Smilauer2015}}$.\relax }}{23}{figure.caption.14}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Esquema de la aproximaci\'on por malla dual para la b\'usqueda de part\'iculas vecinas en un fluido.\relax }}{25}{figure.caption.15}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Interacci\'on din\'amica entre part\'iculas.\relax }}{27}{figure.caption.16}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Esquema de un sedimentador de placas inclinadas$^{\cite {Voutchkov2017}}$.\relax }}{30}{figure.caption.17}%
+\contentsline {figure}{\numberline {13}{\ignorespaces An\'alisis de una lamela.\relax }}{31}{figure.caption.18}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Din\'amica de la part\'icula.\relax }}{33}{figure.caption.19}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Cinem\'atica de una part\'icula s\'olida.\relax }}{35}{figure.caption.20}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Esquema de la metodolog\'ia de dise\~no del presente trabajo.\relax }}{42}{figure.caption.22}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Metodolog\'ia de c\'alculo de la velocidad de sedimentaci\'on m\'axima.\relax }}{44}{figure.caption.24}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Zona de generaci\'on de part\'iculas en la tuber\'ia de entrada.\relax }}{46}{figure.caption.26}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Condiciones de frontera.\relax }}{46}{figure.caption.27}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Solucionador \texttt {pimpleFoam}.\relax }}{47}{figure.caption.29}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Simulaci\'on CFD-DEM.\relax }}{49}{figure.caption.30}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Interfaz gr\'afica de ejemplo desarrollada con Jupyter. Fuente: https://jupyterlab.readthedocs.io/en/latest/\relax }}{50}{figure.caption.32}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Parte de la interfaz gr\'afica desarrollada para la automatizaci\'on del modelo CFD-DEM.\relax }}{51}{figure.caption.33}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Secci\'on de mallado autom\'atico del software desarrollado mediante \texttt {gmsh}.\relax }}{52}{figure.caption.34}%
+\contentsline {figure}{\numberline {25}{\ignorespaces \'Arbol de directorios.\relax }}{53}{figure.caption.35}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Vista en corte de la geometr\'ia del sistema de sedimentaci\'on.\relax }}{57}{figure.caption.39}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Mallado inicial de la geometr\'ia.\relax }}{58}{figure.caption.40}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Diagrama de contorno de la distribuci\'on de velocidades.\relax }}{60}{figure.caption.44}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Diagrama de contorno de la distribuci\'on de presiones.\relax }}{60}{figure.caption.45}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Cambio de la velocidad m\'axima con respecto al refinamiento de malla.\relax }}{61}{figure.caption.47}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Cambio de la presi\'on m\'axima con respecto al refinamiento de malla.\relax }}{62}{figure.caption.48}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Simulaci\'on CFD-DEM $\rightarrow $ interacci\'on fluido-part\'icula.\relax }}{63}{figure.caption.51}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Diagrama de contorno de velocidad $t = 60 [s]$.\relax }}{64}{figure.caption.52}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Diagrama de contorno de presi\'on $t=60 [s]$.\relax }}{64}{figure.caption.53}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Monitoreo de residuales en la simulaci\'on CFD-DEM.\relax }}{66}{figure.caption.54}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Geometr\'ia de estudio.\relax }}{67}{figure.caption.55}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Esquema del montaje experimental$^{\cite {Fessler1999}}$.\relax }}{69}{figure.caption.57}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Esquema del sistema de medici\'on de la interacci\'on part\'icula fluido$^{\cite {Fessler1999}}$.\relax }}{70}{figure.caption.58}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Comparaci\'on entre resultados del dise\~no experimental desarrollado por Fessler \& Eaton y los obtenidos a partir del modelo CFD-DEM desarrollado.\relax }}{72}{figure.caption.60}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Resultados obtenidos a partir del modelo CFD-DEM desarrollado.\relax }}{72}{figure.caption.61}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Distribuci\'on de las part\'iculas de cobre sobre la geometr\'ia.\relax }}{73}{figure.caption.62}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Comparaci\'on directa de los perfiles de velocidad experimentales con respecto al del modelo num\'erico desarrollado.\relax }}{73}{figure.caption.63}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Inicio del software.\relax }}{82}{figure.caption.68}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Datos y propiedades del solvente.\relax }}{83}{figure.caption.69}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Velocidad de asentamiento m\'axima.\relax }}{84}{figure.caption.70}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Geometr\'ia inicial.\relax }}{85}{figure.caption.71}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Datos del mallado de la geometr\'ia.\relax }}{86}{figure.caption.72}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Mallado de la geometr\'ia.\relax }}{87}{figure.caption.73}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Caracter\'isticas del mallado.\relax }}{88}{figure.caption.74}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Cambios en el mallado.\relax }}{89}{figure.caption.75}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Cambios en el mallado.\relax }}{90}{figure.caption.76}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Cambios en el mallado.\relax }}{91}{figure.caption.77}%
+\contentsfinish 

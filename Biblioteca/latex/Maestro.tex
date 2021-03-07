@@ -1,4 +1,4 @@
-\documentclass[12pt,letterpaper]{article}
+\documentclass[12pt]{report}
 \usepackage[spanish]{babel}
 \usepackage[latin1]{inputenc}
 \usepackage{amsmath}
@@ -7,7 +7,6 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{bm}
 %\usepackage{natbib}
-
 
 \usepackage{tikz}
 \usetikzlibrary{calc, arrows, positioning,decorations.pathreplacing,shapes, arrows.meta}
@@ -84,8 +83,7 @@
 \setcounter{secnumdepth}{4} % how many sectioning levels to assign numbers to
 \setcounter{tocdepth}{4}    % how many sectioning levels to show in ToC
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
+
 \usepackage{pstricks,pst-node}
 
 \usepackage[edges]{forest}
@@ -132,9 +130,78 @@
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
 
+%%% PATCHES %%%
+\usepackage{etoolbox}
+\makeatletter
+% Patch `titlepage` not to reset the page number
+\patchcmd{\titlepage}{\setcounter{page}\@ne}{}{}{}
+\patchcmd{\endtitlepage}{\setcounter{page}\@ne}{}{}{}
+
+% Patch `abstract` so that it shows the page number
+\patchcmd{\abstract}{\titlepage}{\titlepage\thispagestyle{plain}}{}{}
+\makeatother
+%%% END PATCHES %%%
+
+\usepackage[nottoc,numbib]{tocbibind}
+
+
+%\usepackage[showframe]{geometry}
+%-> For bibliography
+%\RequirePackage[num, overcite]{abntex2cite}
+
+%-> Change section numbering style
+\renewcommand{\thesection}{\arabic{section}}
+
+%-> Add References to ToC
+% \RequirePackage[nottoc, section]{tocbibind}
+
+\usepackage{etoolbox}
+% \apptocmd{\thebibliography}{\csname phantomsection\endcsname\addcontentsline{toc}{chapter}{\bibname}}{}{}
+
+\usepackage[hang]{footmisc}
+
+\usepackage{titletoc}
+	\titlecontents{subsection}
+ [0em] %
+ {\smallskip}
+ {\thecontentslabel\hspace{1.02em}}%\thecontentslabel
+{\hspace*{2.32em}}
+ {\,\,\titlerule*[0.77pc]{.}\contentspage}
+	\titlecontents{section}
+ [0em] %
+ {\smallskip}
+ {\thecontentslabel\hspace{1.02em}}%\thecontentslabel
+{\hspace*{2.32em}}
+ {\,\,\titlerule*[0.77pc]{.}\contentspage}
+  \titlecontents{subsection}
+ [0em] %
+ {\smallskip}
+ {\thecontentslabel\hspace{1.02em}}%\thecontentslabel
+{\hspace*{2.32em}}
+ {\,\,\titlerule*[0.77pc]{.}\contentspage}
+ \titlecontents{subsubsection}
+ [0em] %
+ {\smallskip}
+ {\thecontentslabel\hspace{1.02em}}%\thecontentslabel
+{\hspace*{2.32em}}
+ {\,\,\titlerule*[0.77pc]{.}\contentspage}
+ \titlecontents{paragraph}
+ [0em] %
+ {\smallskip}
+ {\thecontentslabel\hspace{1.02em}}%\thecontentslabel
+{\hspace*{2.32em}}
+ {\,\,\titlerule*[0.77pc]{.}\contentspage}
+
 \begin{document}
+\pagenumbering{gobble}
 \include{Portada}
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{3}
 \tableofcontents
+\newpage
+\listoftables
+\newpage
 \listoffigures
 \include{Resumen}
 \include{Abstract}
@@ -149,7 +216,8 @@
 \setcounter{secnumdepth}{0}
 \include{Conclusiones}
 \include{Recomendaciones}
-\setcounter{secnumdepth}{5}
+%\addcontentsline{toc}{section}{Bibliograf\'ia}
 \bibliography{library}
 \include{Anexos}
+\setcounter{secnumdepth}{5}
 \end{document}
