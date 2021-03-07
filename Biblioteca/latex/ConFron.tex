@@ -1,0 +1,42 @@
+%Datos geométricos
+\def\D{2.7}    	%Diámetro de ingreso
+\def\H{3}		%Altura de la zona de lodos
+\def\A{2.5}		%Ancho del panel de lamelas
+\def\HL{3}		%Altura del panel de lamelas
+\def\nL{10}		%Número de lamelas
+\def\ang{60}	%Ángulo de inclinación del panel
+
+\def\xlam{\x+\A+0.5*\D}
+
+\def\fin{\nL-1}
+
+%Condiciones de frontera
+\def\V{4.44}
+\def\P{0}
+
+%Referencia
+\def\x{-\A/2-0.5/2*\D-\HL/2}
+\def\y{0}
+
+\begin{figure}[h!]
+	\centering
+	\begin{adjustbox}{max width = 0.5\textwidth}
+	\begin{tikzpicture}
+		%Geometría general
+		\draw (\x,\y) -- (\x,-\D) -- (\x+0.5*\D,-\D) -- 
+			(\x+0.5*\D, -2*\D) -- (\x+\A+0.5*\D, -2*\D) -- 
+			(\x+\A+0.5*\D, \y) -- ({\xlam + \HL*cos(\ang)},{\y + \HL*sin(\ang)}) -- ({\xlam + \HL*cos(\ang) - \A/\nL}, {\y + \HL*sin(\ang)}) -- (\xlam - \A/\nL, \y) -- cycle;
+		
+		%Condición entrada
+		\draw (\x - 1, \y) -- node[above, rotate=90]  {$\vec{V_0}$} (\x - 1, \y - \D);
+		\foreach \yL in {0, ..., 10}
+			\draw[red!10!black, arrows={-Triangle[angle=90:3pt,red!10!black,fill=red!10!black]}] (\x-1,\y - \yL*\D/10) -- (\x-0.05,\y - \yL*\D/10);
+		
+		\draw[red!10!black, arrows={-Triangle[angle=90:3pt,red!10!black,fill=red!10!black]}] (\x,{\y + \HL*sin(\ang)}) -- node[right] {$\vec{g}$} (\x, \y + \H/2);
+		%Condición salida		
+		\draw ({\xlam + \HL*cos(\ang) - \A/\nL/2}, {\y + \HL*sin(\ang)}) -- ({\xlam + \HL*cos(\ang) - \A/\nL},{\y + \HL*sin(\ang) + \A/10}) -- ({\xlam + \HL*cos(\ang)},{\y + \HL*sin(\ang) + \A/10}) node[above] {$P_0 = P_{atm}$} -- cycle;
+	\end{tikzpicture}
+	\end{adjustbox}
+	\caption{Condiciones de frontera.}
+	\label{ConFron}
+\end{figure}

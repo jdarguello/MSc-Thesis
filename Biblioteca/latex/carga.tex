@@ -1,0 +1,68 @@
+\subparagraph{Carga superficial} \label{carga}
+
+\noindent
+\justify
+
+``Una part\'icula con velocidad de asentamiento $\vec{U}$, y transportada con velocidad $\vec{v}$, seguir\'ia una trayectoria rectil\'inea inclinada como resultado de la suma del vector de velocidad de flujo y del vector de velocidad de asentamiento, indicada por la recta $OB$"$^{\cite{RobertoRojas}}$.
+
+\input{vel_particula}
+
+\noindent
+\justify
+
+De la Figura \ref{vel_particula}, $\vec{v}$ corresponde a la velocidad horizontal (a favor del flujo), su valor depende de la posici\'on $y$ en la que se encuentre. $\vec{v_s}$ se refiere a la velocidad de salida de los sedimentos. Para el presente an\'alisis, se asume que la part\'icula se encuentra en el punto de velocidad m\'aximo $\vec{v_0}$; $\vec{U}$ corresponde a la velocidad de asentamiento de la part\'icula y $u$ es la componente en la direcci\'on $y^{-}$ de la velocidad de asentamiento.
+
+\noindent
+\justify
+
+Por semejanza de tri\'angulos, se obtiene la siguiente relaci\'on matem\'atica:
+
+\begin{equation}
+	\frac{v}{u} = \frac{L}{b}
+	\label{triS}
+\end{equation}
+
+\noindent
+\justify
+
+Debido a la inclinaci\'on, existe una componente de la velocidad de asentamiento que se opone al movimiento de la part\'icula sobre la lamela; de modo que:
+
+\begin{equation}
+	v = v_0 - U \sin \theta = \frac{Q _l}{b \, W} - U \sin \theta
+	\label{v}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde $W$ es el ancho del tanque de sedimentaci\'on y $Q_l$ el caudal dentro de la lamela. De igual forma, el valor de $u$ corresponde a la magnitud de $\vec{U}$ en la componente $y^{-}$.
+
+\begin{equation}
+	u = U \cos \theta
+	\label{u}
+\end{equation}
+
+\noindent
+\justify
+
+Relacionando las Ecuaciones \ref{triS}, \ref{v} y \ref{u} se obtiene:
+
+\begin{equation}
+	\boxed{U = \frac{Q_l}{\left(\frac{L}{b} +  \tan \theta \right) b W \cos \theta } }
+	\label{cargaS}
+\end{equation}
+
+\noindent
+\justify
+
+Si el \'angulo de inclinaci\'on es $0 [\degree]$, la Ecuaci\'on \ref{cargaS} se reduce a lo siguiente:
+
+\begin{equation}
+	U = \frac{Q_l}{L W} = \frac{Q_l}{A} = C_s
+	\label{Crgs}
+\end{equation}
+
+\noindent
+\justify
+
+La Ecuaci\'on \ref{Crgs} se conoce en la literatura$^{\cite{RobertoRojas, PerezParra1997}}$ como \textit{carga superficial} $(C_s)$; la cual define la sedimentaci\'on como una funci\'on del \'area superficial de las lamelas. ``Todas las part\'iculas discretas con velocidad de asentamiento igual o mayor que $U$ ser\'an completamente removidas"$^{\cite{RobertoRojas}}$.

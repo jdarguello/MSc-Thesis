@@ -1,0 +1,155 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[spanish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[pdftex]{graphicx}
+\usepackage{bm}
+%\usepackage{natbib}
+
+
+\usepackage{tikz}
+\usetikzlibrary{calc, arrows, positioning,decorations.pathreplacing,shapes, arrows.meta}
+\usetikzlibrary{decorations.pathmorphing,intersections}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.5.1}
+\pgfplotsset{width=7cm,compat=1.8}
+\usepackage{xcolor}
+\definecolor{light-gray}{gray}{0.95}
+\newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
+\usetikzlibrary{shapes}
+\usepackage{ifthen}
+\newcommand*{\val}{100}
+\usepackage{booktabs}
+
+\usepackage[inline]{asymptote}
+
+\DeclareGraphicsRule{.1}{mps}{*}{} 
+\DeclareGraphicsRule{.2}{mps}{*}{}
+\usepackage{lmodern}
+%\usepackage{float}
+\usepackage[left=4cm,right=3cm,top=3cm,bottom=3cm]{geometry}
+\author{Juan David Argüello Plata}
+\title{Diseño y construcción de un sistema de producción de extractos vegetales}
+%\usepackage{hyperref}
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+% For dummy lipsum text
+\usepackage{lipsum}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\bibliographystyle{IEEEtran}
+%\usepackage[backend=biber]{biblatex}
+%\usepackage{adjustbox}
+\usepackage{gensymb}
+\usepackage{pgfgantt}
+\usepackage{rotating}
+\usepackage{pdflscape} 
+%\usepackage{tikz-3dplot}
+\usepackage{pgfplots}
+\usepackage{floatrow}
+%\usepackage[firstpage]{draftwatermark}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=false,
+	linkbordercolor = {white}
+}
+%\SetWatermarkText{\includegraphics[scale=1.25]{Images/uis.png}}
+% Table float box with bottom caption, box width adjusted to content
+\makeatletter
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+            {-2.5ex\@plus -1ex \@minus -.25ex}%
+            {1.25ex \@plus .25ex}%
+            {\normalfont\normalsize\bfseries}}
+            
+\newcommand*\curveplus{%
+  \mathbin{\rotatebox[origin=c]{90}{$\m@th\curvearrowleft$}+}}
+
+\newcommand*\rightplus{%
+  \mathpalette\@rightplus\relax}
+\newcommand*\@rightplus[1]{%
+  \mathbin{\vcenter{\hbox{$\m@th\overset{#1+}{\to}$}}}}
+
+\newcommand*\upplus{%
+  \mathbin{+\mathord\uparrow}}
+
+\makeatother
+\setcounter{secnumdepth}{4} % how many sectioning levels to assign numbers to
+\setcounter{tocdepth}{4}    % how many sectioning levels to show in ToC
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{pstricks,pst-node}
+
+\usepackage[edges]{forest}
+\definecolor{folderbg}{RGB}{124,166,198}
+\definecolor{folderborder}{RGB}{110,144,169}
+\newlength\Size
+\setlength\Size{4pt}
+\tikzset{%
+  folder/.pic={%
+    \filldraw [draw=folderborder, top color=folderbg!50, bottom color=folderbg] (-1.05*\Size,0.2\Size+5pt) rectangle ++(.75*\Size,-0.2\Size-5pt);
+    \filldraw [draw=folderborder, top color=folderbg!50, bottom color=folderbg] (-1.15*\Size,-\Size) rectangle (1.15*\Size,\Size);
+  },
+  file/.pic={%
+    \filldraw [draw=folderborder, top color=folderbg!5, bottom color=folderbg!10] (-\Size,.4*\Size+5pt) coordinate (a) |- (\Size,-1.2*\Size) coordinate (b) -- ++(0,1.6*\Size) coordinate (c) -- ++(-5pt,5pt) coordinate (d) -- cycle (d) |- (c) ;
+  },
+}
+\forestset{%
+  declare autowrapped toks={pic me}{},
+  pic dir tree/.style={%
+    for tree={%
+      folder,
+      font=\ttfamily,
+      grow'=0,
+    },
+    before typesetting nodes={%
+      for tree={%
+        edge label+/.option={pic me},
+      },
+    },
+  },
+  pic me set/.code n args=2{%
+    \forestset{%
+      #1/.style={%
+        inner xsep=2\Size,
+        pic me={pic {#2}},
+      }
+    }
+  },
+  pic me set={directory}{folder},
+  pic me set={file}{file},
+}
+
+%Numeración tabla de contenidos
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+\begin{document}
+\include{Portada}
+\tableofcontents
+\listoffigures
+\include{Resumen}
+\include{Abstract}
+\setcounter{secnumdepth}{0}
+\include{Intro}
+\setcounter{secnumdepth}{5}
+\include{MarcoT}
+\include{Implementar}
+\include{Ress}
+\include{Analisis}
+\include{Valid}
+\setcounter{secnumdepth}{0}
+\include{Conclusiones}
+\include{Recomendaciones}
+\setcounter{secnumdepth}{5}
+\bibliography{library}
+\include{Anexos}
+\end{document}

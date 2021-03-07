@@ -1,0 +1,95 @@
+\newpage
+
+\subsection{Desarrollo de la simulaci\'on}
+
+\noindent
+\justify
+
+La simulaci\'on num\'erica a realizar comprende \textbf{dos} m\'etodos num\'ericos: el m\'etodo de \textit{vol\'umenes finitos} (FVM, por sus siglas en ingl\'es), con el cual se predice el comportamiento fluidodin\'amico dentro del volumen de control, y el m\'etodo de \textit{elementos discretos} (DEM, por sus siglas en ingl\'es) con el que se predice el comportamiento din\'amico de las part\'iculas s\'olidas y su interacci\'on con el solvente. En la presente secci\'on, se desarrollan dos simulaciones num\'ericas: CFD y CFD-DEM. La primera busca predecir el comportamiento din\'amico del fluido para, luego, ser contrastado con los resultados obtenidos en la simulaci\'on CFD-DEM; el cual describe la interacci\'on fluido - part\'icula. 
+
+\subsubsection{CFD} \label{CFD:problema}
+
+\noindent
+\justify
+
+La \textit{Din\'amica de Fluidos Computacional} (CFD) es una herramienta ampliamente usada en ingenier\'ia para el desarrollo de simulaciones num\'ericas que involucren fluidos. Emplea como m\'etodo base el m\'etodo de vol\'umenes finitos (FVM). Este m\'etodo num\'erico transforma las ecuaciones diferenciales parciales, que representan las leyes conservativas, en ecuaciones algebraicas discretas sobre vol\'umenes finitos.
+
+\noindent
+\justify
+
+Desde un punto de vista de \textit{mec\'anica de fluidos computacional}, el presente problema busca estudiar un flujo con las siguientes caracter\'isticas:
+
+\begin{itemize}
+	\item Laminar.
+	\item Incompresible.
+	\item Transitorio.
+	\item Fluido newtoniano.
+\end{itemize}
+
+\noindent
+\justify
+
+Trat\'andose, adem\'as, de un problema \textit{bidimensional}, que matem\'aticamente hablando se refiere a lo siguiente:
+
+\begin{equation}
+    \underbrace{\rho \frac{\partial \phi}{\partial t}}_{\text{transitorio}} + \underbrace{\rho u \frac{\partial \phi}{\partial x} + \rho v \frac{\partial \phi}{\partial y}}_{\text{convectivo}} = \underbrace{ \frac{\partial}{\partial x} \left( \Gamma \frac{\partial \phi}{\partial x} \right) + \frac{\partial}{\partial y} \left( \Gamma \frac{\partial \phi}{\partial y} \right)}_{\text{difusivo}} + \underbrace{S_{\phi}}_{\text{fuente}}
+    \tag{9}
+    \label{2D}
+\end{equation}
+
+\noindent
+\justify
+
+De la gama de solucionadores est\'andar que maneja OpenFOAM, existen dos que pueden resolver el sistema de ecuaciones de la Ecuaci\'on \ref{2D}: \texttt{icoFoam} y \texttt{pimpleFoam}. Para la soluci\'on del modelo CFD-DEM, se seleccion\'o un solucionador basado en \textit{pimpleFoam} debido a que existe la posibilidad de generaci\'on de turbulencia a ciertas velocidades de flujo del sistema en la interacci\'on fluido-part\'icula.
+
+\noindent
+\justify
+
+La l\'ogica de soluci\'on detr\'as de \texttt{pimpleFoam} se puede apreciar en la Figura \ref{pimpleLog}.
+
+\input{pimpleLogic}
+
+\newpage
+
+\paragraph{Resultados} \label{CFD:resultados}
+
+\noindent
+\justify
+
+Los resultados de la simulaci\'on num\'erica mediante el m\'etodo de \textit{vol\'umenes finitos} se puede apreciar en las Figuras \ref{CFD:vel} y \ref{CFD:p}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.35\textwidth]{Images/CFD/vel.png}
+	\caption{Diagrama de contorno de la distribuci\'on de velocidades del sistema de sedimentaci\'on.}
+	\label{CFD:vel}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.35\textwidth]{Images/CFD/p.png}
+	\caption{Diagrama de contorno de la distribuci\'on de presiones del sistema de sedimentaci\'on.}
+	\label{CFD:p}
+\end{figure}
+
+\paragraph{An\'alisis de resultados}
+
+\noindent
+\justify
+
+La simulaci\'on num\'erica, desarrollada en OpenFOAM, encontr\'o su punto de equilibrio (punto \textit{estacionario}) al cabo de ocho segundos de simulaci\'on; cuyos resultados, en t\'erminos de velocidad y presi\'on, pueden apreciarse en las Figuras \ref{CFD:vel} y \ref{CFD:p}, respectivamente.
+
+\noindent
+\justify
+
+En la Figura \ref{CFD:vel} se observa un valor de velocidad m\'axima de $0.0021 [m/s]$ que es alcanzada en la primera lamela y decrece en las lamelas consecuentes hasta un valor cercano de $0.0015 [m/s]$; fen\'omeno f\'isico que va acorde a la realidad por tratarse de flujos en serie.
+
+\noindent
+\justify
+
+En la Figura \ref{CFD:p} se puede apreciar el perfil de presiones sobre el sistema; en donde se presenta un comportamiento uniforme y sim\'etrico alcanzando un valor de presi\'on m\'axima de hasta $0.000012 [kPa]$. Como era de esperarse, las condiciones de frontera establecidas en la secci\'on \ref{CondF} fueron respetadas: en la salida del flujo se aprecia una presi\'on de $0$ (atmosf\'erica) y la velocidad de flujo en la entrada es de $0.00097 [m/s]$.
+
+\input{CD}
+
+
+

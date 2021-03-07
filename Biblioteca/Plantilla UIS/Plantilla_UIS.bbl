@@ -1,0 +1,1075 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Alfaro2002}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AVM}{%
+         family={ALFARO},
+         familyi={A\bibinitperiod},
+         given={V.\bibnamedelima M.},
+         giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AVM1}
+    \strng{fullhash}{AVM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \true{singletitle}
+    \field{number}{1,2}
+    \field{pages}{21\bibrangedash 36}
+    \field{title}{Métodos de sintonización de controladores {PID} que operan
+  como reguladores}
+    \field{volume}{12}
+    \field{journaltitle}{Ingenier{\'i}a}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Alzate2016}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AR}{%
+         family={ALZATE},
+         familyi={A\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=OVA}{%
+         family={OLIVEIRA},
+         familyi={O\bibinitperiod},
+         given={V.\bibnamedelima A.},
+         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AROVA1}
+    \strng{fullhash}{AROVA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \true{singletitle}
+    \field{pages}{203\bibrangedash 214}
+    \field{title}{Multiobjective design of {PI} controllers with applications}
+    \field{journaltitle}{Control Applications {(CCA)}, {IEEE} Conference on}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Astrom1995}{book}{}
+    \name{author}{2}{}{%
+      {{hash=AK}{%
+         family={ASTROM},
+         familyi={A\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={HAGGLUND},
+         familyi={H\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {{ISA: T}he Instrumentation, Systems,}%
+      {Automation Society}%
+    }
+    \strng{namehash}{AKHT1}
+    \strng{fullhash}{AKHT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \true{singletitle}
+    \field{title}{{PID} Controllers: Theory, Design, and Tuning}
+    \field{year}{1995}
+  \endentry
+
+  \entry{chapra2003metodos}{book}{}
+    \name{author}{2}{}{%
+      {{hash=CSC}{%
+         family={CHAPRA},
+         familyi={C\bibinitperiod},
+         given={S.\bibnamedelima C.},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CRP}{%
+         family={CANALE},
+         familyi={C\bibinitperiod},
+         given={R.\bibnamedelima P.},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Mc-Graw Hill}%
+    }
+    \strng{namehash}{CSCCRP1}
+    \strng{fullhash}{CSCCRP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \true{singletitle}
+    \field{title}{M{\'e}todos Num{\'e}ricos para Ingenieros}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Correa2008}{book}{}
+    \name{author}{3}{}{%
+      {{hash=CR}{%
+         family={CORREA},
+         familyi={C\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VR}{%
+         family={VILLAMIZAR},
+         familyi={V\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=QJ}{%
+         family={QUIROZ},
+         familyi={Q\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Divisi{\'o}n de Publicaciones {UIS}}%
+    }
+    \strng{namehash}{CRVRQJ1}
+    \strng{fullhash}{CRVRQJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \true{singletitle}
+    \field{title}{De La Sintonizaci{\'o}n De Controladores}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Datta2000}{book}{}
+    \name{author}{2}{}{%
+      {{hash=DA}{%
+         family={DATA},
+         familyi={D\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BSP}{%
+         family={BHATTACHARYYA},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{DABSP1}
+    \strng{fullhash}{DABSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \true{singletitle}
+    \field{title}{Structure and synthesis of {PID} controllers}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Diaz2016}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=DI}{%
+         family={DÍAZ},
+         familyi={D\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BSP}{%
+         family={BHATTACHARYYA},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DIBSP1}
+    \strng{fullhash}{DIBSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \true{singletitle}
+    \field{booktitle}{Decision and Control {(CDC)}, 2016 {IEEE} 55th Conference
+  on}
+    \field{pages}{4919\bibrangedash 4924}
+    \field{title}{{PI} controller design in the achievable gain-phase margin
+  plane}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Diaz2017}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=DI}{%
+         family={D{\'I}AZ},
+         familyi={D\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DI1}
+    \strng{fullhash}{DI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \true{singletitle}
+    \field{title}{Modern design of classical controllers}
+    \list{location}{1}{%
+      {USA}%
+    }
+    \list{institution}{1}{%
+      {Texas {A{\&}M} University}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Elizondo2013}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=EC}{%
+         family={ELIZONDO},
+         familyi={E\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={LÓPEZ},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={POSADAS},
+         familyi={P\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ECLMPC1}
+    \strng{fullhash}{ECLMPC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \true{singletitle}
+    \field{booktitle}{Congreso Nacional de Control Autom{\'a}tico {AMCA}, 2013
+  M{\'e}xico}
+    \field{pages}{797\bibrangedash 801}
+    \field{title}{Conjunto de controladores {PID} para sistemas {LTI} con
+  incertidumbre param{\'e}trica}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Farkh2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FR}{%
+         family={FARKH},
+         familyi={F\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={LAABIDI},
+         familyi={L\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={KSOURI},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FRLKKM1}
+    \strng{fullhash}{FRLKKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \true{singletitle}
+    \field{number}{9}
+    \field{pages}{210\bibrangedash 222}
+    \field{title}{Stabilizing Sets of {PI/PID} Controllers for Unstable Second
+  Order Delay System}
+    \field{volume}{11}
+    \field{journaltitle}{International Journal of Automation and Computing}
+    \field{year}{2014}
+  \endentry
+
+  \entry{fernandes2008}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=FDSA}{%
+         family={FERNANDEZ DA\bibnamedelima SILVA},
+         familyi={F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FDSA1}
+    \strng{fullhash}{FDSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \true{singletitle}
+    \field{title}{Obten{\c{c}}ao de Conjuntos Estabilizantes de Controladores
+  {PID} para Sistemas com Atraso Utilizando o Teorema de {Hermite-Biehler}}
+    \list{location}{1}{%
+      {Brasil}%
+    }
+    \list{institution}{1}{%
+      {Universidad de S{\~a}o Paulo}%
+    }
+    \field{type}{Tesis de Maestr{\'i}a (Magister en Ingenier{\'i}a
+  el{\'e}ctrica)}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Fung1998}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FHW}{%
+         family={FUNG},
+         familyi={F\bibinitperiod},
+         given={H.\bibnamedelima W.},
+         giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=WQG}{%
+         family={WANG},
+         familyi={W\bibinitperiod},
+         given={Q.\bibnamedelima G.},
+         giveni={Q\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=LTH}{%
+         family={LEE},
+         familyi={L\bibinitperiod},
+         given={T.\bibnamedelima H.},
+         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FHWWQGLTH1}
+    \strng{fullhash}{FHWWQGLTH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \true{singletitle}
+    \field{number}{9}
+    \field{pages}{1145\bibrangedash 1149}
+    \field{title}{{PI} tuning in terms of gain and phase margin}
+    \field{volume}{34}
+    \field{journaltitle}{Autom{\'a}tica}
+    \field{year}{1998}
+  \endentry
+
+  \entry{stanley1993algebra}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GSI}{%
+         family={GROSSMAN},
+         familyi={G\bibinitperiod},
+         given={Stanley\bibnamedelima I.},
+         giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {McGraw-Hill}%
+    }
+    \strng{namehash}{GSI1}
+    \strng{fullhash}{GSI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \true{singletitle}
+    \field{title}{Algebra Lineal con aplicaciones}
+    \field{year}{1993}
+  \endentry
+
+  \entry{reviewieee}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=GS}{%
+         family={GUPTE},
+         familyi={G\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={MOHANDAS},
+         familyi={M\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=CJM}{%
+         family={CONRAD},
+         familyi={C\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GSMPCJM1}
+    \strng{fullhash}{GSMPCJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \true{singletitle}
+    \field{booktitle}{Southeastcon, 2012 Proceedings of IEEE}
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{A survey of quadrotor Unmanned Aerial Vehicles}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Datta1999}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HM}{%
+         family={HO},
+         familyi={H\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={DATTA},
+         familyi={D\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BSP}{%
+         family={BHATTACHARYYA},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HMDABSP1}
+    \strng{fullhash}{HMDABSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \true{singletitle}
+    \field{pages}{135\bibrangedash 153}
+    \field{title}{Generalizations of the {Hermite-Biehler} Theorem}
+    \field{volume}{302-303}
+    \field{journaltitle}{Linear Algebra and its Applications}
+    \field{year}{1999}
+  \endentry
+
+  \entry{Hang1992}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HW}{%
+         family={HO},
+         familyi={H\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={HANG},
+         familyi={H\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={CAO},
+         familyi={C\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HWHCCL1}
+    \strng{fullhash}{HWHCCL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \true{singletitle}
+    \field{number}{3}
+    \field{pages}{497\bibrangedash 502}
+    \field{title}{Tuning of {PI} controller based on gain and phase margin
+  specifications}
+    \field{volume}{31}
+    \field{journaltitle}{Automatica}
+    \field{year}{1995}
+  \endentry
+
+  \entry{keel2008}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KLH}{%
+         family={KEEL},
+         familyi={K\bibinitperiod},
+         given={L.\bibnamedelima H.},
+         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=BSP}{%
+         family={BHATTACHARYYA},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KLHBSP1}
+    \strng{fullhash}{KLHBSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{6}
+    \field{pages}{1353–136}
+    \field{title}{Controller synthesis free of analytical models: Three term
+  controllers}
+    \field{volume}{53}
+    \field{journaltitle}{{IEEE} Transactions on Automatic Control}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Bhattachar1994}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KLH}{%
+         family={KEEL},
+         familyi={K\bibinitperiod},
+         given={L.\bibnamedelima H.},
+         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=BSP}{%
+         family={BHATTACHARYYA},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KLHBSP1}
+    \strng{fullhash}{KLHBSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{pages}{49\bibrangedash 52}
+    \field{title}{Robust Control: The Parametric Approach}
+    \field{volume}{27}
+    \field{journaltitle}{{IFAC} Proceedings Volumes}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Bhatt97}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KLH}{%
+         family={KEEL},
+         familyi={K\bibinitperiod},
+         given={L.\bibnamedelima H.},
+         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=BSP}{%
+         family={BHATTACHARYYA},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KLHBSP1}
+    \strng{fullhash}{KLHBSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{8}
+    \field{pages}{1098\bibrangedash 1105}
+    \field{title}{Robust, fragile or optimal?}
+    \field{volume}{42}
+    \field{journaltitle}{{IEEE} Transactions on Automatic Control}
+    \field{year}{1997}
+  \endentry
+
+  \entry{Loera2014}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=LR}{%
+         family={LOERA},
+         familyi={L\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={MELCHOR},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={MORALES},
+         familyi={M\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LRMRMD1}
+    \strng{fullhash}{LRMRMD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \true{singletitle}
+    \field{booktitle}{Congreso Latinoamericano de Control Autom{\'a}tico
+  {CLCA}, 2014 {M}{\'e}xico}
+    \field{pages}{1465\bibrangedash 1470}
+    \field{title}{An{\'a}lisis de estabilidad de controladores {PI} para un
+  regulador conmutado boost}
+    \field{year}{2014}
+  \endentry
+
+  \entry{luukkonen2011modelling}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=LT}{%
+         family={LUUKKONEN},
+         familyi={L\bibinitperiod},
+         given={Teppo},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LT1}
+    \strng{fullhash}{LT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \true{singletitle}
+    \field{howpublished}{Independent research project in applied mathematics,
+  Aalto University, Finland}
+    \field{title}{Modelling and control of quadcopter}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Mendez2008}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=MC}{%
+         family={MÉNDEZ},
+         familyi={M\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={NICULESCU},
+         familyi={N\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={MORARESCU},
+         familyi={M\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GK}{%
+         family={GU},
+         familyi={G\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MC+1}
+    \strng{fullhash}{MCNSMCGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \true{singletitle}
+    \field{booktitle}{Mediterranean Conference on control and automation}
+    \field{pages}{529\bibrangedash 534}
+    \field{title}{On the fragility of {PI} controllers for time-delay {SISO}
+  systems}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Morarescu2010}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MIC}{%
+         family={MORARESCU},
+         familyi={M\bibinitperiod},
+         given={I.\bibnamedelima C.},
+         giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NSI}{%
+         family={NICULESCU},
+         familyi={N\bibinitperiod},
+         given={S.\bibnamedelima I.},
+         giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=GK}{%
+         family={GU},
+         familyi={G\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MICNSIGK1}
+    \strng{fullhash}{MICNSIGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \true{singletitle}
+    \field{number}{4}
+    \field{pages}{297\bibrangedash 313}
+    \field{title}{The geometry of stability crossing curves of {PI} controllers
+  for {SISO} systems {I/O} delays}
+    \field{volume}{55}
+    \field{journaltitle}{Romanian Journal of Pure and Applied Mathematics}
+    \field{year}{2010}
+  \endentry
+
+  \entry{ogata2010}{book}{}
+    \name{author}{1}{}{%
+      {{hash=OK}{%
+         family={OGATA},
+         familyi={O\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Pearson Education}%
+    }
+    \strng{namehash}{OK1}
+    \strng{fullhash}{OK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \true{singletitle}
+    \field{title}{Ingenier{\'i}a de control Moderna}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Oliveira2003}{article}{}
+    \name{author}{3}{}{%
+      {{hash=OV}{%
+         family={OLIVEIRA.},
+         familyi={O\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={TEIXEIRA.},
+         familyi={T\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={COSSI},
+         familyi={C\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OVTMCL1}
+    \strng{fullhash}{OVTMCL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \true{singletitle}
+    \field{pages}{203\bibrangedash 216}
+    \field{title}{Stabilizing a class of time delay systems using the
+  {Hermite-Biehler} theorem}
+    \field{volume}{369}
+    \field{journaltitle}{Linear Algebra and its Applications}
+    \field{year}{2003}
+  \endentry
+
+  \entry{roa_ayala2016}{report}{}
+    \name{author}{1}{}{%
+      {{hash=RCASGyAO}{%
+         family={ROA\bibnamedelima CANO},
+         familyi={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+         suffix={Gustavo y AYALA\bibnamedelima ORTÍZ},
+         suffixi={G\bibinitperiod\bibinitdelim y\bibinitperiod
+  A\bibinitperiod\bibinitdelim O\bibinitperiod},
+         given={Andruv\bibnamedelima Saim},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RCGyAOAS1}
+    \strng{fullhash}{RCGyAOAS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \true{singletitle}
+    \field{title}{Control en espacio de estados para un dron tipo cuadrotor}
+    \list{location}{1}{%
+      {Bucaramanga - Colombia}%
+    }
+    \list{institution}{1}{%
+      {Universidad Industrial de Santander}%
+    }
+    \field{type}{Trabajo de Grado (Ingeniero Electr{\'o}nico)}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Safonov1997}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SMG}{%
+         family={SAFONOV},
+         familyi={S\bibinitperiod},
+         given={M.\bibnamedelima G.},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=TTC}{%
+         family={TSAO},
+         familyi={T\bibinitperiod},
+         given={Tung-Ching},
+         giveni={T\bibinitperiod-C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMGTTC1}
+    \strng{fullhash}{SMGTTC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \true{singletitle}
+    \field{number}{6}
+    \field{pages}{843\bibrangedash 847}
+    \field{title}{The unfalsified control concept and learning}
+    \field{volume}{42}
+    \field{journaltitle}{{IEEE} Transactions on Automatic Control}
+    \field{year}{1997}
+  \endentry
+
+  \entry{sears2005fisica}{book}{}
+    \name{author}{3}{}{%
+      {{hash=SFW}{%
+         family={SEARS},
+         familyi={S\bibinitperiod},
+         given={F.\bibnamedelima W.},
+         giveni={F\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=FAL}{%
+         family={FORD},
+         familyi={F\bibinitperiod},
+         given={A.\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=FRA}{%
+         family={FREEDMAN},
+         familyi={F\bibinitperiod},
+         given={R.\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Pearson Educaci{\'o}n}%
+    }
+    \strng{namehash}{SFWFALFRA1}
+    \strng{fullhash}{SFWFALFRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \true{singletitle}
+    \field{title}{F{\'\i}sica universitaria: con f{\'\i}sica moderna}
+    \field{volume}{2}
+    \field{year}{2005}
+  \endentry
+
+  \entry{silva2002}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SG}{%
+         family={SILVA},
+         familyi={S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={DATTA},
+         familyi={D\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BSP}{%
+         family={BHATTACHARYYA},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SGDABSP1}
+    \strng{fullhash}{SGDABSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \true{singletitle}
+    \field{number}{2}
+    \field{pages}{241\bibrangedash 252}
+    \field{title}{New Results on the Synthesis of {PID} Controllers}
+    \field{volume}{47}
+    \field{journaltitle}{{IEEE} Transactions on Automatic Control}
+    \field{year}{2002}
+  \endentry
+
+  \entry{spong2008robot}{book}{}
+    \name{author}{2}{}{%
+      {{hash=SMW}{%
+         family={SPONG},
+         familyi={S\bibinitperiod},
+         given={Mark\bibnamedelima W.},
+         giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={VIDYASAGAR},
+         familyi={V\bibinitperiod},
+         given={Mathukumalli},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons}%
+    }
+    \strng{namehash}{SMWVM1}
+    \strng{fullhash}{SMWVM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \true{singletitle}
+    \field{title}{Robot dynamics and control}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Tayebi2006}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TA}{%
+         family={TAYEBI},
+         familyi={T\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={MCGILVRAY},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TAMS1}
+    \strng{fullhash}{TAMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \true{singletitle}
+    \field{number}{3}
+    \field{pages}{562\bibrangedash 571}
+    \field{title}{Attitude stabilization of a VTOL quadrotor aircraft}
+    \field{volume}{14}
+    \field{journaltitle}{IEEE Transactions on Control Systems Technology}
+    \field{year}{2006}
+  \endentry
+
+  \entry{toscano2005}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TR}{%
+         family={TOSCANO},
+         familyi={T\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TR1}
+    \strng{fullhash}{TR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \true{singletitle}
+    \field{pages}{81\bibrangedash 88}
+    \field{title}{A simple robust {PI/PID} controller design via numerical
+  optimization approach}
+    \field{volume}{15}
+    \field{journaltitle}{Journal of process control}
+    \field{year}{2005}
+  \endentry
+
+  \entry{raffo2007modelado}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=VRG}{%
+         family={VIANNA\bibnamedelima RAFFO},
+         familyi={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Guilherme},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VRG1}
+    \strng{fullhash}{VRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \true{singletitle}
+    \field{title}{Modelado y Control de un Helic{\'o}ptero Quadrotor}
+    \list{location}{1}{%
+      {España}%
+    }
+    \list{institution}{1}{%
+      {Universidad de Sevilla}%
+    }
+    \field{type}{Tesis de Maestría (Magister en Automática, Robótica y
+  Telemática)}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Ziegler1942}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZJG}{%
+         family={ZIEGLER},
+         familyi={Z\bibinitperiod},
+         given={J.\bibnamedelima G.},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=NNB}{%
+         family={NICHOLS},
+         familyi={N\bibinitperiod},
+         given={N.\bibnamedelima B.},
+         giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZJGNNB1}
+    \strng{fullhash}{ZJGNNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \true{singletitle}
+    \field{pages}{759\bibrangedash 768}
+    \field{title}{Optimun settings for automatic controllers}
+    \field{volume}{64}
+    \field{journaltitle}{Transactions of the {ASME}}
+    \field{year}{1942}
+  \endentry
+\enddatalist
+\endinput

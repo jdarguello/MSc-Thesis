@@ -1,0 +1,84 @@
+\unhbox \voidb@x \penalty \@M \ \hfill \textbf {p\'ag.}\par 
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{INTRODUCCI\'ON}{16}{chapter*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}OBJETIVOS}{20}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}CONJUNTO ESTABILIZANTE PARA SISTEMAS LTI}{21}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}ESTABILIDAD PARA UN SISTEMA LTI}{21}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}CONJUNTO ESTABILIZANTE}{24}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Incidencia de $\mathcal {S}$ en la estabilidad de un lazo de control}{26}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Escenarios din\'amicos viables en $\mathcal {S}$ para el sistema compensado}{28}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}DISE\~NO GR\'AFICO DE CONTROLES A PARTIR DEL C\'ALCULO DE $\mathcal {S}$}{31}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Descripci\'on general de requerimientos}{33}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Nivel superior de detalle}{33}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Partici\'on de primer nivel}{34}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Particiones de segundo nivel}{35}{figure.caption.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Selecci\'on de herramienta para implementaci\'on}{36}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Descripci\'on de interfaz dise\~nada}{38}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}MODELADO MATEM\'ATICO DEL DRON}{40}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}VEH\'ICULOS A\'EREOS NO TRIPULADOS}{40}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Mecanismo de vuelo}{41}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Control del sistema}{41}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Sens\'orica}{41}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}Aplicaciones}{42}{subsection.3.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}COORDENADAS EN EL ESPACIO DE MOVIMIENTO}{42}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}ECUACIONES DEL MOVIMIENTO}{46}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Movimiento de traslaci\'on}{46}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Movimiento de rotaci\'on}{49}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}Simplificaciones del modelo}{52}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}AN\'ALISIS DEL COMPORTAMIENTO EN LAZO ABIERTO}{53}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}CONTROLADORES PI Y SU CONJUNTO ESTABILIZANTE}{60}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}CONTROLADORES PID}{60}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Reglas de sintonizaci\'on}{61}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}AN\'ALISIS DE ESTABILIDAD PARA UN CONTROLADOR PI}{63}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Sintonizaci\'on PI por \emph {Ziegler \& Nichols}}{64}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Conjunto estabilizante para sistema ante control PI}{66}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}FRAGILIDAD DE CONTROLADORES PI}{68}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Geometr\IeC {\'\i }a para m\'argenes de estabilidad en un controlador PI}{69}{subsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Definici\'on de m\'etrica para calcular distancia a inestabilidad}{72}{subsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}RECOMENDACIONES}{80}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}TRABAJO FUTURO}{81}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}CONCLUSIONES}{82}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{BIBLIOGRAF\'IA}{84}{chapter*.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ANEXOS}{89}{chapter*.35}
+\contentsfinish 

@@ -1,0 +1,33 @@
+\begin{figure}[h!]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+			grid = both, minor tick num=2,
+			title = \textbf{Error computacional},
+			xlabel = N\'umero de nodos,
+			ylabel = P m\'ax KPa,
+			legend pos = outer north east,
+			width=10cm, height=8cm
+		]
+		%\addplot[blue, line width=2pt] {\val};
+		\addplot[
+        scatter,scatter src=explicit symbolic,
+        scatter/classes={
+            a={mark=o,black},
+            b={mark=triangle*,red},
+            c={mark=o,draw=black,fill=black}
+        }
+    ]
+    table[x=x,y=y,meta=label]{
+        x	y	label
+		4560	5.90e-6		a
+		8832	6.78e-6		a
+		17636	7.20e-6		a
+		36280	7.25e-6 	a
+    };
+		%\legend{Te\'orico, Num\'erico};
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Cambio de la presi\'on m\'axima con respecto al refinamiento de malla.}
+	\label{resumErrGP}
+	\end{figure}

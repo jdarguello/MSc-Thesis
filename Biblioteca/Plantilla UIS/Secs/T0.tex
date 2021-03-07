@@ -1,0 +1,72 @@
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+%                              Introducción
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+\nnchapter{INTRODUCCIÓN}
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+Diseñar un controlador, puede considerarse como el arte de determinar la estructura
+y los parámetros de un sistema para modificar a conveniencia el comportamiento
+de otro. En este proceso, llevar a la práctica dicha idea formulada en modo simple,
+implica satisfacer requerimientos con recursos limitados en general.\\
+
+La teoría del control, tanto de tipo clásico como moderno, ha intentado resolver este
+problema de diseño atendiendo diferentes criterios de desempeño que incluyen
+consideraciones de error, criterios de optimalidad, robustez, incertidumbre y
+adaptabilidad.\\
+
+A pesar de los diferentes criterios y puntos de vista que atienden la tarea del diseño
+ de un controlador, siempre será necesario cumplir con una premisa básica: la
+estabilidad del sistema controlado.\\
+
+Bhattacharyya y Keel \myfootcite{Bhatt97} mostraron que aún las estrategias más refinadas
+dediseño de controladores pueden presentar problemas, al no garantizar estabilidad.\\
+
+Estudios complementarios al anterior, incluyen minuciosos trabajos de alta
+componente teórica orientados a formular técnicas refinadas para el cálculo de
+controladores de bajo orden, que garanticen no solamente las premisas requeridas
+de desempeño dinámico para el sistema controlado, sino también el elemento más
+importante: ``\emph{su estabilidad}''.\\
+
+El conjunto estabilizante, se define por tanto como todos los posibles valores de
+parámetro para un controlador, que garantizan las condiciones de estabilidad
+absoluta para el sistema \myfootcite{ Alzate2016}. Estas condiciones de estabilidad absoluta son
+fácilmente verificables en sistemas de bajo orden a través de procedimientos
+simples como el criterio de \emph{Routh-Hurwitz} \myfootcite{ogata2010}. Sin embargo, cuando el orden del
+sistema, o la cantidad de parámetros del controlador aumenta, dichas inecuaciones
+constituyen sistemas no lineales de difícil solución analítica.\ Algunos autores han
+ propuesto  soluciones más generalizadas para resolver este tipo de problemas,
+basadas en el teorema de \emph{Hermite-Bielher} \myfootcite{fernandes2008} \myfootcite{Datta1999} \myfootcite{Bhatt97}.\\
+
+En particular, se han obtenido resultados aplicados sobre plantas típicas ante
+controladores PID, como se referencia en \myfootcite{Elizondo2013} \myfootcite{Oliveira2003} \myfootcite{silva2002}, complementado por análisis de
+lazos de control bajo la acción de retardos en \myfootcite{Farkh2014} \myfootcite{fernandes2008} \myfootcite{Oliveira2003}. Algunas aplicaciones para
+el caso de diseño de controladores sobre convertidores de potencia pueden
+encontrarse en \myfootcite{Bhattachar1994} \myfootcite{Datta2000} \myfootcite{Loera2014}.\\
+
+Tomando en cuenta lo anterior, se evidencia la importancia del análisis de conjuntos
+estabilizantes en el diseño de un sistema de control para garantizar su operación
+ante distintos escenarios que pueden experimentarse en situaciones prácticas. Por
+tanto, se analizará un caso de estudio ampliamente empleado como lo es el método
+de \emph{Ziegler \& Nichols}, buscando mostrar la relación que tiene su formulación básica
+(expresiones matemáticas y métodos de cálculo) con los conjuntos estabilizantes
+de sus parámetros solución.\\
+
+A partir de la ejecución del presente trabajo de grado, se buscan respuestas ante
+interrogantes como los siguientes: ¿Cómo se relacionan los parámetros de un
+controlador PI calculado por el método de \emph{Ziegler \& Nichols} con su conjunto
+estabilizante? ¿Qué tan propensa al estado de inestabilidad es una planta
+controlada a partir del análisis anterior? ¿Demuestra el método de \emph{Ziegler \& Nichols}
+sensibilidad ante cambios de parámetro del sistema? ¿Es fácil llevar a la
+inestabilidad un sistema controlado mediante un controlador PI diseñado
+empleando el método de \emph{Ziegler \& Nichols}? En otras palabras ¿Qué tan frágil es el
+método para cálculo de controladores PI de \emph{Ziegler \& Nichols}?\\
+
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------

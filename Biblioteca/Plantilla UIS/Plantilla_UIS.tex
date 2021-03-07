@@ -1,0 +1,86 @@
+% ------------------------------------------------------------------------
+%
+% -------------------      Plantilla_UIS.tex       -----------------------
+%
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% Versión de plantilla para realización de informes de trabajo de grado
+% construida para uso de la Universidad Industrial de Santander.
+%
+% Reservados todos los derechos
+%
+% Bucaramanga, Colombia
+%
+% Septiembre 17 de 2018
+%
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+%
+% ------------------------------------------------------------------------
+\documentclass[letter,oneside,12pt,spanish]{report}          % Encabezados
+% ------------------------------------------------------------------------
+\usepackage{uislatexstyleICONTEC}                   % Libreria UIS ICONTEC
+% ------------------------------------------------------------------------
+% Ingrese en este punto las librerías específicas de usuario
+% ------------------------------------------------------------------------
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{subfigure}
+% ------------------------------------------------------------------------
+% Archivo de bibliografía
+% ------------------------------------------------------------------------
+\addbibresource{xbib.bib}
+% ------------------------------------------------------------------------
+\begin{document}                                     % Inicio de documento
+% ------------------------------------------------------------------------
+% Definición silábica de palabras
+% ------------------------------------------------------------------------
+\hyphenation{pro-por-cio-nal di-se-ño}
+% ------------------------------------------------------------------------
+% Elementos previos al contenido del trabajo
+% ------------------------------------------------------------------------
+\input{Secs/P0}   % Portada, contraportada, formato de nota y autorización
+% ------------------------------------------------------------------------
+\input{Secs/dedicatoria}                                     % Dedicatoria
+% ------------------------------------------------------------------------
+\input{Secs/agradecimientos}                             % Agradecimientos
+% ------------------------------------------------------------------------
+\tableofcontents                                      % Tabla de contenido
+% ------------------------------------------------------------------------
+\listoffigures                         % Lista de figuras, tablas y anexos
+\listoftables
+\listofanexo
+% ------------------------------------------------------------------------
+\input{Secs/glosario}                               % Glosario de términos
+% ------------------------------------------------------------------------
+% Contenido del Informe
+% ------------------------------------------------------------------------
+\include{Secs/res}                                               % Resumen
+\include{Secs/abs}                                              % Abstract
+% ------------------------------------------------------------------------
+% Capítulos
+% ------------------------------------------------------------------------
+\input{Secs/T0} % Introducción
+\input{Secs/T1} % Objetivos
+\input{Secs/T2} % Conjunto estabilizante para sistemas LTI
+\input{Secs/T3} % Modelo matemático del DRON
+\input{Secs/T4} % Controladores PI y su conjunto estabilizante
+\input{Secs/T5} % Recomendaciones
+\input{Secs/T6} % Trabajo futuro
+\input{Secs/T7} % Conclusiones
+% ------------------------------------------------------------------------
+% Bibliografía
+% ------------------------------------------------------------------------
+\printbibliography[heading=bibintoc,title={BIBLIOGRAFÍA},omitnumbers=true]
+% ------------------------------------------------------------------------
+% Anexos
+% ------------------------------------------------------------------------
+\input{Secs/anexoA} % Fundamentos de sólidos rígidos
+\input{Secs/anexoB} % Función ode45 de MATLAB
+\input{Secs/anexoC} % Interfaz de animación de la dinámica del sistema
+% ------------------------------------------------------------------------
+\end{document}                                          % Fin de documento
+% ------------------------------------------------------------------------ 

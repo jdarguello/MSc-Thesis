@@ -1,0 +1,51 @@
+\begin{figure}[h!]
+\centering
+\begin{forest}
+  pic dir tree,
+  where level=0{}{% folder icons by default; override using file for file icons
+    directory,
+  },
+  [CFD-DEM Software
+    [App
+      [{CFD\_DEM}
+        [CF.py, file
+        ]
+        [CFD.py, file
+        ]
+        [CFDEM.py, file
+        ]
+        [Geom.py, file
+        ]        
+        [Malla.py, file
+        ]
+      ]
+      [Generalidades
+        [Lamelas.py, file
+        ]
+        [Propiedades.py, file
+        ]
+        [Read.py, file
+        ]
+      ]
+      [Sedimentaci\'on
+        [Inicial.py, file
+        ]      
+        [ParOper.py, file
+        ]
+        [Resultados.py, file
+        ]
+      ]
+    ]
+    [{CFD\_DEM}
+    ]
+    [OpenFOAM
+    ]
+    [Validaci\'on
+    ]
+    [Presentation.ipynb, file
+    ]
+  ]
+\end{forest}
+\caption{\'Arbol de directorios.}
+\label{particion}
+\end{figure}

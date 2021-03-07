@@ -1,0 +1,20 @@
+\subsection{Metodolog\'ia CFD} \label{MetCFD}
+
+\input{pimpleLogic}
+
+\noindent
+\justify
+
+La simulaci\'on se desarrolla usando el solucionador \texttt{pimpleFOAM}, de OpenFOAM. Desde un punto de vista de \textit{mec\'anica de fluidos computacional}, el problema presenta un flujo con las siguientes caracter\'isticas:
+
+\begin{itemize}
+	\item Laminar.
+	\item Incompresible.
+	\item Transitorio.
+	\item Fluido newtoniano.
+\end{itemize}
+
+\noindent
+\justify
+
+Trat\'andose de un problema bidimensional, \texttt{pimpleFOAM} soluciona la Ecuaci\'on \ref{2D}. La l\'ogica de soluci\'on detr\'as del solucionador se puede apreciar en la Figura \ref{pimpleLog}.

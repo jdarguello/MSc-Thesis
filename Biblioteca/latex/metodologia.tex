@@ -1,0 +1,75 @@
+% Define block styles: decision, block, line, cloud, blockTwo
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+       text width=7em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+       text width=7em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{blockConc} = [rectangle, draw, fill=orange!20, 
+       text width=7em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{empty} = [rectangle, draw, white, fill=white, 
+       text width=-4em, text centered, rounded corners, minimum height=-4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,
+       minimum height=2em]
+\tikzstyle{blockTwo} = [rectangle, draw, fill=blue!20, 
+       text width=3em, text centered, rounded corners, minimum height=4em]
+
+\begin{figure}[h!]
+\centering
+\begin{adjustbox}{max width=\textwidth}
+\begin{tikzpicture}[scale=1, node distance = 2cm, auto]
+       % Place nodes
+       \node [block] (init) {Recopilaci\'on de datos};
+       \node [cloud, left of=init] (fluid) {Fluido};
+       \node [cloud, right of=init, node distance=3.5cm] (part) {Part\'iculas};
+       \node [block, below of=init, node distance=3cm] (reco) {Calcular propiedades del fluido};
+       \node [block, below of=reco, node distance=3cm] (velsed) {Calcular velocidad m\'axima de sedimentaci\'on $\left(U_{max} \right)$};
+       \node [block, below of=velsed, node distance=3cm] (geo) {Definir geometr\'ia de lamelas};
+       \node [block, below of=geo, node distance=3cm] (ancho) {Calcular ancho del sedimentador};
+       \node [block, below of=ancho, node distance=3cm] (Re) {Calcular $Re$ y $v_0$ en una lamela};
+       \node [decision, below of=Re] (ReM) {?`$Re \leq 500$?};
+       \node [decision, right of=ReM, node distance=4cm] (velF) {?`$v_0 \geq U_{max}$?};
+       \node [empty, left of=ReM, node distance=4.5cm] (red) {};
+       \node [block, right of=velF, node distance=4.5cm] (geoI) {Definir geometr\'ia de entrada y tolva de sedimentos};
+       \node [block, above of=geoI, node distance=4.5cm] (malla) {Discretizaci\'on del volumen de control};
+       \node [decision, above of=malla, node distance=4cm] (check) {Checkeo de malla: ?`es apta?};
+       \node [empty, right of=check, node distance=4cm] (remalla) {};
+       \node [block, above of=check, node distance=4cm] (cf) {Definir condiciones de frontera};
+       \node [block, above of=cf, node distance=4cm] (cfd) {Simulaci\'on CFD};
+	   \node [decision, right of=cfd, node distance=4cm] (res) {?`Error mayor al $3.5 \%$?};
+	   \node [block, right of=res, node distance=4cm] (cfdem) {Simulaci\'on CFD-DEM};
+	   \node [blockConc, below of=cfdem, node distance=4cm] (conc) {An\'alisis de resultados y conclusiones};     
+       
+       %\draw (-1.58,-16) -- (-2.5,-16) -- (-2.5, -3) -- (-1.58,-3);
+       
+       %\node [left of=decide, node distance = 2.5cm] (intermedio)
+       % Draw edges
+       \path [line] (init) -- (reco);
+       \path [line] (reco) -- (velsed);
+       \path [line] (velsed) -- (geo);
+       \path [line] (geo) -- (ancho);
+       \path [line] (ancho) -- (Re);
+       \path [line] (Re) -- (ReM);
+       \path [line] (ReM) -- node {s\'i} (velF);
+       %\path [line] (update) |- (identify);
+       \path [line] (ReM) -| node [near start] {no}(red);
+       \path [line] (red) |- (geo);
+       \path [line] (velF) |- node [near start] {s\'i}(geo);
+       \path [line] (velF) -- node {no} (geoI);
+       \path [line] (geoI) -- (malla);
+       \path [line] (malla) -- (check);
+       \path [line] (check) -- node {no} (remalla);
+       \path [line] (remalla) |- (malla);
+       \path [line] (check) -- node {s\'i} (cf);
+       \path [line] (cf) -- (cfd);
+       \path [line] (cfd) -- (res);
+       \path [line] (res) |- node [near start] {s\'i}(malla);
+       \path [line] (res) -- node {no} (cfdem);
+       \path [line] (cfdem) -- (conc);
+       \path [line,dashed] (fluid) -- (init);
+       \path [line,dashed] (part) -- (init);
+       %\path [line] (res.west) -- (decide.west);
+\end{tikzpicture}
+\end{adjustbox}
+\caption{Esquema de la metodolog\'ia de dise\~no del presente trabajo.}
+\label{metodologia}
+\end{figure}

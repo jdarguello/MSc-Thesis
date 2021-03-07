@@ -1,0 +1,135 @@
+\subparagraph{Trayectoria de una part\'icula en una lamela}
+
+\noindent
+\justify
+
+En la pr\'actica, en sistemas de sedimentaci\'on de placas inclinadas, el \textit{estrangulamiento} que sufre el flujo en la entrada de la lamela incrementa la velocidad del fluido y, de manera impl\'icita, acelera las part\'iculas en esta misma direcci\'on. Esta aceleraci\'on se opone al peso de la part\'icula; impidiendo que la sedimentaci\'on se produzca sino hasta el punto en que la part\'icula s\'olida alcanza el equilibrio din\'amico con en el medio circundante gracias al comportamiento laminar del flujo. Es debido a ello que la Ecuaci\'on \ref{Uas} representa la velocidad de asentamiento m\'axima posible que podr\'ia alcanzar una part\'icula durante el proceso de sedimentaci\'on; siendo esta velocidad variable durante todo su recorrido dentro de la lamela.
+
+\noindent
+\justify
+
+Es posible predecir una trayectoria \textit{aproximada} de una part\'icula$^{\cite{Yao1970}}$ con base en la simplificaci\'on adoptada en la secci\'on \ref{hidroD} y al an\'alisis cinem\'atico empleado en la secci\'on \ref{carga}. Conociendo el comportamiento de las velocidades en las componentes $x$ y $y$ (ver Figura \ref{vel_particula}), se obtiene la siguiente ecuaci\'on diferencial:
+
+\begin{equation}
+	v = \frac{dx}{dt}; \, u = \frac{dy}{dt}
+	\label{EDs}
+\end{equation}
+
+\noindent
+\justify
+
+Combinando las Ecuaciones \ref{v}, \ref{u} y \ref{EDs}; se tiene:
+
+\begin{equation}
+	\frac{dy}{dx} = \frac{-U \cos \theta}{v(y)-U \sin \theta}
+	\label{GeneralED}
+\end{equation}
+
+\noindent
+\justify
+
+Al integrar la Ecuaci\'on \ref{GeneralED}, se obtiene:
+
+\begin{equation}
+	\int v(y) dy - U \, y \sin \theta + U \, x \cos \theta = C_0
+	\label{GeneralI}
+\end{equation}
+
+\noindent
+\justify
+
+Para manejar un enfoque \textit{adimensional}, se subdivide la Ecuaci\'on \ref{GeneralI} por $v_0 \, b$; siendo $v_0$ la velociadad de flujo promedio y $b$ la profundidad del flujo.
+
+\begin{equation}
+	\int \frac{v (y)}{v_0} dY - \frac{U}{v_0} \, Y \sin \theta + \frac{U}{v_0} \, X \cos \theta = C_1
+	\label{GeneralAD}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde: $C_1$ corresponde a la constante de integraci\'on ajustada, $Y = \frac{y}{b}$ y $X = \frac{x}{b}$. El valor de $C_1$ y de $\int \frac{v (y)}{v_0} dY$ se puede evaluar para una trayectoria particular.
+
+\noindent
+\justify
+
+Streeter$^{\cite{streeter1951fluid}}$ estipula que el perfil de velocidades de un flujo laminar, que pasa a trav\'es de placas paralelas, presenta el comportamiento descrito en la Ecuaci\'on \ref{streeter}.
+
+\begin{equation}
+	\frac{v (y)}{v_0} = 6 \left(Y - Y^2 \right)
+	\label{streeter}
+\end{equation}
+
+\noindent
+\justify
+
+Relacionando las Ecuaciones \ref{GeneralAD} y \ref{streeter}, se tiene:
+
+\begin{equation}
+	3 Y ^2 - 2 Y ^3 - \frac{U}{v_0} \, Y \sin \theta + \frac{U}{v_0} \, X \cos \theta = C_1
+	\label{solGen} 
+\end{equation}
+
+\noindent
+\justify
+
+La Ecuaci\'on \ref{solGen} define la trayectoria de part\'iculas suspendidas en un flujo laminar dentro de dos placas paralelas. Para el punto $B$ (ver Figura \ref{vel_particula}), punto donde las part\'iculas tienden a culminar su trayectoria, se tiene:
+
+\begin{equation*}
+	X = \frac{L}{b}
+\end{equation*}
+
+\begin{equation*}
+	Y = 0
+\end{equation*}
+
+Reemplazando en la Ecuaci\'on \ref{solGen}, se tiene:
+
+\begin{equation}
+	C_1 = \frac{U}{v_0} \, \frac{L}{b} \cos \theta
+	\label{C11}
+\end{equation}
+
+\noindent
+\justify
+
+Reemplazando la Ecuaci\'on \ref{C11} en la Ecuaci\'on \ref{solGen}, se obtiene:
+
+\begin{equation}
+	\boxed{3 Y ^2 - 2 Y ^3 - \frac{U}{v_0} \, Y \sin \theta + \frac{U}{v_0} \, \left(X- \frac{L}{b} \right) \cos \theta = 0}
+	\label{familyT}
+\end{equation}
+
+\noindent
+\justify
+
+La Ecuaci\'on \ref{familyT} est\'a definida en la literatura$^{\cite{Yao1970, RobertoRojas}}$ como la \textit{``ecuaci\'on de la familia de trayectorias de las part\'iculas"}. Dentro de esta familia de trayectorias existe una trayectoria l\'imite en $O$ (Figura \ref{vel_particula}) que representa la \textit{trayectoria limitante} que define la velocidad cr\'itica de asentamiento $\left( U_ {c} \right)$. Romero$^{\cite{RobertoRojas}}$ estipula que ``toda part\'icula suspendida con una velocidad de asentamiento mayor que, o igual a, dicha velocidad cr\'itica de asentamiento ser\'ia completamente removida en el sedimentador". Las coordenadas del punto $O$ son las siguientes:
+
+\begin{equation*}
+	X = 0
+\end{equation*}
+
+\begin{equation*}
+	Y = \frac{b}{b} = 1
+\end{equation*}
+
+\noindent
+\justify
+
+Reemplazando las coordenadas en la Ecuaci\'on \ref{familyT}, se obtiene:
+
+\begin{equation*}
+	\frac{U_{c}}{v_0} \left(\sin \theta + \frac{L}{b} \cos \theta \right) = 1 \rightarrow
+\end{equation*}
+
+\begin{equation}
+	\rightarrow U_c = \frac{v_0}{\sin \theta + \frac{L}{b} \cos \theta}
+	\label{Uc}
+\end{equation}
+
+\noindent
+\justify
+
+D\'onde: $U_c$ es la velocidad cr\'itca de asentamiento, $v_0$ es la velocidad promedio del flujo en la lamela, $\theta$ es el \'angulo de inclinaci\'on, $L$ es la longitud de la lamela y $b$ es el ancho de la misma. Yao$^{\cite{Yao1970}}$ recomienda emplear una \textit{longitud corregida} (par\'ametro adimensional cuyo valor es superior a la relaci\'on $L/b$) para asegurar una mayor eficiencia en el proceso de sedimentaci\'on.  
+
+

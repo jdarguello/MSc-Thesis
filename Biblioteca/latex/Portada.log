@@ -1,0 +1,1272 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.14)  9 AUG 2020 17:14
+entering extended mode
+**./Portada.tex
+(Portada.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-05-15>
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...y filtrado de una planta de extracci\'on}}}
+                                                  \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 3.
+
+! Undefined control sequence.
+<argument> {\Huge 
+                  Dise\~no del sistema de eluci\'on y filtrado de una planta...
+l.3 ...y filtrado de una planta de extracci\'on}}}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (33.95953pt too wide) in paragraph at lines 3--3
+ []\OT1/cmr/bx/n/10 Dise~no 
+ []
+
+
+Overfull \hbox (14.8541pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 del 
+ []
+
+
+Overfull \hbox (16.09988pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 sis- 
+ []
+
+
+Overfull \hbox (24.91652pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 tema 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 de 
+ []
+
+
+Overfull \hbox (35.29843pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 elucion 
+ []
+
+
+Overfull \hbox (6.06941pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 y 
+ []
+
+
+Overfull \hbox (13.4166pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 fil- 
+ []
+
+
+Overfull \hbox (26.93735pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 trado 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 de 
+ []
+
+
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 una 
+ []
+
+
+Overfull \hbox (31.30534pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 planta 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 de 
+ []
+
+
+Overfull \hbox (15.17354pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 ex- 
+ []
+
+
+Overfull \hbox (40.35394pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 traccion 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...textsc{{\Large Juan David Argüello Plata}}}
+                                                  \\	
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> {\Large 
+                   Juan David Argüello Plata}
+l.5 ...textsc{{\Large Juan David Argüello Plata}}}
+                                                  \\	
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte "FC.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...textsc{{\Large Juan David Argüello Plata}}}
+                                                  \\	
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+Overfull \hbox (24.31235pt too wide) in paragraph at lines 5--5
+ []\OT1/cmr/bx/sc/10 Juan 
+ []
+
+
+Overfull \hbox (29.74287pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/bx/sc/10 David 
+ []
+
+
+Overfull \hbox (36.5901pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/bx/sc/10 Argello 
+ []
+
+
+Overfull \hbox (26.70815pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/bx/sc/10 Plata 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...Large Universidad Industrial de Santander}}
+                                                  \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<recently read> \Large 
+                       
+l.8 ...Large Universidad Industrial de Santander}}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (60.28577pt too wide) in paragraph at lines 8--8
+ []\OT1/cmr/bx/sc/10 Universidad 
+ []
+
+
+Overfull \hbox (14.58325pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/bx/sc/10 In- 
+ []
+
+
+Overfull \hbox (21.1471pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/bx/sc/10 dus- 
+ []
+
+
+Overfull \hbox (21.18738pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/bx/sc/10 trial 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/bx/sc/10 de 
+ []
+
+
+Overfull \hbox (22.20125pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/bx/sc/10 San- 
+ []
+
+
+Overfull \hbox (32.84705pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/bx/sc/10 tander 
+ []
+
+! Undefined control sequence.
+<recently read> \large 
+                       
+l.9 	\large
+            Facultado de Ingenierías Físicomecanicas\\ Escuela de Ingeniería...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 	\large F
+             acultado de Ingenierías Físicomecanicas\\ Escuela de Ingeniería...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no F in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 	\large Facultado de Ingenierías
+                                     Físicomecanicas\\ Escuela de Ingeniería...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no F in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 	\large Facultado de Ingenierías Físi
+                                         comecanicas\\ Escuela de Ingeniería...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...acultado de Ingenierías Físicomecanicas\\ E
+                                                  scuela de Ingeniería Mecán...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...s Físicomecanicas\\ Escuela de Ingeniería M
+                                                  ecánica\\ Maestría en Inge...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...icomecanicas\\ Escuela de Ingeniería Mecáni
+                                                  ca\\ Maestría en Ingenierí...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...anicas\\ Escuela de Ingeniería Mecánica\\ M
+                                                  aestría en Ingeniería Mecá...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...Escuela de Ingeniería Mecánica\\ Maestría e
+                                                  n Ingeniería Mecánica\\
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...eniería Mecánica\\ Maestría en Ingeniería M
+                                                  ecánica\\
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ía Mecánica\\ Maestría en Ingeniería Mecáni
+                                                  ca\\
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 	2
+       020
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 	\newpage
+              	
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{C:/Users/juand/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ... filtrado de una planta de extracci\'on}}}
+                                                  \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<recently read> \Large 
+                       
+l.15 ... filtrado de una planta de extracci\'on}}}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (33.95953pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 Dise~no 
+ []
+
+
+Overfull \hbox (14.8541pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 del 
+ []
+
+
+Overfull \hbox (16.09988pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 sis- 
+ []
+
+
+Overfull \hbox (24.91652pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 tema 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 de 
+ []
+
+
+Overfull \hbox (35.29843pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 elucion 
+ []
+
+
+Overfull \hbox (6.06941pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 y 
+ []
+
+
+Overfull \hbox (13.4166pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 fil- 
+ []
+
+
+Overfull \hbox (26.93735pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 trado 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 de 
+ []
+
+
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 una 
+ []
+
+
+Overfull \hbox (31.30534pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 planta 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 de 
+ []
+
+
+Overfull \hbox (15.17354pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 ex- 
+ []
+
+
+Overfull \hbox (40.35394pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/sc/10 traccion 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 	A
+       utor\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no A in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...extsc{{\Large Juan David Argüello Plata}}}
+                                                  \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> {\Large 
+                   Juan David Argüello Plata}
+l.18 ...extsc{{\Large Juan David Argüello Plata}}}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte "FC.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...extsc{{\Large Juan David Argüello Plata}}}
+                                                  \\
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+Overfull \hbox (24.31235pt too wide) in paragraph at lines 18--18
+ []\OT1/cmr/bx/sc/10 Juan 
+ []
+
+
+Overfull \hbox (29.74287pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/sc/10 David 
+ []
+
+
+Overfull \hbox (36.5901pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/sc/10 Argello 
+ []
+
+
+Overfull \hbox (26.70815pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/sc/10 Plata 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 	I
+       ngeniero Mecánico\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 	Ingeniero Mecáni
+                      co\\
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...de Mag\'ister en Ingenier\'ia Mec\'anica}}
+                                                  \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> {\small 
+                   Trabajo de grado para optar al t\'itulo de Mag\'ister en ...
+l.21 ...de Mag\'ister en Ingenier\'ia Mec\'anica}}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (39.24976pt too wide) in paragraph at lines 21--21
+ []\OT1/cmr/bx/sc/10 Trabajo 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 de 
+ []
+
+
+Overfull \hbox (28.21512pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 grado 
+ []
+
+
+Overfull \hbox (22.3054pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 para 
+ []
+
+
+Overfull \hbox (15.97214pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 op- 
+ []
+
+
+Overfull \hbox (14.79852pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 tar 
+ []
+
+
+Overfull \hbox (8.78465pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 al 
+ []
+
+
+Overfull \hbox (27.47208pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 ttulo 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 de 
+ []
+
+
+Overfull \hbox (44.46642pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 Magster 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 en 
+ []
+
+
+Overfull \hbox (14.58325pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 In- 
+ []
+
+
+Overfull \hbox (14.8541pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 ge- 
+ []
+
+
+Overfull \hbox (28.37485pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 niera 
+ []
+
+
+Overfull \hbox (47.17332pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/sc/10 Mecanica 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 	D
+       irector\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...textsc{\Large Omar Armando Gélvez Arocha}}
+                                                  \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<recently read> \Large 
+                       
+l.24 ...textsc{\Large Omar Armando Gélvez Arocha}}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...textsc{\Large Omar Armando Gélvez Arocha}}
+                                                  \\
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+Overfull \hbox (28.54845pt too wide) in paragraph at lines 24--24
+ []\OT1/cmr/bx/sc/10 Omar 
+ []
+
+
+Overfull \hbox (17.26381pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/sc/10 Ar- 
+ []
+
+
+Overfull \hbox (33.70119pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/sc/10 mando 
+ []
+
+
+Overfull \hbox (19.42351pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/sc/10 Gez 
+ []
+
+
+Overfull \hbox (36.27063pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/sc/10 Arocha 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 	I
+       ngeniero Mecánico M.Sc.\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 	Ingeniero Mecáni
+                      co M.Sc.\\
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no . in font nullfont!
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...arge Universidad Industrial de Santander}}
+                                                  \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<recently read> \Large 
+                       
+l.29 ...arge Universidad Industrial de Santander}}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (60.28577pt too wide) in paragraph at lines 29--29
+ []\OT1/cmr/bx/sc/10 Universidad 
+ []
+
+
+Overfull \hbox (14.58325pt too wide) in paragraph at lines 29--29
+ \OT1/cmr/bx/sc/10 In- 
+ []
+
+
+Overfull \hbox (21.1471pt too wide) in paragraph at lines 29--29
+ \OT1/cmr/bx/sc/10 dus- 
+ []
+
+
+Overfull \hbox (21.18738pt too wide) in paragraph at lines 29--29
+ \OT1/cmr/bx/sc/10 trial 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 29--29
+ \OT1/cmr/bx/sc/10 de 
+ []
+
+
+Overfull \hbox (22.20125pt too wide) in paragraph at lines 29--29
+ \OT1/cmr/bx/sc/10 San- 
+ []
+
+
+Overfull \hbox (32.84705pt too wide) in paragraph at lines 29--29
+ \OT1/cmr/bx/sc/10 tander 
+ []
+
+! Undefined control sequence.
+<recently read> \large 
+                       
+l.30 	\large
+             Facultado de Ingenierías Físicomecanicas\\ Escuela de Ingenierí...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 	\large F
+              acultado de Ingenierías Físicomecanicas\\ Escuela de Ingenierí...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no F in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 	\large Facultado de Ingenierías
+                                      Físicomecanicas\\ Escuela de Ingenierí...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no F in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 	\large Facultado de Ingenierías Físi
+                                          comecanicas\\ Escuela de Ingenierí...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...cultado de Ingenierías Físicomecanicas\\ E
+                                                  scuela de Ingeniería Mecán...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ... Físicomecanicas\\ Escuela de Ingeniería M
+                                                  ecánica\\ Maestría en Inge...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...comecanicas\\ Escuela de Ingeniería Mecáni
+                                                  ca\\ Maestría en Ingenierí...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...nicas\\ Escuela de Ingeniería Mecánica\\ M
+                                                  aestría en Ingeniería Mecá...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...scuela de Ingeniería Mecánica\\ Maestría e
+                                                  n Ingeniería Mecánica\\
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...niería Mecánica\\ Maestría en Ingeniería M
+                                                  ecánica\\
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...a Mecánica\\ Maestría en Ingeniería Mecáni
+                                                  ca\\
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 	2
+       020
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> ./Portada.tex
+                 
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 36 strings out of 480799
+ 620 string characters out of 2905528
+ 240747 words of memory out of 3000000
+ 16139 multiletter control sequences out of 15000+200000
+ 532646 words of font info for 25 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 17i,4n,15p,140b,129s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

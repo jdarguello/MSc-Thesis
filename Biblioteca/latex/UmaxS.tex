@@ -1,0 +1,47 @@
+% Define block styles: decision, block, line, cloud, blockTwo
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+       text width=7em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+       text width=7em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{blockConc} = [rectangle, draw, fill=orange!20, 
+       text width=7em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{empty} = [rectangle, draw, white, fill=white, 
+       text width=-4em, text centered, rounded corners, minimum height=-4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,
+       minimum height=2em]
+\tikzstyle{blockTwo} = [rectangle, draw, fill=blue!20, 
+       text width=3em, text centered, rounded corners, minimum height=4em]
+
+\begin{figure}[h!]
+\centering
+\begin{adjustbox}{max width=0.53\textwidth}
+\begin{tikzpicture}[scale=1, node distance = 2cm, auto]
+       % Place nodes
+       \node [cloud] (init) {C\'alculo de $U_{max}$};
+       \node [block, below of=init, node distance=3cm] (Errac) {Definir criterio de error aceptable: $Err_{ac} \leq 0.01\%$};
+       \node [block, below of=Errac, node distance=3cm] (Uas) {Definir un valor inicial de velocidad: $U_{s}=1$};
+       \node [block, below of=Uas, node distance=3cm] (Res) {Calcular el n\'umero de Reynolds de la part\'icula $Re_s$};
+       \node [block, below of=Res, node distance=3cm] (Carr) {Calcular el coeficiente de arrastre $C$ de la part\'icula};
+       \node [block, below of=Carr, node distance=3cm] (Uc) {Calcular la velocidad m\'axima $U_c$ (Ec. \ref{Uas})};
+       \node [block, below of=Uc, node distance=3cm] (Errc) {$Err_c = \left| \frac{U_c-U_s}{U_c} \right|$};
+       \node [decision, below of=Errc] (comp) {?`$Err_c \leq Err_{ac}$?};
+       \node [block, left of=comp, node distance=4.5cm] (Us) {$U_s = U_c$};
+       \node [blockConc, right of=comp, node distance=4.5cm] (conc) {$U_{max} = U_s$};
+      
+       % Draw edges
+       \path [line] (init) -- (Errac);
+       \path [line] (Errac) -- (Uas);
+       \path [line] (Uas) -- (Res);
+       \path [line] (Res) -- (Carr);
+       \path [line] (Carr) -- (Uc);
+       \path [line] (Uc) -- (Errc);
+       \path [line] (Errc) -- (comp);
+       \path [line] (comp) -- node {no} (Us);
+       \path [line] (Us) |- (Res);
+       \path [line] (comp) -- node {s\'i} (conc);
+\end{tikzpicture}
+\end{adjustbox}
+\caption{Metodolog\'ia de c\'alculo de la velocidad de sedimentaci\'on m\'axima.}
+\label{UmaxS}
+\end{figure}
