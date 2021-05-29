@@ -18,9 +18,9 @@ def clean(dir="OpenFOAM"):
                 sh.rmtree(d)
 
 class FOAM():
-    def __init__(self):       
+    def __init__(self, folder="OpenFOAM", solver="icoFoam"):       
         clean()
-        raw = self.fire()
+        raw = self.fire(folder, solver)
         self.imprime(raw)
         self.view()
     
@@ -38,10 +38,10 @@ class FOAM():
                 print(frase)
         decompose(raw[0])
     
-    def fire(self):
-        os.chdir("OpenFOAM")
+    def fire(self, folder, solver):
+        os.chdir(folder)
         #os.system("icoFoam")
-        p = subprocess.Popen(["icoFoam"], stdout=subprocess.PIPE, shell=True)
+        p = subprocess.Popen([solver], stdout=subprocess.PIPE, shell=True)
         os.chdir("..")
         (output, err) = p.communicate()
         return output, err

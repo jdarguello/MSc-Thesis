@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.3)  2 MAR 2021 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.7)  7 MAR 2021 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1307,1342 +1307,918 @@ Package: forest-lib-edges 2016/12/05 v0.1.1
 )
 \Size=\skip98
 
-(./Maestro.aux (./Portada.aux)
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
- (./Resumen.aux) (./Abstract.aux) (./Intro.aux)
-(./MarcoT.aux) (./Implementar.aux) (./Ress.aux
-
-LaTeX Warning: Label `check' multiply defined.
-
-) (./Analisis.aux) (./Valid.aux) (./Conclusiones.aux) (./Recomendaciones.aux)
-(./Anexos.aux
-
-LaTeX Warning: Label `CamMallaSoft' multiply defined.
-
-
-LaTeX Warning: Label `CamMallaSoft' multiply defined.
-
-))
-\openout1 = `Maestro.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-35.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Info: Redefining \. on input line 135.
-LaTeX Info: Redefining \% on input line 135.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count408
-\scratchdimen=\dimen357
-\scratchbox=\box95
-\nofMPsegments=\count409
-\nofMParguments=\count410
-\everyMPshowfont=\toks64
-\MPscratchCnt=\count411
-\MPscratchDim=\dimen358
-\MPnumerator=\count412
-\makeMPintoPDFobject=\count413
-\everyMPtoPDFconversion=\toks65
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-ABD: EveryShipout initializing macros
-Package pgfplots notification 'compat/show suggested version=true': you might b
-enefit from \pgfplotsset{compat=1.16} (current compat level: 1.8).
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: letterpaper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(113.81102pt, 415.12572pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=415.12572pt
-* \textheight=624.25346pt
-* \oddsidemargin=41.54103pt
-* \evensidemargin=41.54103pt
-* \topmargin=-23.91173pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 135.
-LaTeX Info: Redefining \celsius on input line 135.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 135
-.
-
-
-Package gensymb Warning: Not defining \perthousand.
-
-LaTeX Info: Redefining \ohm on input line 135.
-Package gensymb Info: Using \Omega for \ohm on input line 135.
-
-Package gensymb Warning: Not defining \micro.
-
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
-Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box96
-Package hyperref Info: Link coloring OFF on input line 135.
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
-
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count414
-)
-LaTeX Info: Redefining \ref on input line 135.
-LaTeX Info: Redefining \pageref on input line 135.
-LaTeX Info: Redefining \nameref on input line 135.
-
-(./Maestro.out) (./Maestro.out)
-\@outlinefile=\write7
-\openout7 = `Maestro.out'.
-
-\openout2 = `Portada.aux'.
-
- (./Portada.tex
-
-LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
-(Font)              using `OT1/lmr/bx/n' instead on input line 3.
-
-[1
-Non-PDF special ignored!
-<special> header=pstricks.pro
-Non-PDF special ignored!
-<special> header=pst-algparser.pro
-Non-PDF special ignored!
-<special> header=pst-tools.pro
-Non-PDF special ignored!
-<special> header=pst-dots.pro
-Non-PDF special ignored!
-<special> header=pst-node.pro
-
-Non-PDF special ignored!
-<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
-Non-PDF special ignored!
-<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
-Non-PDF special ignored!
-<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
-Non-PDF special ignored!
-<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[2]) (./Maestro.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-.
- (/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-3.
-
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-3.
-
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 3.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
-
-
-Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
-Make it at least 15.95134pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.47 ...ncional te\'orico}{51}{paragraph.2.14.2.1}
-                                                  % [1
-
-])
-\tf@toc=\write8
-\openout8 = `Maestro.toc'.
-
- (./Maestro.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.12 ...t\'iculas.\relax }}{24}{figure.caption.20}
-                                                  % [2]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-21.
-
-(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Overfull \hbox (181.64523pt too wide) in paragraph at lines 23--23
- [][] [][]\OT1/lmr/m/n/12 Interfaz gr^^Safi-ca de ejem-plo desa-rro-lla-da con 
-Jupy-ter. Fuen-te: https://jupyterlab.readthedocs.io/en/latest/[] [][]  
- []
-
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
-[3])
-\tf@lof=\write9
-\openout9 = `Maestro.lof'.
-
-LaTeX Info: Redefining \. on input line 139.
-LaTeX Info: Redefining \% on input line 139.
-LaTeX Info: Redefining \. on input line 139.
-LaTeX Info: Redefining \% on input line 139.
- [4]
-\openout2 = `Resumen.aux'.
-
- (./Resumen.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 35.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 35.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 35.
-)
-LaTeX Info: Redefining \. on input line 139.
-LaTeX Info: Redefining \% on input line 139.
-LaTeX Info: Redefining \. on input line 139.
-LaTeX Info: Redefining \% on input line 139.
- [5
-
-]
-\openout2 = `Abstract.aux'.
-
- (./Abstract.tex)
-LaTeX Info: Redefining \. on input line 140.
-LaTeX Info: Redefining \% on input line 140.
-LaTeX Info: Redefining \. on input line 140.
-LaTeX Info: Redefining \% on input line 140.
- [6
-
-
-]
-\openout2 = `Intro.aux'.
-
- (./Intro.tex
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
- [7
-
-
-]
-(./dummies.tex (./plant_extraction.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
- [8]
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
- [9]
-<Images/Planta.png, id=538, 1122.1925pt x 687.56876pt>
-File: Images/Planta.png Graphic file (type png)
-<use Images/Planta.png>
-Package pdftex.def Info: Images/Planta.png  used on input line 36.
-(pdftex.def)             Requested size: 415.12572pt x 254.344pt.
-
-
-LaTeX Warning: Reference `CFD-DEM' on page 10 undefined on input line 49.
-
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
-[10 <./Images/Planta.png>]
-Underfull \hbox (badness 1448) in paragraph at lines 68--68
-[]|\OT1/lmr/m/n/12 Explica de for-ma de-ta-lla-da la
- []
-
-
-Underfull \hbox (badness 2744) in paragraph at lines 71--71
-[]|\OT1/lmr/m/n/12 Resuelve, me-dian-te el m^^Seto-do
- []
-
-
-Underfull \hbox (badness 6348) in paragraph at lines 74--74
-\OT1/lmr/m/n/12 rro-lla-do con he-rra-mien-tas de
- []
-
-))
-LaTeX Info: Redefining \. on input line 142.
-LaTeX Info: Redefining \% on input line 142.
-LaTeX Info: Redefining \. on input line 142.
-LaTeX Info: Redefining \% on input line 142.
- [11]
-\openout2 = `MarcoT.aux'.
-
- (./MarcoT.tex (./Extraction/MSPD.tex
-<Images/mspd.PNG, id=558, 383.93437pt x 371.88937pt>
-File: Images/mspd.PNG Graphic file (type png)
-<use Images/mspd.PNG>
-Package pdftex.def Info: Images/mspd.PNG  used on input line 21.
-(pdftex.def)             Requested size: 332.10184pt x 321.70258pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
-[12
-
-
-]
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
- [13 <./Images/mspd.PNG>]) (./CFD.tex
-LaTeX Info: Redefining \. on input line 17.
-LaTeX Info: Redefining \% on input line 17.
-LaTeX Info: Redefining \. on input line 17.
-LaTeX Info: Redefining \% on input line 17.
- [14]
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
- [15]
-PGFPlots: reading {malla.txt}
-Missing character: There is no ; in font nullfont!
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 176.
-LaTeX Info: Redefining \% on input line 176.
-LaTeX Info: Redefining \. on input line 176.
-LaTeX Info: Redefining \% on input line 176.
-[16]
-\c@contx=\count415
-\c@conty=\count416
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 259.
-LaTeX Info: Redefining \% on input line 259.
-LaTeX Info: Redefining \. on input line 259.
-LaTeX Info: Redefining \% on input line 259.
-[17]) (./DEM.tex
-<Images/DEM.PNG, id=619, 356.33125pt x 130.4875pt>
-File: Images/DEM.PNG Graphic file (type png)
-<use Images/DEM.PNG>
-Package pdftex.def Info: Images/DEM.PNG  used on input line 11.
-(pdftex.def)             Requested size: 415.12572pt x 152.02463pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-[18]
-
-LaTeX Warning: Command \O invalid in math mode on input line 57.
-
-
-LaTeX Warning: Command \O invalid in math mode on input line 57.
-
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
-[19 <./Images/DEM.PNG>]
-
-LaTeX Warning: Command \O invalid in math mode on input line 62.
-
-
-LaTeX Warning: Command \O invalid in math mode on input line 62.
-
-<Images/Colision.PNG, id=644, 458.21187pt x 269.50688pt>
-File: Images/Colision.PNG Graphic file (type png)
-<use Images/Colision.PNG>
-Package pdftex.def Info: Images/Colision.PNG  used on input line 68.
-(pdftex.def)             Requested size: 373.61061pt x 219.75513pt.
-
-LaTeX Warning: Command \O invalid in math mode on input line 84.
-
-
-LaTeX Warning: Command \O invalid in math mode on input line 84.
-
-) (./CFDDEM.tex
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
- [20 <./Images/Colision.PNG>]
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
- [21] (./malla.tex)
-LaTeX Info: Redefining \. on input line 53.
-LaTeX Info: Redefining \% on input line 53.
-LaTeX Info: Redefining \. on input line 53.
-LaTeX Info: Redefining \% on input line 53.
- [22]
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
- [23]
-<Images/normal.png, id=697, 622.325pt x 486.81876pt>
-File: Images/normal.png Graphic file (type png)
-<use Images/normal.png>
-Package pdftex.def Info: Images/normal.png  used on input line 74.
-(pdftex.def)             Requested size: 166.04774pt x 129.8903pt.
-<Images/tangencial.png, id=698, 509.905pt x 488.82625pt>
-File: Images/tangencial.png Graphic file (type png)
-<use Images/tangencial.png>
-Package pdftex.def Info: Images/tangencial.png  used on input line 79.
-(pdftex.def)             Requested size: 132.8387pt x 127.34541pt.
-LaTeX Info: Redefining \. on input line 125.
-LaTeX Info: Redefining \% on input line 125.
-LaTeX Info: Redefining \. on input line 125.
-LaTeX Info: Redefining \% on input line 125.
-
-[24 <./Images/normal.png> <./Images/tangencial.png>]) (./Sedimentacion.tex
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-
-[25]
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
- [26]
-<Images/lamelas_inclinadas.png, id=739, 827.09pt x 411.5375pt>
-File: Images/lamelas_inclinadas.png Graphic file (type png)
-<use Images/lamelas_inclinadas.png>
-Package pdftex.def Info: Images/lamelas_inclinadas.png  used on input line 47.
-(pdftex.def)             Requested size: 415.12572pt x 206.55946pt.
- (./lamela.tex
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-)
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
- [27 <./Images/lamelas_inclinadas.png>]
-LaTeX Info: Redefining \. on input line 119.
-LaTeX Info: Redefining \% on input line 119.
-LaTeX Info: Redefining \. on input line 119.
-LaTeX Info: Redefining \% on input line 119.
- [28]
-LaTeX Info: Redefining \. on input line 173.
-LaTeX Info: Redefining \% on input line 173.
-LaTeX Info: Redefining \. on input line 173.
-LaTeX Info: Redefining \% on input line 173.
- [29] (./hidrodinamica.tex
-(./partF.tex)
-LaTeX Info: Redefining \. on input line 16.
-LaTeX Info: Redefining \% on input line 16.
-LaTeX Info: Redefining \. on input line 16.
-LaTeX Info: Redefining \% on input line 16.
- [30]) (./carga.tex (./vel_particula.tex
-LaTeX Info: Redefining \. on input line 97.
-LaTeX Info: Redefining \% on input line 97.
-LaTeX Info: Redefining \. on input line 97.
-LaTeX Info: Redefining \% on input line 97.
- [31])
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
- [32])
-(./trayectoria.tex
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
- [33]
-LaTeX Info: Redefining \. on input line 107.
-LaTeX Info: Redefining \% on input line 107.
-LaTeX Info: Redefining \. on input line 107.
-LaTeX Info: Redefining \% on input line 107.
- [34]) (./simplificadoM.tex
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
- [35]
-
-LaTeX Warning: Reference `Re' on page 36 undefined on input line 73.
-
-LaTeX Info: Redefining \. on input line 75.
-LaTeX Info: Redefining \% on input line 75.
-LaTeX Info: Redefining \. on input line 75.
-LaTeX Info: Redefining \% on input line 75.
-[36]) (./enTolva.tex
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
- [37])))
-LaTeX Info: Redefining \. on input line 144.
-LaTeX Info: Redefining \% on input line 144.
-LaTeX Info: Redefining \. on input line 144.
-LaTeX Info: Redefining \% on input line 144.
- [38]
-\openout2 = `Implementar.aux'.
-
- (./Implementar.tex (./metodologia.tex
-Overfull \hbox (46.99933pt too wide) in paragraph at lines 31--31
- [][][][] 
- []
-
-
-Overfull \hbox (46.99933pt too wide) in paragraph at lines 35--35
- [][][][] 
- []
-
-)
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
- [39
-
-
-] (./PropFluido.tex)
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
- [40] (./UmaxS.tex)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
-[41]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 88.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 88.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 88.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 88.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 88.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 88.
-
-(./CF.tex
-LaTeX Info: Redefining \. on input line 4.
-LaTeX Info: Redefining \% on input line 4.
-LaTeX Info: Redefining \. on input line 4.
-LaTeX Info: Redefining \% on input line 4.
- [42] (./GeneracionP.tex
-Overfull \hbox (15.75809pt too wide) in paragraph at lines 9--9
-[][][]$[]$[]  
- []
-
-
-Overfull \hbox (16.36127pt too wide) in paragraph at lines 13--13
-[][][]$[] \OT1/lmr/m/n/12 + 
- []
-
-
-Overfull \hbox (12.48624pt too wide) in paragraph at lines 13--13
-[]$[]  
- []
-
-) (./ConFron.tex)) (./SimuCFD.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [43] (./pimpleLogic.tex)
-
-LaTeX Warning: Reference `2D' on page 44 undefined on input line 20.
-
-)
-LaTeX Info: Redefining \. on input line 120.
-LaTeX Info: Redefining \% on input line 120.
-LaTeX Info: Redefining \. on input line 120.
-LaTeX Info: Redefining \% on input line 120.
- [44] (./CFDEMeth.tex
-Overfull \hbox (46.99933pt too wide) in paragraph at lines 30--30
- [][][][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-)
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
- [45] (./software.tex
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
- [46]
-<Images/jupyterlab.png, id=1016, 1284.8pt x 722.7pt>
-File: Images/jupyterlab.png Graphic file (type png)
-<use Images/jupyterlab.png>
-Package pdftex.def Info: Images/jupyterlab.png  used on input line 17.
-(pdftex.def)             Requested size: 415.12572pt x 233.5073pt.
-
-Underfull \hbox (badness 1817) in paragraph at lines 18--18
-[]\OT1/lmr/m/n/12 Figura 22: |In-ter-faz gr^^Safi-ca de ejem-plo desa-rro-lla-d
-a con Jupy-ter. Fuen-te:
- []
-
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
-[47 <./Images/jupyterlab.png>]
-<Images/interfaz.png, id=1024, 912.40875pt x 939.51pt>
-File: Images/interfaz.png Graphic file (type png)
-<use Images/interfaz.png>
-Package pdftex.def Info: Images/interfaz.png  used on input line 34.
-(pdftex.def)             Requested size: 415.12572pt x 427.44905pt.
-<Images/interfaz2.png, id=1025, 910.40125pt x 929.4725pt>
-File: Images/interfaz2.png Graphic file (type png)
-<use Images/interfaz2.png>
-Package pdftex.def Info: Images/interfaz2.png  used on input line 47.
-(pdftex.def)             Requested size: 415.12572pt x 423.83252pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 53.
-LaTeX Info: Redefining \% on input line 53.
-LaTeX Info: Redefining \. on input line 53.
-LaTeX Info: Redefining \% on input line 53.
-[48 <./Images/interfaz.png>]
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
- [49 <./Images/interfaz2.png>] (./dirTree.tex)
-LaTeX Info: Redefining \. on input line 68.
-LaTeX Info: Redefining \% on input line 68.
-LaTeX Info: Redefining \. on input line 68.
-LaTeX Info: Redefining \% on input line 68.
-
-[50]
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
- [51]))
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
- [52]
-\openout2 = `Ress.aux'.
-
- (./Ress.tex
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
-[53
-
-
-] (./geometry.tex)
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
- [54] (./Mallado.tex
-<Images/CFDEM/malla.png, id=1094, 894.34125pt x 516.93124pt>
-File: Images/CFDEM/malla.png Graphic file (type png)
-<use Images/CFDEM/malla.png>
-Package pdftex.def Info: Images/CFDEM/malla.png  used on input line 10.
-(pdftex.def)             Requested size: 415.12572pt x 239.9446pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
-[55 <./Images/CFDEM/malla.png>])
-LaTeX Info: Redefining \. on input line 116.
-LaTeX Info: Redefining \% on input line 116.
-LaTeX Info: Redefining \. on input line 116.
-LaTeX Info: Redefining \% on input line 116.
- [56]
-<Images/CFD/vel1.png, id=1121, 459.7175pt x 717.68124pt>
-File: Images/CFD/vel1.png Graphic file (type png)
-<use Images/CFD/vel1.png>
-Package pdftex.def Info: Images/CFD/vel1.png  used on input line 127.
-(pdftex.def)             Requested size: 136.99223pt x 213.8605pt.
-<Images/CFD/p1.png, id=1122, 458.71375pt x 716.6775pt>
-File: Images/CFD/p1.png Graphic file (type png)
-<use Images/CFD/p1.png>
-Package pdftex.def Info: Images/CFD/p1.png  used on input line 134.
-(pdftex.def)             Requested size: 136.99223pt x 214.03165pt.
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
- [57 <./Images/CFD/vel1.png> <./Images/CFD/p1.png>]
-Overfull \hbox (3.48215pt too wide) in paragraph at lines 148--156
- [][] 
- []
-
-(./resumErrG.tex) (./resumErrGP.tex
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-)
-LaTeX Info: Redefining \. on input line 179.
-LaTeX Info: Redefining \% on input line 179.
-LaTeX Info: Redefining \. on input line 179.
-LaTeX Info: Redefining \% on input line 179.
- [58]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Images/CFDEM/simu1.png, id=1145, 462.72874pt x 718.685pt>
-File: Images/CFDEM/simu1.png Graphic file (type png)
-<use Images/CFDEM/simu1.png>
-Package pdftex.def Info: Images/CFDEM/simu1.png  used on input line 232.
-(pdftex.def)             Requested size: 207.56285pt x 322.37444pt.
-LaTeX Info: Redefining \. on input line 235.
-LaTeX Info: Redefining \% on input line 235.
-LaTeX Info: Redefining \. on input line 235.
-LaTeX Info: Redefining \% on input line 235.
-[59]
-<Images/CFDEM/vel.png, id=1154, 462.72874pt x 717.68124pt>
-File: Images/CFDEM/vel.png Graphic file (type png)
-<use Images/CFDEM/vel.png>
-Package pdftex.def Info: Images/CFDEM/vel.png  used on input line 244.
-(pdftex.def)             Requested size: 174.35204pt x 270.41106pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Images/CFDEM/p.png, id=1155, 460.72125pt x 720.6925pt>
-File: Images/CFDEM/p.png Graphic file (type png)
-<use Images/CFDEM/p.png>
-Package pdftex.def Info: Images/CFDEM/p.png  used on input line 251.
-(pdftex.def)             Requested size: 174.35204pt x 272.73332pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-)
-LaTeX Info: Redefining \. on input line 146.
-LaTeX Info: Redefining \% on input line 146.
-LaTeX Info: Redefining \. on input line 146.
-LaTeX Info: Redefining \% on input line 146.
- [60 <./Images/CFDEM/simu1.png>]
-
-LaTeX Warning: Text page 61 contains only floats.
-
-
-Overfull \vbox (3.89088pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 146.
-LaTeX Info: Redefining \% on input line 146.
-LaTeX Info: Redefining \. on input line 146.
-LaTeX Info: Redefining \% on input line 146.
-
-[61 <./Images/CFDEM/vel.png> <./Images/CFDEM/p.png>]
-\openout2 = `Analisis.aux'.
-
- (./Analisis.tex
-<Images/CFDEM/residuals.png, id=1175, 1833.85126pt x 951.555pt>
-File: Images/CFDEM/residuals.png Graphic file (type png)
-<use Images/CFDEM/residuals.png>
-Package pdftex.def Info: Images/CFDEM/residuals.png  used on input line 32.
-(pdftex.def)             Requested size: 415.12572pt x 215.39738pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
-[62
-
-
-])
-LaTeX Info: Redefining \. on input line 147.
-LaTeX Info: Redefining \% on input line 147.
- [63 <./Images/CFDEM/residuals.png>]
-\openout2 = `Valid.aux'.
-
- (./Valid.tex
-<Images/Fessler.PNG, id=1191, 879.285pt x 200.75pt>
-File: Images/Fessler.PNG Graphic file (type png)
-<use Images/Fessler.PNG>
-Package pdftex.def Info: Images/Fessler.PNG  used on input line 12.
-(pdftex.def)             Requested size: 311.34428pt x 71.08142pt.
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
- [64
-
-
- <./Images/Fessler.png>]
-<Images/experimento.png, id=1208, 662.475pt x 843.15pt>
-File: Images/experimento.png Graphic file (type png)
-<use Images/experimento.png>
-Package pdftex.def Info: Images/experimento.png  used on input line 72.
-(pdftex.def)             Requested size: 290.58673pt x 369.82925pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
-[65]
-LaTeX Info: Redefining \. on input line 115.
-LaTeX Info: Redefining \% on input line 115.
-LaTeX Info: Redefining \. on input line 115.
-LaTeX Info: Redefining \% on input line 115.
- [66 <./Images/experimento.png>]
-<Images/pedestal.png, id=1232, 1068.99374pt x 757.83125pt>
-File: Images/pedestal.png Graphic file (type png)
-<use Images/pedestal.png>
-Package pdftex.def Info: Images/pedestal.png  used on input line 153.
-(pdftex.def)             Requested size: 282.28244pt x 200.11894pt.
-LaTeX Info: Redefining \. on input line 162.
-LaTeX Info: Redefining \% on input line 162.
-LaTeX Info: Redefining \. on input line 162.
-LaTeX Info: Redefining \% on input line 162.
- [67 <./Images/pedestal.png>]
-LaTeX Info: Redefining \. on input line 196.
-LaTeX Info: Redefining \% on input line 196.
-LaTeX Info: Redefining \. on input line 196.
-LaTeX Info: Redefining \% on input line 196.
- [68]
-<Images/contour1999.png, id=1251, 1666.225pt x 522.95375pt>
-File: Images/contour1999.png Graphic file (type png)
-<use Images/contour1999.png>
-Package pdftex.def Info: Images/contour1999.png  used on input line 202.
-(pdftex.def)             Requested size: 415.12572pt x 130.28326pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 203.
-<Images/valvel.png, id=1254, 776.9025pt x 137.51375pt>
-File: Images/valvel.png Graphic file (type png)
-<use Images/valvel.png>
-Package pdftex.def Info: Images/valvel.png  used on input line 208.
-(pdftex.def)             Requested size: 415.12572pt x 73.47995pt.
-<Images/valp.png, id=1257, 780.9175pt x 134.5025pt>
-File: Images/valp.png Graphic file (type png)
-<use Images/valp.png>
-Package pdftex.def Info: Images/valp.png  used on input line 224.
-(pdftex.def)             Requested size: 415.12572pt x 71.4994pt.
-<Images/valk.png, id=1258, 775.89874pt x 131.49126pt>
-File: Images/valk.png Graphic file (type png)
-<use Images/valk.png>
-Package pdftex.def Info: Images/valk.png  used on input line 230.
-(pdftex.def)             Requested size: 415.12572pt x 70.35213pt.
-<Images/valpar.png, id=1260, 779.91376pt x 137.51375pt>
-File: Images/valpar.png Graphic file (type png)
-<use Images/valpar.png>
-Package pdftex.def Info: Images/valpar.png  used on input line 244.
-(pdftex.def)             Requested size: 456.64081pt x 80.51341pt.
-
-Overfull \hbox (41.51509pt too wide) in paragraph at lines 244--245
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 253.
-LaTeX Info: Redefining \% on input line 253.
-LaTeX Info: Redefining \. on input line 253.
-LaTeX Info: Redefining \% on input line 253.
-[69 <./Images/contour1999.png> <./Images/valvel.png> <./Images/valp.png> <./Ima
-ges/valk.png>]
-<Images/val.png, id=1270, 1088.065pt x 231.86626pt>
-File: Images/val.png Graphic file (type png)
-<use Images/val.png>
-Package pdftex.def Info: Images/val.png  used on input line 256.
-(pdftex.def)             Requested size: 456.64081pt x 97.3124pt.
-
-Overfull \hbox (41.51509pt too wide) in paragraph at lines 256--257
- [][] 
- []
-
-)
-LaTeX Info: Redefining \. on input line 148.
-LaTeX Info: Redefining \% on input line 148.
-LaTeX Info: Redefining \. on input line 148.
-LaTeX Info: Redefining \% on input line 148.
- [70 <./Images/valpar.png> <./Images/val.png>]
-\openout2 = `Conclusiones.aux'.
-
- (./Conclusiones.tex)
-LaTeX Info: Redefining \. on input line 150.
-LaTeX Info: Redefining \% on input line 150.
- [71
-
-
-]
-\openout2 = `Recomendaciones.aux'.
-
-
-(./Recomendaciones.tex)
-LaTeX Info: Redefining \. on input line 151.
-LaTeX Info: Redefining \% on input line 151.
- [72
-
-
-] (./Maestro.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
-\OT1/lmr/m/n/12 / / www . cambridge . org / core / journals / journal-[]of-[]^^
-Muid-[]mechanics / article /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
-\OT1/lmr/m/n/12 abs / turbulence-[]modi^^Lcation-[]by-[]particles-[]in-[]a-[]ba
-ckwardfacing-[]step-[]^^Mow /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
-\OT1/lmr/m/n/12 inventor = juan + david + arg\OMS/lmsy/m/n/12 fn\OT1/lmr/m/n/12
- unhbox \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 voidb @ x \OMS/lmsy/m/n/12 n \OT1/lm
-r/m/n/12 bgroup \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 let \OMS/lmsy/m/n/12 n \OT1/
-lmr/m/n/12 unhbox \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 voidb @
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
-\OT1/lmr/m/n/12 x \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 setbox \OMS/lmsy/m/n/12 n 
-\OT1/lmr/m/n/12 @tempboxa \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 hbox\OMS/lmsy/m/n/
-12 f\OT1/lmr/m/n/12 u \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 global \OMS/lmsy/m/n/1
-2 n \OT1/lmr/m/n/12 mathchardef \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 accent @ spa
-cefactor \OMS/lmsy/m/n/12 n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
-\OT1/lmr/m/n/12 spacefactor [] \OMS/lmsy/m/n/12 n\OT1/lmr/m/n/12 let \OMS/lmsy/
-m/n/12 n \OT1/lmr/m/n/12 begingroup \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 endgroup
- \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 relax \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 le
-t \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 ignorespaces \OMS/lmsy/m/n/12 n \OT1/lmr/m
-/n/12 relax \OMS/lmsy/m/n/12 n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
-\OT1/lmr/m/n/12 accent127u \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 egroup \OMS/lmsy/
-m/n/12 n \OT1/lmr/m/n/12 spacefactor \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 accent 
-@ spacefactor \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 protect \OMS/lmsy/m/n/12 n \OT
-1/lmr/m/n/12 penalty \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 @M \OMS/lmsy/m/n/12 n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
-\OT1/lmr/m/n/12 hskip \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 z @ skip [] ello\OMS/l
-msy/m/n/12 f\OT1/lmr/m/n/12 & [] oq = juan + david + arg\OMS/lmsy/m/n/12 fn\OT1
-/lmr/m/n/12 unhbox \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 voidb @ x \OMS/lmsy/m/n/1
-2 n \OT1/lmr/m/n/12 bgroup \OMS/lmsy/m/n/12 n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
-\OT1/lmr/m/n/12 let \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 unhbox \OMS/lmsy/m/n/12 
-n \OT1/lmr/m/n/12 voidb @ x \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 setbox \OMS/lmsy
-/m/n/12 n \OT1/lmr/m/n/12 @tempboxa \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 hbox\OMS
-/lmsy/m/n/12 f\OT1/lmr/m/n/12 u \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 global \OMS/
-lmsy/m/n/12 n \OT1/lmr/m/n/12 mathchardef \OMS/lmsy/m/n/12 n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
-\OT1/lmr/m/n/12 accent @ spacefactor \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 spacefa
-ctor [] \OMS/lmsy/m/n/12 n\OT1/lmr/m/n/12 let \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/1
-2 begingroup \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 endgroup \OMS/lmsy/m/n/12 n \OT
-1/lmr/m/n/12 relax \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 let \OMS/lmsy/m/n/12 n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
-\OT1/lmr/m/n/12 ignorespaces \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 relax \OMS/lmsy
-/m/n/12 n \OT1/lmr/m/n/12 accent127u \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 egroup 
-\OMS/lmsy/m/n/12 n \OT1/lmr/m/n/12 spacefactor \OMS/lmsy/m/n/12 n \OT1/lmr/m/n/
-12 accent @ spacefactor \OMS/lmsy/m/n/12 n
- []
-
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
-[73
-
-]
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
- [74]
-Underfull \hbox (badness 2443) in paragraph at lines 210--215
-\OT1/lmr/m/n/12 tanks with in-cli-ned walls,'' \OT1/lmr/m/it/12 Jour-nal of Flu
-id Me-cha-nics\OT1/lmr/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 210--215
-\OT1/lmr/m/n/12 vol. 290, pp. 39--66, 1995. [On-li-ne]. Avai-la-ble: []$https :
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--215
-\OT1/lmr/m/n/12 / / www . cambridge . org / core / journals / journal-[]of-[]^^
-Muid-[]mechanics / article /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--215
-\OT1/lmr/m/n/12 abs / sedimentation-[]and-[]sediment-[]^^Mow-[]in-[]settling-[]
-tanks-[]with-[]inclined-[]walls /
- []
-
-LaTeX Info: Redefining \. on input line 215.
-LaTeX Info: Redefining \% on input line 215.
-LaTeX Info: Redefining \. on input line 215.
-LaTeX Info: Redefining \% on input line 215.
-[75]
-Underfull \hbox (badness 10000) in paragraph at lines 230--238
-\OT1/lmr/m/n/12 14421https : / / aiche . onlinelibrary . wiley . com / doi / ab
-s / 10 . 1002 / aic . 14421https :
- []
-
-LaTeX Info: Redefining \. on input line 281.
-LaTeX Info: Redefining \% on input line 281.
-LaTeX Info: Redefining \. on input line 281.
-LaTeX Info: Redefining \% on input line 281.
-[76]
-Underfull \hbox (badness 10000) in paragraph at lines 338--343
-\OT1/lmr/m/n/12 www . cambridge . org / core / journals / journal-[]of-[]^^Muid
--[]mechanics / article / abs /
- []
-
-
-Overfull \hbox (16.09703pt too wide) in paragraph at lines 338--343
-\OT1/lmr/m/n/12 particle-[]response-[]and-[]turbulence-[]modi^^Lcation-[]in-[]f
-ully-[]developed-[]channel-[]^^Mow /
- []
-
-LaTeX Info: Redefining \. on input line 343.
-LaTeX Info: Redefining \% on input line 343.
-LaTeX Info: Redefining \. on input line 343.
-LaTeX Info: Redefining \% on input line 343.
-[77]
-Underfull \hbox (badness 10000) in paragraph at lines 346--351
-\OT1/lmr/m/n/12 / / www . cambridge . org / core / journals / journal-[]of-[]^^
-Muid-[]mechanics / article /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--351
-\OT1/lmr/m/n/12 abs / ldv-[]measurements-[]of-[]an-[]airsolid-[]twophase-[]^^Mo
-w-[]in-[]a-[]vertical-[]pipe /
- []
-
-)
-LaTeX Info: Redefining \. on input line 154.
-LaTeX Info: Redefining \% on input line 154.
-LaTeX Info: Redefining \. on input line 154.
-LaTeX Info: Redefining \% on input line 154.
- [78]
-\openout2 = `Anexos.aux'.
-
- (./Anexos.tex (./AnexoA.tex
-<Images/Anexos/1.png, id=1377, 873.2625pt x 872.25874pt>
-File: Images/Anexos/1.png Graphic file (type png)
-<use Images/Anexos/1.png>
-Package pdftex.def Info: Images/Anexos/1.png  used on input line 12.
-(pdftex.def)             Requested size: 415.12572pt x 414.64664pt.
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
- [79
-
- <./Images/Anexos/1.png>]
-<Images/Anexos/3.png, id=1385, 873.2625pt x 887.315pt>
-File: Images/Anexos/3.png Graphic file (type png)
-<use Images/Anexos/3.png>
-Package pdftex.def Info: Images/Anexos/3.png  used on input line 24.
-(pdftex.def)             Requested size: 415.12572pt x 421.80396pt.
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
- [80 <./Images/Anexos/3.png>]
-<Images/Anexos/4.png, id=1391, 876.27374pt x 858.20625pt>
-File: Images/Anexos/4.png Graphic file (type png)
-<use Images/Anexos/4.png>
-Package pdftex.def Info: Images/Anexos/4.png  used on input line 38.
-(pdftex.def)             Requested size: 415.12572pt x 406.5653pt.
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
- [81 <./Images/Anexos/4.png>]
-<Images/Anexos/5.png, id=1397, 876.27374pt x 850.17625pt>
-File: Images/Anexos/5.png Graphic file (type png)
-<use Images/Anexos/5.png>
-Package pdftex.def Info: Images/Anexos/5.png  used on input line 52.
-(pdftex.def)             Requested size: 415.12572pt x 402.76118pt.
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
- [82 <./Images/Anexos/5.png>]
-<Images/Anexos/7.png, id=1403, 879.285pt x 889.3225pt>
-File: Images/Anexos/7.png Graphic file (type png)
-<use Images/Anexos/7.png>
-Package pdftex.def Info: Images/Anexos/7.png  used on input line 66.
-(pdftex.def)             Requested size: 415.12572pt x 419.85428pt.
-LaTeX Info: Redefining \. on input line 71.
-LaTeX Info: Redefining \% on input line 71.
-LaTeX Info: Redefining \. on input line 71.
-LaTeX Info: Redefining \% on input line 71.
-
-[83 <./Images/Anexos/7.png>]
-<Images/Anexos/8.png, id=1410, 878.28125pt x 941.5175pt>
-File: Images/Anexos/8.png Graphic file (type png)
-<use Images/Anexos/8.png>
-Package pdftex.def Info: Images/Anexos/8.png  used on input line 80.
-(pdftex.def)             Requested size: 415.12572pt x 445.0274pt.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
- [84 <./Images/Anexos/8.png>]
-<Images/Anexos/9.png, id=1416, 873.2625pt x 881.2925pt>
-File: Images/Anexos/9.png Graphic file (type png)
-<use Images/Anexos/9.png>
-Package pdftex.def Info: Images/Anexos/9.png  used on input line 94.
-(pdftex.def)             Requested size: 415.12572pt x 418.94102pt.
-LaTeX Info: Redefining \. on input line 99.
-LaTeX Info: Redefining \% on input line 99.
-LaTeX Info: Redefining \. on input line 99.
-LaTeX Info: Redefining \% on input line 99.
- [85 <./Images/Anexos/9.png>]
-<Images/Anexos/10.png, id=1422, 876.27374pt x 939.51pt>
-File: Images/Anexos/10.png Graphic file (type png)
-<use Images/Anexos/10.png>
-Package pdftex.def Info: Images/Anexos/10.png  used on input line 108.
-(pdftex.def)             Requested size: 415.12572pt x 445.08202pt.
-LaTeX Info: Redefining \. on input line 113.
-LaTeX Info: Redefining \% on input line 113.
-LaTeX Info: Redefining \. on input line 113.
-LaTeX Info: Redefining \% on input line 113.
- [86 <./Images/Anexos/10.png>]
-<Images/Anexos/11.png, id=1428, 876.27374pt x 912.40875pt>
-File: Images/Anexos/11.png Graphic file (type png)
-<use Images/Anexos/11.png>
-Package pdftex.def Info: Images/Anexos/11.png  used on input line 122.
-(pdftex.def)             Requested size: 415.12572pt x 432.24312pt.
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
- [87 <./Images/Anexos/11.png>]
-<Images/Anexos/12.png, id=1434, 878.28125pt x 903.375pt>
-File: Images/Anexos/12.png Graphic file (type png)
-<use Images/Anexos/12.png>
-Package pdftex.def Info: Images/Anexos/12.png  used on input line 136.
-(pdftex.def)             Requested size: 415.12572pt x 426.99858pt.
-))
-LaTeX Info: Redefining \. on input line 154.
-LaTeX Info: Redefining \% on input line 154.
-LaTeX Info: Redefining \. on input line 154.
-LaTeX Info: Redefining \% on input line 154.
- [88 <./Images/Anexos/12.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
- (./Maestro.aux (./Portada.aux)
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
- (./Resumen.aux)
-(./Abstract.aux) (./Intro.aux) (./MarcoT.aux) (./Implementar.aux) (./Ress.aux)
-(./Analisis.aux) (./Valid.aux) (./Conclusiones.aux) (./Recomendaciones.aux)
-(./Anexos.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
-Package rerunfilecheck Info: File `Maestro.out' has not changed.
-(rerunfilecheck)             Checksum: B7A4926D026169F136360A3E1606D047;4545.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
- ) 
+(./Maestro.aux
+! Undefined control sequence.
+l.12 \abx@aux@refcontext
+                        {nyt/global//global/global}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \abx@aux@refcontext{n
+                          yt/global//global/global}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(./Portada.aux)
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+
+! Undefined control sequence.
+l.36 \abx@aux@cite
+                  {Capriotti2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.37 \abx@aux@segm
+                  {0}{0}{Capriotti2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.39 \abx@aux@cite
+                  {Roda-Casanova2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.40 \abx@aux@segm
+                  {0}{0}{Roda-Casanova2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.42 \abx@aux@cite
+                  {Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.43 \abx@aux@segm
+                  {0}{0}{Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.45 \abx@aux@cite
+                  {Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.46 \abx@aux@segm
+                  {0}{0}{Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.48 \abx@aux@cite
+                  {Voutchkov2017}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.49 \abx@aux@segm
+                  {0}{0}{Voutchkov2017}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.51 \abx@aux@cite
+                  {Fessler1999}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.52 \abx@aux@segm
+                  {0}{0}{Fessler1999}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.54 \abx@aux@cite
+                  {Fessler1999}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.55 \abx@aux@segm
+                  {0}{0}{Fessler1999}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./Resumen.aux) (./Abstract.aux) (./Intro.aux)
+! Undefined control sequence.
+l.60 \abx@aux@cite
+                  {barker2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.61 \abx@aux@segm
+                  {0}{0}{barker2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.63 \abx@aux@cite
+                  {Proyecto}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.64 \abx@aux@segm
+                  {0}{0}{Proyecto}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.66 \abx@aux@cite
+                  {Stashenko2017}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.67 \abx@aux@segm
+                  {0}{0}{Stashenko2017}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.69 \abx@aux@cite
+                  {Patente2018}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.70 \abx@aux@segm
+                  {0}{0}{Patente2018}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.72 \abx@aux@cite
+                  {Alobaid2013}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.73 \abx@aux@segm
+                  {0}{0}{Alobaid2013}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.75 \abx@aux@cite
+                  {Chu2011}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.76 \abx@aux@segm
+                  {0}{0}{Chu2011}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.78 \abx@aux@cite
+                  {Yue2016}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.79 \abx@aux@segm
+                  {0}{0}{Yue2016}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.81 \abx@aux@cite
+                  {Alobaid2013}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.82 \abx@aux@segm
+                  {0}{0}{Alobaid2013}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.84 \abx@aux@cite
+                  {Varas2017}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.85 \abx@aux@segm
+                  {0}{0}{Varas2017}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.87 \abx@aux@cite
+                  {Stashenko2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.88 \abx@aux@segm
+                  {0}{0}{Stashenko2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.90 \abx@aux@cite
+                  {Pavlic2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.91 \abx@aux@segm
+                  {0}{0}{Pavlic2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.93 \abx@aux@cite
+                  {Balass2013}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.94 \abx@aux@segm
+                  {0}{0}{Balass2013}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.96 \abx@aux@cite
+                  {Stashenko2013}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.97 \abx@aux@segm
+                  {0}{0}{Stashenko2013}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.99 \abx@aux@cite
+                  {Hennebelle2008}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.100 \abx@aux@segm
+                   {0}{0}{Hennebelle2008}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.102 \abx@aux@cite
+                   {Patente2018}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.103 \abx@aux@segm
+                   {0}{0}{Patente2018}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./MarcoT.aux)
+! Undefined control sequence.
+l.106 \abx@aux@cite
+                   {barker2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.107 \abx@aux@segm
+                   {0}{0}{barker2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.109 \abx@aux@cite
+                   {Capriotti2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.110 \abx@aux@segm
+                   {0}{0}{Capriotti2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.112 \abx@aux@cite
+                   {Perez2019}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.113 \abx@aux@segm
+                   {0}{0}{Perez2019}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.115 \abx@aux@cite
+                   {barker2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.116 \abx@aux@segm
+                   {0}{0}{barker2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.118 \abx@aux@cite
+                   {Capriotti2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.119 \abx@aux@segm
+                   {0}{0}{Capriotti2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.121 \abx@aux@cite
+                   {Capriotti2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.122 \abx@aux@segm
+                   {0}{0}{Capriotti2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.124 \abx@aux@cite
+                   {barker2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.125 \abx@aux@segm
+                   {0}{0}{barker2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.127 \abx@aux@cite
+                   {barker2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.128 \abx@aux@segm
+                   {0}{0}{barker2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.130 \abx@aux@cite
+                   {Vieira2019}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.131 \abx@aux@segm
+                   {0}{0}{Vieira2019}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.133 \abx@aux@cite
+                   {barker2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.134 \abx@aux@segm
+                   {0}{0}{barker2007}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.136 \abx@aux@cite
+                   {Abou-Hweij2020}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.137 \abx@aux@segm
+                   {0}{0}{Abou-Hweij2020}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.139 \abx@aux@cite
+                   {Bao2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.140 \abx@aux@segm
+                   {0}{0}{Bao2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.142 \abx@aux@cite
+                   {Roda-Casanova2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.143 \abx@aux@segm
+                   {0}{0}{Roda-Casanova2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.145 \abx@aux@cite
+                   {Roda-Casanova2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.146 \abx@aux@segm
+                   {0}{0}{Roda-Casanova2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.148 \abx@aux@cite
+                   {Bai2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 \abx@aux@segm
+                   {0}{0}{Bai2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.151 \abx@aux@cite
+                   {Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.152 \abx@aux@segm
+                   {0}{0}{Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.154 \abx@aux@cite
+                   {Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.155 \abx@aux@segm
+                   {0}{0}{Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.157 \abx@aux@cite
+                   {Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.158 \abx@aux@segm
+                   {0}{0}{Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.160 \abx@aux@cite
+                   {Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.161 \abx@aux@segm
+                   {0}{0}{Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.163 \abx@aux@cite
+                   {Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.164 \abx@aux@segm
+                   {0}{0}{Smilauer2015}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.166 \abx@aux@cite
+                   {Maxey2017}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.167 \abx@aux@segm
+                   {0}{0}{Maxey2017}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.169 \abx@aux@cite
+                   {Lungu2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.170 \abx@aux@segm
+                   {0}{0}{Lungu2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.172 \abx@aux@cite
+                   {Maxey2017}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.173 \abx@aux@segm
+                   {0}{0}{Maxey2017}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.175 \abx@aux@cite
+                   {Lungu2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.176 \abx@aux@segm
+                   {0}{0}{Lungu2021}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.178 \abx@aux@cite
+                   {Xu2005}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.179 \abx@aux@segm
+                   {0}{0}{Xu2005}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.181 \abx@aux@cite
+                   {Galvin2002}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.182 \abx@aux@segm
+                   {0}{0}{Galvin2002}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.184 \abx@aux@cite
+                   {Acrivos1995}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.185 \abx@aux@segm
+                   {0}{0}{Acrivos1995}
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 51009 strings out of 483080
- 1197764 string characters out of 5963339
- 1770296 words of memory out of 5000000
- 64675 multiletter control sequences out of 15000+600000
- 601752 words of font info for 100 fonts, out of 8000000 for 9000
- 62 hyphenation exceptions out of 8191
- 156i,20n,402p,1822b,3116s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
-st, replaced by a fixed one
+ 44699 strings out of 483121
+ 1087787 string characters out of 5964355
+ 1604941 words of memory out of 5000000
+ 59013 multiletter control sequences out of 15000+600000
+ 532636 words of font info for 25 fonts, out of 8000000 for 9000
+ 40 hyphenation exceptions out of 8191
+ 63i,0n,98p,1623b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvip
-s/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
-i10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri1
-2.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/font
-s/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Maestro.pdf (90 pages, 4489339 bytes).
-PDF statistics:
- 1585 PDF objects out of 1728 (max. 8388607)
- 1375 compressed objects within 14 object streams
- 372 named destinations out of 1000 (max. 500000)
- 701 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+!  ==> Fatal error occurred, no output PDF file produced!

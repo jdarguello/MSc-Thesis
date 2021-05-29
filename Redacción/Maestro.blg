@@ -2,6 +2,10 @@ This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Maestro.aux
 The style file: IEEEtran.bst
+Illegal, another \bibstyle command---line 9 of file Maestro.aux
+ : \bibstyle
+ :          {biblatex}
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: Portada.aux
 A level-1 auxiliary file: Resumen.aux
 A level-1 auxiliary file: Abstract.aux
@@ -19,54 +23,103 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: library.bib
-Warning--I didn't find a database entry for "Garcia-CuevasGonzalez"
+Database file #1: Maestro-blx.bib
+Warning--entry type for "biblatex-control" isn't style-file defined
+--line 9 of file Maestro-blx.bib
+Warning--I didn't find a database entry for "Capriotti2015"
+Warning--I didn't find a database entry for "Roda-Casanova2021"
+Warning--I didn't find a database entry for "Smilauer2015"
+Warning--I didn't find a database entry for "Voutchkov2017"
+Warning--I didn't find a database entry for "Fessler1999"
+Warning--I didn't find a database entry for "barker2007"
+Warning--I didn't find a database entry for "Proyecto"
+Warning--I didn't find a database entry for "Stashenko2017"
+Warning--I didn't find a database entry for "Patente2018"
+Warning--I didn't find a database entry for "Alobaid2013"
+Warning--I didn't find a database entry for "Chu2011"
+Warning--I didn't find a database entry for "Yue2016"
+Warning--I didn't find a database entry for "Varas2017"
+Warning--I didn't find a database entry for "Stashenko2007"
+Warning--I didn't find a database entry for "Pavlic2021"
+Warning--I didn't find a database entry for "Balass2013"
+Warning--I didn't find a database entry for "Stashenko2013"
+Warning--I didn't find a database entry for "Hennebelle2008"
+Warning--I didn't find a database entry for "Perez2019"
+Warning--I didn't find a database entry for "Vieira2019"
+Warning--I didn't find a database entry for "Abou-Hweij2020"
+Warning--I didn't find a database entry for "Bao2021"
+Warning--I didn't find a database entry for "Bai2021"
+Warning--I didn't find a database entry for "Maxey2017"
+Warning--I didn't find a database entry for "Lungu2021"
+Warning--I didn't find a database entry for "Xu2005"
+Warning--I didn't find a database entry for "Galvin2002"
+Warning--I didn't find a database entry for "Acrivos1995"
+Warning--I didn't find a database entry for "Doroodchi2005"
+Warning--I didn't find a database entry for "Salem2011"
+Warning--I didn't find a database entry for "Peng2014"
+Warning--I didn't find a database entry for "OMSagua"
+Warning--I didn't find a database entry for "RobertoRojas"
+Warning--I didn't find a database entry for "PerezParra1997"
+Warning--I didn't find a database entry for "Yao1970"
+Warning--I didn't find a database entry for "streeter1951fluid"
+Warning--I didn't find a database entry for "Lekang2001"
+Warning--I didn't find a database entry for "Robescu2010"
+Warning--I didn't find a database entry for "Ordonez-Vinan2018"
+Warning--I didn't find a database entry for "Perez-Cortes2017"
+Warning--I didn't find a database entry for "Kunhappan2018"
+Warning--I didn't find a database entry for "Tu2018"
+Warning--I didn't find a database entry for "Illes2020"
+Warning--I didn't find a database entry for "Martinez2019"
+Warning--I didn't find a database entry for "Liang2018"
+Warning--I didn't find a database entry for "Hetsroni1989"
+Warning--I didn't find a database entry for "Gore1991"
+Warning--I didn't find a database entry for "Kulick1994"
+Warning--I didn't find a database entry for "Tsuji1984"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--missing institution in Proyecto
-Warning--empty author in OMSagua
+Warning--all relevant fields are empty in biblatex-control
 
 Done.
-You've used 49 entries,
+You've used 1 entry,
             4087 wiz_defined-function locations,
-            1203 strings with 19563 characters,
-and the built_in function-call counts, 39527 in all, are:
-= -- 3351
-> -- 852
-< -- 374
-+ -- 479
-- -- 133
-* -- 1958
-:= -- 6025
-add.period$ -- 105
-call.type$ -- 49
-change.case$ -- 46
-chr.to.int$ -- 852
-cite$ -- 51
-duplicate$ -- 2772
-empty$ -- 2972
-format.name$ -- 168
-if$ -- 9155
+            930 strings with 8471 characters,
+and the built_in function-call counts, 298 in all, are:
+= -- 3
+> -- 1
+< -- 0
++ -- 1
+- -- 0
+* -- 21
+:= -- 48
+add.period$ -- 0
+call.type$ -- 1
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 24
+empty$ -- 31
+format.name$ -- 0
+if$ -- 48
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 443
-newline$ -- 212
-num.names$ -- 48
-pop$ -- 929
+int.to.str$ -- 1
+missing$ -- 6
+newline$ -- 26
+num.names$ -- 0
+pop$ -- 21
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3045
+skip$ -- 19
 stack$ -- 0
-substring$ -- 2062
-swap$ -- 2440
-text.length$ -- 90
+substring$ -- 0
+swap$ -- 7
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 49
-warning$ -- 2
-while$ -- 195
-width$ -- 51
-write$ -- 562
-(There were 3 warnings)
+type$ -- 1
+warning$ -- 1
+while$ -- 0
+width$ -- 2
+write$ -- 26
+(There was 1 error message)

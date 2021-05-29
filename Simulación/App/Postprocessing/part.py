@@ -35,7 +35,7 @@ class Particulas():
     def __init__(self, t = (0.5,30)):
         #Ejecutar
         root =  os.getcwd() + '/'
-        command = "gmshToFoam " + file
+        command = "gmshToFoam " + "geometria.msh"
         os.chdir("CFD_DEM")
         os.system(command)
         os.chdir("..")

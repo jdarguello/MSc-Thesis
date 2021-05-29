@@ -21,35 +21,35 @@ FoamFile
     {
         type            patch;
         physicalType    patch;
-        nFaces          4320;
-        startFace       8330;
+        nFaces          2707;
+        startFace       5187;
     }
     ingreso
     {
         type            patch;
         physicalType    patch;
         nFaces          20;
-        startFace       12650;
+        startFace       7894;
     }
     salida
     {
         type            patch;
         physicalType    patch;
         nFaces          12;
-        startFace       12670;
+        startFace       7914;
     }
     front
     {
         type            patch;
         physicalType    patch;
-        nFaces          4320;
-        startFace       12682;
+        nFaces          2707;
+        startFace       7926;
     }
     defaultFaces
     {
         type            patch;
-        nFaces          588;
-        startFace       17002;
+        nFaces          422;
+        startFace       10633;
     }
 )
 
